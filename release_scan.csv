@@ -18,6 +18,7 @@ translation_check.csv,6267,0,0,0,0,False,False
 07_submission_bundle/tables/pptx_layout_checks.csv,1182,0,0,0,0,False,False
 07_submission_bundle/tables/supplementary_table_index.csv,13729,0,0,0,0,False,False
 07_submission_bundle/checks/check_worksheet_final.xlsx,99574,0,0,0,0,False,False
+07_submission_bundle/checks/check_worksheet_final_additions.xlsx,9220,38,0,0,0,False,False
 07_submission_bundle/figures/colour_keys.csv,3041,0,0,0,0,False,False
 07_submission_bundle/figures/figures_editable.pptx,4812869,40,0,0,0,False,False
 07_submission_bundle/figures/pptx/Fig1.pptx,690971,40,0,0,0,False,False
@@ -46,7 +47,7 @@ reference_records/ena_filereport.tsv,565,0,0,0,0,False,False
 reference_records/gene_id_to_symbol_ens112.tsv,2258639,0,0,0,0,False,False
 reference_records/run_donor_map_v2.csv,713,0,0,0,0,False,False
 tools/comment_translations.json,138953,11913,0,0,0,False,False
-tools/make_public_release.py,35535,0,0,0,0,False,False
+tools/make_public_release.py,36695,0,0,0,0,False,False
 06_submission_prep/README.md,314,0,0,0,0,False,False
 06_submission_prep/tables/28_manuscript_numbers_corrected.csv,25714,0,0,0,0,False,False
 06_submission_prep/tables/28_manuscript_numbers_corrections_log.csv,3135,0,0,0,0,False,False

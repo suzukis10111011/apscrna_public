@@ -1,4 +1,4 @@
 version,file,track_changes,bytes,sha256_16,mtime_utc,n_chars
-clean_v18,manuscript/20261010_IEJ_Manuscript_anonymised_clean_v18.docx,accept,53565,6d00c6a2057558fd,2026-10-10T11:34:32Z,95141
-redline_v18_accept,manuscript/20261010_IEJ_Manuscript_post-audit_redline_v18.docx,accept,56807,9ff8819d40d296fe,2026-10-10T11:34:32Z,95141
-redline_v18_reject,manuscript/20261010_IEJ_Manuscript_post-audit_redline_v18.docx,reject,56807,9ff8819d40d296fe,2026-10-10T11:34:32Z,67092
+clean_v19,manuscript/20261010_IEJ_Manuscript_anonymised_clean_v19.docx,accept,53570,7077277baec7e71f,2026-10-10T12:09:47Z,95136
+redline_v19_accept,manuscript/20261010_IEJ_Manuscript_post-audit_redline_v19.docx,accept,56807,5c4e6da6fbfe15d8,2026-10-10T12:09:50Z,95136
+redline_v19_reject,manuscript/20261010_IEJ_Manuscript_post-audit_redline_v19.docx,reject,56807,5c4e6da6fbfe15d8,2026-10-10T12:09:50Z,67092

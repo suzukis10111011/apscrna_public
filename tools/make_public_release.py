@@ -362,26 +362,47 @@ open(f"{DEST}/07_submission_bundle/README.md", "w").write(
 copied.append("07_submission_bundle/README.md")
 put_tree("logs", {".log"})
 
-# the checking record, with the checker named by role rather than by name
+# the checking records, with whoever did the checking named by role rather than by name
 import openpyxl
 
-src_x = f"{SRC}/07_submission_bundle/checks/check_worksheet_final.xlsx"
-wb = openpyxl.load_workbook(src_x)
-n_anon = 0
-for sheet in wb:
-    for row in sheet.iter_rows():
-        for c in row:
-            if isinstance(c.value, str) and PERSON.search(c.value):
-                c.value = PERSON.sub("independent checker", c.value)
-                n_anon += 1
+CHECKS = [("check_worksheet_final.xlsx", "check_worksheet_final.xlsx",
+           "independent checker"),
+          ("check_worksheet_v17_additions_SS.xlsx", "check_worksheet_final_additions.xlsx",
+           "a co-author")]
 os.makedirs(f"{DEST}/07_submission_bundle/checks", exist_ok=True)
-dst_x = f"{DEST}/07_submission_bundle/checks/check_worksheet_final.xlsx"
-prev_x = prev_bytes("07_submission_bundle/checks/check_worksheet_final.xlsx")
-wb.save(dst_x)
-keep_if_same(dst_x, prev_x, _xlsx_sig)
-copied.append("07_submission_bundle/checks/check_worksheet_final.xlsx")
-notes.append(f"the checker's name was replaced by their role in {n_anon} cells of "
-             "check_worksheet_final.xlsx")
+for src_name, dst_name, role in CHECKS:
+    src_x = f"{SRC}/07_submission_bundle/checks/{src_name}"
+    if not os.path.exists(src_x):
+        notes.append(f"not in the working repository, not published: {src_name}")
+        continue
+    wb = openpyxl.load_workbook(src_x)
+    n_anon = 0
+    # initials and the Japanese form of the name are swallowed with the surname, so
+    # that "Checked by S. independent checker" becomes "Checked by a co-author" and not "S. a co-author"
+    NAMES = re.compile(r"(?:[A-Z]\.\s*)?(?:independent checker\s+)?independent checker|independent checker|independent checker|independent checker"
+                       r"|\u8302\u6a39\s*\u9234\u6728|\u9234\u6728\s*\u8302\u6a39")
+    for sheet in wb:
+        for row in sheet.iter_rows():
+            for c in row:
+                if isinstance(c.value, str) and NAMES.search(c.value):
+                    c.value = NAMES.sub(role, c.value)
+                    n_anon += 1
+    # the file properties carry a name too (lastModifiedBy), so they are reset
+    wb.properties.creator = "apical periodontitis reanalysis"
+    wb.properties.lastModifiedBy = role
+    wb.properties.title = None
+    wb.properties.description = None
+    wb.properties.keywords = None
+    wb.properties.category = None
+    rel = f"07_submission_bundle/checks/{dst_name}"
+    dst_x = f"{DEST}/{rel}"
+    prev_x = prev_bytes(rel)
+    wb.save(dst_x)
+    keep_if_same(dst_x, prev_x, _xlsx_sig)
+    copied.append(rel)
+    notes.append(f"the name of whoever filled it in was replaced by their role in "
+                 f"{n_anon} cells of {dst_name}"
+                 + (f" (published from {src_name})" if dst_name != src_name else ""))
 
 # ---------------------------------------------------------------- environment
 PKGS = ["scanpy", "anndata", "decoupler", "omnipath", "harmonypy", "scrublet",
