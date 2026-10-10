@@ -1,7 +1,8 @@
 file,size_bytes,japanese_chars,absolute_home_paths,personal_names,secret_like,filename_has_personal_name,filename_has_japanese
+.gitattributes,66,0,0,0,0,False,False
 LICENSE,1068,0,0,0,0,False,False
 LICENSE-DATA,590,0,0,0,0,False,False
-README.md,8484,0,0,0,0,False,False
+README.md,8495,0,0,0,0,False,False
 environment.yml,603,0,0,0,0,False,False
 requirements.txt,296,0,0,0,0,False,False
 table_and_figure_provenance.csv,12426,0,0,0,0,False,False
@@ -45,7 +46,7 @@ reference_records/ena_filereport.tsv,565,0,0,0,0,False,False
 reference_records/gene_id_to_symbol_ens112.tsv,2258639,0,0,0,0,False,False
 reference_records/run_donor_map_v2.csv,713,0,0,0,0,False,False
 tools/comment_translations.json,138953,11913,0,0,0,False,False
-tools/make_public_release.py,33744,0,0,0,0,False,False
+tools/make_public_release.py,35535,0,0,0,0,False,False
 06_submission_prep/README.md,314,0,0,0,0,False,False
 06_submission_prep/tables/28_manuscript_numbers_corrected.csv,25714,0,0,0,0,False,False
 06_submission_prep/tables/28_manuscript_numbers_corrections_log.csv,3135,0,0,0,0,False,False

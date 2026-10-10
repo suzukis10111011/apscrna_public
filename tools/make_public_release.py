@@ -24,6 +24,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import zipfile
 
 import pandas as pd
@@ -31,6 +32,7 @@ import pandas as pd
 SRC = os.environ.get("APSC_ROOT", os.path.expanduser("~/Documents/apscrna_v2"))
 HOME = os.path.expanduser("~")
 DEST = os.path.expanduser("~/Documents/apscrna_public")
+DOI = "10.5281/zenodo.23277211"      # reserved on Zenodo for this release
 DATA = os.path.expanduser("~/Documents/apscrna_public_data")
 TITLE = ("Inflammatory activity poorly predicts tissue-forming transcription in "
          "stromal cells of human apical periodontitis")
@@ -156,6 +158,43 @@ def _sh_check(orig, new):
     return True
 
 
+def _pptx_sig(f):
+    from pptx import Presentation
+    pr = Presentation(f)
+    return ([[(s.shape_type, s.name) for s in sl.shapes] for sl in pr.slides],
+            [[s.text_frame.text for s in sl.shapes if s.has_text_frame]
+             for sl in pr.slides])
+
+
+def _xlsx_sig(f):
+    import openpyxl
+    wb = openpyxl.load_workbook(f)
+    return {ws.title: [[c.value for c in row] for row in ws.iter_rows()] for ws in wb}
+
+
+PREV_DIR = tempfile.mkdtemp(prefix="apscrna_previous_build_")
+
+
+def prev_bytes(rel):
+    """the file of the previous build, before this one replaced it"""
+    q = f"{PREV_DIR}/{rel}"
+    return open(q, "rb").read() if os.path.exists(q) else None
+
+
+def keep_if_same(dst, prev, sig):
+    """a rewritten Office file is byte-different even when its content is identical;
+    put the published bytes back so that rebuilding does not churn the repository"""
+    if prev is None:
+        return False
+    try:
+        if sig(io.BytesIO(prev)) == sig(dst):
+            open(dst, "wb").write(prev)
+            return True
+    except Exception:
+        pass
+    return False
+
+
 def strip_notes(src_path, dst_path):
     """drop the speaker notes, leaving the slides themselves as they are"""
     from pptx import Presentation
@@ -224,6 +263,7 @@ def put(rel_src, rel_dst=None, rename=None):
                     text = text.replace(k, v)
         open(d, "w").write(text)
     elif ext == ".pptx":
+        prev = prev_bytes(rel_dst or rel_src)
         dropped, same, left = strip_notes(s, d)
         checks.append(dict(file=rel_dst or rel_src, kind="pptx",
                            units_translated=f"{dropped} notes pages removed",
@@ -233,6 +273,7 @@ def put(rel_src, rel_dst=None, rename=None):
                                               capture_output=True,
                                               text=True).stdout))))
         assert same and left == 0, f"the slides changed while stripping notes: {rel_src}"
+        keep_if_same(d, prev, _pptx_sig)
     else:
         shutil.copy2(s, d)
     copied.append(rel_dst or rel_src)
@@ -252,8 +293,11 @@ def put_tree(rel_dir, exts, rel_dst=None, skip=()):
 
 # ---------------------------------------------------------------- the release
 if os.path.exists(DEST):
-    shutil.rmtree(DEST)
-os.makedirs(DEST)
+    for e in sorted(os.listdir(DEST)):
+        if e.startswith("."):          # .git, .gitattributes: the user's repository
+            continue
+        shutil.move(f"{DEST}/{e}", f"{PREV_DIR}/{e}")   # kept for keep_if_same
+os.makedirs(DEST, exist_ok=True)
 
 put_tree("scripts", {".py", ".sh"})
 put_tree("frozen", {".json", ".csv", ".sha256"})
@@ -331,7 +375,10 @@ for sheet in wb:
                 c.value = PERSON.sub("independent checker", c.value)
                 n_anon += 1
 os.makedirs(f"{DEST}/07_submission_bundle/checks", exist_ok=True)
-wb.save(f"{DEST}/07_submission_bundle/checks/check_worksheet_final.xlsx")
+dst_x = f"{DEST}/07_submission_bundle/checks/check_worksheet_final.xlsx"
+prev_x = prev_bytes("07_submission_bundle/checks/check_worksheet_final.xlsx")
+wb.save(dst_x)
+keep_if_same(dst_x, prev_x, _xlsx_sig)
 copied.append("07_submission_bundle/checks/check_worksheet_final.xlsx")
 notes.append(f"the checker's name was replaced by their role in {n_anon} cells of "
              "check_worksheet_final.xlsx")
@@ -588,9 +635,9 @@ Full list, part by part, in `table_and_figure_provenance.csv`.
 
 ## Data
 
-The processed objects are deposited separately ({total_gb} GB, {len(DD)} files; see the
-`manifest.csv` and `README.md` of the deposit). They are the AnnData objects and per-cell
-tables the scripts read. The raw reads are not redistributed here.
+The processed objects are deposited separately on Zenodo under DOI {DOI}
+({total_gb} GB, {len(DD)} files; see the `manifest.csv` and `README.md` of the deposit).
+They are the AnnData objects and per-cell tables the scripts read. The raw reads are not redistributed here.
 
 ## What is not in this repository
 
@@ -617,8 +664,7 @@ The primary sequencing data stay under the terms of GEO and SRA.
 
 ## Citation
 
-> The authors. *{TITLE}*. Zenodo, DOI: 10.5281/zenodo.XXXXXXX (to be filled in on
-> deposition).
+> The authors. *{TITLE}*. Zenodo, DOI: {DOI}.
 
 Please cite the paper as well once it is published.
 """
@@ -638,7 +684,8 @@ copied.append("translation_check.csv")
 # ---------------------------------------------------------------- the scan
 scan = []
 for root, dirs, files in os.walk(DEST):
-    dirs[:] = [d for d in dirs if d != "__pycache__"]
+    dirs[:] = [d for d in dirs
+                   if d != "__pycache__" and not d.startswith(".")]
     for f in sorted(files):
         p = os.path.join(root, f)
         rel = os.path.relpath(p, DEST)
@@ -677,7 +724,9 @@ for z in zips:
         os.remove(z)
 with zipfile.ZipFile(repo_zip, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as z:
     for root, dirs, files in os.walk(DEST):
-        dirs[:] = [d for d in dirs if d != "__pycache__"]
+        dirs[:] = [d for d in dirs
+                   if d != "__pycache__" and not d.startswith(".")]
+        files[:] = [f for f in files if not f.startswith(".")]
         for f in sorted(files):
             p = os.path.join(root, f)
             z.write(p, os.path.join("apscrna_public", os.path.relpath(p, DEST)))
@@ -708,3 +757,4 @@ for c in ("japanese_chars", "absolute_home_paths", "personal_names"):
         for r in top.itertuples():
             print(f"    {getattr(r, c):6d}  {r.file}")
 
+shutil.rmtree(PREV_DIR, ignore_errors=True)

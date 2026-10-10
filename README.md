@@ -97,9 +97,9 @@ Full list, part by part, in `table_and_figure_provenance.csv`.
 
 ## Data
 
-The processed objects are deposited separately (4.29 GB, 8 files; see the
-`manifest.csv` and `README.md` of the deposit). They are the AnnData objects and per-cell
-tables the scripts read. The raw reads are not redistributed here.
+The processed objects are deposited separately on Zenodo under DOI 10.5281/zenodo.23277211
+(4.29 GB, 8 files; see the `manifest.csv` and `README.md` of the deposit).
+They are the AnnData objects and per-cell tables the scripts read. The raw reads are not redistributed here.
 
 ## What is not in this repository
 
@@ -126,7 +126,6 @@ The primary sequencing data stay under the terms of GEO and SRA.
 
 ## Citation
 
-> The authors. *Inflammatory activity poorly predicts tissue-forming transcription in stromal cells of human apical periodontitis*. Zenodo, DOI: 10.5281/zenodo.XXXXXXX (to be filled in on
-> deposition).
+> The authors. *Inflammatory activity poorly predicts tissue-forming transcription in stromal cells of human apical periodontitis*. Zenodo, DOI: 10.5281/zenodo.23277211.
 
 Please cite the paper as well once it is published.
