@@ -41,7 +41,8 @@ box(8.1, 0.72, 1.8, 0.72, "Independent\ncohort\n(GSE164241)", "#f0e6f5", "#8c6bb
 for x0, y0 in [(2.1, 1.64), (4.9, 1.64), (2.1, 0.52), (4.9, 0.52)]:
     a1.annotate("", xy=(x0 + 0.5, y0), xytext=(x0, y0),
                 arrowprops=dict(arrowstyle="-|>", lw=0.8, color="0.35"))
-a1.annotate("", xy=(3.7, 1.24), xytext=(3.7, 0.92),
+# 一方向の依存（探索で決めたものを検証へ適用）。矢印は探索行から検証行へ下向き。
+a1.annotate("", xy=(6.5, 0.92), xytext=(6.5, 1.24),
             arrowprops=dict(arrowstyle="-|>", lw=0.9, color="0.2"))
 
 a1.annotate("", xy=(8.05, 1.08), xytext=(7.65, 1.08),

@@ -59,8 +59,8 @@ scripts/figS3_genesets.py,py,1,Y,0
 scripts/figS4_geo_vs_kb.py,py,1,Y,0
 scripts/figS5_raw_vs_depth.py,py,1,Y,0
 scripts/figS_robustness.py,py,1,Y,0
-scripts/ms_fig1.py,py,3,Y,0
-scripts/ms_fig2.py,py,6,Y,0
+scripts/ms_fig1.py,py,3,Y,35
+scripts/ms_fig2.py,py,6,Y,85
 scripts/ms_fig3.py,py,9,Y,6
 scripts/ms_fig4.py,py,2,Y,0
 scripts/ms_fig5.py,py,5,Y,0
@@ -102,6 +102,7 @@ scripts/ms_figS8.py,py,2,Y,0
 08_external_review/scripts/e27_figS4_relabel.py,py,0,Y,0
 08_external_review/scripts/e28_final_worksheet.py,py,0,Y,0
 08_external_review/scripts/e2_reference_corrections.py,py,0,Y,0
+08_external_review/scripts/e30_reviewer_checks.py,py,0,Y,0
 08_external_review/scripts/e3_table_additions.py,py,0,Y,0
 08_external_review/scripts/e5_setting_values.py,py,0,Y,0
 08_external_review/scripts/e6_myc_set_means.py,py,0,Y,0

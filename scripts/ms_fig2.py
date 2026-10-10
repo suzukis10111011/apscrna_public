@@ -98,8 +98,12 @@ for k, (coh, lab) in enumerate([("discovery_n5", "Discovery"), ("validation_n3",
     axc.append((ax, sm, len(d)))
 cax = f.add_subplot(sub[0, 2])
 cb = f.colorbar(axc[0][1], cax=cax)
-cb.ax.tick_params(labelsize=6.2)
-cb.set_label("Tissue-forming programme score", fontsize=6.2)
+# 7 pt は _msstyle の下限。下限未満で置くと save() の引き上げで回転ラベルが伸び、
+# tight 保存領域（引き上げ前に決まる）から右にはみ出して文字が切れる。
+cb.ax.tick_params(labelsize=7.0)
+# ラベルはカラーバーの左（図の内側）に置く。右に置くと tight 保存で端が切れる。
+cb.ax.yaxis.set_label_position("left")
+cb.set_label("Tissue-forming programme score", fontsize=7.0, labelpad=3)
 a3 = axc[0][0]
 panel(a3, "C", dx=-0.26)
 

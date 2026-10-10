@@ -59,16 +59,16 @@ the rest), and bustools 0.45.1, kallisto 0.52.0, sra-tools 3.4.1 for read proces
 | table | source files | written by |
 |---|---|---|
 | S1 | 20b_geneset_coverage_before_after.csv; 28_qc_all_stages.csv; C6_base_composition_by_position.csv; C6_validation_chemistry_check.csv | 06_submission_prep/scripts/r5_validation_chemistry.py; scripts/28_manuscript_numbers.py |
-| S2 | 04_tf_screen_discovery_candidates.csv; 05_tf_screen_validation_reproduction.csv; E21_figS8A_counts.csv; E24_geneset_members.csv; E25_validation_all_factors.csv | 08_external_review; 08_external_review/scripts/e24_new_parts.py; scripts/04_discovery_scores_and_screen.py; scripts/05_validation_and_projection.py |
+| S2 | 04_tf_screen_discovery_candidates.csv; 05_tf_screen_validation_reproduction.csv; E21_figS8A_counts.csv; E24_geneset_members.csv; E25_validation_all_factors.csv; E37_programme_set_provenance.csv; E38_composite_constants.csv | 08_external_review; 08_external_review/scripts/e24_new_parts.py; scripts/04_discovery_scores_and_screen.py; scripts/05_validation_and_projection.py |
 | S3 | E9_programme_score_dip.csv; S3_rho_by_score_convention.csv | 06_submission_prep/scripts/r1_tables.py; 08_external_review/scripts/e9_references.py |
 | S4 | 14_robustness_genesets_scoring.csv | scripts/14_robustness.py |
 | S5 | 14_robustness_integration.csv; 18_stromal_markerdefined_vs_primary.csv; 18_tf_sign_by_cellset.csv; E15_sign_agreement_part.csv; E23_projection_confusion.csv; E8_projection_with_not_adopted.csv; E9_primary_enrichment.csv | 08_external_review; 08_external_review/scripts/e9_references.py; scripts/14c_robustness_integration.py; scripts/18_stromal_markerdefined.py |
 | S6 | 09_geo_vs_kb.csv; 09_stromal_jaccard.csv; 09_tf_agreement_geo_vs_kb.csv | scripts/09_geo_vs_kb.py |
 | S7 | 10_receptors_by_state.csv; 17_receptors_detection_fraction.csv; 17_receptors_mixedmodel.csv | scripts/10_receptors_by_state.py; scripts/17_receptor_power.py |
-| S8 | 12_coupling_by_compartment.csv; 28_enrichment_permutation.csv; E3_compartment_composition.csv | 08_external_review/scripts/e3_table_additions.py; scripts/12_coupling_by_compartment.py; scripts/28_manuscript_numbers.py |
+| S8 | 12_coupling_by_compartment.csv; 28_enrichment_permutation.csv; E32_compartment_composite_rho.csv; E3_compartment_composition.csv | 08_external_review; 08_external_review/scripts/e3_table_additions.py; scripts/12_coupling_by_compartment.py; scripts/28_manuscript_numbers.py |
 | S9 | 13_gse164241_summary.csv; 13_gse164241_tf_sign_reproduction.csv; E22_figS8B_counts.csv | 08_external_review; scripts/13_gse164241.py |
 | S10 | 32_coactivity_ruleset_sensitivity.csv; 32_crossside_pairs_sign_consistency.csv; 32_old_vs_new_comparison.csv; 32_pc1_is_function_of_r.csv; 32_regulon_overlap.csv; 32_set_definition.csv; 33_state_pct_8lesions.csv; E26_tf_activity_matrix.csv; E6_myc_vs_set_means.csv | 08_external_review; 08_external_review/scripts/e6_myc_set_means.py |
-| S11 | 33_defA_permutation_null.csv; S11a_random_factor_null.csv; S11b_overlap_removed_candidates.csv; S11c_dispersion_baselines.csv; S11c_null_factor_selection.csv | 06_submission_prep/scripts/r3_record_and_S11_S12.py |
+| S11 | 33_defA_permutation_null.csv; E31_retained_dispersion_residualised.csv; S11a_random_factor_null.csv; S11b_overlap_removed_candidates.csv; S11c_dispersion_baselines.csv; S11c_null_factor_selection.csv | 06_submission_prep/scripts/r3_record_and_S11_S12.py; 08_external_review |
 | S12 | S12a_single_donor_check.csv; S12b_number_provenance.csv | 06_submission_prep/scripts/r3_record_and_S11_S12.py |
 
 Full list, part by part, in `table_and_figure_provenance.csv`.

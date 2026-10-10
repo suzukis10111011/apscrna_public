@@ -102,7 +102,9 @@ SHEETS = {
         [("C6_validation_chemistry_check.csv", SUB, "per run"),
          ("C6_base_composition_by_position.csv", SUB, "base composition by position")]),
     "S2": ("Full 730-factor activity screen on all six axes, discovery ranking and "
-           "validation sign reproduction, at full precision",
+           "validation sign reproduction, at full precision, together with the gene "
+           "sets of the programmes and of the composite components and the constants "
+           "used to build the composite scores",
            [("04_tf_screen_discovery_candidates.csv", TAB, "discovery_n5"),
             ("05_tf_screen_validation_reproduction.csv", TAB, "validation_n3"),
             ("E21_figS8A_counts.csv", EXT,
@@ -110,7 +112,13 @@ SHEETS = {
             ("E24_geneset_members.csv", EXT, "programme gene sets, members"),
             ("E25_validation_all_factors.csv", EXT,
              "validation values of every factor of the two programmes "
-             "(as in Figure 3A, B)")]),
+             "(as in Figure 3A, B)"),
+            ("E37_programme_set_provenance.csv", EXT,
+             "gene sets of the programmes and of the composite components, gene by "
+             "gene, with their stated source"),
+            ("E38_composite_constants.csv", EXT,
+             "composite construction: components, weights and the fixed robust SD "
+             "divisors")]),
     "S3": ("Raw and depth-controlled Spearman rho between the inflammatory and "
            "tissue-forming scores under all three score conventions, and the "
            "unimodality of the two scores per lesion",
@@ -150,12 +158,15 @@ SHEETS = {
            [("10_receptors_by_state.csv", TAB, "pseudobulk, paired Wilcoxon"),
             ("17_receptors_mixedmodel.csv", TAB, "cell-level linear mixed model"),
             ("17_receptors_detection_fraction.csv", TAB, "detection fraction")]),
-    "S8": ("Axis coupling per compartment, and the permutation test for top-decile "
-           "compartment enrichment",
+    "S8": ("Axis coupling per compartment with both score conventions - the "
+           "single-axis leak-free scores and the composite scores - and the "
+           "permutation test for top-decile compartment enrichment",
            [("12_coupling_by_compartment.csv", TAB, "main"),
             ("28_enrichment_permutation.csv", TAB, "top-decile permutation test"),
             ("E3_compartment_composition.csv", EXT,
-             "compartment composition per lesion, both annotation versions")]),
+             "compartment composition per lesion, both annotation versions"),
+            ("E32_compartment_composite_rho.csv", EXT,
+             "composite-score coupling per compartment, per lesion and pooled")]),
     "S9": ("Independent periodontitis cohort GSE164241 (gingiva)",
            [("13_gse164241_summary.csv", TAB, "per donor"),
             ("13_gse164241_tf_sign_reproduction.csv", TAB, "TF sign reproduction"),
@@ -174,15 +185,18 @@ SHEETS = {
               "MYC activity against the two TF sets"),
              ("E26_tf_activity_matrix.csv", EXT,
               "factor-by-factor activity correlation matrix (as in Figure 5D)")]),
-    "S11": ("Random factor-set null, overlap-removed activities, and the null and "
-            "floor references for retained dispersion (post hoc, added after "
+    "S11": ("Random factor-set null, overlap-removed activities, the null and floor "
+            "references for retained dispersion, and the same statistic with the "
+            "score residualised on sequencing depth (post hoc, added after "
             "independent audit)",
             [("S11a_random_factor_null.csv", SUB, "random-factor null"),
              ("S11b_overlap_removed_candidates.csv", SUB, "overlap-removed activities"),
              ("S11c_dispersion_baselines.csv", SUB, "dispersion baselines"),
              ("S11c_null_factor_selection.csv", SUB, "unrelated-factor selection"),
              ("33_defA_permutation_null.csv", TAB,
-              "permutation null for the retained dispersion")]),
+              "permutation null for the retained dispersion"),
+             ("E31_retained_dispersion_residualised.csv", EXT,
+              "retained dispersion with the score residualised on sequencing depth")]),
     "S12": ("Sex-marker check of single-donor origin, and the provenance of every "
             "reported value (script, output file, cell set, score definition)",
             [("S12a_single_donor_check.csv", SUB, "single-donor check"),
@@ -618,6 +632,49 @@ DEF.update({
     "one_sided": "direction of the one-sided test",
     "seed": "random seed of the permutation",
 })
+
+DEF.update({
+    "component": "component gene set of a composite score",
+    "composite": "composite score the component belongs to",
+    "composite_raw_rho": "Spearman rho between the composite inflammatory and composite tissue-forming scores, no covariate",
+    "composite_depth_controlled_rho": "the same correlation after regressing log10(total_counts) and n_genes_by_counts out of both rank vectors",
+    "divisor_definition": "how the fixed divisor of the component was obtained",
+    "family": "inflammatory or tissue-forming side of the programme pair",
+    "global_robust_sd": "fixed divisor of the component, 1.4826 x MAD, identical for every cell, donor and compartment",
+    "in_current_reactome_gmt": "whether the gene appears in the component's listed Reactome pathways in the 2024 release; a check, not the provenance of record",
+    "n_cells_used_for_the_divisor": "cells of the annotated object over which the divisor was computed",
+    "n_curated_added_declared": "genes added by hand to the component, as declared in the frozen record (the record does not name them)",
+    "n_genes": "genes in the set",
+    "object_used": "object the constants were computed on",
+    "reactome_pathways": "Reactome pathways named as the source of the component",
+    "residualisation": "what was residualised before the statistic was computed",
+    "set_type": "programme axis of the screen, or component of a composite score",
+    "source_statement": "source of the set as stated in the frozen definition file",
+    "weight": "weight of the component in the composite average",
+    "raw_score_RELA_frac_retained": "SD ratio retained after matching cells on RELA activity, on the score as published",
+    "raw_score_RELA_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score as published",
+    "raw_score_inflammation_score_frac_retained": "SD ratio retained after matching cells on the inflammatory programme score, on the score as published",
+    "raw_score_inflammation_score_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score as published",
+    "raw_score_null_mean_frac_retained": "SD ratio retained after matching cells on the ten unrelated factors, mean over the ten, on the score as published",
+    "raw_score_null_mean_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score as published",
+    "raw_score_null_min_frac_retained": "SD ratio retained after matching cells on the ten unrelated factors, lowest, on the score as published",
+    "raw_score_null_max_frac_retained": "SD ratio retained after matching cells on the ten unrelated factors, highest, on the score as published",
+    "raw_score_floor_frac_retained": "SD ratio retained after matching cells on the tissue-forming score itself, the floor of the statistic, on the score as published",
+    "raw_score_floor_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score as published",
+    "raw_score_null_minus_RELA_variance": "variance retained under the unrelated-factor mean minus that under RELA; positive means RELA removed more, on the score as published",
+    "residualised_score_RELA_frac_retained": "SD ratio retained after matching cells on RELA activity, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_RELA_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_inflammation_score_frac_retained": "SD ratio retained after matching cells on the inflammatory programme score, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_inflammation_score_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_null_mean_frac_retained": "SD ratio retained after matching cells on the ten unrelated factors, mean over the ten, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_null_mean_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_null_min_frac_retained": "SD ratio retained after matching cells on the ten unrelated factors, lowest, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_null_max_frac_retained": "SD ratio retained after matching cells on the ten unrelated factors, highest, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_floor_frac_retained": "SD ratio retained after matching cells on the tissue-forming score itself, the floor of the statistic, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_floor_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+    "residualised_score_null_minus_RELA_variance": "variance retained under the unrelated-factor mean minus that under RELA; positive means RELA removed more, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
+})
+
 
 PATTERNS = [(re.compile(r"^rho_(A|B|C|D|E)$"),
              "depth-controlled rho in discovery lesion {}"),
