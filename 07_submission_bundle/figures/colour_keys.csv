@@ -1,0 +1,71 @@
+figure,panel,colour_hex,marker,label
+Fig1,1,#1b7837,patch,"Endothelium (4,375)"
+Fig1,1,#80cdc1,patch,Epithelium (968)
+Fig1,1,#2166ac,patch,"Immune cells (29,358)"
+Fig1,1,#c994c7,patch,"Pericytes/SMC (3,517)"
+Fig1,1,#e08214,patch,"Stromal cells (6,215)"
+Fig1,2,#1b7837,patch,"Endothelium (1,916)"
+Fig1,2,#80cdc1,patch,Epithelium (463)
+Fig1,2,#2166ac,patch,"Immune cells (20,413)"
+Fig1,2,#c994c7,patch,"Pericytes/SMC (1,154)"
+Fig1,2,#8c6bb1,patch,Schwann / neural (365)
+Fig1,2,#e08214,patch,"Stromal cells (1,779)"
+Fig1,5,#1b7837,patch,Endothelium
+Fig1,5,#80cdc1,patch,Epithelium
+Fig1,5,#2166ac,patch,Immune cells
+Fig1,5,#c994c7,patch,Pericytes/SMC
+Fig1,5,#e08214,patch,Stromal cells
+Fig1,5,#8c6bb1,patch,Schwann / neural
+Fig2,0,#2166ac,patch,Discovery (5 lesions)
+Fig2,0,#e08214,patch,Validation (3 lesions)
+Fig2,1,#b8b8b8,patch,all cells
+Fig2,1,#2166ac,patch,"top decile of
+tissue-forming score"
+Fig3,6,#000000,,"random 20 factors, mean"
+Fig3,6,#e08214,patch,pooled $\rho$ same sign
+Fig3,6,#8c6bb1,patch,same sign in all 3 lesions
+Fig4,0,#2166ac,patch,Discovery lesions
+Fig4,0,,patch,Discovery pooled
+Fig4,0,#e08214,patch,Validation lesions
+Fig4,0,,patch,Validation pooled
+Fig4,1,#dbdbdb,patch,permutation null (95%)
+Fig4,1,#000000,,null mean
+Fig4,1,#762a83,patch,unrelated factors (mean of 10)
+Fig4,3,#440154,patch,inflammatory
+Fig4,3,#31688e,patch,intermediate
+Fig4,3,#35b779,patch,tissue-forming
+Fig4,3,#c8a96e,patch,other
+Fig4,12,#440154,patch,Inflammatory programme
+Fig4,12,#35b779,patch,Tissue-forming programme
+Fig5,3,#2166ac,patch,NF-κB family set / with SMAD3
+Fig5,3,#2166ac,patch,NF-κB family set / without SMAD3
+Fig5,3,#2166ac,patch,"alternative set (ATF1, MTA1) / with SMAD3"
+Fig5,3,#2166ac,patch,"alternative set (ATF1, MTA1) / without SMAD3"
+Fig7,1,#8c6bb1,patch,same sign as discovery
+Fig7,1,#9e9e9e,patch,consistent across all donors
+FigS1,0,#a9cfe5,patch,raw
+FigS1,0,#4a98c9,patch,QC pass
+FigS1,0,#0a549e,patch,singlets
+FigS1,1,#fdb77a,patch,raw (≥100 UMIs)
+FigS1,1,#f3701b,patch,QC pass
+FigS1,1,#ab3803,patch,singlets
+FigS4,0,#2166ac,patch,author matrix
+FigS4,0,#9970ab,patch,"re-quantified, all barcodes"
+FigS4,0,#1b7837,patch,"re-quantified, matrix barcodes"
+FigS4,1,#9970ab,patch,"vs re-quantified, all barcodes"
+FigS4,1,#1b7837,patch,"vs re-quantified, matrix barcodes"
+FigS5,0,#2166ac,patch,discovery (per lesion)
+FigS5,0,#2166ac,patch,discovery (pooled)
+FigS5,0,#e08214,patch,validation (per lesion)
+FigS5,0,#e08214,patch,validation (pooled)
+FigS7,0,#440154,patch,inflammatory
+FigS7,0,#31688e,patch,intermediate
+FigS7,0,#35b779,patch,tissue-forming
+FigS7,0,#c8a96e,patch,other
+FigS7,2,#dddddd,patch,"Discovery (6,215)"
+FigS7,2,#e69f00,patch,"Validation (1,779)"
+FigS3,"a,b",,code,I = current_lf_A_cytokine_chemokine (inflammatory)
+FigS3,"a,b",,code,H = HALLMARK_TNFA_SIGNALING_VIA_NFKB (inflammatory)
+FigS3,"a,b",,code,G = GOBP_INFLAMMATORY_RESPONSE (inflammatory)
+FigS3,"a,b",,code,T = current_lf_D_tissueforming (tissue-forming)
+FigS3,"a,b",,code,R = REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION (tissue-forming)

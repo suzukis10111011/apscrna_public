@@ -1,0 +1,49 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260925 20:55:55.736081 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260925 20:55:55.736223 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260925 20:55:55.736247 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+Matplotlib is building the font cache; this may take a moment.
+== load (source=kb) ==
+  SampleA: 連結前 QC 13863 / 491025 バーコード
+  SampleB: 連結前 QC 11129 / 561512 バーコード
+  SampleC: 連結前 QC 7319 / 508328 バーコード
+  SampleD: 連結前 QC 9796 / 463621 バーコード
+  SampleE: 連結前 QC 9937 / 511346 バーコード
+  SampleA: (13863, 36542)
+  SampleB: (11129, 36542)
+  SampleC: (7319, 36542)
+  SampleD: (9796, 36542)
+  SampleE: (9937, 36542)
+共通 Ensembl ID: 36542
+concat: (52044, 36542) | 病変別: {'A': 13863, 'B': 11129, 'E': 9937, 'D': 9796, 'C': 7319}
+QC後: (51150, 23315)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+  scrublet A: 489/13594 doublet
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+  scrublet B: 0/11001 doublet
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+  scrublet C: 1/7189 doublet
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+  scrublet D: 1/9642 doublet
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+  scrublet E: 409/9724 doublet
+doublet除去後: (50250, 23315)
+  leiden 0.3: 11 clusters
+  leiden 0.5: 12 clusters
+  leiden 1.0: 16 clusters
+
+区画×病変 (%):
+compartment  endothelial  epithelial  erythrocyte  immune  pericyte_smc  schwann_neural  stromal
+lesion                                                                                          
+A                   14.2         1.0         41.2     4.8          12.7             2.1     23.9
+B                    8.7         2.4         61.6    13.2           3.6             4.0      6.7
+C                    3.3         0.1         35.2    29.2           4.4            13.1     14.7
+D                   18.8         4.8         19.8    18.8          17.4             5.6     14.7
+E                    2.0         0.2         41.8    38.0           4.0             6.1      7.9
+
+saved: /path/to/Documents/apscrna_v2/data/processed/all_cells_discovery_kb.h5ad (50250, 23315)

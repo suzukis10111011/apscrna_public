@@ -1,0 +1,131 @@
+file,kind,units_translated,code_identical,japanese_left
+scripts/01a_mkidx.sh,sh,3,Y,0
+scripts/01b_validation_pipeline.sh,sh,15,Y,39
+scripts/01c_fetch_sra_parallel.sh,sh,6,Y,43
+scripts/02_quant.sh,sh,30,Y,129
+scripts/02b_quant.sh,sh,12,Y,91
+scripts/03_preprocess_discovery.py,py,17,Y,122
+scripts/03b_fix_compartment.py,py,3,Y,40
+scripts/03c_recheck_discovery.py,py,2,Y,20
+scripts/04_discovery_scores_and_screen.py,py,16,Y,88
+scripts/04b_state_labels_discovery.py,py,1,Y,27
+scripts/05_validation_and_projection.py,py,22,Y,139
+scripts/05e_rho_prev_cellset.py,py,6,Y,42
+scripts/07_chemistry_test.sh,sh,3,Y,42
+scripts/08_discovery_requant.sh,sh,9,Y,91
+scripts/09_geo_vs_kb.py,py,7,Y,36
+scripts/09b_report_day3.py,py,3,Y,690
+scripts/10_receptors_by_state.py,py,2,Y,107
+scripts/11_coactivity.py,py,2,Y,84
+scripts/12_coupling_by_compartment.py,py,1,Y,17
+scripts/13_gse164241.py,py,3,Y,61
+scripts/14_robustness.py,py,2,Y,42
+scripts/14c_robustness_integration.py,py,1,Y,25
+scripts/17_receptor_power.py,py,2,Y,92
+scripts/18_stromal_markerdefined.py,py,3,Y,53
+scripts/20b_coverage_after_fix.py,py,0,Y,38
+scripts/25_validation_states_within.py,py,1,Y,178
+scripts/28_manuscript_numbers.py,py,8,Y,30
+scripts/30_supplementary_tables.py,py,3,Y,319
+scripts/32_coactivity_ruleset.py,py,8,Y,262
+scripts/33_extract_figure_sources.py,py,0,Y,14
+scripts/33_ms_figure_inputs.py,py,8,Y,155
+scripts/34_lolo_rulebased.py,py,2,Y,115
+scripts/35_figure_text_record.py,py,1,Y,208
+scripts/35b_rebuild_text_record.py,py,1,Y,121
+scripts/36_pptx_editable.py,py,32,Y,217
+scripts/37_diag_fig2c.py,py,7,Y,36
+scripts/38_pptx_preview.py,py,10,Y,27
+scripts/39_pptx_check.py,py,11,Y,68
+scripts/42_rerun_comparison.py,py,0,Y,0
+scripts/43_rerun_all.sh,sh,0,Y,0
+scripts/99_driver.sh,sh,10,Y,134
+scripts/99_driver_v2.sh,sh,11,Y,78
+scripts/99_driver_v3.sh,sh,8,Y,107
+scripts/99_driver_v4.sh,sh,2,Y,66
+scripts/99_watch_09.sh,sh,10,Y,145
+scripts/_figstyle.py,py,3,Y,0
+scripts/_guard.py,py,1,Y,139
+scripts/_msstyle.py,py,46,Y,418
+scripts/_utils.py,py,29,Y,145
+scripts/fig1.py,py,1,Y,0
+scripts/fig4.py,py,3,Y,0
+scripts/fig5.py,py,5,Y,0
+scripts/fig6.py,py,1,Y,0
+scripts/fig7.py,py,1,Y,12
+scripts/figS1_qc.py,py,1,Y,0
+scripts/figS2_integration.py,py,3,Y,0
+scripts/figS3_genesets.py,py,1,Y,0
+scripts/figS4_geo_vs_kb.py,py,1,Y,0
+scripts/figS5_raw_vs_depth.py,py,1,Y,0
+scripts/figS_robustness.py,py,1,Y,0
+scripts/ms_fig1.py,py,3,Y,0
+scripts/ms_fig2.py,py,6,Y,0
+scripts/ms_fig3.py,py,9,Y,6
+scripts/ms_fig4.py,py,2,Y,0
+scripts/ms_fig5.py,py,5,Y,0
+scripts/ms_fig6.py,py,2,Y,0
+scripts/ms_fig7.py,py,3,Y,0
+scripts/ms_figS1.py,py,0,Y,0
+scripts/ms_figS2.py,py,1,Y,0
+scripts/ms_figS3.py,py,3,Y,4
+scripts/ms_figS4.py,py,3,Y,0
+scripts/ms_figS5.py,py,2,Y,0
+scripts/ms_figS6.py,py,2,Y,0
+scripts/ms_figS7.py,py,4,Y,0
+scripts/ms_figS8.py,py,2,Y,0
+05_post_audit/scripts/q0_common.py,py,0,Y,0
+05_post_audit/scripts/q1a_rho_matrices.py,py,0,Y,0
+05_post_audit/scripts/q1b_null_signtest.py,py,0,Y,0
+05_post_audit/scripts/q2_defA_baselines.py,py,0,Y,0
+05_post_audit/scripts/q3_donor_mixture.py,py,0,Y,0
+05_post_audit/scripts/q3b_source_pooling_record.py,py,0,Y,0
+05_post_audit/scripts/q4a_script_divergence.py,py,0,Y,0
+05_post_audit/scripts/q4b_provenance_map.py,py,0,Y,0
+05_post_audit/scripts/q5_shared_values.py,py,0,Y,0
+06_submission_prep/scripts/r1_tables.py,py,0,Y,0
+06_submission_prep/scripts/r2_fig3.py,py,9,Y,6
+06_submission_prep/scripts/r2_fig4.py,py,2,Y,0
+06_submission_prep/scripts/r3_record_and_S11_S12.py,py,0,Y,0
+06_submission_prep/scripts/r4_manuscript_reconciliation.py,py,0,Y,0
+06_submission_prep/scripts/r5_validation_chemistry.py,py,0,Y,0
+06_submission_prep/scripts/r6_install_to_results.py,py,0,Y,0
+06_submission_prep/scripts/r7_refresh_figures.py,py,0,Y,0
+08_external_review/scripts/e11_references.py,py,0,Y,491
+08_external_review/scripts/e12_human_check.py,py,0,Y,289
+08_external_review/scripts/e13_sign_agreement.py,py,0,Y,0
+08_external_review/scripts/e14_setting_provenance.py,py,0,Y,6
+08_external_review/scripts/e16_r1_base_composition.py,py,0,Y,0
+08_external_review/scripts/e17_legend_checks.py,py,0,Y,0
+08_external_review/scripts/e1_adjudication.py,py,0,Y,0
+08_external_review/scripts/e24_new_parts.py,py,0,Y,0
+08_external_review/scripts/e27_figS4_relabel.py,py,0,Y,0
+08_external_review/scripts/e28_final_worksheet.py,py,0,Y,0
+08_external_review/scripts/e2_reference_corrections.py,py,0,Y,0
+08_external_review/scripts/e3_table_additions.py,py,0,Y,0
+08_external_review/scripts/e5_setting_values.py,py,0,Y,0
+08_external_review/scripts/e6_myc_set_means.py,py,0,Y,0
+08_external_review/scripts/e7_enrichment_definition.py,py,0,Y,0
+08_external_review/scripts/e9_primary_parts.py,py,0,Y,0
+08_external_review/scripts/e9_references.py,py,0,Y,0
+07_submission_bundle/figures/pptx/Fig1.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/Fig2.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/Fig3.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/Fig4.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/Fig5.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/Fig6.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/Fig7.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS1.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS2.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS3.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS4.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS5.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS6.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS7.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/pptx/FigS8.pptx,pptx,1 notes pages removed,Y,0
+07_submission_bundle/figures/figures_editable.pptx,pptx,15 notes pages removed,Y,0
+07_submission_bundle/scripts/s1_pptx.py,py,32,Y,217
+07_submission_bundle/scripts/s2_supplementary_excel.py,py,0,Y,213
+07_submission_bundle/scripts/s3_filename_map.py,py,0,Y,0
+07_submission_bundle/scripts/s4_manuscript_vs_bundle.py,py,0,Y,287
+07_submission_bundle/scripts/s5_check_worksheet.py,py,0,Y,1775

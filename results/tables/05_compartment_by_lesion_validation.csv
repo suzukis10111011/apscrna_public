@@ -1,0 +1,4 @@
+lesion,n_endothelial,n_epithelial,n_immune,n_pericyte_smc,n_schwann_neural,n_stromal,pct_endothelial,pct_epithelial,pct_immune,pct_pericyte_smc,pct_schwann_neural,pct_stromal,n_total
+CAP1,1306,2,6705,689,94,860,13.53,0.02,69.44,7.14,0.97,8.91,9656
+CAP2,367,461,7895,292,198,566,3.75,4.71,80.73,2.99,2.02,5.79,9779
+CAP3,243,0,5813,173,73,353,3.65,0.0,87.35,2.6,1.1,5.3,6655

@@ -1,0 +1,58 @@
+[2026-09-18T12:13:13Z] === 01c start 空き 603Gi ===
+[2026-09-18T12:13:14Z] SRR32119705: 50190805442 bytes, 8 chunks x 6273850681
+[2026-09-18T12:13:14Z] SRR32119705: 試行 1 未完 (0/50190805442) 再開
+[2026-09-18T12:13:14Z] SRR32119705: 試行 2 未完 (0/50190805442) 再開
+[2026-09-18T12:13:14Z] SRR32119705: 試行 3 未完 (0/50190805442) 再開
+[2026-09-18T12:13:14Z] SRR32119705: DOWNLOAD FAILED (0/50190805442)
+[2026-09-18T12:13:14Z] CAP1: スキップ（前段失敗）
+[2026-09-18T12:13:15Z] SRR32119703: 42086954706 bytes, 8 chunks x 5260869339
+[2026-09-18T12:13:15Z] SRR32119703: 試行 1 未完 (0/42086954706) 再開
+[2026-09-18T12:13:15Z] SRR32119703: 試行 2 未完 (0/42086954706) 再開
+[2026-09-18T12:13:15Z] SRR32119703: 試行 3 未完 (0/42086954706) 再開
+[2026-09-18T12:13:15Z] SRR32119703: DOWNLOAD FAILED (0/42086954706)
+[2026-09-18T12:13:15Z] CAP3: スキップ（前段失敗）
+[2026-09-18T12:13:16Z] SRR32119704: 40563234654 bytes, 8 chunks x 5070404332
+[2026-09-18T12:13:16Z] SRR32119704: 試行 1 未完 (0/40563234654) 再開
+[2026-09-18T12:13:16Z] SRR32119704: 試行 2 未完 (0/40563234654) 再開
+[2026-09-18T12:13:16Z] SRR32119704: 試行 3 未完 (0/40563234654) 再開
+[2026-09-18T12:13:16Z] SRR32119704: DOWNLOAD FAILED (0/40563234654)
+[2026-09-18T12:13:16Z] CAP2: スキップ（前段失敗）
+[2026-09-18T12:13:16Z] === 01c DONE counted=0/3 ===
+[2026-09-18T12:17:07Z] === 01c start 空き 602Gi ===
+[2026-09-18T12:17:07Z] SRR32119705: 50190805442 bytes, 8 chunks x 6273850681
+[2026-09-18T15:53:04Z] SRR32119705: DOWNLOAD OK 50190805442
+[2026-09-18T15:53:04Z] CAP1: FASTQ 生成失敗
+[2026-09-18T15:53:04Z] CAP1: スキップ（前段失敗）
+[2026-09-18T15:53:05Z] SRR32119703: 42086954706 bytes, 8 chunks x 5260869339
+[2026-09-18T18:05:35Z] SRR32119703: DOWNLOAD OK 42086954706
+[2026-09-18T18:05:36Z] CAP3: FASTQ 生成失敗
+[2026-09-18T18:05:36Z] CAP3: スキップ（前段失敗）
+[2026-09-18T18:05:36Z] SRR32119704: 40563234654 bytes, 8 chunks x 5070404332
+[2026-09-18T21:21:25Z] SRR32119704: DOWNLOAD OK 40563234654
+[2026-09-18T21:21:25Z] CAP2: fasterq-dump start
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/path/to/Documents/apscrna_v2/.home/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fasterq-dump quit with error code 3
+[2026-09-18T21:21:29Z] CAP2: fasterq-dump 試行 1 失敗
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/path/to/Documents/apscrna_v2/.home/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fasterq-dump quit with error code 3
+[2026-09-18T21:21:33Z] CAP2: fasterq-dump 試行 2 失敗
+[2026-09-18T21:21:33Z] CAP2: FASTQ 生成失敗
+[2026-09-18T21:21:33Z] CAP2: スキップ（前段失敗）

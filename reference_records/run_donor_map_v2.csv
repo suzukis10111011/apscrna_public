@@ -1,0 +1,4 @@
+run_accession,donor,cohort,matched_prev_stromal_barcodes,prev_stromal_n,match_pct,max_offdiagonal,evidence,decided_utc,supersedes
+SRR32119703,CAP1,validation,2210,2336,94.6,7,barcode overlap with frozen validation_covariates_stromal.csv (bare 16bp sequences),2026-09-23T06:05:00Z,requant_run_donor_map.csv (said SRR32119703=CAP3)
+SRR32119704,CAP2,validation,2196,2286,96.1,7,barcode overlap with frozen validation_covariates_stromal.csv (bare 16bp sequences),2026-09-23T06:05:00Z,requant_run_donor_map.csv (agreed)
+SRR32119705,CAP3,validation,811,837,96.9,4,barcode overlap with frozen validation_covariates_stromal.csv (bare 16bp sequences),2026-09-23T06:05:00Z,requant_run_donor_map.csv (said SRR32119705=CAP1)

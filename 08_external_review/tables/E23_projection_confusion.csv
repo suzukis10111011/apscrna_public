@@ -1,0 +1,17 @@
+state_within,state_projected,n_cells_confusion,agrees,n_cells_agreeing_total,n_cells_total_confusion,agreement_pct_confusion,figure_panel,source_file_of_part
+inflammatory,inflammatory,13,True,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+intermediate,inflammatory,402,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+other,inflammatory,0,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+tissue-forming,inflammatory,40,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+inflammatory,intermediate,85,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+intermediate,intermediate,83,True,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+other,intermediate,48,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+tissue-forming,intermediate,92,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+inflammatory,other,120,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+intermediate,other,10,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+other,other,344,True,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+tissue-forming,other,171,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+inflammatory,tissue-forming,3,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+intermediate,tissue-forming,3,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+other,tissue-forming,78,False,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv
+tissue-forming,tissue-forming,287,True,727,1779,40.87,Figure S7B,25_state_crosstab_within_vs_ingest.csv

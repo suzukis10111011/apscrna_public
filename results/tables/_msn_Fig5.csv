@@ -1,0 +1,5 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig5,A,receptor difference between states (pseudobulk),10_receptors_by_state.csv,6215,10,receptor genes,discovery_n5
+Fig5,B,receptor dot plot by state,10_receptors_dotplot_input.csv,6215,10,receptor genes,discovery_n5
+Fig5,C,"per-lesion co-activity, rule-based and alternative sets",32_coactivity_ruleset_sensitivity.csv,7994,8,lesions,both
+Fig5,D,TF activity correlation matrix,32_tf_activity_spearman_matrix.csv,6215,12,TFs,discovery_n5

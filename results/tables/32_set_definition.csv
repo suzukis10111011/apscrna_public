@@ -1,0 +1,16 @@
+set_name,axis,TF,pooled_rho,all5_same_sign,rank_within_axis,is_candidate,included_by_rule
+inflammatory_NFkB_family,lf_A_cytokine_chemokine,RELB,0.6413,True,1.0,True,True
+inflammatory_NFkB_family,lf_A_cytokine_chemokine,NFKB2,0.529,True,2.0,True,True
+inflammatory_NFkB_family,lf_A_cytokine_chemokine,RELA,0.4106,True,6.0,True,True
+inflammatory_NFkB_family,lf_A_cytokine_chemokine,NFKB1,0.4029,True,7.0,True,True
+inflammatory_NFkB_family,lf_A_cytokine_chemokine,REL,0.3258,True,14.0,True,True
+tissueforming_osteo_mesenchymal,lf_D_tissueforming,SP7,0.456,True,1.0,True,True
+tissueforming_osteo_mesenchymal,lf_D_tissueforming,RUNX2,0.4284,True,2.0,True,True
+tissueforming_osteo_mesenchymal,lf_D_tissueforming,DLX5,0.405,True,3.0,True,True
+tissueforming_osteo_mesenchymal,lf_D_tissueforming,MYRF,0.341,True,10.0,True,True
+tissueforming_osteo_mesenchymal,lf_D_tissueforming,SMAD3,0.3631,True,6.0,True,True
+inflammatory_OLD_set,lf_A_cytokine_chemokine,NFKB2,0.529,True,2.0,True,True
+inflammatory_OLD_set,lf_A_cytokine_chemokine,RELB,0.6413,True,1.0,True,True
+inflammatory_OLD_set,lf_A_cytokine_chemokine,REL,0.3258,True,14.0,True,True
+inflammatory_OLD_set,lf_A_cytokine_chemokine,ATF1,0.2999,True,22.0,False,False
+inflammatory_OLD_set,lf_A_cytokine_chemokine,MTA1,0.359,True,11.0,True,False

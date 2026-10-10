@@ -1,0 +1,10 @@
+gene_set,n_def,found_before,found_after,pct_before,pct_after,recovered
+compartment markers,23,20,23,87.0,100.0,3
+receptor 10,10,10,10,100.0,100.0,0
+RELA target,560,515,524,92.0,93.6,9
+axis A_cytokine_chemokine,92,87,90,94.6,97.8,3
+axis B_survival_antiapoptotic,92,83,86,90.2,93.5,3
+axis C1_proliferation,533,498,512,93.4,96.1,14
+axis C2_migration,682,603,618,88.4,90.6,15
+axis C_prolif_migration,1021,920,948,90.1,92.9,28
+axis D_tissueforming,468,441,454,94.2,97.0,13

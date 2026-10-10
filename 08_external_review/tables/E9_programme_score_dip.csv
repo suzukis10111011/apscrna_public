@@ -1,0 +1,21 @@
+cohort,lesion,programme_score,n,dip_statistic_programme_score,dip_p_programme_score,figure,source_file_of_part
+discovery_n5,A,Inflammatory programme,2314,0.0066,0.7868,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,A,Tissue-forming programme,2314,0.00554,0.9583,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,B,Inflammatory programme,739,0.01039,0.9106,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,B,Tissue-forming programme,739,0.00689,0.9975,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,C,Inflammatory programme,1018,0.00661,0.9943,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,C,Tissue-forming programme,1018,0.00614,0.9964,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,D,Inflammatory programme,1418,0.00852,0.7647,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,D,Tissue-forming programme,1418,0.00515,0.9969,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,E,Inflammatory programme,726,0.01147,0.808,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,E,Tissue-forming programme,726,0.00777,0.9943,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,POOLED,Inflammatory programme,6215,0.0042,0.7311,Figure 4E,33_dip_by_lesion.csv
+discovery_n5,POOLED,Tissue-forming programme,6215,0.0021,1.0,Figure 4E,33_dip_by_lesion.csv
+validation_n3,CAP1,Inflammatory programme,860,0.00728,0.9938,Figure 4E,33_dip_by_lesion.csv
+validation_n3,CAP1,Tissue-forming programme,860,0.01235,0.5419,Figure 4E,33_dip_by_lesion.csv
+validation_n3,CAP2,Inflammatory programme,566,0.01193,0.9037,Figure 4E,33_dip_by_lesion.csv
+validation_n3,CAP2,Tissue-forming programme,566,0.00932,0.9924,Figure 4E,33_dip_by_lesion.csv
+validation_n3,CAP3,Inflammatory programme,353,0.01328,0.9749,Figure 4E,33_dip_by_lesion.csv
+validation_n3,CAP3,Tissue-forming programme,353,0.01162,0.9924,Figure 4E,33_dip_by_lesion.csv
+validation_n3,POOLED,Inflammatory programme,1779,0.00651,0.9408,Figure 4E,33_dip_by_lesion.csv
+validation_n3,POOLED,Tissue-forming programme,1779,0.00477,0.996,Figure 4E,33_dip_by_lesion.csv

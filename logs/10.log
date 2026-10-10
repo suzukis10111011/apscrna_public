@@ -1,0 +1,34 @@
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 16:47:50.768408 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 16:47:50.768487 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 16:47:50.768512 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+
+=== discovery_n5 ===
+    gene  n_lesions  mean_log2cpm_inflammatory  mean_log2cpm_tissueforming  delta_infl_minus_tiss  pvalue  padj_BH
+TNFRSF1A          5                     7.4435                      7.4809                -0.0374  0.6250   0.7812
+TNFRSF1B          5                     2.8954                      2.9445                -0.0491  1.0000   1.0000
+   IL1R1          5                     7.4699                      5.8660                 1.6039  0.0625   0.1562
+  IL1RAP          5                     3.3117                      2.2893                 1.0225  0.0625   0.1562
+    IL6R          5                     2.4660                      1.9366                 0.5294  0.4375   0.6250
+   IL6ST          5                     6.8394                      7.0346                -0.1952  0.4375   0.6250
+    OSMR          5                     5.6605                      4.8215                 0.8390  0.0625   0.1562
+    LIFR          5                     3.7154                      2.6385                 1.0769  0.0625   0.1562
+    CCR2          5                     0.5371                      0.4727                 0.0645  0.8125   0.9028
+   CXCR4          5                     5.2115                      5.9670                -0.7556  0.1250   0.2500
+
+=== validation_n3 ===
+    gene  n_lesions  mean_log2cpm_inflammatory  mean_log2cpm_tissueforming  delta_infl_minus_tiss  pvalue  padj_BH
+TNFRSF1A          2                     7.4161                      7.2898                 0.1263     NaN      NaN
+TNFRSF1B          2                     4.4892                      4.6305                -0.1413     NaN      NaN
+   IL1R1          2                     7.8643                      9.3459                -1.4816     NaN      NaN
+  IL1RAP          2                     1.6714                      4.4916                -2.8201     NaN      NaN
+    IL6R          2                     4.4881                      4.0394                 0.4488     NaN      NaN
+   IL6ST          2                     8.0876                      8.4105                -0.3229     NaN      NaN
+    OSMR          2                     6.4623                      7.5028                -1.0405     NaN      NaN
+    LIFR          2                     5.2567                      5.6893                -0.4326     NaN      NaN
+    CCR2          2                     1.1870                      0.0000                 1.1870     NaN      NaN
+   CXCR4          2                     3.7412                      2.8728                 0.8683     NaN      NaN
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+
+10 DONE

@@ -1,0 +1,121 @@
+[guard] heartbeat は古いが出力を 45s 監視: +90.9 MB
+[guard] 再定量 = growing — 17 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 22:05:56.580995 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 22:05:56.581086 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 22:05:56.581110 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+discovery_n5: 両状態10細胞以上の病変 5 / 5 -> ['disc_A', 'disc_B', 'disc_C', 'disc_D', 'disc_E']
+validation_n3: 両状態10細胞以上の病変 2 / 3 -> ['vali_CAP1', 'vali_CAP2']
+
+モデル対象: 3529 細胞 / 病変 7 ({'discovery_n5': 5, 'validation_n3': 2})
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:1634: UserWarning: Random effects covariance is singular
+  warnings.warn(msg)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2054: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2237: ConvergenceWarning: The MLE may be on the boundary of the parameter space.
+  warnings.warn(msg, ConvergenceWarning)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2245: UserWarning: The random effects covariance matrix is singular.
+  warnings.warn(_warn_cov_sing)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/statsmodels/regression/mixed_linear_model.py:2261: ConvergenceWarning: The Hessian matrix at the estimated parameter values is not positive definite.
+  warnings.warn(msg, ConvergenceWarning)
+
+=== 線形混合モデル ===
+    gene  n_cells  n_lesions  coef_inflammatory_minus_tissueforming  ci_low  ci_high        pvalue       padj_BH
+TNFRSF1A     3529          7                                 0.0584  0.0121   0.1048  1.346727e-02  2.244544e-02
+TNFRSF1B     3529          7                                 0.0300  0.0143   0.0456  1.706064e-04  3.412129e-04
+   IL1R1     3529          7                                 0.5356  0.4922   0.5790 4.339254e-129 4.339254e-128
+  IL1RAP     3529          7                                 0.0324  0.0197   0.0452  6.282491e-07  1.570623e-06
+    IL6R     3529          7                                 0.0139  0.0015   0.0263  2.835161e-02  4.050230e-02
+   IL6ST     3529          7                                 0.0173 -0.0285   0.0631  4.587090e-01  5.096766e-01
+    OSMR     3529          7                                 0.1666  0.1354   0.1978  1.281692e-25  6.408460e-25
+    LIFR     3529          7                                 0.0800  0.0594   0.1006  2.491854e-14  8.306180e-14
+    CCR2     3529          7                                -0.0005 -0.0043   0.0033  7.963015e-01  7.963015e-01
+   CXCR4     3529          7                                -0.0149 -0.0457   0.0160  3.448513e-01  4.310641e-01
+[guard] heartbeat は古いが出力を 45s 監視: +90.8 MB
+[guard] 再定量 = growing — 17 完了時 を続行（4スレッド制限）
+
+17 DONE

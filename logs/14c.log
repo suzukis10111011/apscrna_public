@@ -1,0 +1,29 @@
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 17:03:18.406105 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 17:03:18.406200 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 17:03:18.406229 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/path/to/Documents/apscrna_v2/scripts/14c_robustness_integration.py:28: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(B, resolution=0.5, key_added="leiden_unc", random_state=SEED)
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+uncorrected の区画比率 (%):
+compartment  endothelial  epithelial  immune  pericyte_smc  schwann_neural  stromal
+lesion                                                                             
+A                  15.98        1.09   44.58         10.34           27.93     0.07
+B                   8.66        2.46   78.61          3.52            1.77     4.98
+C                   3.08        0.30   77.68          4.39           14.53     0.01
+D                  19.25        4.85   43.49         17.68            0.79    13.93
+E                   2.11       12.77   72.84          4.19            8.06     0.02
+
+間質集合: harmony 6215 / uncorrected 1868 | 共通 1865 | Jaccard 0.2999
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+TF スクリーン（n=740）: pooled ρ の Spearman 一致 = 0.9299 | 上位20の共通 15/20
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+
+14c DONE

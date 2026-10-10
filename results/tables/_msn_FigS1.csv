@@ -1,0 +1,3 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+FigS1,A,cells per QC stage,28_qc_all_stages.csv,44433,5,lesions,discovery_n5
+FigS1,B,cells per QC stage,28_qc_all_stages.csv,26090,3,lesions,validation_n3

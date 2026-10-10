@@ -1,0 +1,4 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+FigS7,A,state proportions by labelling route,25_validation_states_within_vs_ingest.csv,1779,3,lesions,validation_n3
+FigS7,B,cell-level confusion between routes,25_state_crosstab_within_vs_ingest.csv,1779,16,label pairs,validation_n3
+FigS7,C,validation cells projected onto the discovery embedding,33_umap_discovery.csv; 33_ingest_umap_validation.csv,7994,2,cohorts,both

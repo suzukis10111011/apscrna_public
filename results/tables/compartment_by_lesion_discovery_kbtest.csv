@@ -1,0 +1,3 @@
+lesion,n_endothelial,n_epithelial,n_erythrocyte,n_immune,n_pericyte_smc,n_schwann_neural,n_stromal,pct_endothelial,pct_epithelial,pct_erythrocyte,pct_immune,pct_pericyte_smc,pct_schwann_neural,pct_stromal,n_total
+A,1841,124,2414,3649,1675,250,3152,14.05,0.95,18.42,27.84,12.78,1.91,24.05,13105
+B,943,270,3218,5061,395,367,747,8.57,2.45,29.25,46.0,3.59,3.34,6.79,11001

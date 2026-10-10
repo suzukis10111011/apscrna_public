@@ -1,0 +1,8 @@
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+curl: (33) HTTP server does not seem to support byte ranges. Cannot resume.
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+/path/to/Documents/apscrna_v2/scripts/02_quant.sh: line 133: AP1: command not found
+/path/to/Documents/apscrna_v2/scripts/02_quant.sh: line 137: continue: only meaningful in a `for', `while', or `until' loop
+/path/to/Documents/apscrna_v2/scripts/02_quant.sh: line 145: syntax error near unexpected token `done'
+/path/to/Documents/apscrna_v2/scripts/02_quant.sh: line 145: `done'

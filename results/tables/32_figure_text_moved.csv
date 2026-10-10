@@ -1,0 +1,185 @@
+figure,panel,element_type,original_text,action,borderline,restored_2026_09_29,script,line
+Fig1,,annotation,Discovery,KEEP,FALSE,FALSE,ms_fig1.py,95
+Fig1,,annotation,Validation,KEEP,FALSE,FALSE,ms_fig1.py,96
+Fig1,,axis_label,UMAP 1,KEEP,FALSE,FALSE,ms_fig1.py,51
+Fig1,,axis_label,UMAP 2,KEEP,FALSE,FALSE,ms_fig1.py,51
+Fig1,,axis_label,Fraction of cells (%),KEEP,FALSE,FALSE,ms_fig1.py,99
+Fig1,,colorbar_label,mean log-normalised,KEEP,FALSE,FALSE,ms_fig1.py,75
+Fig1,"b,c",legend_key,"{comp(c)} ({len(g):,})",KEEP,TRUE,TRUE,ms_fig1.py,48
+Fig1,,panel_letter,E,KEEP,FALSE,FALSE,ms_fig1.py,102
+Fig1,,panel_letter,A,KEEP,FALSE,FALSE,ms_fig1.py,42
+Fig1,,panel_letter,BC,KEEP,FALSE,FALSE,ms_fig1.py,56
+Fig1,,panel_letter,D,KEEP,FALSE,FALSE,ms_fig1.py,78
+Fig1,"b,c",panel_title,"Discovery, 5 lesions / Validation, 3 lesions",KEEP,TRUE,TRUE,ms_fig1.py,44
+Fig1,"b,c",panel_title,"{lab}  n={len(U):,}",KEEP,TRUE,TRUE,ms_fig1.py,52
+Fig1,,panel_title,Compartment markers,KEEP,FALSE,FALSE,ms_fig1.py,77
+Fig1,a,annotation,one-way: definitions fixed in discovery and never revised from validation,MOVE,FALSE,FALSE,ms_fig1.py,37
+Fig1,d,panel_title,Compartment markers (discovery)\ndot size = % cells detected,MOVE,FALSE,FALSE,ms_fig1.py,76
+Fig2,,axis_label,lf_D_tissueforming,KEEP,FALSE,FALSE,ms_fig2.py,33
+Fig2,,axis_label,stromal,KEEP,FALSE,FALSE,ms_fig2.py,56
+Fig2,,axis_label,enrichment (fold),KEEP,FALSE,FALSE,ms_fig2.py,60
+Fig2,,axis_label,UMAP 1,KEEP,FALSE,FALSE,ms_fig2.py,77
+Fig2,,axis_label,UMAP 2,KEEP,FALSE,FALSE,ms_fig2.py,77
+Fig2,a,legend_key,Discovery (5 lesions),KEEP,TRUE,TRUE,ms_fig2.py,36
+Fig2,,legend_key,Validation (3 lesions),KEEP,TRUE,TRUE,ms_fig2.py,36
+Fig2,,legend_key,all cells,KEEP,FALSE,FALSE,ms_fig2.py,53
+Fig2,,legend_key,top decile of\ntissue-forming score,KEEP,FALSE,FALSE,ms_fig2.py,54
+Fig2,,legend_key,enrichment fold,KEEP,FALSE,FALSE,ms_fig2.py,59
+Fig2,c,legend_key,"Discovery stromal ({len(sd):,})",KEEP,TRUE,TRUE,ms_fig2.py,70
+Fig2,,legend_key,"Validation, {s} ({len(g):,})",KEEP,TRUE,TRUE,ms_fig2.py,74
+Fig2,,panel_letter,A,KEEP,FALSE,FALSE,ms_fig2.py,40
+Fig2,,panel_letter,B,KEEP,FALSE,FALSE,ms_fig2.py,65
+Fig2,,panel_letter,C,KEEP,FALSE,FALSE,ms_fig2.py,81
+Fig2,,panel_title,Program score by compartment,KEEP,FALSE,FALSE,ms_fig2.py,39
+Fig2,,tick_labels,POOLED_discovery,KEEP,FALSE,FALSE,ms_fig2.py,55
+Fig2,b,panel_title,Stromal share of the top decile\n(permutation p = 1.0 $\\times$ 10$^{-4}$ (floor) in every lesion),MOVE,TRUE,FALSE,ms_fig2.py,64
+Fig2,c,panel_title,Validation stromal cells projected onto\nthe discovery embedding,MOVE,TRUE,FALSE,ms_fig2.py,79
+Fig3,,annotation,Discovery,KEEP,FALSE,FALSE,ms_fig3.py,63
+Fig3,,annotation,Validation,KEEP,FALSE,FALSE,ms_fig3.py,64
+Fig3,e,annotation,{r.pooled}/{r.n},KEEP,TRUE,TRUE,ms_fig3.py,89
+Fig3,e,annotation,{r.all3}/{r.n},KEEP,TRUE,TRUE,ms_fig3.py,90
+Fig3,,axis_label,Leave-one-lesion-out runs retaining the factor,KEEP,FALSE,FALSE,ms_fig3.py,108
+Fig3,,axis_label,Discovery pooled $\\rho$,KEEP,FALSE,FALSE,ms_fig3.py,42
+Fig3,,axis_label,Validation pooled $\\rho$,KEEP,FALSE,FALSE,ms_fig3.py,43
+Fig3,,axis_label,Candidates reproducing in validation (%),KEEP,FALSE,FALSE,ms_fig3.py,92
+Fig3,,colorbar_label,depth-controlled $\\rho$,KEEP,FALSE,FALSE,ms_fig3.py,66
+Fig3,,legend_key,pooled $\\rho$ same sign,KEEP,FALSE,FALSE,ms_fig3.py,86
+Fig3,,legend_key,same sign in all 3 lesions,KEEP,FALSE,FALSE,ms_fig3.py,87
+Fig3,,panel_letter,F,KEEP,FALSE,FALSE,ms_fig3.py,111
+Fig3,,panel_letter,AB,KEEP,FALSE,FALSE,ms_fig3.py,46
+Fig3,,panel_letter,E,KEEP,FALSE,FALSE,ms_fig3.py,95
+Fig3,,panel_title,"Top-20 candidates, {prog(axis)}",KEEP,FALSE,FALSE,ms_fig3.py,67
+Fig3,,tick_labels,rho_,KEEP,FALSE,FALSE,ms_fig3.py,60
+Fig3,,tick_labels, program,KEEP,FALSE,FALSE,ms_fig3.py,91
+Fig3,f,panel_title,{n_all}/{len(cnt.dropna())} factors retained in all {nr} runs,MOVE,FALSE,FALSE,ms_fig3.py,111
+Fig3,"a,b",panel_title,{prog(axis)}\n{len(d)} factors; candidates same sign {same}/{len(cd)},MOVE,FALSE,FALSE,ms_fig3.py,45
+Fig4,e,annotation,p = 0.05,KEEP,TRUE,TRUE,ms_fig4.py,123
+Fig4,b,annotation,{r.frac_retained:.3f},KEEP,TRUE,TRUE,ms_fig4.py,56
+Fig4,b,annotation,ns,KEEP,TRUE,TRUE,ms_fig4.py,59
+Fig4,,annotation,Discovery,KEEP,FALSE,FALSE,ms_fig4.py,82
+Fig4,,annotation,Validation,KEEP,FALSE,FALSE,ms_fig4.py,83
+Fig4,,axis_label,lf_A_cytokine_chemokine,KEEP,FALSE,FALSE,ms_fig4.py,108
+Fig4,,axis_label,lf_D_tissueforming,KEEP,FALSE,FALSE,ms_fig4.py,109
+Fig4,,axis_label,"Hartigan dip test, p",KEEP,FALSE,FALSE,ms_fig4.py,126
+Fig4,,axis_label,Depth-controlled Spearman $\\rho$\n(inflammatory vs tissue-forming),KEEP,FALSE,FALSE,ms_fig4.py,39
+Fig4,,axis_label,Retained dispersion (SD ratio),KEEP,FALSE,FALSE,ms_fig4.py,62
+Fig4,,axis_label,variance ratio,KEEP,FALSE,FALSE,ms_fig4.py,65
+Fig4,,axis_label,Stromal cells (%),KEEP,FALSE,FALSE,ms_fig4.py,87
+Fig4,,legend_key,{lab} lesions,KEEP,FALSE,FALSE,ms_fig4.py,30
+Fig4,,legend_key,{lab} pooled,KEEP,FALSE,FALSE,ms_fig4.py,35
+Fig4,,legend_key,permutation null (95%),KEEP,FALSE,FALSE,ms_fig4.py,50
+Fig4,,legend_key,null mean,KEEP,FALSE,FALSE,ms_fig4.py,52
+Fig4,,panel_letter,D,KEEP,FALSE,FALSE,ms_fig4.py,110
+Fig4,,panel_letter,E,KEEP,FALSE,FALSE,ms_fig4.py,130
+Fig4,,panel_letter,A,KEEP,FALSE,FALSE,ms_fig4.py,43
+Fig4,,panel_letter,B,KEEP,FALSE,FALSE,ms_fig4.py,70
+Fig4,,panel_letter,C,KEEP,FALSE,FALSE,ms_fig4.py,90
+Fig4,d,panel_title,"{l}  n={len(g):,}",KEEP,TRUE,TRUE,ms_fig4.py,105
+Fig4,,panel_title,Cell states,KEEP,FALSE,FALSE,ms_fig4.py,89
+Fig4,a,tick_labels,Discovery (n=5),KEEP,TRUE,TRUE,ms_fig4.py,38
+Fig4,c,tick_labels,"{r.lesion}\n({int(r.n_cells):,})",KEEP,TRUE,TRUE,ms_fig4.py,85
+Fig4,e,panel_title,Both score distributions are unimodal in every lesion ,MOVE,FALSE,FALSE,ms_fig4.py,128
+Fig4,b,panel_title,Dispersion left after matching on the\nupstream regulator's activity,MOVE,FALSE,FALSE,ms_fig4.py,69
+Fig4,c,panel_title,"Cell states, defined within each cohort",MOVE,FALSE,FALSE,ms_fig4.py,89
+Fig5,,axis_label,$\\Delta$ log2CPM (inflammatory $-$ tissue-forming),KEEP,FALSE,FALSE,ms_fig5.py,18
+Fig5,,axis_label,Per-lesion Spearman $\\rho$\n(inflammatory vs tissue-forming TF means),KEEP,FALSE,FALSE,ms_fig5.py,49
+Fig5,,colorbar_label,mean log2CPM,KEEP,FALSE,FALSE,ms_fig5.py,32
+Fig5,,colorbar_label,Spearman ρ,KEEP,FALSE,FALSE,ms_fig5.py,63
+Fig5,,legend_key,{ilab} / {lab},KEEP,FALSE,FALSE,ms_fig5.py,44
+Fig5,,panel_title,"Discovery, pseudobulk (5 lesions)",KEEP,TRUE,TRUE,ms_fig5.py,19
+Fig5,,panel_title,TF activity correlation (discovery),KEEP,FALSE,FALSE,ms_fig5.py,64
+Fig5,,tick_labels,inflammatory,KEEP,FALSE,FALSE,ms_fig5.py,29
+Fig5,c,tick_labels,Discovery (n=5),KEEP,TRUE,TRUE,ms_fig5.py,48
+Fig5,b,axis_label,dot size = % cells expressing,MOVE,FALSE,FALSE,ms_fig5.py,33
+Fig5,,legend_key,NF-\u03baB block | osteo-mesenchymal block\nNFKB1 and RELA share 83% of the smaller regulon,MOVE,FALSE,FALSE,ms_fig5.py,66
+Fig6,,axis_label,Depth-controlled Spearman $\\rho$ (inflammatory vs tissue-forming axis),KEEP,FALSE,FALSE,ms_fig6.py,20
+Fig6,,axis_label,Depth-controlled $\\rho$\n(myeloid M1 vs M2/repair),KEEP,FALSE,FALSE,ms_fig6.py,30
+Fig6,,panel_letter,A,KEEP,FALSE,FALSE,ms_fig6.py,32
+Fig6,,panel_letter,B,KEEP,FALSE,FALSE,ms_fig6.py,32
+Fig6,,panel_title,immune_myeloid,KEEP,FALSE,FALSE,ms_fig6.py,31
+Fig6,a,panel_title,"dots = lesions, bar = pooled",MOVE,FALSE,FALSE,ms_fig6.py,21
+Fig7,a,annotation,pooled ,KEEP,TRUE,TRUE,ms_fig7.py,40
+Fig7,b,annotation,{r.rep}/{r.n},KEEP,TRUE,TRUE,ms_fig7.py,64
+Fig7,b,annotation,{r.cons}/{r.n},KEEP,TRUE,TRUE,ms_fig7.py,65
+Fig7,,axis_label,Depth-controlled Spearman $\\rho$\n(inflammatory vs tissue-forming),KEEP,FALSE,FALSE,ms_fig7.py,48
+Fig7,,axis_label,Discovery candidates reproducing (%),KEEP,FALSE,FALSE,ms_fig7.py,67
+Fig7,,legend_key,same sign as discovery,KEEP,FALSE,FALSE,ms_fig7.py,59
+Fig7,,legend_key,consistent across all donors,KEEP,FALSE,FALSE,ms_fig7.py,61
+Fig7,,panel_letter,A,KEEP,FALSE,FALSE,ms_fig7.py,50
+Fig7,,panel_letter,B,KEEP,FALSE,FALSE,ms_fig7.py,70
+Fig7,,panel_title,GSE164241 gingiva,KEEP,FALSE,FALSE,ms_fig7.py,49
+Fig7,,panel_title,"Candidate factors, two programs",KEEP,FALSE,FALSE,ms_fig7.py,69
+Fig7,a,tick_labels,"{GRPN.get(g, g)}\n({n} donor{'s' if n > 1 else ''})",KEEP,TRUE,TRUE,ms_fig7.py,46
+Fig7,,tick_labels, program,KEEP,FALSE,FALSE,ms_fig7.py,66
+Fig7,a,panel_title,"GSE164241 gingiva, {int(per.n_cells.sum()):,} stromal cells\n",MOVE,FALSE,FALSE,ms_fig7.py,49
+FigS1,,axis_label,cells,KEEP,FALSE,FALSE,ms_figS1.py,21
+FigS1,,panel_letter,AB,KEEP,FALSE,FALSE,ms_figS1.py,23
+FigS1,"a,b",panel_title,Discovery (5 lesions) / Validation (3 lesions),KEEP,TRUE,TRUE,ms_figS1.py,14
+FigS2,a,annotation,"{v:,}",KEEP,TRUE,TRUE,ms_figS2.py,14
+FigS2,,axis_label,stromal,KEEP,FALSE,FALSE,ms_figS2.py,17
+FigS2,,axis_label,"pooled Spearman $\\rho$, Harmony",KEEP,FALSE,FALSE,ms_figS2.py,28
+FigS2,,axis_label,"pooled Spearman $\\rho$, uncorrected PCA",KEEP,FALSE,FALSE,ms_figS2.py,29
+FigS2,,panel_letter,A,KEEP,FALSE,FALSE,ms_figS2.py,19
+FigS2,,panel_letter,B,KEEP,FALSE,FALSE,ms_figS2.py,32
+FigS2,,tick_labels,Harmony,KEEP,FALSE,FALSE,ms_figS2.py,16
+FigS2,,annotation,{int(I.n_tf)} factors here vs {n_screen} in the main screen: activities for this panel\n,MOVE,FALSE,FALSE,ms_figS2.py,32
+FigS2,a,panel_title,Jaccard {I.stromal_jaccard:.3f},MOVE,FALSE,FALSE,ms_figS2.py,18
+FigS2,,panel_title,Agreement over {int(I.n_tf)} factors: Spearman {I.tf_rank_spearman:.3f};\n,MOVE,FALSE,FALSE,ms_figS2.py,30
+FigS3,,axis_label,Depth-controlled Spearman $\\rho$ (pooled discovery),KEEP,FALSE,FALSE,ms_figS3.py,26
+FigS3,,axis_label,retained dispersion\n(SD ratio),KEEP,FALSE,FALSE,ms_figS3.py,34
+FigS3,,panel_letter,A,KEEP,FALSE,FALSE,ms_figS3.py,36
+FigS3,,panel_letter,B,KEEP,FALSE,FALSE,ms_figS3.py,36
+FigS3,a,tick_labels,(this study) (the row that gset() assigns to the set name),KEEP,TRUE,TRUE,ms_figS3.py,13
+FigS3,,panel_title,Negative in {neg}/{len(P)} gene-set \u00d7 scoring combinations,MOVE,FALSE,FALSE,ms_figS3.py,19
+FigS3,,panel_title,{P.defA_frac_retained.min():.3f}\u2013{P.defA_frac_retained.max():.3f},MOVE,FALSE,FALSE,ms_figS3.py,26
+FigS4,,annotation,{int(r.overlap)}/{int(r.n_candidates_geo)} cand.,KEEP,TRUE,TRUE,ms_figS4.py,46
+FigS4,,axis_label,enrichment fold\n(tissue-forming top decile),KEEP,FALSE,FALSE,ms_figS4.py,20
+FigS4,,axis_label,Jaccard of stromal barcodes,KEEP,FALSE,FALSE,ms_figS4.py,33
+FigS4,,axis_label,Candidates with the same sign of pooled $\\rho$ (%),KEEP,FALSE,FALSE,ms_figS4.py,44
+FigS4,,legend_key,author matrix,KEEP,FALSE,FALSE,ms_figS4.py,15
+FigS4,,legend_key,kb_allbarcodes,KEEP,FALSE,FALSE,ms_figS4.py,17
+FigS4,,legend_key,"vs re-quantified, all barcodes",KEEP,FALSE,FALSE,ms_figS4.py,34
+FigS4,,legend_key,"vs re-quantified, matrix barcodes",KEEP,FALSE,FALSE,ms_figS4.py,34
+FigS4,,panel_letter,A,KEEP,FALSE,FALSE,ms_figS4.py,48
+FigS4,,panel_letter,B,KEEP,FALSE,FALSE,ms_figS4.py,48
+FigS4,,panel_letter,C,KEEP,FALSE,FALSE,ms_figS4.py,48
+FigS4,,panel_title,Enrichment,KEEP,FALSE,FALSE,ms_figS4.py,22
+FigS4,,panel_title,Stromal-set agreement,KEEP,FALSE,FALSE,ms_figS4.py,38
+FigS4,,panel_title,TF screen agreement,KEEP,FALSE,FALSE,ms_figS4.py,47
+FigS4,,tick_labels,POOLED_discovery,KEEP,FALSE,FALSE,ms_figS4.py,19
+FigS4,,tick_labels,POOLED,KEEP,FALSE,FALSE,ms_figS4.py,32
+FigS4,,tick_labels,"{prog(r.axis)}\n{r.source.replace('kb_allbarcodes','all barcodes').replace('kb_geobarcodes','matrix barcodes')}",KEEP,FALSE,FALSE,ms_figS4.py,43
+FigS5,,axis_label,raw Spearman $\\rho$,KEEP,FALSE,FALSE,ms_figS5.py,30
+FigS5,,axis_label,depth-controlled Spearman $\\rho$,KEEP,FALSE,FALSE,ms_figS5.py,31
+FigS5,,legend_key,{coh} (per lesion),KEEP,FALSE,FALSE,ms_figS5.py,19
+FigS5,,legend_key,{coh} (pooled),KEEP,FALSE,FALSE,ms_figS5.py,22
+FigS5,,panel_letter,AB,KEEP,FALSE,FALSE,ms_figS5.py,34
+FigS5,,panel_title,{defn} definition,KEEP,FALSE,FALSE,ms_figS5.py,32
+FigS6,,annotation,\u2014,KEEP,FALSE,FALSE,ms_figS6.py,18
+FigS6,,axis_label,lesion left out,KEEP,FALSE,FALSE,ms_figS6.py,22
+FigS6,,axis_label,runs in which the factor remains a candidate,KEEP,FALSE,FALSE,ms_figS6.py,35
+FigS6,,colorbar_label,rank within program,KEEP,FALSE,FALSE,ms_figS6.py,25
+FigS6,,panel_letter,A,KEEP,FALSE,FALSE,ms_figS6.py,37
+FigS6,,panel_letter,B,KEEP,FALSE,FALSE,ms_figS6.py,37
+FigS6,,tick_labels,\u2212{h},KEEP,FALSE,FALSE,ms_figS6.py,20
+FigS6,a,panel_title,Rank on its own program axis\n(top 5 inflammatory / bottom 5 tissue-forming),MOVE,FALSE,FALSE,ms_figS6.py,26
+FigS6,,panel_title,{n_all}/{len(ORD)} retained in all {len(held)} runs,MOVE,FALSE,FALSE,ms_figS6.py,37
+FigS7,,annotation,within,KEEP,FALSE,FALSE,ms_figS7.py,22
+FigS7,,annotation,projected,KEEP,FALSE,FALSE,ms_figS7.py,23
+FigS7,,annotation,{float(ag.iloc[0]):.1f}% agree,KEEP,TRUE,TRUE,ms_figS7.py,26
+FigS7,,annotation,"{int(M.values[i, j]):,}",KEEP,FALSE,FALSE,ms_figS7.py,38
+FigS7,,axis_label,stromal,KEEP,FALSE,FALSE,ms_figS7.py,29
+FigS7,,axis_label,projected label,KEEP,FALSE,FALSE,ms_figS7.py,42
+FigS7,,axis_label,cohort-internal label,KEEP,FALSE,FALSE,ms_figS7.py,42
+FigS7,,panel_letter,A,KEEP,FALSE,FALSE,ms_figS7.py,32
+FigS7,,panel_letter,B,KEEP,FALSE,FALSE,ms_figS7.py,44
+FigS7,,panel_title,Cell-level confusion,KEEP,FALSE,FALSE,ms_figS7.py,43
+FigS7,a,panel_title,State labels are sensitive to the labelling route,MOVE,FALSE,FALSE,ms_figS7.py,31
+FigS8,b,annotation,{r.rep}/{r.n},KEEP,TRUE,TRUE,ms_figS8.py,25
+FigS8,b,annotation,{r.rep}/{r.n},KEEP,TRUE,TRUE,ms_figS8.py,41
+FigS8,,axis_label,candidates with a consistent sign (%),KEEP,FALSE,FALSE,ms_figS8.py,27
+FigS8,,axis_label,candidates with the discovery sign (%),KEEP,FALSE,FALSE,ms_figS8.py,43
+FigS8,,panel_letter,A,KEEP,FALSE,FALSE,ms_figS8.py,29
+FigS8,,panel_letter,B,KEEP,FALSE,FALSE,ms_figS8.py,45
+FigS8,a,panel_title,Validation cohort (3 lesions),KEEP,TRUE,TRUE,ms_figS8.py,28
+FigS8,,panel_title,Independent cohort GSE164241,KEEP,FALSE,FALSE,ms_figS8.py,44

@@ -1,0 +1,10 @@
+lesion,labelling,n_cells,n_inflammatory,pct_inflammatory,n_intermediate,pct_intermediate,n_tissue-forming,pct_tissue-forming,n_other,pct_other,agreement_pct,gene_space,scheme_adopted,value_source
+CAP1,within_cohort,860,141.0,16.4,0.0,0.0,341.0,39.65,378.0,43.95,,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+CAP1,ingest_projected,860,0.0,0.0,121.0,14.07,255.0,29.65,484.0,56.28,55.12,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+CAP2,within_cohort,566,74.0,13.07,274.0,48.41,144.0,25.44,74.0,13.07,,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+CAP2,ingest_projected,566,200.0,35.34,158.0,27.92,92.0,16.25,116.0,20.49,37.99,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+CAP3,within_cohort,353,6.0,1.7,224.0,63.46,105.0,29.75,18.0,5.1,,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+CAP3,ingest_projected,353,255.0,72.24,29.0,8.22,24.0,6.8,45.0,12.75,10.76,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+POOLED,within_cohort,1779,221.0,12.42,498.0,27.99,590.0,33.16,470.0,26.42,,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+POOLED,ingest_projected,1779,455.0,25.58,308.0,17.31,371.0,20.85,645.0,36.26,40.87,"15,820 shared symbols after the symbol correction",yes,recomputed from 25_validation_states_within_vs_ingest.csv
+CAP1,ingest_projected,860,,57.7,,,,,,,,shared gene space before the symbol correction,no,"recorded in the Methods as the figure this fraction moved from; the pre-correction gene space was not retained, so this row is not recomputed from the current files"

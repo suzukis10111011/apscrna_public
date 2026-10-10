@@ -1,0 +1,33 @@
+2026-10-06T06:26:32Z discovery_n5: all cells (44433, 22669), stromal 6215
+2026-10-06T06:33:42Z discovery_n5: all cells (44433, 22669), stromal 6215
+2026-10-06T06:33:46Z discovery_n5: marker-defined 2893 / primary 6215 Jaccard 0.4305
+2026-10-06T06:34:37Z validation_n3: all cells (26090, 23993), stromal 1779
+2026-10-06T06:34:40Z validation_n3: marker-defined 1183 / primary 1779 Jaccard 0.5857
+2026-10-06T06:35:03Z r1 done: S3 20 rows (max |diff| vs published 0.0e+00), S5 20, sign 441, S2 discovery 4380, S2 validation 120
+2026-10-06T06:39:19Z record: 51 published rows -> 64 rows, 17 corrected or added
+2026-10-06T06:39:20Z S11/S12 written: [('S11a_random_null', 8), ('S11b_overlap_removed', 40), ('S11c_dispersion_baselines', 112), ('S11c_null_factors', 20), ('S12a_single_donor', 8), ('S12b_provenance', 266)]
+2026-10-06T06:42:15Z corpus: 22560 distinct rounded values
+2026-10-06T06:42:15Z C2: 896 numbers ({'accept': 0.925, 'reject': 0.913} matched fraction)
+2026-10-06T06:42:15Z C3: 18 rows
+2026-10-06T06:42:15Z C4/C5 written (9 supersede rows, 5 placeholders)
+2026-10-06T06:43:56Z corpus: 22580 distinct rounded values
+2026-10-06T06:43:57Z C2: 876 numbers ({'accept': 0.937, 'reject': 0.926} matched fraction)
+2026-10-06T06:43:57Z C3: 22 rows
+2026-10-06T06:43:57Z C4/C5 written (9 supersede rows, 5 placeholders)
+2026-10-06T06:44:31Z corpus: 22592 distinct rounded values
+2026-10-06T06:44:31Z C2: 876 numbers ({'accept': 0.96, 'reject': 0.953} matched fraction)
+2026-10-06T06:44:31Z C3: 22 rows
+2026-10-06T06:44:31Z C4/C5 written (9 supersede rows, 5 placeholders)
+2026-10-06T09:41:14Z on-list v2_737K: 737280 barcodes
+2026-10-06T09:41:16Z on-list v3_3M: 6794880 barcodes
+2026-10-06T09:42:06Z SRR32119703: 200000 reads, read-1 length {150: 200000}
+2026-10-06T09:42:10Z SRR32119704: fastq-dump rc=3 2026-10-06T09:42:10 fastq-dump.3.4.1 err: file invalid while opening directory within file system module - failed /path/to/Documents/apscrna_v2/data/chem2/SRR32119704.sra
+
+================
+2026-10-06T09:42:32Z on-list v2_737K: 737280 barcodes
+2026-10-06T09:42:34Z on-list v3_3M: 6794880 barcodes
+2026-10-06T09:43:22Z SRR32119703: 200000 reads, read-1 length {150: 200000}
+2026-10-06T09:43:23Z SRR32119704: .sra incomplete (372740096 of 40563234654 bytes), skipped
+2026-10-06T09:44:09Z SRR32119705: 200000 reads, read-1 length {150: 200000}
+2026-10-06T09:44:09Z r5 done
+2026-10-06T09:48:21Z install done: 20 entries (11 replaced, 9 added)

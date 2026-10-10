@@ -1,0 +1,50 @@
+2026-10-06T04:07:50Z discovery: reading stromal_discovery.h5ad
+2026-10-06T04:07:52Z discovery: cells 6215, saved activity (6215, 730)
+2026-10-06T04:07:54Z discovery/lf_A_cytokine_chemokine: network 42990 -> 41143 edges (92 axis genes removed as targets)
+2026-10-06T04:07:59Z discovery/lf_A_cytokine_chemokine: activity 730 -> 725 factors (5 dropped, 0 of them frozen candidates)
+2026-10-06T04:08:03Z discovery/lf_D_tissueforming: network 42990 -> 38158 edges (468 axis genes removed as targets)
+2026-10-06T04:08:07Z discovery/lf_D_tissueforming: activity 730 -> 679 factors (51 dropped, 1 of them frozen candidates)
+2026-10-06T04:08:08Z validation: reading stromal_validation.h5ad
+2026-10-06T04:08:10Z validation: cells 1779, saved activity (1779, 731)
+2026-10-06T04:08:10Z validation/lf_A_cytokine_chemokine: network 42990 -> 41143 edges (92 axis genes removed as targets)
+2026-10-06T04:08:12Z validation/lf_A_cytokine_chemokine: activity 731 -> 723 factors (8 dropped, 0 of them frozen candidates)
+2026-10-06T04:08:13Z validation/lf_D_tissueforming: network 42990 -> 38158 edges (468 axis genes removed as targets)
+2026-10-06T04:08:14Z validation/lf_D_tissueforming: activity 731 -> 686 factors (45 dropped, 1 of them frozen candidates)
+2026-10-06T04:08:14Z Q1a done. max |diff| vs saved = 5.00e-05; dropped rows 109
+2026-10-06T04:09:33Z lf_A_cytokine_chemokine/as_screened/all_non_candidates: candidates 20/20 vs null 7.46 (max 14), p=0.001
+2026-10-06T04:09:34Z lf_A_cytokine_chemokine/as_screened/sign_consistent_non_candidates: candidates 20/20 vs null 10.40 (max 17), p=0.001
+2026-10-06T04:09:35Z lf_A_cytokine_chemokine/overlap_removed/all_non_candidates: candidates 18/20 vs null 7.47 (max 15), p=0.001
+2026-10-06T04:09:36Z lf_A_cytokine_chemokine/overlap_removed/sign_consistent_non_candidates: candidates 18/20 vs null 10.53 (max 16), p=0.001
+2026-10-06T04:09:37Z lf_D_tissueforming/as_screened/all_non_candidates: candidates 19/20 vs null 10.31 (max 17), p=0.001
+2026-10-06T04:09:38Z lf_D_tissueforming/as_screened/sign_consistent_non_candidates: candidates 19/20 vs null 13.19 (max 19), p=0.005
+2026-10-06T04:09:39Z lf_D_tissueforming/overlap_removed/all_non_candidates: candidates 10/19 vs null 10.46 (max 17), p=0.6693
+2026-10-06T04:09:40Z lf_D_tissueforming/overlap_removed/sign_consistent_non_candidates: candidates 10/19 vs null 12.35 (max 19), p=0.9141
+2026-10-06T04:09:40Z Q1b done
+2026-10-06T04:11:01Z discovery: null factors ['BCLAF1', 'NR1I2', 'SOX5', 'PLAGL1', 'ISL1', 'CTNNB1', 'TCF3', 'PURA', 'KAT5', 'IRF3']
+2026-10-06T04:11:02Z validation: null factors ['ESRRA', 'LITAF', 'TBX1', 'STAT5A', 'NR1D2', 'RXRG', 'STAT6', 'MAFB', 'PRDM4', 'SALL1']
+2026-10-06T04:11:02Z Q2 done
+2026-10-06T04:11:58Z discovery_n5: female markers found ['XIST'], male markers found ['RPS4Y1', 'DDX3Y', 'UTY', 'KDM5D'], other Y genes present ['EIF1AY']
+2026-10-06T04:12:07Z validation_n3: female markers found [], male markers found ['RPS4Y1', 'DDX3Y', 'UTY', 'KDM5D'], other Y genes present ['RPS4Y2', 'EIF1AY']
+2026-10-06T04:12:07Z Q3 done
+2026-10-06T04:17:27Z discovery: stromal (6215, 22669)
+2026-10-06T04:17:28Z discovery: all cells (44433, 22669), compartment==stromal 6215
+2026-10-06T04:17:57Z validation: stromal (1779, 23993)
+2026-10-06T04:17:59Z validation: all cells (26090, 23993), compartment==stromal 1779
+2026-10-06T04:18:16Z Q4a done
+2026-10-06T04:22:05Z Q4b done: provenance rows 266, conflict rows 24
+2026-10-06T04:22:34Z Q4b done: provenance rows 266, conflict rows 24
+2026-10-06T04:23:44Z Q5: 9 shared rows, identity checks 27/27 identical, max |diff| 0.00e+00
+2026-10-06T04:24:28Z Q3b done
+2026-10-06T04:27:40Z discovery: reading stromal_discovery.h5ad
+2026-10-06T04:27:40Z discovery: cells 6215, saved activity (6215, 730)
+2026-10-06T04:27:42Z discovery/lf_A_cytokine_chemokine: network 42990 -> 41143 edges (92 axis genes removed as targets)
+2026-10-06T04:27:48Z discovery/lf_A_cytokine_chemokine: activity 730 -> 725 factors (5 dropped, 0 of them frozen candidates)
+2026-10-06T04:27:51Z discovery/lf_D_tissueforming: network 42990 -> 38158 edges (468 axis genes removed as targets)
+2026-10-06T04:27:55Z discovery/lf_D_tissueforming: activity 730 -> 679 factors (51 dropped, 1 of them frozen candidates)
+2026-10-06T04:27:57Z validation: reading stromal_validation.h5ad
+2026-10-06T04:27:57Z validation: cells 1779, saved activity (1779, 731)
+2026-10-06T04:27:57Z validation/lf_A_cytokine_chemokine: network 42990 -> 41143 edges (92 axis genes removed as targets)
+2026-10-06T04:27:59Z validation/lf_A_cytokine_chemokine: activity 731 -> 723 factors (8 dropped, 0 of them frozen candidates)
+2026-10-06T04:28:00Z validation/lf_D_tissueforming: network 42990 -> 38158 edges (468 axis genes removed as targets)
+2026-10-06T04:28:01Z validation/lf_D_tissueforming: activity 731 -> 686 factors (45 dropped, 1 of them frozen candidates)
+2026-10-06T04:28:01Z Q1a done. max |diff| vs saved = 5.00e-05; dropped rows 109

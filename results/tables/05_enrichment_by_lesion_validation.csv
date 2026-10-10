@@ -1,0 +1,7 @@
+lesion,cohort,score,n_cells,n_top_decile,stromal_pct_overall,stromal_pct_top_decile,enrichment_fold
+CAP1,validation_n3,axis_D_tissueforming,9656,966,8.91,78.26,8.787
+CAP1,validation_n3,composite_tissueforming,9656,966,8.91,79.19,8.892
+CAP2,validation_n3,axis_D_tissueforming,9779,978,5.79,57.67,9.964
+CAP2,validation_n3,composite_tissueforming,9779,978,5.79,57.77,9.981
+CAP3,validation_n3,axis_D_tissueforming,6655,666,5.3,52.1,9.823
+CAP3,validation_n3,composite_tissueforming,6655,666,5.3,52.25,9.851

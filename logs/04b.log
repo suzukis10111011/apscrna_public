@@ -1,0 +1,28 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260918 21:44:19.241768 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260918 21:44:19.241916 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260918 21:44:19.241961 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+stromal_discovery: (6215, 22669)
+探索全体の中央値: 炎症 0.0870 / 組織形成 0.3021
+
+クラスタ -> 状態:
+            n_cells  median_inflammatory  median_tissueforming           state
+leiden_0.5                                                                    
+0               467               0.0476                0.2835           other
+1              1187               0.0262                0.3136  tissue-forming
+2              1001               0.0813                0.3013           other
+3              1213               0.0887                0.3281    intermediate
+4                63               0.0746                0.3052  tissue-forming
+5              1579               0.1838                0.2972    inflammatory
+6               705               0.0597                0.2125           other
+
+状態×病変 (%):
+state   inflammatory  intermediate  other  tissue-forming
+lesion                                                   
+A              17.76         15.90  44.25           22.08
+B              33.56         18.00  36.13           12.31
+C              16.70         23.28  35.56           24.46
+D              39.07         23.70  21.86           15.37
+E              27.00         19.15  28.93           24.93
+
+04b DONE

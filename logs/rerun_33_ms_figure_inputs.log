@@ -1,0 +1,22 @@
+[guard] 再定量 = complete — 33 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 13:08:13.710853 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:08:13.710939 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:08:13.710962 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+(1) 検証で活性が取れた因子 717/730 | pooled 同符号 A 572/717 / D 546/717
+(2) 定義A 置換帰無:
+       cohort lesion  frac_retained  null_mean  null_lo  null_hi  p_permutation
+ discovery_n5      A       0.986848   1.000117 0.996920 1.002238       0.004975
+ discovery_n5      B       0.963702   1.000055 0.991278 1.006819       0.004975
+ discovery_n5      C       0.921406   1.000210 0.993286 1.004722       0.004975
+ discovery_n5      D       0.991195   1.000515 0.996302 1.004089       0.004975
+ discovery_n5      E       0.964046   0.999839 0.989538 1.007100       0.004975
+validation_n3   CAP1       0.975883   0.999670 0.990385 1.005864       0.004975
+validation_n3   CAP2       0.988027   0.999804 0.988640 1.008192       0.024876
+validation_n3   CAP3       1.004216   1.000075 0.989946 1.009398       0.761194
+(3) dip: p の範囲 0.542–1.000、p<0.05 は 0/20
+(4) 投影座標 1779 細胞（共有遺伝子 15820）
+    UMAP discovery: 44433 細胞
+    UMAP validation: 26090 細胞
+
+33 DONE

@@ -1,0 +1,73 @@
+cohort,lesion,set_name,factors_in_set,n_factors,n_cells,summary,spearman_rho_MYC_vs_set_mean,spearman_p
+discovery_n5,POOLED,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,6215,mean of per-factor rho,0.4366,
+discovery_n5,POOLED,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,6215,median of per-factor rho,0.4546,
+discovery_n5,POOLED,inflammatory_NFkB_family,RELB,1,6215,single factor vs MYC,0.3472,1.433993834102728e-175
+discovery_n5,POOLED,inflammatory_NFkB_family,NFKB2,1,6215,single factor vs MYC,0.4217,1.6591431409653147e-266
+discovery_n5,POOLED,inflammatory_NFkB_family,RELA,1,6215,single factor vs MYC,0.4885,0.0
+discovery_n5,POOLED,inflammatory_NFkB_family,NFKB1,1,6215,single factor vs MYC,0.4708,0.0
+discovery_n5,POOLED,inflammatory_NFkB_family,REL,1,6215,single factor vs MYC,0.4546,0.0
+discovery_n5,POOLED,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,6215,rho with the set mean activity,0.4981,0.0
+discovery_n5,A,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,2314,rho with the set mean activity,0.3997,1.630673171175658e-89
+discovery_n5,B,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,739,rho with the set mean activity,0.5716,2.484650043378585e-65
+discovery_n5,C,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,1018,rho with the set mean activity,0.5803,1.145500620965039e-92
+discovery_n5,D,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,1418,rho with the set mean activity,0.4882,8.370270833913458e-86
+discovery_n5,E,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,726,rho with the set mean activity,0.539,5.941043804535253e-56
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,6215,mean of per-factor rho,-0.0426,
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,6215,median of per-factor rho,-0.0599,
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,SP7,1,6215,single factor vs MYC,-0.1712,4.450940747283471e-42
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,RUNX2,1,6215,single factor vs MYC,-0.0161,0.20425845248503932
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,DLX5,1,6215,single factor vs MYC,-0.0599,2.331634511136103e-06
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,MYRF,1,6215,single factor vs MYC,-0.175,6.598908337664504e-44
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,SMAD3,1,6215,single factor vs MYC,0.2091,2.3060561233869456e-62
+discovery_n5,POOLED,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,6215,rho with the set mean activity,-0.0128,0.31246504647700996
+discovery_n5,A,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,2314,rho with the set mean activity,-0.2326,8.383199474101559e-30
+discovery_n5,B,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,739,rho with the set mean activity,0.1715,2.7309891415572622e-06
+discovery_n5,C,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,1018,rho with the set mean activity,0.1091,0.00048799959634990314
+discovery_n5,D,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,1418,rho with the set mean activity,-0.0073,0.7828802449621692
+discovery_n5,E,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,726,rho with the set mean activity,-0.149,5.5525947084377145e-05
+discovery_n5,POOLED,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,6215,mean of per-factor rho,0.4304,
+discovery_n5,POOLED,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,6215,median of per-factor rho,0.4244,
+discovery_n5,POOLED,inflammatory_OLD_set,NFKB2,1,6215,single factor vs MYC,0.4217,1.6591431409653147e-266
+discovery_n5,POOLED,inflammatory_OLD_set,RELB,1,6215,single factor vs MYC,0.3472,1.433993834102728e-175
+discovery_n5,POOLED,inflammatory_OLD_set,REL,1,6215,single factor vs MYC,0.4546,0.0
+discovery_n5,POOLED,inflammatory_OLD_set,ATF1,1,6215,single factor vs MYC,0.5041,0.0
+discovery_n5,POOLED,inflammatory_OLD_set,MTA1,1,6215,single factor vs MYC,0.4244,2.602314643778622e-270
+discovery_n5,POOLED,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,6215,rho with the set mean activity,0.5361,0.0
+discovery_n5,A,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,2314,rho with the set mean activity,0.4494,1.9167629880556966e-115
+discovery_n5,B,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,739,rho with the set mean activity,0.5923,3.4441407258997847e-71
+discovery_n5,C,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,1018,rho with the set mean activity,0.6317,1.8517430331948184e-114
+discovery_n5,D,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,1418,rho with the set mean activity,0.5312,4.546662263525017e-104
+discovery_n5,E,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,726,rho with the set mean activity,0.5651,1.7390788894839138e-62
+validation_n3,POOLED,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,1779,mean of per-factor rho,0.4769,
+validation_n3,POOLED,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,1779,median of per-factor rho,0.5018,
+validation_n3,POOLED,inflammatory_NFkB_family,RELB,1,1779,single factor vs MYC,0.4122,6.273859129294469e-74
+validation_n3,POOLED,inflammatory_NFkB_family,NFKB2,1,1779,single factor vs MYC,0.4366,1.0715587633194638e-83
+validation_n3,POOLED,inflammatory_NFkB_family,RELA,1,1779,single factor vs MYC,0.5221,5.442118632090987e-125
+validation_n3,POOLED,inflammatory_NFkB_family,NFKB1,1,1779,single factor vs MYC,0.5018,4.295523139881418e-114
+validation_n3,POOLED,inflammatory_NFkB_family,REL,1,1779,single factor vs MYC,0.5119,2.170581361441365e-119
+validation_n3,POOLED,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,1779,rho with the set mean activity,0.5359,8.002857548235491e-133
+validation_n3,CAP1,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,860,rho with the set mean activity,0.5694,4.742398068727429e-75
+validation_n3,CAP2,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,566,rho with the set mean activity,0.7241,4.644479880657171e-93
+validation_n3,CAP3,inflammatory_NFkB_family,RELB;NFKB2;RELA;NFKB1;REL,5,353,rho with the set mean activity,0.5192,9.211809968214843e-26
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,1779,mean of per-factor rho,0.0863,
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,1779,median of per-factor rho,0.0014,
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,SP7,1,1779,single factor vs MYC,-0.0887,0.00017876077725717356
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,RUNX2,1,1779,single factor vs MYC,0.1373,6.150710878208086e-09
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,DLX5,1,1779,single factor vs MYC,-0.0461,0.05177009316624978
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,MYRF,1,1779,single factor vs MYC,0.0014,0.952470396403998
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,SMAD3,1,1779,single factor vs MYC,0.4279,4.236276992828126e-80
+validation_n3,POOLED,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,1779,rho with the set mean activity,0.1557,4.05172928416391e-11
+validation_n3,CAP1,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,860,rho with the set mean activity,0.1748,2.4967073912414016e-07
+validation_n3,CAP2,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,566,rho with the set mean activity,0.102,0.015168438436485191
+validation_n3,CAP3,tissueforming_osteo_mesenchymal,SP7;RUNX2;DLX5;MYRF;SMAD3,5,353,rho with the set mean activity,0.0637,0.23223795533422956
+validation_n3,POOLED,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,1779,mean of per-factor rho,0.4863,
+validation_n3,POOLED,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,1779,median of per-factor rho,0.4813,
+validation_n3,POOLED,inflammatory_OLD_set,NFKB2,1,1779,single factor vs MYC,0.4366,1.0715587633194638e-83
+validation_n3,POOLED,inflammatory_OLD_set,RELB,1,1779,single factor vs MYC,0.4122,6.273859129294469e-74
+validation_n3,POOLED,inflammatory_OLD_set,REL,1,1779,single factor vs MYC,0.5119,2.170581361441365e-119
+validation_n3,POOLED,inflammatory_OLD_set,ATF1,1,1779,single factor vs MYC,0.5896,5.1195714021709645e-167
+validation_n3,POOLED,inflammatory_OLD_set,MTA1,1,1779,single factor vs MYC,0.4813,8.17985728486518e-104
+validation_n3,POOLED,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,1779,rho with the set mean activity,0.6009,4.172326057271372e-175
+validation_n3,CAP1,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,860,rho with the set mean activity,0.6217,4.180023489374121e-93
+validation_n3,CAP2,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,566,rho with the set mean activity,0.771,1.2581158320999746e-112
+validation_n3,CAP3,inflammatory_OLD_set,NFKB2;RELB;REL;ATF1;MTA1,5,353,rho with the set mean activity,0.6013,4.4890249932994417e-36

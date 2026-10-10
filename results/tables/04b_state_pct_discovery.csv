@@ -1,0 +1,6 @@
+lesion,n_inflammatory,n_intermediate,n_other,n_tissue-forming,pct_inflammatory,pct_intermediate,pct_other,pct_tissue-forming,n_total,cohort
+A,411,368,1024,511,17.76,15.9,44.25,22.08,2314,discovery_n5
+B,248,133,267,91,33.56,18.0,36.13,12.31,739,discovery_n5
+C,170,237,362,249,16.7,23.28,35.56,24.46,1018,discovery_n5
+D,554,336,310,218,39.07,23.7,21.86,15.37,1418,discovery_n5
+E,196,139,210,181,27.0,19.15,28.93,24.93,726,discovery_n5

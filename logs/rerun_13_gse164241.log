@@ -1,0 +1,134 @@
+[guard] 再定量 = complete — 13 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 13:00:49.931596 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:00:49.931686 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:00:49.931710 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+tar: 796436480 B
+GSM 数: 30 | 列: ['gsm', 'title', 'disease_state', 'tissue']
+       gsm    title  tissue      disease_state
+GSM5005043    BM150  Buccal            Healthy
+GSM5005044    BM152  Buccal            Healthy
+GSM5005045    BM156  Buccal            Healthy
+GSM5005046    BM157  Buccal            Healthy
+GSM5005047    BM158  Buccal            Healthy
+GSM5005048    GM136 Gingiva            Healthy
+GSM5005049    GM143 Gingiva            Healthy
+GSM5005050    GM144 Gingiva            Healthy
+GSM5005051    GM147 Gingiva            Healthy
+GSM5005052    GM148 Gingiva            Healthy
+GSM5005053    GM183 Gingiva            Healthy
+GSM5005054   GM184a Gingiva            Healthy
+GSM5005055    GM238 Gingiva            Healthy
+GSM5005056    GM241 Gingiva            Healthy
+GSM5005057    GM242 Gingiva            Healthy
+GSM5005058    PD134 Gingiva      Periodontitis
+GSM5005059    PD153 Gingiva      Periodontitis
+GSM5005060    PD161 Gingiva      Periodontitis
+GSM5005061   PD161b Gingiva      Periodontitis
+GSM5005062    PD164 Gingiva      Periodontitis
+GSM5177036    BM165  Buccal            Healthy
+GSM5177037    BM168  Buccal            Healthy
+GSM5177038    BM169  Buccal            Healthy
+GSM5177039    GM169 Gingiva            Healthy
+GSM5177040    GM283 Gingiva            Healthy
+GSM5177041    GM289 Gingiva            Healthy
+GSM5177042   PD164b Gingiva      Periodontitis
+GSM5177043   PD164c Gingiva      Periodontitis
+GSM5177044    PD170 Gingiva      Periodontitis
+GSM7780241 ID080UST Gingiva Periodontitis-LAD1
+
+歯肉検体: 22
+
+統合後: (112215, 26688)
+                        set  n_def  n_found
+    lf_A_cytokine_chemokine     43       43
+lf_B_survival_antiapoptotic     63       56
+        lf_C1_proliferation    509      466
+            lf_C2_migration    644      579
+      lf_C_prolif_migration    970      898
+         lf_D_tissueforming    406      405
+間質: (19652, 26688) | ドナー別: {'GM148': 4258, 'GM242': 2085, 'GM238': 1735, 'PD164c': 1493, 'PD161b': 1124, 'GM169': 929, 'GM241': 845, 'GM183': 817, 'ID080UST': 771, 'PD164': 687, 'GM283': 635, 'GM136': 627, 'PD170': 580, 'PD164b': 486, 'PD153': 470, 'GM147': 425, 'GM289': 410, 'GM184a': 395, 'GM143': 304, 'PD134': 254, 'GM144': 239, 'PD161': 83}
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+
+=== ドナー別 ===
+             group    donor  n_cells  raw_rho  depth_controlled_rho  defA_n_bins  defA_total_sd  defA_matched_sd  defA_frac_retained  defA_bins_used
+               ALL    GM136      627  -0.0280               -0.0627           20         0.0414           0.0411              0.9926              20
+               ALL    GM143      304   0.1684                0.0898           10         0.0371           0.0354              0.9539              10
+               ALL    GM144      239   0.1570                0.1542            0            NaN              NaN                 NaN              10
+               ALL    GM147      425   0.0784                0.1399           10         0.0475           0.0475              1.0009              10
+               ALL    GM148     4258  -0.2941               -0.0921           20         0.0632           0.0608              0.9624              20
+               ALL    GM169      929   0.1997                0.1699           20         0.0522           0.0451              0.8633              20
+               ALL    GM183      817   0.2198                0.2119           20         0.0449           0.0448              0.9983              20
+               ALL   GM184a      395   0.1175                0.1555           10         0.0540           0.0539              0.9969              10
+               ALL    GM238     1735   0.1966                0.1530           20         0.0460           0.0449              0.9762              20
+               ALL    GM241      845   0.0498                0.0087           20         0.0517           0.0514              0.9942              20
+               ALL    GM242     2085  -0.0146                0.0041           20         0.0647           0.0638              0.9872              20
+               ALL    GM283      635   0.1307                0.0180           20         0.0490           0.0471              0.9601              20
+               ALL    GM289      410   0.1341                0.0676           10         0.0599           0.0566              0.9455              10
+               ALL ID080UST      771   0.1044                0.0835           20         0.0536           0.0506              0.9429              20
+               ALL    PD134      254  -0.0740               -0.1717           10         0.0557           0.0549              0.9857              10
+               ALL    PD153      470   0.1453                0.1713           10         0.0499           0.0469              0.9387              10
+               ALL    PD161       83   0.0030                0.0508            0            NaN              NaN                 NaN              10
+               ALL   PD161b     1124  -0.0406               -0.0586           20         0.0573           0.0570              0.9945              20
+               ALL    PD164      687   0.1762                0.1247           20         0.0445           0.0435              0.9768              20
+               ALL   PD164b      486   0.0395               -0.0678           10         0.0507           0.0491              0.9696              10
+               ALL   PD164c     1493   0.1638                0.0210           20         0.0592           0.0584              0.9869              20
+               ALL    PD170      580   0.0585               -0.0011           20         0.0625           0.0591              0.9451              20
+               ALL   POOLED    19652   0.0084                0.0576           20         0.0670           0.0629              0.9391              20
+           Healthy    GM136      627  -0.0280               -0.0627           20         0.0414           0.0411              0.9926              20
+           Healthy    GM143      304   0.1684                0.0898           10         0.0371           0.0354              0.9539              10
+           Healthy    GM144      239   0.1570                0.1542            0            NaN              NaN                 NaN              10
+           Healthy    GM147      425   0.0784                0.1399           10         0.0475           0.0475              1.0009              10
+           Healthy    GM148     4258  -0.2941               -0.0921           20         0.0632           0.0608              0.9624              20
+           Healthy    GM169      929   0.1997                0.1699           20         0.0522           0.0451              0.8633              20
+           Healthy    GM183      817   0.2198                0.2119           20         0.0449           0.0448              0.9983              20
+           Healthy   GM184a      395   0.1175                0.1555           10         0.0540           0.0539              0.9969              10
+           Healthy    GM238     1735   0.1966                0.1530           20         0.0460           0.0449              0.9762              20
+           Healthy    GM241      845   0.0498                0.0087           20         0.0517           0.0514              0.9942              20
+           Healthy    GM242     2085  -0.0146                0.0041           20         0.0647           0.0638              0.9872              20
+           Healthy    GM283      635   0.1307                0.0180           20         0.0490           0.0471              0.9601              20
+           Healthy    GM289      410   0.1341                0.0676           10         0.0599           0.0566              0.9455              10
+           Healthy   POOLED    13704  -0.0869                0.0251           20         0.0644           0.0631              0.9795              20
+     Periodontitis    PD134      254  -0.0740               -0.1717           10         0.0557           0.0549              0.9857              10
+     Periodontitis    PD153      470   0.1453                0.1713           10         0.0499           0.0469              0.9387              10
+     Periodontitis    PD161       83   0.0030                0.0508            0            NaN              NaN                 NaN              10
+     Periodontitis   PD161b     1124  -0.0406               -0.0586           20         0.0573           0.0570              0.9945              20
+     Periodontitis    PD164      687   0.1762                0.1247           20         0.0445           0.0435              0.9768              20
+     Periodontitis   PD164b      486   0.0395               -0.0678           10         0.0507           0.0491              0.9696              10
+     Periodontitis   PD164c     1493   0.1638                0.0210           20         0.0592           0.0584              0.9869              20
+     Periodontitis    PD170      580   0.0585               -0.0011           20         0.0625           0.0591              0.9451              20
+     Periodontitis   POOLED     5177   0.0369               -0.0011           20         0.0591           0.0574              0.9724              20
+Periodontitis-LAD1 ID080UST      771   0.1044                0.0835           20         0.0536           0.0506              0.9429              20
+Periodontitis-LAD1   POOLED      771   0.1044                0.0835           20         0.0536           0.0506              0.9429              20
+
+=== 探索候補TFの符号再現 ===
+                                                 n same_sign_all_donors matches_discovery
+group              axis                                                                  
+ALL                lf_A_cytokine_chemokine      20                    5                20
+                   lf_B_survival_antiapoptotic  19                    8                13
+                   lf_C1_proliferation          19                   10                11
+                   lf_C2_migration              18                   14                15
+                   lf_C_prolif_migration        18                   18                15
+                   lf_D_tissueforming           20                   16                19
+Healthy            lf_A_cytokine_chemokine      20                    5                20
+                   lf_B_survival_antiapoptotic  19                    9                13
+                   lf_C1_proliferation          19                   10                11
+                   lf_C2_migration              18                   15                15
+                   lf_C_prolif_migration        18                   18                15
+                   lf_D_tissueforming           20                   17                19
+Periodontitis      lf_A_cytokine_chemokine      20                   20                20
+                   lf_B_survival_antiapoptotic  19                   14                15
+                   lf_C1_proliferation          19                   13                12
+                   lf_C2_migration              18                   17                15
+                   lf_C_prolif_migration        18                   18                15
+                   lf_D_tissueforming           20                   17                19
+Periodontitis-LAD1 lf_A_cytokine_chemokine      20                   20                20
+                   lf_B_survival_antiapoptotic  19                   19                16
+                   lf_C1_proliferation          19                   19                 9
+                   lf_C2_migration              18                   18                15
+                   lf_C_prolif_migration        18                   18                15
+                   lf_D_tissueforming           20                   20                19
+[guard] 再定量 = complete — 13 完了時 を続行（4スレッド制限）
+
+13 DONE

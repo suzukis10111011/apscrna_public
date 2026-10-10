@@ -1,0 +1,11 @@
+gene,status,n_cells,n_lesions,coef_inflammatory_minus_tissueforming,ci_low,ci_high,pvalue,group_var,converged,padj_BH,model
+TNFRSF1A,OK,3529,7,0.0584,0.0121,0.1048,0.013467265214884807,0.0,True,0.022445442024808013,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+TNFRSF1B,OK,3529,7,0.03,0.0143,0.0456,0.00017060643930292803,0.00218,True,0.00034121287860585606,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+IL1R1,OK,3529,7,0.5356,0.4922,0.579,4.3392542031401105e-129,0.0,True,4.3392542031401105e-128,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+IL1RAP,OK,3529,7,0.0324,0.0197,0.0452,6.282491009627308e-07,0.0,True,1.5706227524068267e-06,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+IL6R,OK,3529,7,0.0139,0.0015,0.0263,0.028351608546260825,0.0,True,0.040502297923229756,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+IL6ST,OK,3529,7,0.0173,-0.0285,0.0631,0.45870897246511366,0.0,True,0.5096766360723485,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+OSMR,OK,3529,7,0.1666,0.1354,0.1978,1.281691920431055e-25,0.0,True,6.408459602155275e-25,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+LIFR,OK,3529,7,0.08,0.0594,0.1006,2.491854091703936e-14,0.0,True,8.306180305679787e-14,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+CCR2,OK,3529,7,-0.0005,-0.0043,0.0033,0.7963014870167083,0.0,True,0.7963014870167083,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"
+CXCR4,OK,3529,7,-0.0149,-0.0457,0.016,0.3448512696661724,0.0,True,0.4310640870827155,"MixedLM: log-normalised expression ~ state, random intercept = lesion (discovery + validation pooled)"

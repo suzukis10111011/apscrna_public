@@ -1,0 +1,19 @@
+[guard] 再定量 = complete — 20b を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 13:52:18.994615 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:52:18.994699 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:52:18.994719 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+                     gene_set  n_def  found_before  found_after  pct_before  pct_after  recovered
+          compartment markers     23            20           23        87.0      100.0          3
+                  receptor 10     10            10           10       100.0      100.0          0
+                  RELA target    560           515          524        92.0       93.6          9
+    axis A_cytokine_chemokine     92            87           90        94.6       97.8          3
+axis B_survival_antiapoptotic     92            83           86        90.2       93.5          3
+        axis C1_proliferation    533           498          512        93.4       96.1         14
+            axis C2_migration    682           603          618        88.4       90.6         15
+      axis C_prolif_migration   1021           920          948        90.1       92.9         28
+         axis D_tissueforming    468           441          454        94.2       97.0         13
+
+個別確認: {'PTPRC': (False, True), 'MYH11': (False, True), 'DERL3': (False, True)} （before, after）
+検証の遺伝子空間: 27735 -> 23993
+[guard] 再定量 = complete — 20b 完了時 を続行（4スレッド制限）

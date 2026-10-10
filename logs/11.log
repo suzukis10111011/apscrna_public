@@ -1,0 +1,43 @@
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 16:50:25.661213 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 16:50:25.661327 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 16:50:25.661350 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+discovery: (6215, 22669) X max 8.60
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+  活性が得られたTF: 11/11 
+validation: (1704, 24398) X max 8.75
+  活性が得られたTF: 11/11 
+
+=== SMAD3 感度（病変別ρ）===
+    cohort                      variant  label    n  spearman_rho  pc1_var_frac
+ discovery tissueforming_5TF_incl_SMAD3      A 2314       -0.1193        0.5626
+ discovery tissueforming_5TF_incl_SMAD3      B  739        0.3460        0.6760
+ discovery tissueforming_5TF_incl_SMAD3      C 1018        0.2257        0.6168
+ discovery tissueforming_5TF_incl_SMAD3      D 1418        0.0906        0.5527
+ discovery tissueforming_5TF_incl_SMAD3      E  726       -0.1547        0.5601
+ discovery tissueforming_5TF_incl_SMAD3 POOLED 6215        0.0725        0.5418
+ discovery tissueforming_4TF_excl_SMAD3      A 2314       -0.2270        0.6203
+ discovery tissueforming_4TF_excl_SMAD3      B  739        0.2031        0.6015
+ discovery tissueforming_4TF_excl_SMAD3      C 1018       -0.0182        0.5043
+ discovery tissueforming_4TF_excl_SMAD3      D 1418       -0.0612        0.5291
+ discovery tissueforming_4TF_excl_SMAD3      E  726       -0.2505        0.6144
+ discovery tissueforming_4TF_excl_SMAD3 POOLED 6215       -0.0817        0.5389
+validation tissueforming_5TF_incl_SMAD3   CAP1  776        0.0036        0.5091
+validation tissueforming_5TF_incl_SMAD3   CAP2  574       -0.0083        0.5218
+validation tissueforming_5TF_incl_SMAD3   CAP3  354        0.0402        0.5164
+validation tissueforming_5TF_incl_SMAD3 POOLED 1704        0.0561        0.5309
+validation tissueforming_4TF_excl_SMAD3   CAP1  776       -0.1703        0.5832
+validation tissueforming_4TF_excl_SMAD3   CAP2  574       -0.2927        0.6756
+validation tissueforming_4TF_excl_SMAD3   CAP3  354       -0.1012        0.5528
+validation tissueforming_4TF_excl_SMAD3 POOLED 1704       -0.1373        0.5717
+
+=== 群間ペア: 全病変で符号一致 ===
+            sum  size
+cohort               
+discovery     5    25
+validation   20    25
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+
+11 DONE

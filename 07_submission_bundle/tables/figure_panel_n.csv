@@ -1,0 +1,41 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig1,A,study design schematic,-,,8,lesions,both
+Fig1,B,all-cell UMAP,33_umap_discovery.csv,44433.0,5,lesions,discovery_n5
+Fig1,C,all-cell UMAP,33_umap_validation.csv,26090.0,3,lesions,validation_n3
+Fig1,D,compartment marker dot plot,33_compartment_marker_dotplot.csv,44433.0,5,compartments,discovery_n5
+Fig1,E,compartment fractions per lesion,03c_compartment_by_lesion_discovery.csv; 05_compartment_by_lesion_validation.csv,70523.0,8,lesions,both
+Fig2,A,programme score by compartment,33_umap_discovery.csv; 33_umap_validation.csv,70523.0,5,compartments,both
+Fig2,B,stromal share of all cells vs top decile + fold,28_enrichment_permutation.csv,44433.0,6,lesions (+pooled),discovery_n5
+Fig2,C,cohort-internal stromal UMAPs coloured by tissue-forming score,33_stromal_umap_by_cohort.csv,7994.0,2,cohorts,both
+Fig3,AB,"discovery vs validation pooled rho, all screened factors",33_tf_validation_all730.csv,7994.0,717,TFs,both
+Fig3,C,"per-lesion rho of top-20 candidates, Tissue-forming programme",04_tf_screen_discovery_candidates.csv; 33_tf_validation_all730.csv,7994.0,8,lesions,both
+Fig3,D,"per-lesion rho of top-20 candidates, Inflammatory programme",04_tf_screen_discovery_candidates.csv; 33_tf_validation_all730.csv,7994.0,8,lesions,both
+Fig3,E,"candidate sign reproduction, with the random-20-factor null mean marked",33_tf_validation_all730.csv; 05_post_audit/tables/Q1b_null_summary.csv,1779.0,2,programmes,validation_n3
+Fig3,F,leave-one-lesion-out stability,34_lolo_rulebased.csv,6215.0,10,factors,discovery_n5
+Fig4,A,per-lesion depth-controlled rho (composite scores),04_rho_inflam_vs_tissueforming_discovery.csv; 05_rho_inflam_vs_tissueforming_validation.csv,7994.0,8,lesions,both
+Fig4,B,"retained dispersion vs permutation null, with the unrelated-factor mean marked per lesion",33_defA_permutation_null.csv; 05_post_audit/tables/Q2_definitionA_baselines.csv,7994.0,8,lesions,both
+Fig4,C,"state proportions, cohort-internal definition",33_state_pct_8lesions.csv,7994.0,8,lesions,both
+Fig4,D,per-lesion 2D density of the two programme scores,33_stromal_program_scores.csv,7994.0,8,lesions,both
+Fig4,E,Hartigan dip test per lesion and programme,33_dip_by_lesion.csv,7994.0,16,lesion x programme,both
+Fig5,A,receptor difference between states (pseudobulk),10_receptors_by_state.csv,6215.0,10,receptor genes,discovery_n5
+Fig5,B,receptor dot plot by state,10_receptors_dotplot_input.csv,6215.0,10,receptor genes,discovery_n5
+Fig5,C,"per-lesion co-activity, rule-based and alternative sets",32_coactivity_ruleset_sensitivity.csv,7994.0,8,lesions,both
+Fig5,D,TF activity correlation matrix,32_tf_activity_spearman_matrix.csv,6215.0,12,TFs,discovery_n5
+Fig6,A,programme coupling per compartment,12_coupling_by_compartment.csv,44433.0,6,compartments,discovery_n5
+Fig6,B,myeloid-intrinsic axis coupling,12_coupling_by_compartment.csv,44433.0,4,lesions,discovery_n5
+Fig7,A,per-donor rho by disease group,13_gse164241_summary.csv,19652.0,22,donors,GSE164241
+Fig7,B,"candidate sign reproduction, two programmes",13_gse164241_tf_sign_reproduction.csv,19652.0,2,programmes,GSE164241
+FigS1,A,cells per QC stage,28_qc_all_stages.csv,44433.0,5,lesions,discovery_n5
+FigS1,B,cells per QC stage,28_qc_all_stages.csv,26090.0,3,lesions,validation_n3
+FigS2,A,stromal set by integration method,14_robustness_integration.csv,6215.0,3,methods,discovery_n5
+FigS2,B,"TF-level rho, Harmony vs uncorrected",14_tf_rank_by_integration.csv,6215.0,740,TFs,discovery_n5
+FigS3,a,"depth-controlled rho, gene-set x scoring",14_robustness_genesets_scoring.csv,6215.0,18,combinations,discovery_n5
+FigS3,b,"retained dispersion, same combinations",14_robustness_genesets_scoring.csv,6215.0,18,combinations,discovery_n5
+FigS4,A+B+C,author matrix vs re-quantification,09_geo_vs_kb.csv; 09_stromal_jaccard.csv; 09_tf_agreement_geo_vs_kb.csv,44433.0,6,lesions (+pooled),discovery_n5
+FigS5,A+B,raw vs depth-controlled rho,04_rho_inflam_vs_tissueforming_discovery.csv; 05_rho_inflam_vs_tissueforming_validation.csv,7994.0,8,lesions,both
+FigS6,A+B,leave-one-lesion-out ranks and candidacy,34_lolo_rulebased.csv,6215.0,10,factors,discovery_n5
+FigS7,A,state proportions by labelling route,25_validation_states_within_vs_ingest.csv,1779.0,3,lesions,validation_n3
+FigS7,B,cell-level confusion between routes,25_state_crosstab_within_vs_ingest.csv,1779.0,16,label pairs,validation_n3
+FigS7,C,validation cells projected onto the discovery embedding,33_umap_discovery.csv; 33_ingest_umap_validation.csv,7994.0,2,cohorts,both
+FigS8,A,"candidate reproduction, four remaining programmes",05_tf_screen_validation_reproduction.csv,1779.0,4,programmes,validation_n3
+FigS8,B,"same, independent cohort",13_gse164241_tf_sign_reproduction.csv,19652.0,4,programmes,GSE164241

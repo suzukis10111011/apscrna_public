@@ -1,0 +1,4 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig2,A,programme score by compartment,33_umap_discovery.csv; 33_umap_validation.csv,70523,5,compartments,both
+Fig2,B,stromal share of all cells vs top decile + fold,28_enrichment_permutation.csv,44433,6,lesions (+pooled),discovery_n5
+Fig2,C,cohort-internal stromal UMAPs coloured by tissue-forming score,33_stromal_umap_by_cohort.csv,7994,2,cohorts,both

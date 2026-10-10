@@ -1,0 +1,4 @@
+figure,panel,n_lesions,n_comparisons,n_geo_stromal,n_axes,n_TFs_common
+figS4_geo_vs_kb,A,6.0,,,,
+figS4_geo_vs_kb,B,,2.0,6203.0,,
+figS4_geo_vs_kb,C,,,,2.0,725.0

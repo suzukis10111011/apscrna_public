@@ -1,0 +1,7 @@
+figure_panel,cohort,axis,n_reproduced,n_evaluable,reproduction,definition_of_reproduced,main_programme,source_file_of_part
+Figure S8A,validation_n3,lf_A_cytokine_chemokine,20,20,20/20,the depth-controlled rho has the same sign as the discovery pooled rho in all three validation lesions,True,05_tf_screen_validation_reproduction.csv
+Figure S8A,validation_n3,lf_B_survival_antiapoptotic,12,18,12/18,the depth-controlled rho has the same sign as the discovery pooled rho in all three validation lesions,False,05_tf_screen_validation_reproduction.csv
+Figure S8A,validation_n3,lf_C1_proliferation,11,18,11/18,the depth-controlled rho has the same sign as the discovery pooled rho in all three validation lesions,False,05_tf_screen_validation_reproduction.csv
+Figure S8A,validation_n3,lf_C2_migration,10,17,10/17,the depth-controlled rho has the same sign as the discovery pooled rho in all three validation lesions,False,05_tf_screen_validation_reproduction.csv
+Figure S8A,validation_n3,lf_C_prolif_migration,10,16,10/16,the depth-controlled rho has the same sign as the discovery pooled rho in all three validation lesions,False,05_tf_screen_validation_reproduction.csv
+Figure S8A,validation_n3,lf_D_tissueforming,19,20,19/20,the depth-controlled rho has the same sign as the discovery pooled rho in all three validation lesions,True,05_tf_screen_validation_reproduction.csv

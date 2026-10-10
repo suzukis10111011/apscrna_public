@@ -1,0 +1,17 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 19:51:44.163469 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:51:44.163556 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:51:44.163578 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+前回間質 5459 のうち今回の QC 通過細胞に存在: 5229
+病変別: {'CAP1': 2222, 'CAP2': 2193, 'CAP3': 814}
+
+=== composite ρ: 前回集合 vs 今回集合 ===
+           cellset            lesion    n  raw_rho  depth_controlled_rho note
+  prev_stromal_set              CAP1 2222   0.5235               -0.0109     
+  prev_stromal_set              CAP2 2193   0.3271               -0.0348     
+  prev_stromal_set              CAP3  814   0.5901               -0.0019     
+  prev_stromal_set POOLED_validation 5229   0.4037               -0.0938     
+clean_stromal_2026              CAP1  860  -0.0338               -0.3550     
+clean_stromal_2026              CAP2  566  -0.2483               -0.4599     
+clean_stromal_2026              CAP3  353  -0.1436               -0.2764     
+clean_stromal_2026 POOLED_validation 1779  -0.0717               -0.2877     

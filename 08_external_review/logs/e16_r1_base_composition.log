@@ -1,0 +1,24 @@
+[2026-10-09T02:24:49Z] read 1 base composition recomputed for SRR15373534
+fastq: /tmp/sracomp/r1_200k.fastq  reads used: 200,000  positions: 1-32
+fetch: curl -s -r 0-69999999 -o part1.gz https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR153/034/SRR15373534/SRR15373534_1.fastq.gz ; gzip -dc part1.gz | head -800000 > r1_200k.fastq
+the NCBI SRA toolkit is unreachable from this sandbox (fastq-dump: "Failed to call external services"), so the ENA mirror was used
+
+positions 27-32, published (first 2,000,000 reads) against recomputed (first 200,000 reads): largest difference in T = 0.15 points
+ pos     T  T_recomputed
+  27 97.93         97.81
+  28 97.79         97.64
+  29 98.38         98.30
+  30 98.47         98.43
+  31 98.46         98.46
+  32 98.48         98.47
+
+positions 20-26, the range the manuscript calls random:
+ pos  A_recomputed  C_recomputed  G_recomputed  T_recomputed
+  20         22.58         25.10         19.26         33.07
+  21         22.60         25.35         18.68         33.37
+  22         22.37         24.53         19.92         33.19
+  23         22.02         23.74         20.99         33.26
+  24         21.70         23.42         22.06         32.79
+  25         20.83         23.04         22.87         33.26
+  26         20.41         21.80         21.29         36.45
+T over positions 20-26: 32.79% to 36.45%  (the manuscript states 33-36%)

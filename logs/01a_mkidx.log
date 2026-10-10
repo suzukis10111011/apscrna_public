@@ -1,0 +1,42 @@
+[2026-09-18T12:03:58Z] cDNA fetch start (Ensembl release-112)
+[2026-09-18T12:05:59Z] cDNA ok  80M
+[2026-09-18T12:05:59Z] build t2g
+t2g transcripts: 206723
+[2026-09-18T12:06:02Z] kallisto index start (t=6)
+
+[build] loading fasta file /path/to/Documents/apscrna_v2/ref/cdna.fa.gz
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 1513 target sequences
+[build] warning: replaced 100005 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+KmerStream::KmerStream(): Start computing k-mer cardinality estimations (1/2)
+KmerStream::KmerStream(): Start computing k-mer cardinality estimations (1/2)
+KmerStream::KmerStream(): Finished
+CompactedDBG::build(): Estimated number of k-mers occurring at least once: 116266914
+CompactedDBG::build(): Estimated number of minimizer occurring at least once: 28391149
+CompactedDBG::filter(): Processed 387410131 k-mers in 206723 reads
+CompactedDBG::filter(): Found 116190675 unique k-mers
+CompactedDBG::filter(): Number of blocks in Bloom filter is 794795
+CompactedDBG::construct(): Extract approximate unitigs (1/2)
+CompactedDBG::construct(): Extract approximate unitigs (2/2)
+CompactedDBG::construct(): Closed all input files
+
+CompactedDBG::construct(): Splitting unitigs (1/2)
+
+CompactedDBG::construct(): Splitting unitigs (2/2)
+CompactedDBG::construct(): Before split: 1093337 unitigs
+CompactedDBG::construct(): After split (1/1): 1093337 unitigs
+CompactedDBG::construct(): Unitigs split: 1737
+CompactedDBG::construct(): Unitigs deleted: 0
+
+CompactedDBG::construct(): Joining unitigs
+CompactedDBG::construct(): After join: 1032344 unitigs
+CompactedDBG::construct(): Joined 61380 unitigs
+[build] building MPHF
+[build] creating equivalence classes ... 
+[build] target de Bruijn graph has k-mer length 31 and minimizer length 23
+[build] target de Bruijn graph has 1032344 contigs and contains 116294146 k-mers 
+
+[2026-09-18T12:07:49Z] index built 0.33 GB
+[2026-09-18T12:07:49Z] 01a DONE

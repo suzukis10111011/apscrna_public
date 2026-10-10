@@ -1,0 +1,21 @@
+[guard] requant_heartbeat 37.5 分前
+[guard] heartbeat 停止だが APSC_REQUANT_DEAD=1 のため続行: 20b（2026-09-23 10:05Z に 08 とドライバの死亡を確認済み。再起動も lock 削除もしない）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 19:42:45.208615 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:42:45.208705 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:42:45.208727 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+                  gene_set  n_def  found_before  found_after  pct_before  pct_after  recovered
+                    区画マーカー     23            20           23        87.0      100.0          3
+                     受容体10     10            10           10       100.0      100.0          0
+                   RELA 標的    560           515          524        92.0       93.6          9
+    軸 A_cytokine_chemokine     92            87           90        94.6       97.8          3
+軸 B_survival_antiapoptotic     92            83           86        90.2       93.5          3
+        軸 C1_proliferation    533           498          512        93.4       96.1         14
+            軸 C2_migration    682           603          618        88.4       90.6         15
+      軸 C_prolif_migration   1021           920          948        90.1       92.9         28
+         軸 D_tissueforming    468           441          454        94.2       97.0         13
+
+個別確認: {'PTPRC': (False, True), 'MYH11': (False, True), 'DERL3': (False, True)} （before, after）
+検証の遺伝子空間: 27735 -> 23993
+[guard] requant_heartbeat 37.6 分前
+[guard] heartbeat 停止だが APSC_REQUANT_DEAD=1 のため続行: 20b 完了時（2026-09-23 10:05Z に 08 とドライバの死亡を確認済み。再起動も lock 削除もしない）

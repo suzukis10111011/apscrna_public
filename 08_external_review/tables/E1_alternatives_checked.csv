@@ -1,0 +1,24 @@
+No,alternative_checked,value,verdict
+313,"all cells, composite",-0.2555,does not match
+313,"stromal, single-axis (plain)",-0.0562,does not match
+313,"stromal, leak-free",0.0349,does not match
+313,marker-defined stromal set,0.1271,does not match
+313,pre-correction stromal set (before the plasma-cell exclusion),-0.0109,does not match
+313,"raw (not depth-controlled), composite",-0.0338,does not match
+314,"all cells, composite",0.0613,does not match
+314,"stromal, single-axis (plain)",-0.2318,does not match
+314,"stromal, leak-free",-0.151,does not match
+314,marker-defined stromal set,-0.0995,does not match
+314,pre-correction stromal set (before the plasma-cell exclusion),-0.0348,does not match
+314,"raw (not depth-controlled), composite",-0.2483,does not match
+315,"all cells, composite",0.2201,does not match
+315,"stromal, single-axis (plain)",-0.1617,does not match
+315,"stromal, leak-free",-0.1823,does not match
+315,marker-defined stromal set,-0.17,does not match
+315,pre-correction stromal set (before the plasma-cell exclusion),-0.0019,does not match
+315,"raw (not depth-controlled), composite",-0.1436,does not match
+321,"all cells, pooled, raw composite",0.1835,"same magnitude, opposite sign, different cell set"
+321,"pre-correction stromal set, pooled, raw composite",0.4037,does not match
+380,"per-lesion minimum, infl_new_NFkB",0.3525,discovery/A
+380,"per-lesion minimum, infl_old",0.9401,discovery/E
+380,"pooled validation, infl_old",0.788,equals the printed 0.78 but is a pooled value

@@ -1,0 +1,12 @@
+No,printed,section,disposition,status
+6,10.0,Results,Reference corrected (S5!BD504 = 9.964),Resolved (table addition / reference destination correction)
+197,−0.24,Materials and methods,Reference fixed (S4!I92 = -0.2428),Resolved (table addition / reference destination correction)
+240,8.8,Results,Reference corrected (S5!BD503 = 8.787),Resolved (table addition / reference destination correction)
+241,10.0,Results,Reference corrected (S5!BD504 = 9.964),Resolved (table addition / reference destination correction)
+304,−0.234,Results,Fixed reference destination (S2!E4172 = -0.2337056014750687),Resolved (table addition / reference destination correction)
+313,−0.36,Results,Referenced destination corrected (S3!L19 = -0.3550293517005459),Resolved (table addition / reference destination correction)
+314,−0.46,Results,Fixed reference (S3!L20 = -0.4598639881231582),Resolved (table addition / reference destination correction)
+315,−0.28,Results,Reference corrected (S3!L21 = -0.2763932962893447),Resolved (table addition / reference destination correction)
+344,15%,Results,"Already changed to ""more than about 15%"" in v8 (table value 15.1018%)",Resolved (expression change)
+384,−0.10,Results,Reference corrected (S10!Q74 = -0.1016),Resolved (table addition / reference destination correction)
+386,−0.06,Results,Reference corrected (S10!AX302 = -0.0599),Resolved (table addition / reference destination correction)

@@ -1,0 +1,145 @@
+No,printed,original_pointer,corrected_sheet,corrected_cell,remark
+6,10.0,S5!BD504,S5,BD504,corrected location: S5!BD504  | rounded
+8,19/20,"S12 (column lookup, no cell)",S12,Z186,corrected location:S12!Z186
+12,100%,"S11 (column lookup, no cell)",S11,BD159,rounded | corrected location:S11!BD159
+13,88,"S2 (column lookup, no cell)",S11,BD134,rounded | corrected location:S11!BD134
+14,99%,"S2 (column lookup, no cell)",S11,BD64,rounded | corrected location:S11!BD64
+23,0.02%,(no reference),S12,,"maximum 1/8,988 = 0.01113% < 0.02% | corrected locations:S12 | lesionB (male) : L4 = 1；K4 = 10,872	1 ÷ 10,872 × 100 = 0.00920% | lesionE (female)	M7 = 1；K7 = 8,988      1 ÷ 8,988 × 100 = 0.01113%"
+24,0.9%,"S11 (column lookup, no cell)",S12,P8,rounded | corrected locations:S12!P8
+26,68.4%,"S2 (column lookup, no cell)",S12,P10,rounded | corrected locations:S12!P10
+41,100%,(no reference),S1b_validation_chemistry,N3,S1b_validation_chemistry!N3
+78,"46,523",(no reference),S1,E3:E7,corrected locations:S1!E3:E7
+79,"44,985",(no reference),S1,E8:E12,corrected locations:S1!E8:E12
+80,"44,433",(no reference),S1,E13:E17,corrected locations:S1!E13:E17
+81,"87,123",(no reference),S1,E18:E20,corrected locations:S1!E18:E20
+82,100,(no reference),S1,E18:E20,corrected locations:S1!E18:E20
+83,"27,004",(no reference),S1,E21:E23,corrected locations:S1! E21:E23
+84,"26,090","S3 (column lookup, no cell)",S1,E24:E26,corrected locations:S1! E24:E26
+85,0,(no reference),S1,E9−E14=0,corrected locations:S1!E9−E14=0 | E11−E16=0
+118,560,"S1 (column lookup, no cell)",S10,"AD206, AF206","corrected locations:S10!AD206, AF206"
+119,88%,(no reference),S1,O30:O35 (minimum),corrected locations:S1!O30:O35 (minimum)
+123,560,"S1 (column lookup, no cell)",S10,AF206,corrected locations:S10!AF206
+125,10 000,"S8 (column lookup, no cell)",S8,X39:X50,corrected locationsS8!X39:X50
+130,200,"S2 (column lookup, no cell)",S11,BS183:BS190 (all rows),corrected locations: S11!BS183:BS190 (all rows)
+144,1779,(no reference),S3,F22,corrected locations: S3!F22
+157,7,"S6 (column lookup, no cell)",S2,O406,corrected locations:S2!O406
+158,14,"S11 (column lookup, no cell)",S2,O522,corrected locations:S2!O522
+169,0.56,"S2 (column lookup, no cell)",S10,AI198,rounded | corrected locations: S10!AI198
+175,−0.175,"S2 (column lookup, no cell)",S6,E24,rounded | corrected locations: S6!E24
+176,−0.173,"S2 (column lookup, no cell)",S6,G24,rounded | corrected locations:S6!G24
+177,−0.065,(no reference),S6,E18,rounded | corrected locations:S6!E18
+178,−0.066,(no reference),S6,G18,rounded | corrected locations:S6!G18
+179,0.011,(no reference),S6,E3:E7 - G3:G7,lesion D:0.01096 | corrected locations: S6!E3:E7 - G3:G7
+180,19/20,"S2 (column lookup, no cell)",S6,U80 = 19、U85 = 19；S80、S85 = 20,corrected locations: S6!U80 = 19、U85 = 19；S80、S85 = 20
+184,99.8%,"S2 (column lookup, no cell)",S5,G3 = 1865、F3 = 1868,rounded | 1865÷1868×100=99.84 | corrected locations: S5!G3 = 1865、F3 = 1868
+185,"6,215","S3 (column lookup, no cell)",S5,E3,corrected locations: S5!E3
+186,0.93,(no reference),S5,I3,rounded | corrected locations: S5!I3
+187,15/20,"S8 (column lookup, no cell)",S5,J3,corrected locations: S5!J3
+188,"2,893",S5!O9,S5,O9,corrected locations: S5!O9
+189,"1,183",S5!O19,S5,O19,corrected locations: S5!O19
+190,7.3,S5!R9,S5,R9,rounded | corrected locations: S5!R9
+191,9.3,S5!R19,S5,R19,rounded | corrected locations: S5!R19
+192,0.98,S5!X17,S5,X9,rounded | corrected locations: S5!X9
+193,0.99,"S5 (column lookup, no cell)",S5,X19,rounded | corrected locations: S5!X19
+194,117/120,"S2 (column lookup, no cell)",S5,,120-3=117 | corrected locations:S5
+195,101/103,"S1 (column lookup, no cell)",S5,,corrected to 110/112 in v12 | corrected locations:S5
+198,0.04,S4!I22,S4,I86,rounded | corrected locations:I86
+200,0.995,"S4 (column lookup, no cell)",S4,J8,rounded | corrected locations:J8
+201,0.999,"S4 (column lookup, no cell)",S4,J50,corrected locations:J50
+238,10,S5!BD501,S8,W39、W41、W43、W45、W47,corrected locations: S8!W39、W41、W43、W45、W47
+243,66%,"S2 (column lookup, no cell)",S8,R50,rounded | corrected locations: S8!R50
+247,730,"S12 (column lookup, no cell)",S12,Z175,corrected locations: Z175
+248,20,"S11 (column lookup, no cell)",S11,S2-N,corrected locations: S2-N
+249,730,"S6 (column lookup, no cell)",S12,Z175,corrected locations: S12!Z175
+258,0.641,(no reference),S2,E524,rounded | corrected locations: S2!E524
+259,0.529,(no reference),S2,E407,rounded | corrected locations: S2!E407
+261,20,"S6 (column lookup, no cell)",S2,,corrected locations: S2
+263,20,"S11 (column lookup, no cell)",S11,G7,corrected locations: S11!G7
+265,−0.002,(no reference),S2,Z4488,rounded | corrected locations: S2!Z4488
+266,"1,000","S11 (column lookup, no cell)",S11,K3, | corrected locations: K3
+267,20,"S11 (column lookup, no cell)",S11,G3, | corrected locations: G3
+269,20,"S11 (column lookup, no cell)",S11,H3, | corrected locations: H3
+271,20,"S11 (column lookup, no cell)",S11,H7, | corrected locations: H7
+274,20,(no reference),S11,M3, | corrected locations: S11!M3
+275,20,"S11 (column lookup, no cell)",S11,H3, | corrected locations: H3
+276,19,(no reference),S11,M7, | corrected locations: S11!M7
+277,20,(no reference),S11,H7, | corrected locations: S11!H7
+278,0.001,"S11 (column lookup, no cell)",S11,U3=U4, | corrected locations: U3=U4
+279,0.005,(no reference),S11,U7 = 0.001、U8 = 0.005, | corrected locations: S11!U7 = 0.001、U8 = 0.005
+281,0.10,(no reference),S11,Z3, | corrected locations: S11!Z3
+286,0.001,"S11 (column lookup, no cell)",S11,AB3、AB4、AB7、AB8,corrected locations: S11!AB3、AB4、AB7、AB8
+289,0.48,(no reference),S11,AD7,corrected locations: S11!AD7
+290,0.03,(no reference),S11,AE3:AE8,roiunded | MAX:0.0190 | corrected locations: S11!AE3:AE8
+291,0.001,(no reference),S11,AG3、AG4、AG7、AG8,corrected locations: S11!AG3、AG4、AG7、AG8
+298,10,S11!M10,S11,M9,corrected locations: M9
+299,19,S11!H10,S11,H9,corrected locations: H9
+303,0.001,"S11 (column lookup, no cell)",S11,AG9,corrected locations: AG9
+305,41,"S2 (column lookup, no cell)",S2,O4172,corrected locations:O4172
+307,−0.30,"S5 (column lookup, no cell)",S3,L9,rounded | corrected locations:S3!L9
+309,−0.20,"S5 (column lookup, no cell)",S3,L11,rounded | corrected locations:S3!L11
+310,−0.30,"S5 (column lookup, no cell)",S3,L12,rounded | corrected locations:S3!L12
+311,−0.34,"S5 (column lookup, no cell)",S3,L13,rounded | corrected locations:S3!L13
+321,−0.07,(no reference),S3,K22,rounded | corrected locations:S3!K22
+323,0.92,"S5 (column lookup, no cell)",S11,BD89,rounded | lesion C | corrected locations:S11!BD89
+324,0.99,S3!W27,S11,BD103,rounded | lesion D | corrected locations:S11!BD103
+325,0.98,(no reference),S11,BD131,rounded | CAP1 | corrected locations:S11!BD131
+326,1.00,S3!W26,S11,BD159,rounded | CAP3 | corrected locations:S11!BD159
+338,0.92,"S11 (column lookup, no cell)",S11,BD89,lesion C | rounded | corrected locations:BD89
+339,1.00,"S11 (column lookup, no cell)",S11,BD159,CAP3 | rounded | corrected locations:BD159
+340,0.97,"S11 (column lookup, no cell)",S11,BD90,lesion C | rounded | corrected locations:BD90
+341,1.00,"S11 (column lookup, no cell)",S11,BD132,corrected locations:BD132
+344,15%,(no reference),S11,BH89,0.848982 = 0.151018 | corrected locations:S11!BH89
+347,12.3,"S10 (column lookup, no cell)",S10,AS281, |  | corrected location:S10!AS281 | rounded
+349,1.7,"S7 (column lookup, no cell)",S10,AQ287,corrected locations:S10!AQ287
+365,0.17,"S7 (column lookup, no cell)",S7,P29,rounded | corrected locations: P29
+370,14,(no reference),S7,X65,rounded | corrected locations: S7!X65
+372,46,"S2 (column lookup, no cell)",S7,X55,rounded | corrected locations: S7!X55
+373,80%,"S5 (column lookup, no cell)",S7,X115,rounded | corrected locations: S7!X115
+375,71%,"S2 (column lookup, no cell)",S7,X43,rounded | corrected locations: S7!X43
+378,0.08,"S5 (column lookup, no cell)",S10,Q23 = +0.0778,rounded | corrected locations: S10!Q23 = +0.0778
+380,0.35,(no reference),S10,U18,rounded | corrected locations: S10!U18
+387,−0.005,(no reference),S8,I14,corrected location: S8!I14
+397,22,"S8 (column lookup, no cell)",S9,D3-D24,corrected location: S9!D3-D24
+398,13,"S12 (column lookup, no cell)",S9,C26:C38 = Healthy,corrected location: S9!C26:C38 = Healthy
+399,8,"S8 (column lookup, no cell)",S9,C40:C47 = Periodontitis,corrected location: S9!C40:C47 = Periodontitis
+400,1,(no reference),S9,C49 = Periodontitis-LAD1,donor D49 = ID080UST | corrected location: S9!C49 = Periodontitis-LAD1
+404,5/20,(no reference),S9,S51:S70,corrected location: S9!S51:S70
+405,16/20,(no reference),S9,S151:S170,corrected location: S9!S151:S170
+407,0.06,(no reference),S9,G25 = +0.0576,rounded | corrected location: S9!G25 = +0.0576
+410,−0.17,(no reference),S9,G17,rounded | corrected location: S9!G17
+414,15%,(no reference),S11,BH89,1-0.848982=15.1018% | corrected location: S11!BH89
+423,"10,000","S8 (column lookup, no cell)",S8,X39、X41、X43、X45、X47,corrected location: S8!X39、X41、X43、X45、X47
+428,20,(no reference),S2,,corrected location:S2
+439,0.987,"S5 (column lookup, no cell)",S12,Z141,rounded | corrected location:S12!Z141
+440,0.964,S5!X11,S12,Z142,rounded | corrected location:S12!Z142
+441,0.921,S5!X12,S12,Z143,rounded | corrected location:S12!Z143
+442,0.991,"S11 (column lookup, no cell)",S12,Z144,rounded | corrected location:S12!Z144
+443,0.964,S5!X14,S12,Z145,rounded | corrected location:S12!Z145
+444,0.976,"S5 (column lookup, no cell)",S12,Z146,rounded | corrected location:S12!Z146
+445,0.988,"S5 (column lookup, no cell)",S12,Z147,rounded | corrected location:S12!Z147
+446,1.004,"S5 (column lookup, no cell)",S12,Z148,rounded | corrected location:S12!Z148
+447,95%,"S1 (column lookup, no cell)",S11,BP2 / BQ2 (2.5th and 97.5th percentile bounds),corrected locations:S11!BP2 / BQ2 (2.5th and 97.5th percentile bounds) | 97.5 − 2.5 = 95
+448,200,"S2 (column lookup, no cell)",S11,BS183:BS190,corrected locations:S11!BS183:BS190
+450,200,"S5 (column lookup, no cell)",S11,BS183:BS190,corrected locations:S11!BS183:BS190
+453,0.88,"S11 (column lookup, no cell)",S11,BD134,rounded | corrected locations:BD134
+457,"2,314","S12 (column lookup, no cell)",S3,F9,corrected locations:S3!F9
+458,739,"S12 (column lookup, no cell)",S3,F10,corrected locations:S3!F10
+459,"1,018","S12 (column lookup, no cell)",S3,F11,corrected locations:S3!F11
+460,"1,418","S3 (column lookup, no cell)",S3,F12,corrected locations:S3!F12
+461,726,(no reference),S3,F12,corrected locations:S3!F12
+462,860,(no reference),S3,F19,corrected locations:S3!F19
+463,566,(no reference),S3,F20,corrected locations:S3!F20
+464,353,(no reference),S3,F21,corrected locations:S3!F21
+469,83%,(no reference),S10,AJ198,NFKB1 : 428 、RELA : 560 ，share 355  | 355 ÷ 428 = 0.8294 | rounded | corrected locations:S10!AJ198
+470,0.56,"S2 (column lookup, no cell)",S10,AI198,rounded | corrected locations:S10!AI198
+474,13,(no reference),S9,C26:C38,corrected locations:S9!C26:C38
+475,8,(no reference),S9,C40:C47,corrected locations:S9!C40:C47
+476,1,"S12 (column lookup, no cell)",S9,C49 = Periodontitis-LAD1,ID080UST | corrected locations:S9!C49 = Periodontitis-LAD1
+477,"19,652",S12!AA107,S9,E25,corrected locations:S9!E25
+478,0.03,(no reference),S9,G39,corrected locations:S9!G39
+479,−0.00,(no reference),S9,G48,corrected locations:S9!G48
+480,0.08,(no reference),S9,G49,corrected locations:S9!G49
+481,20/20,"S11 (column lookup, no cell)",S9,T51:T70,corrected locationsS9!T51:T70
+483,5/20,(no reference),S9,S51:S70,corrected locationsS9!S51:S70
+484,16/20,(no reference),S9,S151:S170,corrected locationsS9!S151:S170
+485,18,(no reference),S4,,corrected locationsS4

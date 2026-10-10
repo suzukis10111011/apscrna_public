@@ -1,0 +1,72 @@
+No,printed,suggested_pointer,expected_value,pointer_in_the_record,verdict_in_the_record,workbook_value,check,status
+6,10.0,S5!BD504 (same block you used for No. 241),9.964,S5!BD504,Y,9.964,the cell holds the expected value,already in the record
+51,100%,S1!P27,100,S1!P27,Y,100,the cell holds the expected value,already in the record
+52,90.6,S1!P33,90.6,S1!P33,Y,90.6,the cell holds the expected value,already in the record
+53,97.8%,S1!P30,97.8,S1!P30,Y,97.8,the cell holds the expected value,already in the record
+72,970,S1b_validation_chemistry!T4,970 appears in the text of T4,S1b_validation_chemistry!T4,Y,"quantified under -x 10xv3 like the other two runs and gave 10176 QC-passing barcodes of 13218 (CAP1 10048/63729, CAP3 6780/10176); a v2 library corrected against the 3M on-list collapses instead, as the discovery-run test showed (152,949 -> 34,348 barcodes, median top-5,000 UMI 970 -> 16, results/tables/23_chemistry_umi_comparison.csv)",the text at the reference carries the expected value,already in the record
+94,22.2%,S8!AE222,22.1952,S8!AE222,Y,22.1952,the cell holds the expected value,already in the record
+110,92,S1!L30,92,S1!L30,Y,92,the cell holds the expected value,already in the record
+111,92,S1!L31,92,S1!L31,Y,92,the cell holds the expected value,already in the record
+112,533,S1!L32,533,S1!L32,Y,533,the cell holds the expected value,already in the record
+113,682,S1!L33,682,S1!L33,Y,682,the cell holds the expected value,already in the record
+114,"1,021",S1!L34,1021,S1!L34,Y,1021,the cell holds the expected value,already in the record
+115,468,S1!L35,468,S1!L35,Y,468,the cell holds the expected value,already in the record
+119,≥88%,S1!O30:O35 (minimum),88.4,S1!O30:O35 (minimum),Y,94.6,the range holds the expected value,superseded by a more precise reference from the checker
+130,200,S11!BS183:BS190 (all rows),200,S11!BS183:BS190 (all rows),Y,200,the range holds the expected value,superseded by a more precise reference from the checker
+145,57.7%,S5!AN496,57.7,S5!AN496,Y,57.7,the cell holds the expected value,already in the record
+146,0.0%,S5!AN489,0,S5!AN489,Y,0,the cell holds the expected value,already in the record
+147,40.9%,S5!AU495,40.87,S5!AU495,Y,40.87,the cell holds the expected value,already in the record
+148,10.8%,S5!AU493,10.76,S5!AU493,Y,10.76,the cell holds the expected value,already in the record
+220,44,S8!AE68,43.5307,S8!AE68,,43.5307,the cell holds the expected value,already in the record
+221,85%,S8!AE73,85.3026,S8!AE73,Y,85.3026,the cell holds the expected value,already in the record
+222,69,S8!AE108,69.4387,S8!AE108,Y,69.4387,the cell holds the expected value,already in the record
+223,87%,S8!AE120,87.3479,S8!AE120,Y,87.3479,the cell holds the expected value,already in the record
+322,20,S11!AY61,20,S11!AY61,,20,the cell holds the expected value,already in the record
+331,200,S11!BS189,200,S11!BS189,Y,200,the cell holds the expected value,already in the record
+332,0.025,S11!BR189,0.02488,S11!BR189,Y,0.0248756218905472,the cell holds the expected value,already in the record
+334,0.76,S11!BR190,0.7612,S11!BR190,Y,0.7611940298507462,the cell holds the expected value,already in the record
+345,16.7,S10!AQ282,16.7,S10!AQ282,Y,16.7,the cell holds the expected value,already in the record
+346,39.1%,S10!AQ283,39.07,S10!AQ283,Y,39.07,the cell holds the expected value,already in the record
+347,12.3,S10!AS281,12.31,S10!AS281,Y,12.31,the cell holds the expected value,already in the record
+348,24.9%,S10!AS284,24.93,S10!AS284,Y,24.93,the cell holds the expected value,already in the record
+349,1.7,S10!AQ287,1.7,S10!AQ287,Y,1.7,the cell holds the expected value,already in the record
+350,16.4%,S10!AQ285,16.4,S10!AQ285,Y,16.4,the cell holds the expected value,already in the record
+351,25.4,S10!AS286,25.44,S10!AS286,Y,25.44,the cell holds the expected value,already in the record
+352,39.7%,S10!AS285,39.65,S10!AS285,Y,39.65,the cell holds the expected value,already in the record
+353,48%,S5!AP490,48.41,S5!AP490,Y,48.41,the cell holds the expected value,already in the record
+354,63%,S5!AP492,63.46,S5!AP492,Y,63.46,the cell holds the expected value,already in the record
+356,p > 0.5,"S3 column dip_p_programme_score (all lesions, both scores) — check that every value exceeds 0.5",min ≈ 0.54,S3!W36,Y,,no cell reference,"guidance, not a cell reference"
+385,+0.45,S10!AX289,0.4546,S10!AX289,Y,0.4546,the cell holds the expected value,already in the record
+386,−0.06,S10!AX302,-0.0599,S10!AX302,,-0.0599,the cell holds the expected value,already in the record
+447,95%,S11!BP2 / BQ2 (2.5th and 97.5th percentile bounds),97.5 − 2.5 = 95,S11!BP2 / BQ2 (2.5th and 97.5th percentile bounds),Y,2.5th percentile of the permutation null,expectation stated in words - read the block,superseded by a more precise reference from the checker
+448,200,S11!BS183:BS190,200,S11!BS183:BS190,Y,200,the range holds the expected value,already in the record
+449,0.005,S11!BR188,0.004975,S11!BR188,Y,0.0049751243781094,the cell holds the expected value,already in the record
+450,200,S11!BS183:BS190,200,S11!BS183:BS190,Y,200,the range holds the expected value,already in the record
+451,0.025,S11!BR189,0.02488,S11!BR189,Y,0.0248756218905472,the cell holds the expected value,already in the record
+452,0.76,S11!BR190,0.7612,S11!BR190,Y,0.7611940298507462,the cell holds the expected value,already in the record
+16,10,not in the tables,,S5,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+20,3.1.0,not in the tables,,S11,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+39,10,not in the tables,,S5,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+43,31,not in the tables,,S1b_validation_chemistry,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+44,112,not in the tables,,S2,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+48,33%,not in the tables,,,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+49,122,not in the tables,,S2,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+55,69.6%,not in the tables,,S2,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+57,10,not in the tables,,S5,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+58,1,not in the tables,,S1b_validation_chemistry,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+60,28,not in the tables,,S1b_validation_chemistry,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+61,97.9%,not in the tables,,,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+62,97.8%,not in the tables,,S1,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+64,10,not in the tables,,S5,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+66,26,not in the tables,,S1b_validation_chemistry,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+67,33,not in the tables,,,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+68,36%,not in the tables,,S2,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+69,1.15,not in the tables,,S11,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+70,16,not in the tables,,,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+71,9.06,not in the tables,,,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+87,"10,000",not in the tables,,S8,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+97,1.5,not in the tables,,S1,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+116,50,not in the tables,,S2,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+120,1.0,not in the tables,,S2,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+205,2.2,not in the tables,,S11,n/a,,no cell reference,the row is marked n/a (the value is not in the tables)
+195,101/103,—,,S5,N,,no cell reference,"guidance, not a cell reference"

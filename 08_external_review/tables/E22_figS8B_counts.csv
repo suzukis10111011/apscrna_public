@@ -1,0 +1,7 @@
+figure_panel,cohort,axis,n_reproduced,n_evaluable,reproduction,definition_of_reproduced,main_programme,source_file_of_part
+Figure S8B,GSE164241,lf_A_cytokine_chemokine,20,20,20/20,the pooled rho over all gingival donors has the same sign as in the discovery cohort,True,13_gse164241_tf_sign_reproduction.csv
+Figure S8B,GSE164241,lf_B_survival_antiapoptotic,13,19,13/19,the pooled rho over all gingival donors has the same sign as in the discovery cohort,False,13_gse164241_tf_sign_reproduction.csv
+Figure S8B,GSE164241,lf_C1_proliferation,11,19,11/19,the pooled rho over all gingival donors has the same sign as in the discovery cohort,False,13_gse164241_tf_sign_reproduction.csv
+Figure S8B,GSE164241,lf_C2_migration,15,18,15/18,the pooled rho over all gingival donors has the same sign as in the discovery cohort,False,13_gse164241_tf_sign_reproduction.csv
+Figure S8B,GSE164241,lf_C_prolif_migration,15,18,15/18,the pooled rho over all gingival donors has the same sign as in the discovery cohort,False,13_gse164241_tf_sign_reproduction.csv
+Figure S8B,GSE164241,lf_D_tissueforming,19,20,19/20,the pooled rho over all gingival donors has the same sign as in the discovery cohort,True,13_gse164241_tf_sign_reproduction.csv

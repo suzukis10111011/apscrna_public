@@ -1,0 +1,28 @@
+{
+ "fetched_utc": "2026-09-30T02:23:42.628721+00:00",
+ "decoupler": "2.2.0",
+ "omnipath": "1.0.12",
+ "call": "decoupler.op.collectri(organism='human', remove_complexes=False, license='academic')",
+ "recorded_fingerprint": {
+  "edges": 42990,
+  "tfs": 1185,
+  "rela_targets": 560
+ },
+ "fetched_fingerprint": {
+  "edges": 42990,
+  "tfs": 1185,
+  "rela_targets": 560
+ },
+ "fingerprint_match": true,
+ "recorded_sha256": "f4706bde7185746f9263ff83ca2cc3a31078d2bb7580305cf53182fe08757f79",
+ "fetched_sha256": "f4706bde7185746f9263ff83ca2cc3a31078d2bb7580305cf53182fe08757f79",
+ "sha256_match": true,
+ "columns": [
+  "source",
+  "target",
+  "weight",
+  "resources",
+  "references",
+  "sign_decision"
+ ]
+}

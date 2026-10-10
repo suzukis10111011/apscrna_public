@@ -1,0 +1,6 @@
+code,gene_set,side
+I,current_lf_A_cytokine_chemokine,inflammatory
+H,HALLMARK_TNFA_SIGNALING_VIA_NFKB,inflammatory
+G,GOBP_INFLAMMATORY_RESPONSE,inflammatory
+T,current_lf_D_tissueforming,tissue-forming
+R,REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION,tissue-forming

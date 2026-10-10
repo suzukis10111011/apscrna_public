@@ -1,0 +1,104 @@
+[2026-09-23T10:05:12Z] === 08 start chemistry=10xv2 空き 512G ===
+[2026-09-23T11:10:50Z] SRR15373534: 取得 12484774107 B
+[2026-09-23T11:10:50Z] SRR15373534: fastq-dump --gzip
+Read 110574675 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373534.sra
+Written 110574675 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373534.sra
+[2026-09-23T14:12:55Z] SRR15373535: 取得 10439584025 B
+[2026-09-23T14:12:55Z] SRR15373535: fastq-dump --gzip
+Read 92543260 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373535.sra
+Written 92543260 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373535.sra
+[2026-09-23T16:56:07Z] SRR15373536: 取得 11472177052 B
+[2026-09-23T16:56:07Z] SRR15373536: fastq-dump --gzip
+Read 101352147 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373536.sra
+Written 101352147 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373536.sra
+[2026-09-23T19:29:57Z] SRR15373537: 取得 7684660831 B
+[2026-09-23T19:29:57Z] SRR15373537: fastq-dump --gzip
+Read 67112002 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373537.sra
+Written 67112002 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373537.sra
+[2026-09-23T20:47:48Z] SampleA: kb count -x 10xv2（4ラン分を1回に渡す）空き 390G
+VERIFY {"label": "SampleA", "chemistry": "10xv2", "barcodes": 491025, "genes": 41116, "nonzero": 24024345, "total_umi": 80398223, "n_processed": 371582084, "n_pseudoaligned": 265465128, "p_pseudoaligned": 71.4, "n_targets": 206723}
+[2026-09-23T21:19:49Z] SampleA: COUNT OK {"label":"SampleA","chemistry":"10xv2","barcodes":491025,"genes":41116,"nonzero":24024345,"total_umi":80398223,"n_processed":371582084,"n_pseudoaligned":265465128,"p_pseudoaligned":71.4,"n_targets":20
+[2026-09-23T21:19:49Z] SampleA: FASTQ 解放、空き 380G
+[2026-09-23T21:51:13Z] SRR15373538: 取得 12685662241 B
+[2026-09-23T21:51:13Z] SRR15373538: fastq-dump --gzip
+Read 108604451 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373538.sra
+Written 108604451 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373538.sra
+[2026-09-24T00:41:47Z] SRR15373539: 試行 1 未完 (10171439563/10197897808)
+[2026-09-24T00:43:18Z] SRR15373539: 取得 10197897808 B
+[2026-09-24T00:43:18Z] SRR15373539: fastq-dump --gzip
+Read 87412135 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373539.sra
+Written 87412135 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373539.sra
+[2026-09-24T02:56:01Z] SRR15373540: 取得 9919038340 B
+[2026-09-24T02:56:01Z] SRR15373540: fastq-dump --gzip
+Read 84870304 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373540.sra
+Written 84870304 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373540.sra
+[2026-09-24T05:03:27Z] SRR15373541: 取得 6371892394 B
+[2026-09-24T05:03:27Z] SRR15373541: fastq-dump --gzip
+Read 54818058 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373541.sra
+Written 54818058 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373541.sra
+[2026-09-24T06:08:45Z] SampleB: kb count -x 10xv2（4ラン分を1回に渡す）空き 272G
+VERIFY {"label": "SampleB", "chemistry": "10xv2", "barcodes": 561512, "genes": 41116, "nonzero": 16880266, "total_umi": 69976447, "n_processed": 335704948, "n_pseudoaligned": 242117499, "p_pseudoaligned": 72.1, "n_targets": 206723}
+[2026-09-24T06:38:28Z] SampleB: COUNT OK {"label":"SampleB","chemistry":"10xv2","barcodes":561512,"genes":41116,"nonzero":16880266,"total_umi":69976447,"n_processed":335704948,"n_pseudoaligned":242117499,"p_pseudoaligned":72.1,"n_targets":20
+[2026-09-24T06:38:28Z] SampleB: FASTQ 解放、空き 262G
+[2026-09-24T07:23:21Z] SRR15373542: 取得 10636085812 B
+[2026-09-24T07:23:21Z] SRR15373542: fastq-dump --gzip
+Read 88310194 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373542.sra
+Written 88310194 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373542.sra
+[2026-09-24T10:03:07Z] SRR15373543: 取得 9112781251 B
+[2026-09-24T10:03:07Z] SRR15373543: fastq-dump --gzip
+Read 76303899 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373543.sra
+Written 76303899 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373543.sra
+[2026-09-24T12:22:10Z] SRR15373544: 取得 10034550525 B
+[2026-09-24T12:22:10Z] SRR15373544: fastq-dump --gzip
+Read 83275773 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373544.sra
+Written 83275773 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373544.sra
+[2026-09-24T14:55:20Z] SRR15373545: 取得 14360257221 B
+[2026-09-24T14:55:20Z] SRR15373545: fastq-dump --gzip
+Read 120081648 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373545.sra
+Written 120081648 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR15373545.sra
+[2026-09-24T17:36:11Z] SampleC: kb count -x 10xv2（4ラン分を1回に渡す）空き 177G
+VERIFY {"label": "SampleC", "chemistry": "10xv2", "barcodes": 508328, "genes": 41116, "nonzero": 14938317, "total_umi": 63901318, "n_processed": 367971514, "n_pseudoaligned": 266198255, "p_pseudoaligned": 72.3, "n_targets": 206723}
+[2026-09-24T18:11:06Z] SampleC: COUNT OK {"label":"SampleC","chemistry":"10xv2","barcodes":508328,"genes":41116,"nonzero":14938317,"total_umi":63901318,"n_processed":367971514,"n_pseudoaligned":266198255,"p_pseudoaligned":72.3,"n_targets":20
+[2026-09-24T18:11:06Z] SampleC: FASTQ 解放、空き 164G
+[2026-09-24T18:51:24Z] SRR18208260: 取得 9532539382 B
+[2026-09-24T18:51:24Z] SRR18208260: fastq-dump --gzip
+Read 81572977 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208260.sra
+Written 81572977 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208260.sra
+[2026-09-24T21:12:15Z] SRR18208261: 取得 10728040767 B
+[2026-09-24T21:12:15Z] SRR18208261: fastq-dump --gzip
+Read 92087872 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208261.sra
+Written 92087872 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208261.sra
+[2026-09-24T23:29:42Z] SRR18208262: 取得 9061396755 B
+[2026-09-24T23:29:42Z] SRR18208262: fastq-dump --gzip
+Read 78313213 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208262.sra
+Written 78313213 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208262.sra
+[2026-09-25T01:32:09Z] SRR18208263: 取得 6985346069 B
+[2026-09-25T01:32:09Z] SRR18208263: fastq-dump --gzip
+Rejected 38276247 READS because READLEN < 1
+Read 81490225 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208263.sra
+Written 81490225 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208263.sra
+[2026-09-25T02:48:50Z] SampleD: kb count -x 10xv2（4ラン分を1回に渡す）空き 171G
+VERIFY {"label": "SampleD", "chemistry": "10xv2", "barcodes": 463621, "genes": 41116, "nonzero": 18463829, "total_umi": 60515243, "n_processed": 295188040, "n_pseudoaligned": 216237308, "p_pseudoaligned": 73.3, "n_targets": 206723}
+[2026-09-25T03:16:43Z] SampleD: COUNT OK {"label":"SampleD","chemistry":"10xv2","barcodes":463621,"genes":41116,"nonzero":18463829,"total_umi":60515243,"n_processed":295188040,"n_pseudoaligned":216237308,"p_pseudoaligned":73.3,"n_targets":20
+[2026-09-25T03:16:43Z] SampleD: FASTQ 解放、空き 162G
+[2026-09-25T03:41:01Z] SRR18208256: 取得 8377369689 B
+[2026-09-25T03:41:01Z] SRR18208256: fastq-dump --gzip
+Read 71053313 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208256.sra
+Written 71053313 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208256.sra
+[2026-09-25T05:34:20Z] SRR18208257: 取得 7852043309 B
+[2026-09-25T05:34:20Z] SRR18208257: fastq-dump --gzip
+Read 66914364 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208257.sra
+Written 66914364 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208257.sra
+[2026-09-25T07:40:39Z] SRR18208258: 取得 9763543370 B
+[2026-09-25T07:40:39Z] SRR18208258: fastq-dump --gzip
+Read 82968699 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208258.sra
+Written 82968699 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208258.sra
+[2026-09-25T09:44:14Z] SRR18208259: 取得 9272064246 B
+[2026-09-25T09:44:14Z] SRR18208259: fastq-dump --gzip
+Read 78647109 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208259.sra
+Written 78647109 spots for /path/to/Documents/apscrna_v2/data/dsra/SRR18208259.sra
+[2026-09-25T11:18:42Z] SampleE: kb count -x 10xv2（4ラン分を1回に渡す）空き 164G
+VERIFY {"label": "SampleE", "chemistry": "10xv2", "barcodes": 511346, "genes": 41116, "nonzero": 14918347, "total_umi": 68217452, "n_processed": 299583485, "n_pseudoaligned": 208740237, "p_pseudoaligned": 69.7, "n_targets": 206723}
+[2026-09-25T11:46:08Z] SampleE: COUNT OK {"label":"SampleE","chemistry":"10xv2","barcodes":511346,"genes":41116,"nonzero":14918347,"total_umi":68217452,"n_processed":299583485,"n_pseudoaligned":208740237,"p_pseudoaligned":69.7,"n_targets":20
+[2026-09-25T11:46:08Z] SampleE: FASTQ 解放、空き 164G
+[2026-09-25T11:46:08Z] === 08 DONE counted=5/5 空き 164G ===

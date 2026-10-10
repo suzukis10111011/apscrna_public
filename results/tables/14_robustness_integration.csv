@@ -1,0 +1,2 @@
+comparison,n_tf,stromal_n_harmony,stromal_n_uncorrected,stromal_intersection,stromal_jaccard,tf_rank_spearman,top20_overlap,note
+harmony_vs_uncorrected,740,6215,1868,1865,0.2999,0.9299,15,"scVI not available in this environment, omitted; axis = lf_D_tissueforming"

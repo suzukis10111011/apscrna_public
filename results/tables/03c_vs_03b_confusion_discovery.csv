@@ -1,0 +1,6 @@
+compartment,endothelial,epithelial,immune,pericyte_smc,stromal
+endothelial,4375,0,0,0,0
+epithelial,0,838,0,0,0
+immune,0,0,28968,0,0
+stromal,0,130,0,3517,6215
+unassigned,0,0,390,0,0

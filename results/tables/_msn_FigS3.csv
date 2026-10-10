@@ -1,0 +1,3 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+FigS3,a,"depth-controlled rho, gene-set x scoring",14_robustness_genesets_scoring.csv,6215,18,combinations,discovery_n5
+FigS3,b,"retained dispersion, same combinations",14_robustness_genesets_scoring.csv,6215,18,combinations,discovery_n5

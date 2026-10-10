@@ -1,0 +1,57 @@
+[2026-09-18T12:27:42Z] 03: 出力確認
+[2026-09-18T12:27:42Z] 04: start
+[2026-09-18T12:28:31Z] 04: FAILED (末尾:      filtering by shared features in mat.      Make sure mat and net have shared target features or      reduce the number assigned to tmin )
+[2026-09-18T12:57:57Z] === driver 起動 (pid 59126) ===
+[2026-09-18T12:57:57Z] 03: 出力確認
+[2026-09-18T12:57:57Z] 04: 既存出力あり — skip
+[2026-09-18T12:57:57Z] 04b: 既存出力あり — skip
+[2026-09-19T08:28:39Z] 01c 待機タイムアウト（0/3 完了）— 揃った分で 05 を実行
+[2026-09-19T08:28:39Z] 検証カウント完了数: 0/3
+[2026-09-19T08:28:39Z] 05: スキップ（依存先 01c 失敗、カウント0件）
+[2026-09-19T08:28:39Z] 06: start
+[2026-09-19T08:28:39Z] 06: FAILED (末尾: scripts/99_driver.sh: line 14: /path/to/.claude-science/orgs/e64dcfcc-ff78-43c6-a863-03db7d0e2e76/workspaces/87990b2a-6178-4578-a6ff-9973e234ce6a/.venv/apsc/bin/python: No such file or directory )
+[2026-09-19T08:28:39Z] 06: レポート生成失敗
+[2026-09-19T08:28:39Z] === 99 driver 終了 ===
+[2026-09-19T08:58:07Z] 01c 待機タイムアウト（0/3 完了）— 揃った分で 05 を実行
+[2026-09-19T08:58:07Z] 検証カウント完了数: 0/3
+[2026-09-19T08:58:07Z] 05: スキップ（依存先 01c 失敗、カウント0件）
+[2026-09-19T08:58:07Z] 06: start
+[2026-09-19T08:58:14Z] 06: FAILED (末尾:   File "/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/pandas/compat/_optional.py", line 138, in import_optional_dependency     raise ImportError(msg) ImportError: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate. )
+[2026-09-19T08:58:14Z] 06: レポート生成失敗
+[2026-09-19T08:58:14Z] === 99 driver 終了 ===
+[2026-09-19T09:27:55Z] === driver v2 起動 (pid 83177) ===
+[2026-09-19T09:27:55Z] 02_quant: 起動
+[2026-09-19T09:54:31Z] === driver v2 起動 (pid 84046) ===
+[2026-09-19T09:54:31Z] 02_quant: 起動
+[2026-09-19T09:57:56Z] 02_quant: プロセス終了を検出（完了 0/3）
+[2026-09-19T09:57:56Z] 定量完了数: 0/3
+[2026-09-19T09:57:56Z] 05: スキップ（定量0件）
+[2026-09-19T09:57:56Z] 06: start
+[2026-09-19T09:58:01Z] === driver v2 起動 (pid 84257) ===
+[2026-09-19T09:58:01Z] 02_quant: 起動
+[2026-09-19T09:58:12Z] 06: DONE
+[2026-09-19T09:58:13Z] === 99 driver v2 終了（定量 0/3）===
+[2026-09-19T09:59:31Z] 02_quant: プロセス終了を検出（完了 0/3）
+[2026-09-19T09:59:31Z] 定量完了数: 0/3
+[2026-09-19T09:59:31Z] 05: スキップ（定量0件）
+[2026-09-19T09:59:31Z] 06: start
+[2026-09-19T09:59:33Z] 06: DONE
+[2026-09-19T09:59:33Z] === 99 driver v2 終了（定量 0/3）===
+[2026-09-19T10:06:49Z] [v3] === driver v3 起動 ===
+[2026-09-20T09:42:12Z] [v3] 定量 3/3 完了
+[2026-09-20T09:42:12Z] [v3] 定量完了数: 3/3
+[2026-09-20T09:42:12Z] [v3] 05: start
+[2026-09-20T09:46:50Z] [v3] 05: FAILED (  File "/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/numpy/lib/function_base.py", line 550, in average     raise ZeroDivisionError( ZeroDivisionError: Weights sum to zero, can't be normalized )
+CAP1 前回 vs 今回: {"barcodes": {"previous": 1953956, "current": 1957807, "same": false}, "genes": {"previous": 35689, "current": 41116, "same": false}, "nonzero": {"previous": 18856281, "current": 17552127, "same": false}, "n_processed": {"previous": 435676976, "current": 435676976, "same": true}, "p_pseudoaligned": {"previous": 69.0, "current": 69.6, "same": false}}
+[2026-09-20T09:46:50Z] [v3] 06: start
+[2026-09-20T09:46:51Z] [v3] 06: DONE
+[2026-09-20T09:46:53Z] [v3] === driver v3 終了（定量 3/3）===
+[2026-09-23T07:15:10Z] [v4] === driver v4 起動 ===
+chemistry decision: {"chemistry": "10xv2", "empirical": {"10xv2": {"p_pseudoaligned": 71.8, "n_processed": 20000000, "barcodes": 152949}, "10xv3": {"p_pseudoaligned": 71.8, "n_processed": 20000000, "barcodes": 34348}}, "geo_documented": "10x Single Cell 3' Reagent Kits v2 (GSE181688/GSE197680 の extract_protocol に明記)", "decided_by": "ホワイトリスト一致バーコード数（同点なら p_pseudoaligned）", "run": "SRR15373534"}
+[2026-09-23T10:05:12Z] [v4] chemistry = 10xv2
+[2026-09-23T10:05:12Z] [v4] 08 起動
+[2026-09-23T10:28:02Z] [観測] 解析側から確認: 07 は 10:02:32Z に正常終了（10xv3, p_pseudoaligned=71.8%）。
+  08 は logs/08.lock と requant_heartbeat（10:05:12Z）を作った直後に落ち、08.log は生成されていない。
+  driver heartbeat も 10:00:11Z で停止。ps に該当プロセス無し。指示により再起動も lock 削除も行わない。
+[2026-09-25T11:46:08Z] [v4] 08 終了（5/5）
+[2026-09-25T11:46:08Z] [v4] === driver v4 終了 ===

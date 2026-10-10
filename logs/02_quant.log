@@ -1,0 +1,46 @@
+[2026-09-19T09:27:57Z] === 02 start 空き 198G ===
+[2026-09-19T09:27:57Z] SRR32119705 mate1: ラン別ディレクトリへ移動
+[2026-09-19T09:27:57Z] SRR32119705 mate2: ラン別ディレクトリへ移動
+[2026-09-19T09:27:57Z] SRR32119703 mate1: ラン別ディレクトリへ移動
+[2026-09-19T09:27:57Z] SRR32119703 mate2: ラン別ディレクトリへ移動
+[2026-09-19T09:27:57Z] CAP1 (SRR32119705): 経路A = ENA fastq.gz
+[2026-09-19T09:33:54Z] SRR32119705 mate1: サイズ一致だが md5 不一致 — 破棄して再取得
+[2026-09-19T09:33:55Z] SRR32119705 mate1: 取得 (33939840362/33939840362 B) 試行 1
+[2026-09-19T09:54:31Z] === 02 start 空き 194G ===
+[2026-09-19T09:54:31Z] CAP1 (SRR32119705): 経路B = ローカル .sra から gz 生成（ENA は 0.32 MB/s のため不使用）
+[2026-09-19T09:54:31Z] SRR32119705: 空き 194G <= .sra×8 (401G) -> fastq-dump --gzip（一時領域なし）
+[2026-09-19T18:03:46Z] SRR32119705 mate1: 取得 (23023673344/33939840362 B) 試行 2
+Read 435676976 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119705.final.sra
+Written 435676976 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119705.final.sra
+[2026-09-19T18:04:57Z] CAP1: gz 生成失敗 — 次へ
+[2026-09-19T18:04:57Z] CAP3 (SRR32119703): 経路B = ローカル .sra から gz 生成（ENA は 0.32 MB/s のため不使用）
+[2026-09-19T18:04:57Z] SRR32119703: 空き 304G <= .sra×8 (336G) -> fastq-dump --gzip（一時領域なし）
+[2026-09-19T22:14:12Z] SRR32119705 mate1: md5 一致 (33939840362 B)
+[2026-09-19T22:14:12Z] SRR32119705 mate2: 取得 (0/27941775658 B) 試行 1
+[2026-09-20T00:47:04Z] SRR32119705 mate2: 取得 (7768653824/27941775658 B) 試行 2
+[2026-09-20T00:47:08Z] SRR32119705 mate2: 取得 (7768653824/27941775658 B) 試行 3
+[2026-09-20T01:15:34Z] SRR32119705 mate2: 取得失敗
+[2026-09-20T01:15:34Z] CAP1: 取得失敗 — 次へ
+[2026-09-20T01:15:34Z] CAP3 (SRR32119703): 経路A = ENA fastq.gz
+[2026-09-20T01:15:34Z] SRR32119703 mate1: 取得 (0/28506165033 B) 試行 1
+[2026-09-20T01:15:36Z] SRR32119703 mate1: 取得 (199/28506165033 B) 試行 2
+Read 363012385 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119703.final.sra
+Written 363012385 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119703.final.sra
+[2026-09-20T01:16:39Z] CAP3: gz 生成失敗 — 次へ
+[2026-09-20T01:16:39Z] CAP2 (SRR32119704): 経路B = ローカル .sra から gz 生成（ENA は 0.32 MB/s のため不使用）
+[2026-09-20T01:16:39Z] SRR32119704: 空き 201G <= .sra×8 (324G) -> fastq-dump --gzip（一時領域なし）
+Read 339520082 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119704.final.sra
+Written 339520082 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119704.final.sra
+[2026-09-20T08:56:40Z] CAP2: gz 生成失敗 — 次へ
+[2026-09-20T08:56:40Z] === 02 DONE counted=2/3 空き 101G ===
+[2026-09-20T11:20:27Z] SRR32119703 mate1: サイズ一致だが md5 不一致 — 破棄して再取得
+[2026-09-20T11:20:28Z] SRR32119703 mate1: 取得 (28506165033/28506165033 B) 試行 3
+[2026-09-20T20:42:47Z] SRR32119703 mate1: 取得失敗
+[2026-09-20T20:42:47Z] CAP3: 取得失敗 — 次へ
+[2026-09-20T20:42:47Z] CAP2: 完了済み — skip
+[2026-09-20T20:42:47Z] CAP2 (SRR32119704): 経路B = ローカル .sra から gz 生成（ENA は 0.32 MB/s のため不使用）
+[2026-09-20T20:42:48Z] SRR32119704: 空き 174G <= .sra×8 (324G) -> fastq-dump --gzip（一時領域なし）
+Read 339520082 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119704.final.sra
+Written 339520082 spots for /path/to/Documents/apscrna_v2/data/sra/SRR32119704.final.sra
+[2026-09-21T04:10:59Z] CAP2: gz 生成失敗 — 次へ
+[2026-09-21T04:10:59Z] CAP2: 定量済み — skip

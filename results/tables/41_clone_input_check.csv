@@ -1,0 +1,142 @@
+script,input_path,resolved_path,category,source,exists_in_clone,produced_by,zenodo_split
+04_discovery_scores_and_screen.py,frozen/genesets/program_geneset_definitions.json,frozen/genesets/program_geneset_definitions.json,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+04_discovery_scores_and_screen.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"05_validation_and_projection.py, 12_coupling_by_compartment.py, 13_gse164241.py",
+04_discovery_scores_and_screen.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+05_validation_and_projection.py,frozen/genesets/program_geneset_definitions.json,frozen/genesets/program_geneset_definitions.json,(a) present in clone,tracked in git,True,04_discovery_scores_and_screen.py,
+05_validation_and_projection.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 12_coupling_by_compartment.py, 13_gse164241.py",
+05_validation_and_projection.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+05e_rho_prev_cellset.py,frozen/percell/validation_covariates_stromal.csv,frozen/percell/validation_covariates_stromal.csv,(a) present in clone,tracked in git,True,,
+09b_report_day3.py,results/tables/09_problems.txt,results/tables/09_problems.txt,(a) present in clone,written earlier in the same run by 09_geo_vs_kb.py,False,09_geo_vs_kb.py,
+09b_report_day3.py,results/tables/16_methods_numbers.csv,results/tables/16_methods_numbers.csv,(a) present in clone,tracked in git,True,,
+11_coactivity.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+12_coupling_by_compartment.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 13_gse164241.py",
+12_coupling_by_compartment.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+13_gse164241.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 12_coupling_by_compartment.py",
+13_gse164241.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+13_gse164241.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+14_robustness.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 12_coupling_by_compartment.py",
+14_robustness.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+14c_robustness_integration.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 12_coupling_by_compartment.py",
+14c_robustness_integration.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+18_stromal_markerdefined.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 12_coupling_by_compartment.py",
+18_stromal_markerdefined.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+18_stromal_markerdefined.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+20b_coverage_after_fix.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 12_coupling_by_compartment.py",
+20b_coverage_after_fix.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+25_validation_states_within.py,frozen/genesets/stage1_geneset_definitions.json,frozen/genesets/stage1_geneset_definitions.json,(a) present in clone,tracked in git,True,"04_discovery_scores_and_screen.py, 05_validation_and_projection.py, 12_coupling_by_compartment.py",
+28_manuscript_numbers.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+28_manuscript_numbers.py,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+28_manuscript_numbers.py,results/tables/13_gse164241_summary.csv,results/tables/13_gse164241_summary.csv,(a) present in clone,tracked in git,True,13_gse164241.py,
+28_manuscript_numbers.py,results/tables/17_receptors_detection_fraction.csv,results/tables/17_receptors_detection_fraction.csv,(a) present in clone,tracked in git,True,17_receptor_power.py,
+28_manuscript_numbers.py,results/tables/25_validation_states_within_vs_ingest.csv,results/tables/25_validation_states_within_vs_ingest.csv,(a) present in clone,tracked in git,True,25_validation_states_within.py,
+32_coactivity_ruleset.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+32_coactivity_ruleset.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+32_coactivity_ruleset.py,results/tables/11_coactivity_smad3_sensitivity.csv,results/tables/11_coactivity_smad3_sensitivity.csv,(a) present in clone,tracked in git,True,11_coactivity.py,
+33_ms_figure_inputs.py,frozen/net/collectri_regulons.csv,frozen/net/collectri_regulons.csv,(a) present in clone,tracked in git,True,,
+33_ms_figure_inputs.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+33_ms_figure_inputs.py,results/tables/04b_state_pct_discovery.csv,results/tables/04b_state_pct_discovery.csv,(a) present in clone,tracked in git,True,04b_state_labels_discovery.py,
+33_ms_figure_inputs.py,results/tables/25_validation_states_within_vs_ingest.csv,results/tables/25_validation_states_within_vs_ingest.csv,(a) present in clone,tracked in git,True,25_validation_states_within.py,
+34_lolo_rulebased.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+35b_rebuild_text_record.py,results/tables/32_figure_text_moved.csv,results/tables/32_figure_text_moved.csv,(a) present in clone,tracked in git,True,35_figure_text_record.py,
+36_pptx_editable.py,results/figures_ms/bare/textmeta/{n}.json,results/figures_ms/bare/textmeta/Fig2_enrichment.json,(a) present in clone,tracked in git,True,,
+36_pptx_editable.py,results/figures_ms/bare/{n}.png,results/figures_ms/bare/Fig2_enrichment.png,(a) present in clone,tracked in git,True,,
+37_diag_fig2c.py,results/tables/33_ingest_umap_validation.csv,results/tables/33_ingest_umap_validation.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+37_diag_fig2c.py,results/tables/33_umap_discovery.csv,results/tables/33_umap_discovery.csv,(a) present in clone,tracked in git,True,,
+39_pptx_check.py,results/figures_ms/{name}.png,results/figures_ms/Fig2_enrichment.png,(a) present in clone,tracked in git,True,,
+99_driver_v2.sh,logs/quant_progress.txt,logs/quant_progress.txt,(a) present in clone,tracked in git,True,"02_quant.sh, 02b_quant.sh, 99_driver_v3.sh",
+99_driver_v3.sh,logs/quant_progress.txt,logs/quant_progress.txt,(a) present in clone,tracked in git,True,"02_quant.sh, 02b_quant.sh, 99_driver_v2.sh",
+99_driver_v4.sh,ref/chemistry_decision.json,ref/chemistry_decision.json,(a) present in clone,tracked in git,True,,
+fig1.py,results/tables/03c_compartment_by_lesion_discovery.csv,results/tables/03c_compartment_by_lesion_discovery.csv,(a) present in clone,tracked in git,True,,
+fig1.py,results/tables/03c_enrichment_by_lesion_discovery.csv,results/tables/03c_enrichment_by_lesion_discovery.csv,(a) present in clone,tracked in git,True,03c_recheck_discovery.py,
+fig2.py,results/tables/04_grant_factors_in_screen_discovery.csv,results/tables/04_grant_factors_in_screen_discovery.csv,(a) present in clone,tracked in git,True,,
+fig3.py,results/tables/key_numbers_v2_vs_grant.csv,results/tables/key_numbers_v2_vs_grant.csv,(a) present in clone,tracked in git,True,06_report.py,
+fig4.py,results/tables/05e_rho_prev_cellset_vs_clean.csv,results/tables/05e_rho_prev_cellset_vs_clean.csv,(a) present in clone,tracked in git,True,05e_rho_prev_cellset.py,
+fig4.py,results/tables/25_validation_states_within_vs_ingest.csv,results/tables/25_validation_states_within_vs_ingest.csv,(a) present in clone,tracked in git,True,25_validation_states_within.py,
+fig5.py,results/tables/10_receptors_by_state.csv,results/tables/10_receptors_by_state.csv,(a) present in clone,tracked in git,True,10_receptors_by_state.py,
+fig5.py,results/tables/10_receptors_dotplot_input.csv,results/tables/10_receptors_dotplot_input.csv,(a) present in clone,tracked in git,True,10_receptors_by_state.py,
+fig5.py,results/tables/32_coactivity_ruleset_sensitivity.csv,results/tables/32_coactivity_ruleset_sensitivity.csv,(a) present in clone,tracked in git,True,32_coactivity_ruleset.py,
+fig5.py,results/tables/32_tf_activity_spearman_matrix.csv,results/tables/32_tf_activity_spearman_matrix.csv,(a) present in clone,tracked in git,True,32_coactivity_ruleset.py,
+fig6.py,results/tables/12_coupling_by_compartment.csv,results/tables/12_coupling_by_compartment.csv,(a) present in clone,tracked in git,True,12_coupling_by_compartment.py,
+figS1_qc.py,results/tables/28_qc_all_stages.csv,results/tables/28_qc_all_stages.csv,(a) present in clone,tracked in git,True,28_manuscript_numbers.py,
+figS2_integration.py,results/tables/14_robustness_integration.csv,results/tables/14_robustness_integration.csv,(a) present in clone,tracked in git,True,14c_robustness_integration.py,
+figS2_integration.py,results/tables/14_tf_rank_by_integration.csv,results/tables/14_tf_rank_by_integration.csv,(a) present in clone,tracked in git,True,14c_robustness_integration.py,
+figS3_genesets.py,results/tables/14_robustness_genesets_scoring.csv,results/tables/14_robustness_genesets_scoring.csv,(a) present in clone,tracked in git,True,14_robustness.py,
+figS4_geo_vs_kb.py,results/tables/09_geo_vs_kb.csv,results/tables/09_geo_vs_kb.csv,(a) present in clone,tracked in git,True,09_geo_vs_kb.py,
+figS4_geo_vs_kb.py,results/tables/09_stromal_jaccard.csv,results/tables/09_stromal_jaccard.csv,(a) present in clone,tracked in git,True,09_geo_vs_kb.py,
+figS4_geo_vs_kb.py,results/tables/09_tf_agreement_geo_vs_kb.csv,results/tables/09_tf_agreement_geo_vs_kb.csv,(a) present in clone,tracked in git,True,09_geo_vs_kb.py,
+figS5_raw_vs_depth.py,results/tables/04_rho_inflam_vs_tissueforming_discovery.csv,results/tables/04_rho_inflam_vs_tissueforming_discovery.csv,(a) present in clone,tracked in git,True,,
+figS5_raw_vs_depth.py,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+figS6_lolo.py,results/tables/28_lolo_grant_factors.csv,results/tables/28_lolo_grant_factors.csv,(a) present in clone,tracked in git,True,28_manuscript_numbers.py,
+figS_robustness.py,results/tables/14_robustness_genesets_scoring.csv,results/tables/14_robustness_genesets_scoring.csv,(a) present in clone,tracked in git,True,14_robustness.py,
+ms_fig1.py,results/tables/03c_compartment_by_lesion_discovery.csv,results/tables/03c_compartment_by_lesion_discovery.csv,(a) present in clone,tracked in git,True,,
+ms_fig1.py,results/tables/05_compartment_by_lesion_validation.csv,results/tables/05_compartment_by_lesion_validation.csv,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+ms_fig1.py,results/tables/33_compartment_marker_dotplot.csv,results/tables/33_compartment_marker_dotplot.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_fig1.py,results/tables/33_umap_discovery.csv,results/tables/33_umap_discovery.csv,(a) present in clone,tracked in git,True,,
+ms_fig1.py,results/tables/33_umap_validation.csv,results/tables/33_umap_validation.csv,(a) present in clone,tracked in git,True,,
+ms_fig2.py,results/tables/04b_state_definition_discovery.csv,results/tables/04b_state_definition_discovery.csv,(a) present in clone,tracked in git,True,04b_state_labels_discovery.py,
+ms_fig2.py,results/tables/28_enrichment_permutation.csv,results/tables/28_enrichment_permutation.csv,(a) present in clone,tracked in git,True,28_manuscript_numbers.py,
+ms_fig2.py,results/tables/33_ingest_umap_validation.csv,results/tables/33_ingest_umap_validation.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_fig2.py,results/tables/33_stromal_umap_by_cohort.csv,results/tables/33_stromal_umap_by_cohort.csv,(a) present in clone,tracked in git,True,,
+ms_fig2.py,results/tables/33_umap_discovery.csv,results/tables/33_umap_discovery.csv,(a) present in clone,tracked in git,True,,
+ms_fig2.py,results/tables/33_umap_validation.csv,results/tables/33_umap_validation.csv,(a) present in clone,tracked in git,True,,
+ms_fig3.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+ms_fig3.py,results/tables/33_tf_validation_all730.csv,results/tables/33_tf_validation_all730.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_fig3.py,results/tables/34_lolo_rulebased.csv,results/tables/34_lolo_rulebased.csv,(a) present in clone,tracked in git,True,34_lolo_rulebased.py,
+ms_fig4.py,results/tables/04_rho_inflam_vs_tissueforming_discovery.csv,results/tables/04_rho_inflam_vs_tissueforming_discovery.csv,(a) present in clone,tracked in git,True,,
+ms_fig4.py,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+ms_fig4.py,results/tables/33_defA_permutation_null.csv,results/tables/33_defA_permutation_null.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_fig4.py,results/tables/33_dip_by_lesion.csv,results/tables/33_dip_by_lesion.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_fig4.py,results/tables/33_state_pct_8lesions.csv,results/tables/33_state_pct_8lesions.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_fig4.py,results/tables/33_stromal_program_scores.csv,results/tables/33_stromal_program_scores.csv,(a) present in clone,tracked in git,True,,
+ms_fig5.py,results/tables/10_receptors_by_state.csv,results/tables/10_receptors_by_state.csv,(a) present in clone,tracked in git,True,10_receptors_by_state.py,
+ms_fig5.py,results/tables/10_receptors_dotplot_input.csv,results/tables/10_receptors_dotplot_input.csv,(a) present in clone,tracked in git,True,10_receptors_by_state.py,
+ms_fig5.py,results/tables/32_coactivity_ruleset_sensitivity.csv,results/tables/32_coactivity_ruleset_sensitivity.csv,(a) present in clone,tracked in git,True,32_coactivity_ruleset.py,
+ms_fig5.py,results/tables/32_tf_activity_spearman_matrix.csv,results/tables/32_tf_activity_spearman_matrix.csv,(a) present in clone,tracked in git,True,32_coactivity_ruleset.py,
+ms_fig6.py,results/tables/12_coupling_by_compartment.csv,results/tables/12_coupling_by_compartment.csv,(a) present in clone,tracked in git,True,12_coupling_by_compartment.py,
+ms_fig7.py,results/tables/13_gse164241_summary.csv,results/tables/13_gse164241_summary.csv,(a) present in clone,tracked in git,True,13_gse164241.py,
+ms_fig7.py,results/tables/13_gse164241_tf_sign_reproduction.csv,results/tables/13_gse164241_tf_sign_reproduction.csv,(a) present in clone,tracked in git,True,13_gse164241.py,
+ms_figS1.py,results/tables/28_qc_all_stages.csv,results/tables/28_qc_all_stages.csv,(a) present in clone,tracked in git,True,28_manuscript_numbers.py,
+ms_figS2.py,results/tables/04_tf_screen_discovery_candidates.csv,results/tables/04_tf_screen_discovery_candidates.csv,(a) present in clone,tracked in git,True,,
+ms_figS2.py,results/tables/14_robustness_integration.csv,results/tables/14_robustness_integration.csv,(a) present in clone,tracked in git,True,14c_robustness_integration.py,
+ms_figS2.py,results/tables/14_tf_rank_by_integration.csv,results/tables/14_tf_rank_by_integration.csv,(a) present in clone,tracked in git,True,14c_robustness_integration.py,
+ms_figS3.py,results/tables/14_robustness_genesets_scoring.csv,results/tables/14_robustness_genesets_scoring.csv,(a) present in clone,tracked in git,True,14_robustness.py,
+ms_figS4.py,results/tables/09_geo_vs_kb.csv,results/tables/09_geo_vs_kb.csv,(a) present in clone,tracked in git,True,09_geo_vs_kb.py,
+ms_figS4.py,results/tables/09_stromal_jaccard.csv,results/tables/09_stromal_jaccard.csv,(a) present in clone,tracked in git,True,09_geo_vs_kb.py,
+ms_figS4.py,results/tables/09_tf_agreement_geo_vs_kb.csv,results/tables/09_tf_agreement_geo_vs_kb.csv,(a) present in clone,tracked in git,True,09_geo_vs_kb.py,
+ms_figS5.py,results/tables/04_rho_inflam_vs_tissueforming_discovery.csv,results/tables/04_rho_inflam_vs_tissueforming_discovery.csv,(a) present in clone,tracked in git,True,,
+ms_figS5.py,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,results/tables/05_rho_inflam_vs_tissueforming_validation.csv,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+ms_figS6.py,results/tables/34_lolo_rulebased.csv,results/tables/34_lolo_rulebased.csv,(a) present in clone,tracked in git,True,34_lolo_rulebased.py,
+ms_figS7.py,results/tables/25_state_crosstab_within_vs_ingest.csv,results/tables/25_state_crosstab_within_vs_ingest.csv,(a) present in clone,tracked in git,True,25_validation_states_within.py,
+ms_figS7.py,results/tables/25_validation_states_within_vs_ingest.csv,results/tables/25_validation_states_within_vs_ingest.csv,(a) present in clone,tracked in git,True,25_validation_states_within.py,
+ms_figS7.py,results/tables/33_ingest_umap_validation.csv,results/tables/33_ingest_umap_validation.csv,(a) present in clone,tracked in git,True,33_ms_figure_inputs.py,
+ms_figS7.py,results/tables/33_umap_discovery.csv,results/tables/33_umap_discovery.csv,(a) present in clone,tracked in git,True,,
+ms_figS8.py,results/tables/05_tf_screen_validation_reproduction.csv,results/tables/05_tf_screen_validation_reproduction.csv,(a) present in clone,tracked in git,True,05_validation_and_projection.py,
+ms_figS8.py,results/tables/13_gse164241_tf_sign_reproduction.csv,results/tables/13_gse164241_tf_sign_reproduction.csv,(a) present in clone,tracked in git,True,13_gse164241.py,
+03b_fix_compartment.py,data/processed/all_cells_discovery.h5ad,data/processed/all_cells_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+03c_recheck_discovery.py,data/processed/all_cells_discovery.h5ad,data/processed/all_cells_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+04_discovery_scores_and_screen.py,data/processed/all_cells_discovery{SFX}.h5ad,data/processed/all_cells_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+04b_state_labels_discovery.py,data/processed/stromal_discovery.h5ad,data/processed/stromal_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+05e_rho_prev_cellset.py,data/processed/all_cells_validation.h5ad,data/processed/all_cells_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+14_robustness.py,data/processed/stromal_discovery_labelled.h5ad,data/processed/stromal_discovery_labelled.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+14c_robustness_integration.py,data/processed/all_cells_discovery.h5ad,data/processed/all_cells_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+20b_coverage_after_fix.py,data/counts/CAP1/counts_unfiltered/cells_x_genes.genes.names.txt,data/counts/CAP1/counts_unfiltered/cells_x_genes.genes.names.txt,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+20b_coverage_after_fix.py,data/processed/all_cells_validation.h5ad,data/processed/all_cells_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+25_validation_states_within.py,data/processed/all_cells_validation.h5ad,data/processed/all_cells_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+25_validation_states_within.py,data/processed/stromal_validation.h5ad,data/processed/stromal_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,"99_driver_v2.sh, 99_driver_v3.sh",deposit
+28_manuscript_numbers.py,data/processed/all_cells_discovery_obs_scored.parquet,data/processed/all_cells_discovery_obs_scored.parquet,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+28_manuscript_numbers.py,data/processed/stromal_discovery.h5ad,data/processed/stromal_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+28_manuscript_numbers.py,data/processed/stromal_discovery_tf_activity.parquet,data/processed/stromal_discovery_tf_activity.parquet,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+33_ms_figure_inputs.py,data/processed/all_cells_discovery.h5ad,data/processed/all_cells_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+33_ms_figure_inputs.py,data/processed/all_cells_discovery_obs_scored.parquet,data/processed/all_cells_discovery_obs_scored.parquet,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+33_ms_figure_inputs.py,data/processed/all_cells_validation.h5ad,data/processed/all_cells_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+33_ms_figure_inputs.py,data/processed/stromal_discovery_labelled.h5ad,data/processed/stromal_discovery_labelled.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+33_ms_figure_inputs.py,data/processed/stromal_discovery_tf_activity.parquet,data/processed/stromal_discovery_tf_activity.parquet,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+33_ms_figure_inputs.py,data/processed/stromal_validation.h5ad,data/processed/stromal_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,"99_driver_v2.sh, 99_driver_v3.sh",deposit
+34_lolo_rulebased.py,data/processed/stromal_discovery.h5ad,data/processed/stromal_discovery.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+34_lolo_rulebased.py,data/processed/stromal_discovery_tf_activity.parquet,data/processed/stromal_discovery_tf_activity.parquet,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+99_driver.sh,data/counts/CAP1/verify.json,data/counts/CAP1/verify.json,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,99_driver_v2.sh,deposit
+99_driver_v2.sh,data/counts/CAP1/verify.json,data/counts/CAP1/verify.json,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,99_driver.sh,deposit
+99_driver_v2.sh,data/processed/stromal_validation.h5ad,data/processed/stromal_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,99_driver_v3.sh,deposit
+99_driver_v3.sh,data/counts/CAP3/verify.json,data/counts/CAP3/verify.json,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,,deposit
+99_driver_v3.sh,data/counts/{donor}/verify.json,data/counts/CAP1/verify.json,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,"99_driver.sh, 99_driver_v2.sh",deposit
+99_driver_v3.sh,data/processed/stromal_validation.h5ad,data/processed/stromal_validation.h5ad,(b) Zenodo deposit,listed in 40_zenodo_split.csv,False,99_driver_v2.sh,deposit

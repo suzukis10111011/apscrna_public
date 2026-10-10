@@ -1,0 +1,27 @@
+category,item,manuscript_value,where_it_is_fixed,value_there,agrees
+setting frozen before the analysis,size of the cytokine/chemokine (inflammatory) gene set,92,frozen/genesets/stage1_geneset_definitions.json: axes.A_cytokine_chemokine,92,True
+setting frozen before the analysis,size of the survival/anti-apoptotic gene set,92,frozen/genesets/stage1_geneset_definitions.json: axes.B_survival_antiapoptotic,92,True
+setting frozen before the analysis,size of the proliferation gene set,533,frozen/genesets/stage1_geneset_definitions.json: axes.C1_proliferation,533,True
+setting frozen before the analysis,size of the migration gene set,682,frozen/genesets/stage1_geneset_definitions.json: axes.C2_migration,682,True
+setting frozen before the analysis,size of the combined proliferation and migration gene set,"1,021",frozen/genesets/stage1_geneset_definitions.json: axes.C_prolif_migration,1021,True
+setting frozen before the analysis,size of the tissue-forming gene set,468,frozen/genesets/stage1_geneset_definitions.json: axes.D_tissueforming,468,True
+setting frozen before the analysis,targets of the RELA regulon removed for the leak-free scores,560,frozen/net/collectri_regulons.csv: rows with source == RELA,560,True
+setting frozen before the analysis,signed edges of the CollecTRI network,"42,990",frozen/net/collectri_regulons.csv: rows,42990,True
+setting frozen before the analysis,sources of the CollecTRI network,"1,185",frozen/net/collectri_regulons.csv: distinct source,1185,True
+setting frozen before the analysis,control genes per gene in scanpy.tl.score_genes,50,frozen/genesets/program_geneset_definitions.json: method,50,True
+setting frozen before the analysis,expression bins in scanpy.tl.score_genes,25,frozen/genesets/program_geneset_definitions.json: method,25,True
+setting frozen before the analysis,minimum targets of a source for the activity screen (tmin),5,frozen/genesets/stage1_geneset_definitions.json: method,5,True
+pipeline parameter set in the scripts,minimum detected genes per barcode,200,scripts/03_preprocess_discovery.py.bak:66,keep = (D.obs.n_genes_by_counts >= 200) & (D.obs.total_counts >= 500) & (D.obs.pct_counts_,True
+pipeline parameter set in the scripts,minimum UMIs per barcode,500,scripts/03_preprocess_discovery.py.bak:66,keep = (D.obs.n_genes_by_counts >= 200) & (D.obs.total_counts >= 500) & (D.obs.pct_counts_,True
+pipeline parameter set in the scripts,maximum mitochondrial UMI fraction,20%,scripts/03_preprocess_discovery.py.bak:66,keep = (D.obs.n_genes_by_counts >= 200) & (D.obs.total_counts >= 500) & (D.obs.pct_counts_,True
+pipeline parameter set in the scripts,minimum cells a gene must be detected in,3,scripts/03_preprocess_discovery.py.bak:73,"sc.pp.filter_genes(D, min_cells=3)",True
+pipeline parameter set in the scripts,expected doublet rate passed to Scrublet,0.06,scripts/03_preprocess_discovery.py.bak:82,"sc.pp.scrublet(sub, expected_doublet_rate=0.06, random_state=SEED)",True
+pipeline parameter set in the scripts,highly variable genes per cohort,"2,000",scripts/03_preprocess_discovery.py.bak:104,"sc.pp.highly_variable_genes(D, n_top_genes=2000, flavor=""seurat_v3"", batch_key=""lesion"", l",True
+pipeline parameter set in the scripts,principal components,50,scripts/03_preprocess_discovery.py.bak:105,"sc.pp.pca(D, n_comps=50, svd_solver=""arpack"", random_state=SEED, mask_var=""highly_variable",True
+pipeline parameter set in the scripts,neighbours of the k-nearest-neighbour graph,15,scripts/14c_robustness_integration.py:33,"sc.pp.neighbors(B, n_neighbors=15, use_rep=""X_pca"", random_state=SEED)",True
+pipeline parameter set in the scripts,quantile bins for the matched-dispersion statistic,20,scripts/33_ms_figure_inputs.py:42,"def matched(df, col, match, nbins=20, min_n=25):",True
+pipeline parameter set in the scripts,permutations for the retained-dispersion null,200,scripts/33_ms_figure_inputs.py:89,NP = 200,True
+pipeline parameter set in the scripts,permutations for the top-decile enrichment test,"10,000",scripts/28_manuscript_numbers.py:117,NPERM = 10000,True
+pipeline parameter set in the scripts,random factor sets drawn for the sign-agreement null,"1,000",scripts/q1b_null_signtest.py:44,"NSEED, NDRAW, TOPN = 1000, 20, 20",True
+pipeline parameter set in the scripts,quantile bins when a lesion has fewer than 500 stromal cells,10,scripts/05_validation_and_projection.py:208,if len(df) < 500: nbins = 10,True
+pipeline parameter set in the scripts,minimum cells for a bin to be kept,25,scripts/14_robustness.py:76,"def matched(df, col, min_n=25):",True

@@ -1,0 +1,27 @@
+[guard] 再定量 = complete — 34 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260926 18:35:43.885155 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260926 18:35:43.885258 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260926 18:35:43.885283 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+dctrl 再現確認 OK (SP7: 0.456008) | 因子 730
+  LOLO A 完了
+  LOLO B 完了
+  LOLO C 完了
+  LOLO D 完了
+  LOLO E 完了
+
+全 5 回とも候補: 10/10
+                   axis    TF  sum  size  all_runs
+lf_A_cytokine_chemokine NFKB1    5     5      True
+lf_A_cytokine_chemokine NFKB2    5     5      True
+lf_A_cytokine_chemokine   REL    5     5      True
+lf_A_cytokine_chemokine  RELA    5     5      True
+lf_A_cytokine_chemokine  RELB    5     5      True
+     lf_D_tissueforming  DLX5    5     5      True
+     lf_D_tissueforming  MYRF    5     5      True
+     lf_D_tissueforming RUNX2    5     5      True
+     lf_D_tissueforming SMAD3    5     5      True
+     lf_D_tissueforming   SP7    5     5      True
+[guard] 再定量 = complete — 34 完了時 を続行（4スレッド制限）
+
+34 DONE

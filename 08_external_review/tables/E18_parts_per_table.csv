@@ -1,0 +1,13 @@
+table,n_parts,parts,legend_chars
+S1,4,main; gene-set and marker-panel coverage; per run; base composition by position,709
+S2,5,"discovery_n5; validation_n3; candidate reproduction per programme, counted (as in Figure S8A); programme gene sets, members; validation values of every factor of the two programmes (as in Figure 3A, B)",590
+S3,2,"main; unimodality of the programme scores per lesion (Hartigan dip test, as in Figure 4E)",286
+S4,1,main,252
+S5,7,"integration method; stromal cell-set definition, decile ranked on the leak-free score (sensitivity analysis, not the Figure 2 series); candidate sign by cell set; projected state labels vs the within-cohort definition; primary enrichment per lesion (as in Figure 2); candidate sign agreement between the two stromal sets, counted; within-cohort against projected state labels, cell counts (as in Figure S7B)",790
+S6,3,key quantities; stromal barcode agreement; TF screen agreement,383
+S7,3,"pseudobulk, paired Wilcoxon; cell-level linear mixed model; detection fraction",372
+S8,3,"main; top-decile permutation test; compartment composition per lesion, both annotation versions",595
+S9,3,"per donor; TF sign reproduction; candidate reproduction per programme, counted (as in Figure S8B)",368
+S10,9,TF set definition by rule; per-lesion and per-state statistics; cross-side TF pairs; regulon overlap; rule-based vs previous TF set; note on the PC1 variance ratio; state proportions per lesion; MYC activity against the two TF sets; factor-by-factor activity correlation matrix (as in Figure 5D),731
+S11,5,random-factor null; overlap-removed activities; dispersion baselines; unrelated-factor selection; permutation null for the retained dispersion,858
+S12,2,single-donor check; provenance of reported values,335

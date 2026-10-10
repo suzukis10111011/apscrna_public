@@ -1,0 +1,14 @@
+[2026-09-23T06:31:47Z] === 07 start 空き 544G ===
+[2026-09-23T06:31:51Z] 探索ラン数: 20
+[2026-09-23T06:31:51Z] chemistry 判定に使うラン: SRR15373534
+[2026-09-23T06:31:51Z] SRR15373534: .sra 取得開始
+[2026-09-23T09:31:21Z] SRR15373534: 取得完了 12484774107 B
+[2026-09-23T09:31:21Z] SRR15373534: 先頭2,000万スポットを dump
+Read 20000000 spots for /path/to/Documents/apscrna_v2/data/chem/SRR15373534.sra
+Written 20000000 spots for /path/to/Documents/apscrna_v2/data/chem/SRR15373534.sra
+[2026-09-23T09:56:28Z] R1 長 151 / R2 長 151
+[2026-09-23T09:56:28Z] 10xv2: kb count
+[2026-09-23T09:59:23Z] 10xv2: p_pseudoaligned=71.8 n_processed=20000000 barcodes=152949
+[2026-09-23T09:59:23Z] 10xv3: kb count
+[2026-09-23T10:02:32Z] 10xv3: p_pseudoaligned=71.8 n_processed=20000000 barcodes=34348
+[2026-09-23T10:02:32Z] === 07 DONE ===

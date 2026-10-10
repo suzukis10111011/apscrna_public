@@ -1,0 +1,23 @@
+item,value
+rows carried over from the worksheet the student filled in,475
+rows added for numbers that entered the manuscript later,13
+rows in the final record,488
+Y,361
+N,1
+n/a (no hand check needed),33
+left blank (human_check_required = N),93
+disagreements between manuscript and tables,0
+references corrected from the student's remarks,144
+rows in pointer_fixes_for_check_worksheet_20261009.xlsx,71
+"of those, references that had already reached this record",41
+"of those, references the checker made more precise and that were kept",3
+"of those, written into this record from the fix list",0
+"of those, rows marked n/a because the value is not in the tables",25
+"of those, rows giving guidance rather than a cell reference",2
+fix-list references that read back to the expected value in the workbook,43
+numbering,"No 1-485 are the rows of the worksheet handed over (475 rows, the numbering has gaps); the rows added here continue past the last of those, with the row number of clean_v15 in No_in_clean_v15"
+  of the n/a rows: log value,11
+  of the n/a rows: figure number or part of a name,8
+  of the n/a rows: reference build or read structure,6
+  of the n/a rows: parameter or setting,5
+  of the n/a rows: software version,3

@@ -1,0 +1,3 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+FigS8,A,"candidate reproduction, four remaining programmes",05_tf_screen_validation_reproduction.csv,1779,4,programmes,validation_n3
+FigS8,B,"same, independent cohort",13_gse164241_tf_sign_reproduction.csv,19652,4,programmes,GSE164241

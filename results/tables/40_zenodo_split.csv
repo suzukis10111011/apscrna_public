@@ -1,0 +1,90 @@
+zenodo,group,path,bytes,gb,note
+deposit,main analysis h5ad (GEO matrix version),data/processed/all_cells_discovery.h5ad,1577494761,1.469,The figure/table in the main text can be reproduced from now on.
+deposit,main analysis h5ad (GEO matrix version),data/processed/stromal_discovery.h5ad,337832194,0.315,The figure/table in the main text can be reproduced from now on.
+deposit,main analysis h5ad (GEO matrix version),data/processed/stromal_discovery_labelled.h5ad,337482058,0.314,The figure/table in the main text can be reproduced from now on.
+deposit,main analysis h5ad (GEO matrix version),data/processed/all_cells_validation.h5ad,1753185193,1.633,The figure/table in the main text can be reproduced from now on.
+deposit,main analysis h5ad (GEO matrix version),data/processed/stromal_validation.h5ad,211291881,0.197,The figure/table in the main text can be reproduced from now on.
+deposit,Requantification version h5ad (Supplementary S4/S6),data/processed/all_cells_discovery_kb.h5ad,2635438789,2.454,FigS4 control required
+deposit,Requantification version h5ad (Supplementary S4/S6),data/processed/all_cells_discovery_kbgeo.h5ad,2476967420,2.307,FigS4 control required
+deposit,Requantification version h5ad (Supplementary S4/S6),data/processed/stromal_discovery_kb.h5ad,544620536,0.507,FigS4 control required
+deposit,Requantification version h5ad (Supplementary S4/S6),data/processed/stromal_discovery_kbgeo.h5ad,513348220,0.478,FigS4 control required
+deposit,Intermediate score parquet,data/processed/all_cells_discovery_obs_scored.parquet,13340259,0.012,TF activity and score recalculation can be skipped
+deposit,Intermediate score parquet,data/processed/all_cells_discovery_obs_scored_kbgeo.parquet,11138687,0.01,TF activity and score recalculation can be skipped
+deposit,Intermediate score parquet,data/processed/stromal_discovery_tf_activity.parquet,44112923,0.041,TF activity and score recalculation can be skipped
+deposit,Intermediate score parquet,data/processed/stromal_discovery_tf_activity_kbgeo.parquet,43970646,0.041,TF activity and score recalculation can be skipped
+deposit,Intermediate score parquet,data/processed/stromal_validation_tf_activity.parquet,12577803,0.012,TF activity and score recalculation can be skipped
+deposit,independent cohort,data/gse164241/gingiva.h5ad,3031261868,2.823,GSE164241 processed object
+deposit,independent cohort,data/gse164241/gsm_meta.csv,1079,0.0,Donor correspondence table
+deposit,Requantification final matrix (discovery),data/counts_discovery/SampleA/counts_unfiltered,355630084,0.331,mtx + barcodes + genes
+deposit,Quantification provenance (SampleA),data/counts_discovery/SampleA/verify.json,236,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (SampleA),data/counts_discovery/SampleA/run_info.json,1174,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (SampleA),data/counts_discovery/SampleA/kb_info.json,4342,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (discovery),data/counts_discovery/SampleB/counts_unfiltered,254060433,0.237,mtx + barcodes + genes
+deposit,quantification provenance (SampleB),data/counts_discovery/SampleB/verify.json,236,0.0,"Edition, argument, mapping rate"
+deposit,quantification provenance (SampleB),data/counts_discovery/SampleB/run_info.json,1174,0.0,"Edition, argument, mapping rate"
+deposit,quantification provenance (SampleB),data/counts_discovery/SampleB/kb_info.json,4338,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (discovery),data/counts_discovery/SampleC/counts_unfiltered,224892219,0.209,mtx + barcodes + genes
+deposit,Quantification provenance (SampleC),data/counts_discovery/SampleC/verify.json,236,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (SampleC),data/counts_discovery/SampleC/run_info.json,1174,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (SampleC),data/counts_discovery/SampleC/kb_info.json,4340,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (discovery),data/counts_discovery/SampleD/counts_unfiltered,275011045,0.256,mtx + barcodes + genes
+deposit,quantification provenance (SampleD),data/counts_discovery/SampleD/verify.json,236,0.0,"Edition, argument, mapping rate"
+deposit,quantification provenance (SampleD),data/counts_discovery/SampleD/run_info.json,1174,0.0,"Edition, argument, mapping rate"
+deposit,quantification provenance (SampleD),data/counts_discovery/SampleD/kb_info.json,4339,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (discovery),data/counts_discovery/SampleE/counts_unfiltered,224660852,0.209,mtx + barcodes + genes
+deposit,Quantification of provenance (SampleE),data/counts_discovery/SampleE/verify.json,236,0.0,"Edition, argument, mapping rate"
+deposit,Quantification of provenance (SampleE),data/counts_discovery/SampleE/run_info.json,1174,0.0,"Edition, argument, mapping rate"
+deposit,Quantification of provenance (SampleE),data/counts_discovery/SampleE/kb_info.json,4340,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (validation),data/counts/CAP1/counts_unfiltered,462790235,0.431,mtx + barcodes + genes
+deposit,Quantification provenance (CAP1),data/counts/CAP1/verify.json,389,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (CAP1),data/counts/CAP1/run_info.json,678,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (CAP1),data/counts/CAP1/kb_info.json,3137,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (validation),data/counts/CAP2/counts_unfiltered,387899374,0.361,mtx + barcodes + genes
+deposit,Quantification provenance (CAP2),data/counts/CAP2/verify.json,389,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (CAP2),data/counts/CAP2/run_info.json,677,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (CAP2),data/counts/CAP2/kb_info.json,3135,0.0,"Edition, argument, mapping rate"
+deposit,Requantification final matrix (validation),data/counts/CAP3/counts_unfiltered,296611417,0.276,mtx + barcodes + genes
+deposit,Quantification provenance (CAP3),data/counts/CAP3/verify.json,389,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (CAP3),data/counts/CAP3/run_info.json,678,0.0,"Edition, argument, mapping rate"
+deposit,Quantification provenance (CAP3),data/counts/CAP3/kb_info.json,3136,0.0,"Edition, argument, mapping rate"
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleA/output.bus,8494884145,7.911,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleA/output.unfiltered.bus,4178621809,3.892,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleA/matrix.ec,29552580,0.028,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleA/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleA/10x_version2_whitelist.txt,12533760,0.012,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleB/output.bus,7747760017,7.216,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleB/output.unfiltered.bus,3916981041,3.648,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleB/matrix.ec,27461513,0.026,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleB/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleB/10x_version2_whitelist.txt,12533760,0.012,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleC/output.bus,8518344209,7.933,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleC/output.unfiltered.bus,3780652881,3.521,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleC/matrix.ec,31941358,0.03,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleC/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleC/10x_version2_whitelist.txt,12533760,0.012,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleD/output.bus,6919593905,6.444,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleD/output.unfiltered.bus,3216241681,2.995,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleD/matrix.ec,30007950,0.028,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleD/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleD/10x_version2_whitelist.txt,12533760,0.012,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleE/output.bus,6679687633,6.221,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleE/output.unfiltered.bus,3528254993,3.286,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleE/matrix.ec,26464856,0.025,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleE/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts_discovery/SampleE/10x_version2_whitelist.txt,12533760,0.012,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP1/output.bus,7833520625,7.296,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP1/output.unfiltered.bus,3582275249,3.336,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP1/matrix.ec,32614519,0.03,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP1/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP2/output.bus,6918119249,6.443,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP2/output.unfiltered.bus,3700605137,3.446,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP2/matrix.ec,38424295,0.036,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP2/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP3/output.bus,9700824593,9.035,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP3/output.unfiltered.bus,3671981969,3.42,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP3/matrix.ec,33844579,0.032,Final matrix not requiring reproduction · low value for disclosure
+not deposited,BUS and other quantification intermediates,data/counts/CAP3/transcripts.txt,3726053,0.003,Final matrix not requiring reproduction · low value for disclosure
+not deposited,Group discovery (kbtest),data/processed/all_cells_discovery_kbtest.h5ad,1201681295,1.119,"2 specimens only, pathway confirmation"
+not deposited,Group discovery (kbtest),data/processed/stromal_discovery_kbtest.h5ad,278540312,0.259,"2 specimens only, pathway confirmation"
+not deposited,Retrievable public data,data/gse164241/GSE164241_RAW.tar,796436480,0.742,Retrievable again from GEO
+not deposited,Retrievable public data,data/geo,477674980,0.445,GSE181688 / GSE197680 distribution matrix

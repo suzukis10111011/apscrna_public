@@ -1,0 +1,10 @@
+cohort,lesion,score_ranking_the_decile,stromal_set,n_cells,n_top_decile,stromal_pct_overall_primary,stromal_pct_top_decile_primary,enrichment_fold_primary,figure,source_file_of_part
+discovery_n5,A,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),8102,811,28.56,97.9,3.428,"Figure 2A, B",04_enrichment_by_lesion_discovery.csv
+discovery_n5,B,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),10872,1088,6.8,62.32,9.168,"Figure 2A, B",04_enrichment_by_lesion_discovery.csv
+discovery_n5,C,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),7011,702,14.52,97.29,6.701,"Figure 2A, B",04_enrichment_by_lesion_discovery.csv
+discovery_n5,D,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),9460,946,14.99,92.71,6.185,"Figure 2A, B",04_enrichment_by_lesion_discovery.csv
+discovery_n5,E,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),8988,899,8.08,77.09,9.543,"Figure 2A, B",04_enrichment_by_lesion_discovery.csv
+discovery_n5,POOLED_discovery,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),44433,4444,13.99,94.15,6.731,"Figure 2A, B",04_enrichment_by_lesion_discovery.csv
+validation_n3,CAP1,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),9656,966,8.91,78.26,8.787,"Figure 2A, B",05_enrichment_by_lesion_validation.csv
+validation_n3,CAP2,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),9779,978,5.79,57.67,9.964,"Figure 2A, B",05_enrichment_by_lesion_validation.csv
+validation_n3,CAP3,p_D_tissueforming (full programme score),cluster-based (the set used throughout the paper),6655,666,5.3,52.1,9.823,"Figure 2A, B",05_enrichment_by_lesion_validation.csv

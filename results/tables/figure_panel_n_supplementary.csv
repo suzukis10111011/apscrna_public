@@ -1,0 +1,12 @@
+figure,panel,cohort,n_samples,n_cells_final,stages,n_stromal_harmony,n_stromal_uncorrected,n_TFs,n_combinations,n_negative,n_lesions,n_comparisons,n_geo_stromal,n_axes,n_TFs_common,definition,n_points,n_factors,n_runs,n_retained_all_runs
+figS1_qc,A,discovery_n5,5.0,44433.0,0_raw;1_qc_pass;2_singlet,,,,,,,,,,,,,,,
+figS1_qc,B,validation_n3,3.0,26090.0,0_raw_ge100umi;1_qc_pass;2_singlet,,,,,,,,,,,,,,,
+figS2_integration,A,,,,,6215.0,1868.0,,,,,,,,,,,,,
+figS2_integration,B,,,,,,,740.0,,,,,,,,,,,,
+figS3_genesets,A+B,discovery pooled,,,,,,,18.0,16.0,,,,,,,,,,
+figS4_geo_vs_kb,A,,,,,,,,,,6.0,,,,,,,,,
+figS4_geo_vs_kb,B,,,,,,,,,,,2.0,6203.0,,,,,,,
+figS4_geo_vs_kb,C,,,,,,,,,,,,,2.0,725.0,,,,,
+figS5_raw_vs_depth,A,,,,,,,,,,8.0,,,,,axis,10.0,,,
+figS5_raw_vs_depth,B,,,,,,,,,,8.0,,,,,composite,10.0,,,
+figS6_lolo,A+B,discovery_n5,,,,,,,,,,,,,,,,10.0,5.0,9.0

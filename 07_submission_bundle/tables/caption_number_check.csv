@@ -1,0 +1,5 @@
+figure,panel,quantity,value_in_table,as_printed_in_caption,source_file,in_panel,caption_matches_table
+Fig3,E,"mean sign agreement of 1,000 random sets of 20 sign-consistent non-candidate factors, inflammatory",10.4,10.4 of 20,Q1b_null_summary.csv (S11a),drawn in the panel (no number printed),True
+Fig3,E,"same, tissue-forming",13.19,13.2 of 20,Q1b_null_summary.csv (S11a),drawn in the panel (no number printed),True
+Fig4,B,"retained dispersion after matching on 10 unrelated factors, range over 8 lesions",0.8828-0.9947,0.88-0.99,Q2_definitionA_baselines.csv (S11c),drawn in the panel (no number printed),True
+Fig4,B,"floor, conditioned on the tissue-forming score itself, range over 8 lesions",0.0993-0.3509,0.10-0.35,Q2_definitionA_baselines.csv (S11c),not drawn in the panel; caption and Table S11 only,True

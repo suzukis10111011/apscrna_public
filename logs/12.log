@@ -1,0 +1,47 @@
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 16:51:27.693506 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 16:51:27.693598 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 16:51:27.693624 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+                        set  n_def  n_found
+    lf_A_cytokine_chemokine     43       43
+lf_B_survival_antiapoptotic     63       57
+        lf_C1_proliferation    509      468
+            lf_C2_migration    644      574
+      lf_C_prolif_migration    970      894
+         lf_D_tissueforming    406      406
+                 myeloid_M1      9        9
+           myeloid_M2repair     10       10
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+
+=== 区画別（POOLED 行）===
+   compartment  n_cells  raw_rho  depth_controlled_rho  defA_frac_retained  defA_bins_used
+       stromal     6215  -0.0611               -0.0337              0.9925            20.0
+immune_myeloid     2292  -0.0230               -0.0050              0.9760            20.0
+ immune_plasma    17857  -0.0998                0.0011              0.9523            20.0
+      immune_T     5699  -0.0166               -0.0144              0.9901            20.0
+   endothelial     4375  -0.1847               -0.0172              0.9648            20.0
+  pericyte_smc     3517  -0.3288               -0.0743              0.9665            20.0
+
+=== 病変別 depth 統制ρ ===
+lesion              A      B      C      D      E  POOLED
+compartment                                              
+endothelial     0.040 -0.032 -0.009  0.006 -0.074  -0.017
+immune_T          NaN -0.012 -0.001 -0.003  0.012  -0.014
+immune_myeloid    NaN  0.073  0.010 -0.044  0.033  -0.005
+immune_plasma   0.001 -0.013 -0.016  0.016  0.013   0.001
+pericyte_smc   -0.004 -0.244 -0.085  0.045 -0.035  -0.074
+stromal        -0.003  0.076  0.021 -0.089 -0.130  -0.034
+
+=== myeloid 固有軸 M1 × M2修復 ===
+lesion  n_cells  myeloid_M1_vs_M2_raw_rho  myeloid_M1_vs_M2_depth_controlled_rho
+     A       75                       NaN                                    NaN
+     B      374                    0.1079                                 0.1063
+     C      741                    0.2132                                 0.2168
+     D      479                    0.0067                                 0.0603
+     E      623                    0.2945                                 0.2996
+POOLED     2292                    0.1328                                 0.1433
+[guard] requant_heartbeat 無し（08 未起動）— 続行
+
+12 DONE

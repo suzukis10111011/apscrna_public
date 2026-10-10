@@ -1,0 +1,21 @@
+cohort,factor,programme_set,spearman_rho_with_MYC_activity
+discovery,NFKB2,inflammatory TF set,0.421691
+discovery,RELB,inflammatory TF set,0.347203
+discovery,REL,inflammatory TF set,0.454582
+discovery,ATF1,inflammatory TF set,0.504145
+discovery,MTA1,inflammatory TF set,0.424425
+discovery,SP7,tissue-forming TF set,-0.171174
+discovery,DLX5,tissue-forming TF set,-0.059859
+discovery,RUNX2,tissue-forming TF set,-0.016106
+discovery,SMAD3,tissue-forming TF set,0.209107
+discovery,MYRF,tissue-forming TF set,-0.174954
+validation,NFKB2,inflammatory TF set,0.436599
+validation,RELB,inflammatory TF set,0.412217
+validation,REL,inflammatory TF set,0.511857
+validation,ATF1,inflammatory TF set,0.589565
+validation,MTA1,inflammatory TF set,0.481301
+validation,SP7,tissue-forming TF set,-0.088731
+validation,DLX5,tissue-forming TF set,-0.046123
+validation,RUNX2,tissue-forming TF set,0.137255
+validation,SMAD3,tissue-forming TF set,0.427852
+validation,MYRF,tissue-forming TF set,0.001414

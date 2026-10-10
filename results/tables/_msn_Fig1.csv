@@ -1,0 +1,6 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig1,A,study design schematic,-,,8,lesions,both
+Fig1,B,all-cell UMAP,33_umap_discovery.csv,44433.0,5,lesions,discovery_n5
+Fig1,C,all-cell UMAP,33_umap_validation.csv,26090.0,3,lesions,validation_n3
+Fig1,D,compartment marker dot plot,33_compartment_marker_dotplot.csv,44433.0,5,compartments,discovery_n5
+Fig1,E,compartment fractions per lesion,03c_compartment_by_lesion_discovery.csv; 05_compartment_by_lesion_validation.csv,70523.0,8,lesions,both

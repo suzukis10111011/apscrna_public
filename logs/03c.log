@@ -1,0 +1,38 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 15:10:09.759696 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 15:10:09.759812 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 15:10:09.759835 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+03c 区画比率 (%):
+compartment  endothelial  epithelial  immune  pericyte_smc  stromal
+lesion                                                             
+A                  15.19        2.04   44.48          9.73    28.56
+B                   8.62        2.57   78.39          3.62     6.80
+C                   3.29        0.09   77.68          4.42    14.52
+D                  18.86        5.25   43.53         17.37    14.99
+E                   2.14        0.23   85.30          4.25     8.08
+
+03b -> 03c の移動:
+compartment  endothelial  epithelial  immune  pericyte_smc  stromal
+compartment                                                        
+endothelial         4375           0       0             0        0
+epithelial             0         838       0             0        0
+immune                 0           0   28968             0        0
+stromal                0         130       0          3517     6215
+unassigned             0           0     390             0        0
+
+探索 pooled 間質比率: 03c 13.99%  (03b 13.99%, 申請書 14.8%)
+
+濃縮（03c 区画）:
+          lesion  stromal_pct_overall  stromal_pct_top_decile  enrichment_fold
+               A                28.56                   97.78            3.424
+               B                 6.80                   60.48            8.897
+               C                14.52                   97.44            6.710
+               D                14.99                   93.66            6.248
+               E                 8.08                   76.42            9.461
+POOLED_discovery                13.99                   93.95            6.717
+
+03c DONE

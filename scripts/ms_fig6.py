@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+"""Purpose: Visualize inter-axon coupling strength across cellular compartments
+Input: 12_coupling_by_compartment.csv
+Output: Fig6_compartments
+
+Figure 6: Inter-axon coupling in other compartments.
+"""
+import sys, os; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _msstyle import *
+import pandas as pd, numpy as np
+C = pd.read_csv(f"{TAB}/12_coupling_by_compartment.csv")
+C = C[C.excluded.fillna("") == ""]
+f, gs = gridfig(180, 76, nrows=1, ncols=2, width_ratios=[1.3, 1], wspace=0.36)
+a1 = f.add_subplot(gs[0, 0])
+piv = C[C.lesion != "POOLED"].pivot_table(index="compartment", columns="lesion", values="depth_controlled_rho")
+order = C[C.lesion == "POOLED"].set_index("compartment").depth_controlled_rho.sort_values().index
+piv = piv.reindex([o for o in order if o in piv.index])
+for j, cname in enumerate(piv.index):          # The name comp shadows comp() from _msstyle
+    v = piv.loc[cname].dropna()
+    a1.scatter(v.values, [j] * len(v), s=14, color=DISC, alpha=0.8, linewidths=0)
+    p = C[(C.compartment == cname) & (C.lesion == "POOLED")].depth_controlled_rho
+    if len(p): a1.plot([float(p.iloc[0])] * 2, [j - 0.26, j + 0.26], color="0.15", lw=1.3)
+a1.axvline(0, color="0.5", lw=0.6)
+a1.set_yticks(range(len(piv))); a1.set_yticklabels([comp(c) for c in piv.index], fontsize=6.4)
+a1.set_xlabel("Depth-controlled Spearman $\\rho$ (inflammatory vs tissue-forming axis)")
+
+a2 = f.add_subplot(gs[0, 1])
+d = C[(C.compartment == "immune_myeloid") & C.myeloid_M1_vs_M2_depth_controlled_rho.notna()]
+dl = d[d.lesion != "POOLED"]
+a2.bar(range(len(dl)), dl.myeloid_M1_vs_M2_depth_controlled_rho, color=OKABE[2], width=0.6, lw=0)
+p = d[d.lesion == "POOLED"]
+if len(p): a2.axhline(float(p.myeloid_M1_vs_M2_depth_controlled_rho.iloc[0]), color="0.25", lw=0.9, ls="--")
+a2.axhline(0, color="0.5", lw=0.6)
+a2.set_xticks(range(len(dl))); a2.set_xticklabels(dl.lesion, fontsize=6.5)
+a2.set_ylabel("Depth-controlled $\\rho$\n(myeloid M1 vs M2/repair)")
+a2.set_title(comp("immune_myeloid") + ": intrinsic axes", loc="left", fontsize=7)
+panel(a1, "A", dx=-0.24); panel(a2, "B", dx=-0.22)
+save(f, "Fig6_compartments")
+
+paneln([dict(figure="Fig6", panel="A", content="programme coupling per compartment",
+             source_table="12_coupling_by_compartment.csv", n_cells=44433,
+             n_groups=int(C.compartment.nunique()) if "compartment" in C.columns else None,
+             group_unit="compartments", cohort="discovery_n5"),
+        dict(figure="Fig6", panel="B", content="myeloid-intrinsic axis coupling",
+             source_table="12_coupling_by_compartment.csv", n_cells=44433,
+             n_groups=int(dl.shape[0]) if "dl" in dir() else None,
+             group_unit="lesions", cohort="discovery_n5")], "Fig6")

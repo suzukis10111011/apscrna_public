@@ -1,0 +1,52 @@
+script,kind,tables,figures,objects,other,lines,purpose
+03_preprocess_discovery.py,step,compartment_by_lesion_discovery{SFX};compartment_marker_zscores_discovery{SFX};qc_cells_by_lesion_discovery{SFX},,all_cells_discovery{SFX},,196,"03: Preprocessing, integration, and stromal-compartment annotation of discovery 5 lesions (GEO preprocessed matrix)."
+03b_fix_compartment.py,step,03b_celltype_fine_by_lesion_discovery;03b_compartment_by_lesion_{tag};03b_compartment_marker_maxz_{tag},,all_cells_discovery,,98,03b: Correction of compartment annotation (providing a function usable for both discovery and validation; applied to discovery).
+03c_recheck_discovery.py,step,03c_enrichment_by_lesion_discovery;03c_vs_03b_confusion_discovery;03c_vs_03b_counts_discovery,,all_cells_discovery,,57,03c: re-verification of discovery-side compartment annotation using common functions (cell-level score_genes + cluster majority vote).
+04_discovery_scores_and_screen.py,step,04_definitionA_discovery_v2{SFX};04_enrichment_by_lesion_discovery{SFX};04_geneset_coverage_discovery{SFX};04_grant_factors_in_screen_discovery{SFX};04_rho_inflam_vs_tissueforming_discovery{SFX};04_tf_screen_discovery_candidates{SFX},,stromal_discovery{SFX},,204,"04: discovery 5 lesion axis score, TF activity, key values (1)(2)(3①)(4 discovery portion)."
+04b_state_labels_discovery.py,step,04b_state_definition_discovery;04b_state_pct_discovery,,stromal_discovery_labelled,,54,04b Quantification 5 lesion stromal cells defining state labels (Step 5 first half)
+05_validation_and_projection.py,step,05_compartment_by_lesion_validation;05_definitionA_validation_v2;05_enrichment_by_lesion_validation;05_geneset_coverage_validation;05_qc_cells_by_lesion_validation;05_rho_inflam_vs_tissueforming_validation;05_state_pct_validation_projected;05_tf_screen_validation_reproduction,,all_cells_validation;stromal_validation,,273,"05: Validation 3 lesions (CAP1-3) preprocessing, integration, and scoring, with projection into discovery space (one-way)."
+05e_rho_prev_cellset.py,step,05e_rho_prev_cellset_vs_clean,,,,69,"05e: Validation ρ sign discrepancy can be explained by ""prior stromal aggregate contamination"" validation."
+06_report.py,step,key_numbers_v2_vs_grant,,,,179,06: Assemble key_numbers_v2_vs_grant.csv and REPORT_day1.md from only the tables that exist.
+09_geo_vs_kb.py,step,09_geo_vs_kb;09_stromal_jaccard;09_tf_agreement_geo_vs_kb,,,,167,09: GEO matrix version and kb requantification version side-by-side comparison of key values and candidate TFs.
+09b_report_day3.py,step,16_methods_numbers,,,REPORT_day3.md;STATUS.md,145,"09b: Write REPORT_day3.md from results of 09, add section to head of STATUS.md,"
+10_receptors_by_state.py,step,10_receptors_by_state;10_receptors_dotplot_input;10_receptors_pseudobulk_log2cpm,,,,94,10 Comparing receptor expression across state in Figure 5A/B.
+11_coactivity.py,step,11_coactivity_smad3_sensitivity;11_tf_activity_spearman_matrix;11_tf_crossside_pairs_sign_consistency,,,,85,"11 (Figure 5C/D): Bilateral TF co-activation within the same cell. Sensitivity with/without SMAD3, 11x11 correlation matrix,"
+12_coupling_by_compartment.py,step,12_coupling_by_compartment;12_geneset_coverage_{COH},,,,99,12 Checking whether the inflammatory axis and tissue-forming axis are coupled in compartments other than stromal in Figure 6.
+13_gse164241.py,step,13_geneset_coverage_gse164241;13_gse164241_summary;13_gse164241_tf_sign_reproduction,,,,182,13 (Figure 7): Apply the same procedure to gingival samples from periodontitis data GSE164241 (oral mucosal atlas).
+14_robustness.py,step,14_geneset_provenance;14_robustness_genesets_scoring,,,,125,"14: Robustness. (a) gene set 3×3, (b) scoring method 3 types, (c) integration method 2 types."
+14c_robustness_integration.py,step,14_robustness_integration;14_tf_rank_by_integration,,,,59,14c: How much the stromal compartment and TF screen rank shift across integration methods (uncorrected PCA vs Harmony).
+17_receptor_power.py,step,17_receptors_detection_fraction;17_receptors_mixedmodel,,,,77,17: Power for receptor comparison. Linear mixed model of cell-level log-normalized expression ~ state + (1|lesion).
+18_stromal_markerdefined.py,step,18_stromal_markerdefined_vs_primary;18_tf_sign_by_cellset,,,,124,18: Reproduction in stromal aggregates independent of embedding and clustering.
+20b_coverage_after_fix.py,step,,,,,33,"20b: symbol Before and after correction, arrange gene set dropout rates."
+25_validation_states_within.py,step,25_state_crosstab_within_vs_ingest;25_state_definition_validation_within;25_validation_states_within_vs_ingest,,stromal_validation,,69,25: Validation-side state labels defined within the validation cohort (substitute for ingest projection).
+28_manuscript_numbers.py,step,28_enrichment_permutation;28_lolo_grant_factors;28_manuscript_numbers;28_qc_all_stages,,,,183,"28: Numerical list filling square brackets in manuscript + new calculations (LOLO, enrichment permutation test, immune top decile)."
+30_supplementary_tables.py,step,,,,Supplementary_Tables_S1-S9.xlsx;Supplementary_Tables_S1-S9.xlsx (+ CSV files for each sheet are source files in results/tables/),125,"30: Supplement tables S1-S9 consolidated into one xlsx (one sheet per table, column names in English)."
+_figstyle.py,helper,,,,,45,"Figure common specifications: width 180mm (2-column)/85mm (1-column), Arial 7-8pt, color-vision diversity considered, PDF + 600dpi PNG."
+_guard.py,helper,,,,,45,Analysis-side common guard: thread limitation and requantification viability confirmation.
+_utils.py,helper,,,,,236,Common helper.
+fig1.py,step,,fig1_cohort_composition,,,32,Figure 1: Cohort composition and stromal enrichment.
+fig2.py,step,,fig2_tf_screen,,,27,Figure 2: Positions of candidate factors in the 730TF screen.
+fig3.py,step,,fig3_definitionA,,,23,Figure 3: definition A (retained dispersion after RELA matching).
+fig4.py,step,,fig4_validation,,,70,Figure 4: Validation-side reproduction — ρ cell population dependence and sign reproduction of discovery candidate TFs.
+fig5.py,step,,fig5_receptors_coactivity,,,58,"Figure 5: A/B receptor state comparison, C/D bilateral TF co-activation (SMAD3 sensitivity)."
+fig6.py,step,,fig6_compartments,,,34,Figure 6: Axial coupling in other compartments.
+fig7.py,step,,fig7_gse164241,,,31,Figure 7: comparison with the periodontitis dataset GSE164241. Produces nothing if the outputs of 13 are absent.
+figS1_qc.py,step,_paneln_figS1,figS1_qc,,,27,"Figure S1: Cell count at each QC stage (both cohorts, by sample)."
+figS2_integration.py,step,_paneln_figS2,figS2_integration,,,31,Figure S2: Comparison of integrated method (Harmony vs uncorrected PCA).
+figS3_genesets.py,step,_paneln_figS3,figS3_genesets,,,28,Figure S3: Robustness of gene set x score method.
+figS4_geo_vs_kb.py,step,_paneln_figS4,figS4_geo_vs_kb,,,55,Figure S4: GEO matrix version vs kb requantification version (supplementary robustness verification).
+figS5_raw_vs_depth.py,step,_paneln_figS5,figS5_raw_vs_depth,,,39,"Figure S5: Comparison of Spearman rho between raw and depth-controlled analyses (both cohorts, both definitions)."
+figS6_lolo.py,step,_paneln_figS6,figS6_lolo,,,41,Supplementary Figure S6: Stability of 10 factors in grant application during leave-one-lesion-out analysis.
+figS_robustness.py,step,,figS_robustness,,,42,"Supplementary figure: Robustness of gene set, score method, and integration approach."
+01a_mkidx.sh,step,,,,,53,01a: Kallisto index reconstruction. Same conditions as frozen/scripts/mkidx.sh.
+01b_validation_pipeline.sh,step,,,,,116,01b: validation cohort PRJNA1213680 requantification
+01c_fetch_sra_parallel.sh,step,,,,,97,01c: .sra 8-parallel range fetch → fasterq-dump → kb count → validation → cleanup
+02_quant.sh,step,,,,,138,"02: Requantification of restart version (capacity-first, 1 rank at a time). Replaces 01c."
+02b_quant.sh,step,,,,,103,02b: Modified version of 02_quant.sh. All-run path B (gz generation from local .sra).
+07_chemistry_test.sh,step,,,,,52,"07: Discovery-side 10x chemistry determination. Both 10xv2 and 10xv3 tested on the first 20 million reads of the first run,"
+08_discovery_requant.sh,step,,,,,109,08: Requantification of 5 discovery lesions. 20 runs (5 samples × 4 runs) from ref/discovery_runs.tsv.
+99_driver.sh,step,,,,,78,Restart version (old version saved as 99_driver_v1.sh.bak)
+99_driver_v2.sh,step,,,,,76,99 v2: Restart driver. 02_quant.sh -> 05 -> 06 self-executing.
+99_driver_v3.sh,step,,,,,69,99 v3: Waiting for 02b_quant.sh completion before running 05 → 06.
+99_driver_v4.sh,step,,,,,52,99 v4: Completion of 07(chemistry) awaited for determination -> ref/chemistry_decision.json -> 08(20 runs requantification).
+99_watch_09.sh,step,,,,,81,"99_watch_09: Confirm completion of 08 (discovery 5 samples kb requantification) every 10 minutes, and automatically execute process 09 when ready."

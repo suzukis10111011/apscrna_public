@@ -1,0 +1,292 @@
+figure,text,colour,pt,has_dollar,outside
+Fig1,Discovery,#000000,7.0,False,False
+Fig1,5 lesions,#000000,7.0,False,False
+Fig1,Programme scores,#000000,7.0,False,False
+Fig1,TF activity screen,#000000,7.0,False,False
+Fig1,Candidate factors,#000000,7.0,False,False
+Fig1,and thresholds,#000000,7.0,False,False
+Fig1,Validation,#000000,7.0,False,False
+Fig1,3 lesions,#000000,7.0,False,False
+Fig1,"Same pipeline,",#000000,7.0,False,False
+Fig1,cohort-internal cuts,#000000,7.0,False,False
+Fig1,Sign confirmation,#000000,7.0,False,False
+Fig1,only,#000000,7.0,False,False
+Fig1,Independent,#000000,7.0,False,False
+Fig1,cohort,#000000,7.0,False,False
+Fig1,(GSE164241),#000000,7.0,False,False
+Fig1,a,#000000,8.0,False,False
+Fig1,"Discovery, 5 lesions  n=44,433",#000000,7.2,False,False
+Fig1,"Endothelium (4,375)",#000000,7.0,False,False
+Fig1,Epithelium (968),#000000,7.0,False,False
+Fig1,"Immune cells (29,358)",#000000,7.0,False,False
+Fig1,"Pericytes/SMC (3,517)",#000000,7.0,False,False
+Fig1,"Stromal cells (6,215)",#000000,7.0,False,False
+Fig1,b,#000000,8.0,False,False
+Fig1,"Validation, 3 lesions  n=26,090",#000000,7.2,False,False
+Fig1,"Endothelium (1,916)",#000000,7.0,False,False
+Fig1,Epithelium (463),#000000,7.0,False,False
+Fig1,"Immune cells (20,413)",#000000,7.0,False,False
+Fig1,"Pericytes/SMC (1,154)",#000000,7.0,False,False
+Fig1,Schwann / neural (365),#000000,7.0,False,False
+Fig1,"Stromal cells (1,779)",#000000,7.0,False,False
+Fig1,c,#000000,8.0,False,False
+Fig1,Compartment markers,#000000,7.0,False,False
+Fig1,d,#000000,8.0,False,False
+Fig1,Discovery,#000000,7.0,False,False
+Fig1,Validation,#000000,7.0,False,False
+Fig1,Endothelium,#000000,7.0,False,False
+Fig1,Epithelium,#000000,7.0,False,False
+Fig1,Immune cells,#000000,7.0,False,False
+Fig1,Pericytes/SMC,#000000,7.0,False,False
+Fig1,Stromal cells,#000000,7.0,False,False
+Fig1,Schwann / neural,#000000,7.0,False,False
+Fig1,e,#000000,8.0,False,False
+Fig2,Discovery (5 lesions),#000000,7.0,False,False
+Fig2,Validation (3 lesions),#000000,7.0,False,False
+Fig2,Programme score by compartment,#000000,7.4,False,False
+Fig2,a,#000000,8.0,False,False
+Fig2,all cells,#000000,7.0,False,False
+Fig2,top decile of,#000000,7.0,False,False
+Fig2,tissue-forming score,#000000,7.0,False,False
+Fig2,b,#000000,8.0,False,False
+Fig2,c,#000000,8.0,False,False
+Fig3,MYRF,#000000,7.0,False,False
+Fig3,SMAD3,#000000,7.0,False,False
+Fig3,DLX5,#000000,7.0,False,False
+Fig3,RUNX2,#000000,7.0,False,False
+Fig3,SP7,#000000,7.0,False,False
+Fig3,Tissue-forming programme,#000000,7.0,False,False
+Fig3,a,#000000,8.0,False,False
+Fig3,REL,#000000,7.0,False,False
+Fig3,NFKB1,#000000,7.0,False,False
+Fig3,RELA,#000000,7.0,False,False
+Fig3,NFKB2,#000000,7.0,False,False
+Fig3,RELB,#000000,7.0,False,False
+Fig3,Inflammatory programme,#000000,7.0,False,False
+Fig3,b,#000000,8.0,False,False
+Fig3,Discovery,#000000,7.0,False,False
+Fig3,Validation,#000000,7.0,False,False
+Fig3,"Top-20 candidates, Tissue-forming progra",#000000,7.2,False,False
+Fig3,c,#000000,8.0,False,False
+Fig3,Discovery,#000000,7.0,False,False
+Fig3,Validation,#000000,7.0,False,False
+Fig3,"Top-20 candidates, Inflammatory programm",#000000,7.2,False,False
+Fig3,d,#000000,8.0,False,False
+Fig3,pooled ρ same sign,#000000,7.0,False,False
+Fig3,same sign in all 3 lesions,#000000,7.0,False,False
+Fig3,e,#000000,8.0,False,False
+Fig3,f,#000000,8.0,False,False
+Fig4,A,#000000,7.0,False,False
+Fig4,B,#000000,7.0,False,False
+Fig4,C,#000000,7.0,False,False
+Fig4,D,#000000,7.0,False,False
+Fig4,E,#000000,7.0,False,False
+Fig4,CAP1,#000000,7.0,False,False
+Fig4,CAP2,#000000,7.0,False,False
+Fig4,CAP3,#000000,7.0,False,False
+Fig4,Discovery lesions,#000000,7.0,False,False
+Fig4,Discovery pooled,#000000,7.0,False,False
+Fig4,Validation lesions,#000000,7.0,False,False
+Fig4,Validation pooled,#000000,7.0,False,False
+Fig4,a,#000000,8.0,False,False
+Fig4,permutation null (95%),#000000,7.0,False,False
+Fig4,null mean,#000000,7.0,False,False
+Fig4,b,#000000,8.0,False,False
+Fig4,Discovery,#000000,7.0,False,False
+Fig4,Validation,#000000,7.0,False,False
+Fig4,inflammatory,#000000,7.0,False,False
+Fig4,intermediate,#000000,7.0,False,False
+Fig4,tissue-forming,#000000,7.0,False,False
+Fig4,other,#000000,7.0,False,False
+Fig4,Cell states,#000000,7.2,False,False
+Fig4,c,#000000,8.0,False,False
+Fig4,"A  n=2,314",#000000,7.0,False,False
+Fig4,d,#000000,8.0,False,False
+Fig4,B  n=739,#000000,7.0,False,False
+Fig4,"C  n=1,018",#000000,7.0,False,False
+Fig4,"D  n=1,418",#000000,7.0,False,False
+Fig4,E  n=726,#000000,7.0,False,False
+Fig4,CAP1  n=860,#000000,7.0,False,False
+Fig4,CAP2  n=566,#000000,7.0,False,False
+Fig4,CAP3  n=353,#000000,7.0,False,False
+Fig4,Inflammatory programme,#000000,7.0,False,False
+Fig4,Tissue-forming programme,#000000,7.0,False,False
+Fig4,e,#000000,8.0,False,False
+Fig4,(n=5),#000000,7.0,False,False
+Fig4,(n=3),#000000,7.0,False,False
+Fig4,"(2,314)",#000000,7.0,False,False
+Fig4,(739),#000000,7.0,False,False
+Fig4,"(1,018)",#000000,7.0,False,False
+Fig4,"(1,418)",#000000,7.0,False,False
+Fig4,(726),#000000,7.0,False,False
+Fig4,(860),#000000,7.0,False,False
+Fig4,(566),#000000,7.0,False,False
+Fig4,(353),#000000,7.0,False,False
+Fig5,"Discovery, pseudobulk (5 lesions)",#000000,7.0,False,False
+Fig5,NF-κB family set / with SMAD3,#000000,7.0,False,False
+Fig5,NF-κB family set / without SMAD3,#000000,7.0,False,False
+Fig5,"alternative set (ATF1, MTA1) / with SMAD",#000000,7.0,False,False
+Fig5,"alternative set (ATF1, MTA1) / without S",#000000,7.0,False,False
+Fig5,TF activity correlation (discovery),#000000,7.0,False,False
+Fig5,a,#000000,8.0,False,False
+Fig5,b,#000000,8.0,False,False
+Fig5,c,#000000,8.0,False,False
+Fig5,d,#000000,8.0,False,False
+Fig5,(n=5),#000000,7.0,False,False
+Fig5,(n=3),#000000,7.0,False,False
+Fig6,Myeloid cells: intrinsic axes,#000000,7.0,False,False
+Fig6,a,#000000,8.0,False,False
+Fig6,b,#000000,8.0,False,False
+Fig7,pooled +0.03,#000000,7.0,False,False
+Fig7,pooled −0.00,#000000,7.0,False,False
+Fig7,+0.08,#000000,7.0,False,False
+Fig7,GSE164241 gingiva,#000000,7.0,False,False
+Fig7,a,#000000,8.0,False,False
+Fig7,same sign as discovery,#000000,7.0,False,False
+Fig7,consistent across all donors,#000000,7.0,False,False
+Fig7,Candidate reproduction,#000000,7.0,False,False
+Fig7,b,#000000,8.0,False,False
+Fig7,(13 donors),#000000,7.0,False,False
+Fig7,(8 donors),#000000,7.0,False,False
+Fig7,(1 donor),#000000,7.0,False,False
+FigS1,Discovery (5 lesions),#000000,7.4,False,False
+FigS1,raw,#000000,7.0,False,False
+FigS1,QC pass,#000000,7.0,False,False
+FigS1,singlets,#000000,7.0,False,False
+FigS1,a,#000000,8.0,False,False
+FigS1,Validation (3 lesions),#000000,7.4,False,False
+FigS1,raw (≥100 UMIs),#000000,7.0,False,False
+FigS1,QC pass,#000000,7.0,False,False
+FigS1,singlets,#000000,7.0,False,False
+FigS1,b,#000000,8.0,False,False
+FigS2,"6,215",#000000,7.0,False,False
+FigS2,"1,868",#000000,7.0,False,False
+FigS2,"1,865",#000000,7.0,False,False
+FigS2,a,#000000,8.0,False,False
+FigS2,b,#000000,8.0,False,False
+FigS3,a,#000000,8.0,False,False
+FigS3,b,#000000,8.0,False,False
+FigS4,author matrix,#000000,7.0,False,False
+FigS4,"re-quantified, all barcodes",#000000,7.0,False,False
+FigS4,"re-quantified, matrix barcodes",#000000,7.0,False,False
+FigS4,Enrichment,#000000,7.4,False,False
+FigS4,"vs re-quantified, all barcodes",#000000,7.0,False,False
+FigS4,"vs re-quantified, matrix barcodes",#000000,7.0,False,False
+FigS4,Stromal-set agreement,#000000,7.4,False,False
+FigS4,Inflammatory programme,#000000,7.0,False,False
+FigS4,all barcodes,#000000,7.0,False,False
+FigS4,Tissue-forming programme,#000000,7.0,False,False
+FigS4,all barcodes,#000000,7.0,False,False
+FigS4,Inflammatory programme,#000000,7.0,False,False
+FigS4,matrix barcodes,#000000,7.0,False,False
+FigS4,Tissue-forming programme,#000000,7.0,False,False
+FigS4,matrix barcodes,#000000,7.0,False,False
+FigS4,TF screen agreement,#000000,7.4,False,False
+FigS4,a,#000000,8.0,False,False
+FigS4,b,#000000,8.0,False,False
+FigS4,c,#000000,8.0,False,False
+FigS5,single-axis definition,#000000,7.4,False,False
+FigS5,discovery (per lesion),#000000,7.0,False,False
+FigS5,discovery (pooled),#000000,7.0,False,False
+FigS5,validation (per lesion),#000000,7.0,False,False
+FigS5,validation (pooled),#000000,7.0,False,False
+FigS5,a,#000000,8.0,False,False
+FigS5,composite definition,#000000,7.4,False,False
+FigS5,b,#000000,8.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,7,#000000,7.0,False,False
+FigS6,6,#000000,7.0,False,False
+FigS6,5,#000000,7.0,False,False
+FigS6,6,#000000,7.0,False,False
+FigS6,6,#000000,7.0,False,False
+FigS6,8,#000000,7.0,False,False
+FigS6,7,#000000,7.0,False,False
+FigS6,6,#000000,7.0,False,False
+FigS6,7,#000000,7.0,False,False
+FigS6,8,#000000,7.0,False,False
+FigS6,20,#000000,7.0,False,False
+FigS6,14,#000000,7.0,False,False
+FigS6,17,#000000,7.0,False,False
+FigS6,17,#000000,7.0,False,False
+FigS6,14,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,1,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,2,#000000,7.0,False,False
+FigS6,3,#000000,7.0,False,False
+FigS6,5,#000000,7.0,False,False
+FigS6,3,#000000,7.0,False,False
+FigS6,4,#000000,7.0,False,False
+FigS6,3,#000000,7.0,False,False
+FigS6,9,#000000,7.0,False,False
+FigS6,13,#000000,7.0,False,False
+FigS6,10,#000000,7.0,False,False
+FigS6,14,#000000,7.0,False,False
+FigS6,7,#000000,7.0,False,False
+FigS6,5,#000000,7.0,False,False
+FigS6,6,#000000,7.0,False,False
+FigS6,9,#000000,7.0,False,False
+FigS6,9,#000000,7.0,False,False
+FigS6,8,#000000,7.0,False,False
+FigS6,a,#000000,8.0,False,False
+FigS6,b,#000000,8.0,False,False
+FigS7,within,#000000,7.0,False,False
+FigS7,projected,#000000,7.0,False,False
+FigS7,within,#000000,7.0,False,False
+FigS7,projected,#000000,7.0,False,False
+FigS7,within,#000000,7.0,False,False
+FigS7,projected,#000000,7.0,False,False
+FigS7,inflammatory,#000000,7.0,False,False
+FigS7,intermediate,#000000,7.0,False,False
+FigS7,tissue-forming,#000000,7.0,False,False
+FigS7,other,#000000,7.0,False,False
+FigS7,a,#000000,8.0,False,False
+FigS7,13,#000000,7.0,False,False
+FigS7,85,#000000,7.0,False,False
+FigS7,120,#000000,7.0,False,False
+FigS7,3,#000000,7.0,False,False
+FigS7,402,#000000,7.0,False,False
+FigS7,83,#000000,7.0,False,False
+FigS7,10,#000000,7.0,False,False
+FigS7,3,#000000,7.0,False,False
+FigS7,0,#000000,7.0,False,False
+FigS7,48,#000000,7.0,False,False
+FigS7,344,#000000,7.0,False,False
+FigS7,78,#000000,7.0,False,False
+FigS7,40,#000000,7.0,False,False
+FigS7,92,#000000,7.0,False,False
+FigS7,171,#000000,7.0,False,False
+FigS7,287,#000000,7.0,False,False
+FigS7,Cell-level confusion,#000000,7.2,False,False
+FigS7,b,#000000,8.0,False,False
+FigS7,"Discovery (6,215)",#000000,7.0,False,False
+FigS7,"Validation (1,779)",#000000,7.0,False,False
+FigS7,Validation projected onto the discovery ,#000000,7.2,False,False
+FigS7,c,#000000,8.0,False,False
+FigS8,Survival / anti-apoptotic programme,#000000,7.0,False,False
+FigS8,Proliferation programme,#000000,7.0,False,False
+FigS8,Migration programme,#000000,7.0,False,False
+FigS8,Proliferation + migration programme,#000000,7.0,False,False
+FigS8,Validation cohort (3 lesions),#000000,7.2,False,False
+FigS8,a,#000000,8.0,False,False
+FigS8,Survival / anti-apoptotic programme,#000000,7.0,False,False
+FigS8,Proliferation programme,#000000,7.0,False,False
+FigS8,Migration programme,#000000,7.0,False,False
+FigS8,Proliferation + migration programme,#000000,7.0,False,False
+FigS8,Independent cohort GSE164241,#000000,7.2,False,False
+FigS8,b,#000000,8.0,False,False

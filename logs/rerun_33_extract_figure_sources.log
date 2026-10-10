@@ -1,0 +1,31 @@
+[guard] 再定量 = complete — 33_extract_figure_sources を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 14:09:24.702588 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 14:09:24.702696 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 14:09:24.702722 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+cohort         lesion
+discovery_n5   A         2314
+               B          739
+               C         1018
+               D         1418
+               E          726
+validation_n3  CAP1       860
+               CAP2       566
+               CAP3       353
+
+計 7994 細胞 | 列: ['cohort', 'lesion', 'state', 'inflammatory', 'tissueforming']
+
+素材: (7994, 8) | 列: ['cohort', 'cell', 'lesion', 'state', 'umap1', 'umap2', 'p_D_tissueforming', 'lf_D_tissueforming']
+                  min     max  median
+cohort                               
+discovery_n5   0.0608  0.4676  0.3021
+validation_n3  0.0619  0.4609  0.3315
+座標範囲:
+              umap1        umap2       
+                min    max   min    max
+cohort                                 
+discovery_n5  -2.69   9.05 -0.48  10.28
+validation_n3 -3.73  11.33 -1.37  11.29
+[guard] 再定量 = complete — 33_extract_figure_sources 完了時 を続行（4スレッド制限）
+
+33_extract_figure_sources DONE

@@ -1,0 +1,45 @@
+[2026-09-30T03:50:30Z] 03b_fix_compartment start
+[2026-09-30T03:51:06Z] 03b_fix_compartment OK (36s)
+[2026-09-30T03:51:06Z] 03c_recheck_discovery start
+[2026-09-30T03:51:33Z] 03c_recheck_discovery OK (27s)
+[2026-09-30T03:51:34Z] 04_discovery_scores_and_screen start
+[2026-09-30T03:53:43Z] 04_discovery_scores_and_screen OK (129s)
+[2026-09-30T03:53:43Z] 04b_state_labels_discovery start
+[2026-09-30T03:53:57Z] 04b_state_labels_discovery OK (14s)
+[2026-09-30T03:53:57Z] 05_validation_and_projection start
+[2026-09-30T03:59:27Z] 05_validation_and_projection OK (330s)
+[2026-09-30T03:59:27Z] 05e_rho_prev_cellset start
+[2026-09-30T03:59:35Z] 05e_rho_prev_cellset OK (8s)
+[2026-09-30T03:59:35Z] 09_geo_vs_kb start
+[2026-09-30T03:59:47Z] 09_geo_vs_kb OK (12s)
+[2026-09-30T03:59:47Z] 10_receptors_by_state start
+[2026-09-30T03:59:54Z] 10_receptors_by_state OK (7s)
+[2026-09-30T03:59:54Z] 11_coactivity start
+[2026-09-30T04:00:07Z] 11_coactivity OK (13s)
+[2026-09-30T04:00:07Z] 12_coupling_by_compartment start
+[2026-09-30T04:00:48Z] 12_coupling_by_compartment OK (41s)
+[2026-09-30T04:00:48Z] 13_gse164241 start
+[2026-09-30T04:02:05Z] 13_gse164241 OK (77s)
+[2026-09-30T04:02:05Z] 14_robustness start
+[2026-09-30T04:02:29Z] 14_robustness OK (24s)
+[2026-09-30T04:02:29Z] 14c_robustness_integration start
+[2026-09-30T04:04:00Z] 14c_robustness_integration OK (91s)
+[2026-09-30T04:04:00Z] 17_receptor_power start
+[2026-09-30T04:04:09Z] 17_receptor_power OK (9s)
+[2026-09-30T04:04:09Z] 18_stromal_markerdefined start
+[2026-09-30T04:05:18Z] 18_stromal_markerdefined OK (69s)
+[2026-09-30T04:05:18Z] 20b_coverage_after_fix start
+[2026-09-30T04:05:24Z] 20b_coverage_after_fix OK (6s)
+[2026-09-30T04:05:24Z] 25_validation_states_within start
+[2026-09-30T04:05:32Z] 25_validation_states_within OK (8s)
+[2026-09-30T04:05:32Z] 28_manuscript_numbers start
+[2026-09-30T04:08:00Z] 28_manuscript_numbers OK (148s)
+[2026-09-30T04:08:00Z] 32_coactivity_ruleset start
+[2026-09-30T04:08:13Z] 32_coactivity_ruleset OK (13s)
+[2026-09-30T04:08:13Z] 33_ms_figure_inputs start
+[2026-09-30T04:10:17Z] 33_ms_figure_inputs OK (124s)
+[2026-09-30T04:10:17Z] 34_lolo_rulebased start
+[2026-09-30T04:11:31Z] 34_lolo_rulebased OK (74s)
+[2026-09-30T04:11:31Z] 37_diag_fig2c start
+[2026-09-30T04:11:50Z] 37_diag_fig2c OK (19s)
+[2026-09-30T04:11:50Z] driver done: 22 OK / 0 FAILED

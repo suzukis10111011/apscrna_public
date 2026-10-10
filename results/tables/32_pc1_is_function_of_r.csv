@@ -1,0 +1,9 @@
+cohort,inflammatory_set,tissueforming_set,pc1_var_frac,implied_abs_pearson_r,note
+discovery,infl_new_NFkB,tiss_new5_incl_SMAD3,0.5439,0.0878000000000001,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+discovery,infl_new_NFkB,tiss_new4_excl_SMAD3,0.5377,0.07539999999999991,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+discovery,infl_old,tiss_new5_incl_SMAD3,0.5418,0.0835999999999999,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+discovery,infl_old,tiss_new4_excl_SMAD3,0.5389,0.07780000000000009,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+validation,infl_new_NFkB,tiss_new5_incl_SMAD3,0.5366,0.07319999999999993,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+validation,infl_new_NFkB,tiss_new4_excl_SMAD3,0.547,0.09400000000000008,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+validation,infl_old,tiss_new5_incl_SMAD3,0.5506,0.10119999999999996,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"
+validation,infl_old,tiss_new4_excl_SMAD3,0.5419,0.0838000000000001,"Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation"

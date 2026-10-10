@@ -1,0 +1,6 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260925 21:11:22.687745 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260925 21:11:22.687850 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260925 21:11:22.687874 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+REPORT_day3.md と STATUS.md を更新 | 8681 bytes
+09b DONE

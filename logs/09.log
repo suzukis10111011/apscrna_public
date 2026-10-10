@@ -1,0 +1,78 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260925 21:11:14.980964 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260925 21:11:14.981075 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260925 21:11:14.981099 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+=== 09_geo_vs_kb.csv ===
+                       quantity           lesion          geo  kb_allbarcodes  kb_geobarcodes  diff_kb_allbarcodes_minus_geo  diff_kb_geobarcodes_minus_geo
+             defA_frac_retained                A     0.986847        0.973337        0.988675                        -0.0135                         0.0018
+             defA_frac_retained                B     0.963697        0.946380        0.957709                        -0.0173                        -0.0060
+             defA_frac_retained                C     0.921402        0.912695        0.923174                        -0.0087                         0.0018
+             defA_frac_retained                D     0.991195        0.969387        0.980238                        -0.0218                        -0.0110
+             defA_frac_retained                E     0.964038        0.961854        0.958771                        -0.0022                        -0.0053
+                    defA_n_bins                A    20.000000       20.000000       20.000000                         0.0000                         0.0000
+                    defA_n_bins                B    20.000000       20.000000       20.000000                         0.0000                         0.0000
+                    defA_n_bins                C    20.000000       20.000000       20.000000                         0.0000                         0.0000
+                    defA_n_bins                D    20.000000       20.000000       20.000000                         0.0000                         0.0000
+                    defA_n_bins                E    20.000000       20.000000       20.000000                         0.0000                         0.0000
+     depth_controlled_rho[axis]                A    -0.076700       -0.131500       -0.084000                        -0.0548                        -0.0073
+     depth_controlled_rho[axis]                B     0.128100        0.113200        0.118900                        -0.0149                        -0.0092
+     depth_controlled_rho[axis]                C    -0.031400       -0.008300       -0.005500                         0.0231                         0.0259
+     depth_controlled_rho[axis]                D    -0.199200       -0.198900       -0.207500                         0.0003                        -0.0083
+     depth_controlled_rho[axis]                E    -0.146400       -0.162400       -0.155300                        -0.0160                        -0.0089
+     depth_controlled_rho[axis] POOLED_discovery    -0.065300       -0.088500       -0.065700                        -0.0232                        -0.0004
+depth_controlled_rho[composite]                A    -0.301200       -0.273500       -0.251200                         0.0277                         0.0500
+depth_controlled_rho[composite]                B     0.122200        0.088400        0.116400                        -0.0338                        -0.0058
+depth_controlled_rho[composite]                C    -0.197700       -0.144500       -0.127900                         0.0532                         0.0698
+depth_controlled_rho[composite]                D    -0.299200       -0.283100       -0.284200                         0.0161                         0.0150
+depth_controlled_rho[composite]                E    -0.337900       -0.312500       -0.302100                         0.0254                         0.0358
+depth_controlled_rho[composite] POOLED_discovery    -0.174700       -0.221900       -0.172800                        -0.0472                         0.0019
+  enrichment_fold_tissueforming                A     3.428000        4.110000        3.567000                         0.6820                         0.1390
+  enrichment_fold_tissueforming                B     9.168000        9.149000        9.193000                        -0.0190                         0.0250
+  enrichment_fold_tissueforming                C     6.701000        6.558000        6.516000                        -0.1430                        -0.1850
+  enrichment_fold_tissueforming                D     6.185000        6.119000        6.240000                        -0.0660                         0.0550
+  enrichment_fold_tissueforming                E     9.543000        9.399000        9.420000                        -0.1440                        -0.1230
+  enrichment_fold_tissueforming POOLED_discovery     6.731000        6.547000        6.782000                        -0.1840                         0.0510
+               n_cells_after_QC                A  8102.000000    13105.000000     7851.000000                      5003.0000                      -251.0000
+               n_cells_after_QC                B 10872.000000    11001.000000    10663.000000                       129.0000                      -209.0000
+               n_cells_after_QC                C  7011.000000     7188.000000     7111.000000                       177.0000                       100.0000
+               n_cells_after_QC                D  9460.000000     9641.000000     9252.000000                       181.0000                      -208.0000
+               n_cells_after_QC                E  8988.000000     9315.000000     8816.000000                       327.0000                      -172.0000
+      n_cells_compartment_table                A  8102.000000    13105.000000     7851.000000                      5003.0000                      -251.0000
+      n_cells_compartment_table                B 10872.000000    11001.000000    10663.000000                       129.0000                      -209.0000
+      n_cells_compartment_table                C  7011.000000     7188.000000     7111.000000                       177.0000                       100.0000
+      n_cells_compartment_table                D  9460.000000     9641.000000     9252.000000                       181.0000                      -208.0000
+      n_cells_compartment_table                E  8988.000000     9315.000000     8816.000000                       327.0000                      -172.0000
+                      n_stromal                A  2314.000000     3128.000000     2187.000000                       814.0000                      -127.0000
+                      n_stromal                B   739.000000      735.000000      737.000000                        -4.0000                        -2.0000
+
+=== 候補TFの一致 ===
+        source                        axis  n_candidates_geo  n_candidates_kb  overlap  jaccard  same_sign_pct  spearman_rho_of_pooled_rho
+kb_allbarcodes     lf_A_cytokine_chemokine                20               20       19   0.9048          93.38                      0.9600
+kb_allbarcodes lf_B_survival_antiapoptotic                20               20        8   0.2500          84.14                      0.8083
+kb_allbarcodes         lf_C1_proliferation                20               20        7   0.2121          67.31                      0.5638
+kb_allbarcodes             lf_C2_migration                20               20        9   0.2903          79.03                      0.7094
+kb_allbarcodes       lf_C_prolif_migration                20               20       11   0.3793          77.10                      0.6649
+kb_allbarcodes          lf_D_tissueforming                20               20       18   0.8182          91.45                      0.9389
+kb_geobarcodes     lf_A_cytokine_chemokine                20               20       19   0.9048          93.65                      0.9578
+kb_geobarcodes lf_B_survival_antiapoptotic                20               20        8   0.2500          86.19                      0.8255
+kb_geobarcodes         lf_C1_proliferation                20               20        8   0.2500          75.55                      0.6957
+kb_geobarcodes             lf_C2_migration                20               20        9   0.2903          78.04                      0.7200
+kb_geobarcodes       lf_C_prolif_migration                20               20       11   0.3793          75.83                      0.6659
+kb_geobarcodes          lf_D_tissueforming                20               20       19   0.9048          91.71                      0.9374
+
+=== 間質バーコードの Jaccard ===
+           comparison lesion  n_geo  n_other  intersection  union  jaccard  pct_of_geo_recovered
+geo vs kb_allbarcodes      A   2314     3128          2127   3315   0.6416                 91.92
+geo vs kb_allbarcodes      B    739      735           728    746   0.9759                 98.51
+geo vs kb_allbarcodes      C   1018     1058          1011   1065   0.9493                 99.31
+geo vs kb_allbarcodes      D   1418     1422          1403   1437   0.9763                 98.94
+geo vs kb_allbarcodes      E    726      738           712    752   0.9468                 98.07
+geo vs kb_allbarcodes POOLED   6203     7065          5969   7299   0.8178                 96.23
+geo vs kb_geobarcodes      A   2314     2187          2172   2329   0.9326                 93.86
+geo vs kb_geobarcodes      B    739      737           725    751   0.9654                 98.11
+geo vs kb_geobarcodes      C   1018     1053          1012   1059   0.9556                 99.41
+geo vs kb_geobarcodes      D   1418     1385          1374   1429   0.9615                 96.90
+geo vs kb_geobarcodes      E    726      730           714    742   0.9623                 98.35
+geo vs kb_geobarcodes POOLED   6203     6080          5985   6298   0.9503                 96.49
+
+09 DONE

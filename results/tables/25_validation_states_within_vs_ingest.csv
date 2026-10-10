@@ -1,0 +1,9 @@
+lesion,labelling,n_cells,n_inflammatory,pct_inflammatory,n_intermediate,pct_intermediate,n_tissue-forming,pct_tissue-forming,n_other,pct_other,agreement_pct
+CAP1,within_cohort,860,141,16.4,0,0.0,341,39.65,378,43.95,
+CAP1,ingest_projected,860,0,0.0,121,14.07,255,29.65,484,56.28,55.12
+CAP2,within_cohort,566,74,13.07,274,48.41,144,25.44,74,13.07,
+CAP2,ingest_projected,566,200,35.34,158,27.92,92,16.25,116,20.49,37.99
+CAP3,within_cohort,353,6,1.7,224,63.46,105,29.75,18,5.1,
+CAP3,ingest_projected,353,255,72.24,29,8.22,24,6.8,45,12.75,10.76
+POOLED,within_cohort,1779,221,12.42,498,27.99,590,33.16,470,26.42,
+POOLED,ingest_projected,1779,455,25.58,308,17.31,371,20.85,645,36.26,40.87

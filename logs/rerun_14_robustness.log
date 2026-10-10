@@ -1,0 +1,43 @@
+[guard] 再定量 = complete — 14 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 13:02:06.016650 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:02:06.016738 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:02:06.016762 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+                                       set                    library                       matched_term  n_genes status                                                   source            downloaded_utc
+          HALLMARK_TNFA_SIGNALING_VIA_NFKB       MSigDB_Hallmark_2020      TNF-alpha Signaling via NF-kB      200     OK Enrichr geneSetLibrary API（gsea-msigdb.org は許可リスト外のため代替） 2026-09-30T04:02:10+00:00
+                GOBP_INFLAMMATORY_RESPONSE GO_Biological_Process_2025 Inflammatory Response (GO:0006954)      261     OK Enrichr geneSetLibrary API（gsea-msigdb.org は許可リスト外のため代替） 2026-09-30T04:02:10+00:00
+                         GOBP_OSSIFICATION GO_Biological_Process_2025                                NaN        0  該当語なし                                                      NaN                       NaN
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION     Reactome_Pathways_2024  Extracellular Matrix Organization      300     OK Enrichr geneSetLibrary API（gsea-msigdb.org は許可リスト外のため代替） 2026-09-30T04:02:10+00:00
+
+炎症セット: {'current_lf_A_cytokine_chemokine': 43, 'HALLMARK_TNFA_SIGNALING_VIA_NFKB': 200, 'GOBP_INFLAMMATORY_RESPONSE': 261}
+組織形成セット: {'current_lf_D_tissueforming': 406, 'REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION': 300}
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+
+=== 3x3 x スコア法（POOLED）===
+                inflammatory_set                          tissueforming_set     scoring  depth_controlled_rho  defA_frac_retained
+ current_lf_A_cytokine_chemokine                 current_lf_D_tissueforming score_genes               -0.0702              0.9946
+ current_lf_A_cytokine_chemokine REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION score_genes               -0.0014              0.9975
+HALLMARK_TNFA_SIGNALING_VIA_NFKB                 current_lf_D_tissueforming score_genes               -0.1658              0.9946
+HALLMARK_TNFA_SIGNALING_VIA_NFKB REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION score_genes               -0.1406              0.9975
+      GOBP_INFLAMMATORY_RESPONSE                 current_lf_D_tissueforming score_genes               -0.1370              0.9946
+      GOBP_INFLAMMATORY_RESPONSE REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION score_genes               -0.0771              0.9975
+ current_lf_A_cytokine_chemokine                 current_lf_D_tissueforming         ulm               -0.0231              0.9963
+ current_lf_A_cytokine_chemokine REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION         ulm                0.0412              0.9990
+HALLMARK_TNFA_SIGNALING_VIA_NFKB                 current_lf_D_tissueforming         ulm               -0.2189              0.9963
+HALLMARK_TNFA_SIGNALING_VIA_NFKB REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION         ulm               -0.1836              0.9990
+      GOBP_INFLAMMATORY_RESPONSE                 current_lf_D_tissueforming         ulm               -0.1373              0.9963
+      GOBP_INFLAMMATORY_RESPONSE REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION         ulm               -0.0706              0.9990
+ current_lf_A_cytokine_chemokine                 current_lf_D_tissueforming      aucell               -0.0369              0.9946
+ current_lf_A_cytokine_chemokine REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION      aucell                0.0415              0.9950
+HALLMARK_TNFA_SIGNALING_VIA_NFKB                 current_lf_D_tissueforming      aucell               -0.2428              0.9946
+HALLMARK_TNFA_SIGNALING_VIA_NFKB REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION      aucell               -0.1521              0.9950
+      GOBP_INFLAMMATORY_RESPONSE                 current_lf_D_tissueforming      aucell               -0.1445              0.9946
+      GOBP_INFLAMMATORY_RESPONSE REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION      aucell               -0.0450              0.9950
+[guard] 再定量 = complete — 14 完了時 を続行（4スレッド制限）
+
+14a/b DONE

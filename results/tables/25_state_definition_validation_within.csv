@@ -1,0 +1,7 @@
+leiden_0.5,n_cells,median_inflammatory,median_tissueforming,inflammatory_high,tissueforming_high,state,reference_median_inflammatory,reference_median_tissueforming,threshold_source
+0,324,0.06368472772178581,0.3494314680732506,False,True,tissue-forming,0.0706932773816081,0.33152935567404196,validation cohort internal median (no discovery value used)
+1,221,0.09997304360008336,0.3175268286464761,True,False,inflammatory,0.0706932773816081,0.33152935567404196,validation cohort internal median (no discovery value used)
+2,266,-0.006066806563565126,0.35126915464371417,False,True,tissue-forming,0.0706932773816081,0.33152935567404196,validation cohort internal median (no discovery value used)
+3,378,0.02549884451357387,0.31473945931727026,False,False,other,0.0706932773816081,0.33152935567404196,validation cohort internal median (no discovery value used)
+4,92,0.04735128444276545,0.12258654574299371,False,False,other,0.0706932773816081,0.33152935567404196,validation cohort internal median (no discovery value used)
+5,498,0.17784284460300137,0.33534463740745907,True,True,intermediate,0.0706932773816081,0.33152935567404196,validation cohort internal median (no discovery value used)

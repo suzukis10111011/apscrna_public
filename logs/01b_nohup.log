@@ -1,0 +1,29 @@
+[2026-09-18T12:04:00Z] === 01b start | 空き 605Gi ===
+[2026-09-18T12:04:00Z] SRR32119703: ENA fastq fetch
+[2026-09-18T12:04:00Z] SRR32119705: ENA fastq fetch
+[2026-09-18T12:04:00Z] SRR32119704: SRA object fetch (ENA に fastq 無し)
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.3: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+[2026-09-18T16:49:56Z]   SRR32119705_1.fastq.gz attempt 1 incomplete (8463249408/33939840362)
+[2026-09-18T23:39:18Z]   SRR32119704.sra ok 40563234654 bytes
+[2026-09-18T23:39:18Z] SRR32119704: fasterq-dump start
+[2026-09-18T23:39:21Z] SRR32119704: fasterq-dump attempt 1 failed
+[2026-09-18T23:39:25Z] SRR32119704: fasterq-dump attempt 2 failed
+[2026-09-19T01:29:02Z]   SRR32119703_1.fastq.gz ok 28506165033 bytes
+[2026-09-19T03:14:05Z]   SRR32119705_1.fastq.gz ok 33939840362 bytes
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+[2026-09-19T05:45:47Z]   SRR32119703_2.fastq.gz attempt 1 incomplete (11249639743/24269675428)
+curl: (33) HTTP server does not seem to support byte ranges. Cannot resume.
+[2026-09-19T05:45:52Z]   SRR32119703_2.fastq.gz attempt 2 incomplete (11249639743/24269675428)
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+[2026-09-19T06:52:13Z]   SRR32119703_2.fastq.gz attempt 3 incomplete (13519237120/24269675428)
+[2026-09-19T06:52:13Z]   SRR32119703_2.fastq.gz DOWNLOAD FAILED
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+[2026-09-19T07:21:37Z]   SRR32119705_2.fastq.gz attempt 1 incomplete (8381671743/27941775658)
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+[2026-09-19T07:29:34Z]   SRR32119705_2.fastq.gz attempt 2 incomplete (8693485568/27941775658)
+curl: (56) OpenSSL SSL_read: OpenSSL/3.6.4: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+[2026-09-19T07:39:37Z]   SRR32119705_2.fastq.gz attempt 3 incomplete (9057042432/27941775658)
+[2026-09-19T07:39:37Z]   SRR32119705_2.fastq.gz DOWNLOAD FAILED
+[2026-09-19T07:39:37Z] ダウンロード段 終了: 0/3 完了
+[2026-09-19T07:39:37Z] index 利用可
+[2026-09-19T07:39:37Z] === 01b DONE | counted: 0/3 | 空き 182Gi ===

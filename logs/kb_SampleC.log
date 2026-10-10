@@ -1,0 +1,22 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260925 02:36:14.526444 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260925 02:36:14.526577 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260925 02:36:14.526608 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+[2026-09-25 02:36:22,919]    INFO [count] Using index /path/to/Documents/apscrna_v2/ref/index.idx to generate BUS file to /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC from
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373542_1.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373542_2.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373543_1.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373543_2.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373544_1.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373544_2.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373545_1.fastq.gz
+[2026-09-25 02:36:22,919]    INFO [count]         /path/to/Documents/apscrna_v2/data/dfq/SampleC/SRR15373545_2.fastq.gz
+[2026-09-25 03:05:45,028]    INFO [count] Sorting BUS file /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/output.bus to /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/tmp/output.s.bus
+[2026-09-25 03:07:48,615]    INFO [count] On-list not provided
+[2026-09-25 03:07:48,645]    INFO [count] Copying pre-packaged 10XV2 on-list to /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC
+[2026-09-25 03:07:48,913]    INFO [count] Inspecting BUS file /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/tmp/output.s.bus
+[2026-09-25 03:08:00,889]    INFO [count] Correcting BUS records in /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/tmp/output.s.bus to /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/tmp/output.s.c.bus with on-list /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/10x_version2_whitelist.txt
+[2026-09-25 03:08:42,256]    INFO [count] Sorting BUS file /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/tmp/output.s.c.bus to /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/output.unfiltered.bus
+[2026-09-25 03:10:17,186]    INFO [count] Generating count matrix /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/counts_unfiltered/cells_x_genes from BUS file /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/output.unfiltered.bus
+[2026-09-25 03:11:01,287]    INFO [count] Writing gene names to file /path/to/Documents/apscrna_v2/data/counts_discovery/SampleC/counts_unfiltered/cells_x_genes.genes.names.txt
+[2026-09-25 03:11:01,477] WARNING [count] 7057 gene IDs do not have corresponding valid gene names. These genes will use their gene IDs instead.

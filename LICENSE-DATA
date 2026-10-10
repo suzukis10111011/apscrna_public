@@ -1,0 +1,5 @@
+The tables, figures and derived data files in this repository (results/, 05_post_audit/, 06_submission_prep/, 08_external_review/, 07_submission_bundle/ and the deposited processed objects) are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+
+The code (scripts/ and the scripts/ folders of the staged analyses) is released under the MIT licence; see LICENSE.
+
+The primary sequencing data are not redistributed here; they remain under the terms of their original repositories (GEO and SRA, see README.md).

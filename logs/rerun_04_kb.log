@@ -1,0 +1,65 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 13:13:35.124326 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:13:35.124438 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:13:35.124462 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+RELA targets: 560
+軸: {'A_cytokine_chemokine': 92, 'B_survival_antiapoptotic': 92, 'C1_proliferation': 533, 'C2_migration': 682, 'C_prolif_migration': 1021, 'D_tissueforming': 468}
+leak-free 後: {'A_cytokine_chemokine': 43, 'B_survival_antiapoptotic': 63, 'C1_proliferation': 509, 'C2_migration': 644, 'C_prolif_migration': 970, 'D_tissueforming': 406}
+all_cells_discovery: (50250, 23315) {'A': 13105, 'B': 11001, 'D': 9641, 'E': 9315, 'C': 7188}
+
+=== (1) 濃縮（病変別、コホート合算なし） ===
+          lesion  n_cells  stromal_pct_overall  stromal_pct_top_decile  enrichment_fold
+               A    13105                23.87                   98.09            4.110
+               B    11001                 6.68                   61.13            9.149
+               C     7188                14.72                   96.52            6.558
+               D     9641                14.75                   90.26            6.119
+               E     9315                 7.92                   74.46            9.399
+POOLED_discovery    50250                14.09                   92.26            6.547
+全5病変で1倍超: True
+
+=== (2) ρ（探索、8病変 pooled は出さない） ===
+          lesion    n  raw_rho  depth_controlled_rho
+               A 3128  -0.0331               -0.1315
+               B  735   0.2394                0.1132
+               C 1058   0.1252               -0.0083
+               D 1422  -0.0882               -0.1989
+               E  738  -0.0172               -0.1624
+POOLED_discovery 7081   0.0324               -0.0885
+
+間質細胞: (7081, 23315) {'A': 3128, 'D': 1422, 'C': 1058, 'E': 738, 'B': 735}
+leiden クラスタ数: {'0.2': 2, '0.3': 4, '0.4': 5, '0.5': 5, '0.6': 7, '0.7': 7, '0.8': 9, '0.9': 11, '1.0': 11, '1.1': 13, '1.2': 14, '1.3': 18, '1.4': 18, '1.5': 18}
+TF活性: (7081, 746)
+
+=== (3)① 探索候補（軸ごと上位20、5病変同符号のみ） ===
+                             n_tested  n_sign_consistent  n_candidates
+axis                                                                  
+lf_A_cytokine_chemokine           746                327            20
+lf_B_survival_antiapoptotic       746                299            20
+lf_C1_proliferation               746                265            20
+lf_C2_migration                   746                315            20
+lf_C_prolif_migration             746                301            20
+lf_D_tissueforming                746                355            20
+
+=== (3)③ 申請書10因子+MYC が D_tissueforming 軸で候補入りするか ===
+   TF  pooled_rho  n_pos  all5_same_sign  rank_within_axis  is_candidate
+  MYC   -0.324858      0            True               7.0          True
+  REL   -0.209265      0            True              42.0         False
+ ATF1   -0.135895      1           False               NaN         False
+NFKB2   -0.099412      1           False               NaN         False
+ MTA1   -0.085667      1           False               NaN         False
+ RELB   -0.072447      1           False               NaN         False
+SMAD3    0.270046      5            True              18.0          True
+ MYRF    0.305523      5            True              10.0          True
+ DLX5    0.350091      5            True               4.0          True
+RUNX2    0.362125      5            True               3.0          True
+  SP7    0.421206      5            True               1.0          True
+
+=== (4) 定義A（探索、入力 = kb 再定量 (kb)） ===
+lesion  n_cells  n_bins  total_sd  matched_sd  frac_retained  sd_reduction_pct  variance_reduction_pct
+     A     3128      20    0.0527      0.0513         0.9733            2.6663                  5.2614
+     B      735      20    0.0613      0.0580         0.9464            5.3620                 10.4365
+     C     1058      20    0.0619      0.0565         0.9127            8.7305                 16.6988
+     D     1422      20    0.0516      0.0500         0.9694            3.0613                  6.0290
+     E      738      20    0.0522      0.0502         0.9619            3.8146                  7.4836
+
+04 DONE

@@ -1,0 +1,16 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 18:59:32.625630 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 18:59:32.625746 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 18:59:32.625793 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+[2026-09-23 18:59:44,007]    INFO [count] Using index /path/to/Documents/apscrna_v2/ref/index.idx to generate BUS file to /path/to/Documents/apscrna_v2/data/chem/out_10xv3 from
+[2026-09-23 18:59:44,007]    INFO [count]         /path/to/Documents/apscrna_v2/data/chem/SRR15373534_1.fastq.gz
+[2026-09-23 18:59:44,007]    INFO [count]         /path/to/Documents/apscrna_v2/data/chem/SRR15373534_2.fastq.gz
+[2026-09-23 19:01:41,866]    INFO [count] Sorting BUS file /path/to/Documents/apscrna_v2/data/chem/out_10xv3/output.bus to /path/to/Documents/apscrna_v2/data/chem/out_10xv3/tmp/output.s.bus
+[2026-09-23 19:01:58,826]    INFO [count] On-list not provided
+[2026-09-23 19:01:58,877]    INFO [count] Copying pre-packaged 10XV3 on-list to /path/to/Documents/apscrna_v2/data/chem/out_10xv3
+[2026-09-23 19:01:59,479]    INFO [count] Inspecting BUS file /path/to/Documents/apscrna_v2/data/chem/out_10xv3/tmp/output.s.bus
+[2026-09-23 19:02:05,471]    INFO [count] Correcting BUS records in /path/to/Documents/apscrna_v2/data/chem/out_10xv3/tmp/output.s.bus to /path/to/Documents/apscrna_v2/data/chem/out_10xv3/tmp/output.s.c.bus with on-list /path/to/Documents/apscrna_v2/data/chem/out_10xv3/10x_version3_whitelist.txt
+[2026-09-23 19:02:16,837]    INFO [count] Sorting BUS file /path/to/Documents/apscrna_v2/data/chem/out_10xv3/tmp/output.s.c.bus to /path/to/Documents/apscrna_v2/data/chem/out_10xv3/output.unfiltered.bus
+[2026-09-23 19:02:28,905]    INFO [count] Generating count matrix /path/to/Documents/apscrna_v2/data/chem/out_10xv3/counts_unfiltered/cells_x_genes from BUS file /path/to/Documents/apscrna_v2/data/chem/out_10xv3/output.unfiltered.bus
+[2026-09-23 19:02:31,276]    INFO [count] Writing gene names to file /path/to/Documents/apscrna_v2/data/chem/out_10xv3/counts_unfiltered/cells_x_genes.genes.names.txt
+[2026-09-23 19:02:31,478] WARNING [count] 7057 gene IDs do not have corresponding valid gene names. These genes will use their gene IDs instead.

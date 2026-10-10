@@ -1,0 +1,11 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 19:47:32.777361 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:47:32.777494 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:47:32.777519 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+REPORT_day1.md 生成 | 要確認 6 件 | key_numbers 行数 75
+  要確認: depth_controlled_rho[composite] / validation_n3 / POOLED_validation: v2 -0.2877 vs 申請書 0.0398 (差 -0.3275)
+  要確認: defA_frac_retained / discovery_n5 / B: v2 0.9637 vs 申請書 0.9967 (差 -0.033)
+  要確認: defA_frac_retained / discovery_n5 / C: v2 0.9214 vs 申請書 0.9805 (差 -0.0591)
+  要確認: defA_frac_retained / discovery_n5 / E: v2 0.964 vs 申請書 1.0023 (差 -0.0383)
+  要確認: defA_frac_retained / validation_n3 / CAP2: v2 0.988 vs 申請書 0.9675 (差 +0.0205)
+  要確認: defA_frac_retained / validation_n3 / CAP3: v2 1.0042 vs 申請書 0.8778 (差 +0.1264)

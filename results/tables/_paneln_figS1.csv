@@ -1,0 +1,3 @@
+figure,panel,cohort,n_samples,n_cells_final,stages
+figS1_qc,A,discovery_n5,5,44433,0_raw;1_qc_pass;2_singlet
+figS1_qc,B,validation_n3,3,26090,0_raw_ge100umi;1_qc_pass;2_singlet

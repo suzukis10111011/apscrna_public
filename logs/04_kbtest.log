@@ -1,0 +1,56 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260924 23:37:16.059492 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260924 23:37:16.059616 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260924 23:37:16.059642 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+RELA targets: 560
+軸: {'A_cytokine_chemokine': 92, 'B_survival_antiapoptotic': 92, 'C1_proliferation': 533, 'C2_migration': 682, 'C_prolif_migration': 1021, 'D_tissueforming': 468}
+leak-free 後: {'A_cytokine_chemokine': 43, 'B_survival_antiapoptotic': 63, 'C1_proliferation': 509, 'C2_migration': 644, 'C_prolif_migration': 970, 'D_tissueforming': 406}
+all_cells_discovery: (24106, 21209) {'A': 13105, 'B': 11001}
+
+=== (1) 濃縮（病変別、コホート合算なし） ===
+          lesion  n_cells  stromal_pct_overall  stromal_pct_top_decile  enrichment_fold
+               A    13105                24.05                   98.86            4.110
+               B    11001                 6.79                   62.67            9.229
+POOLED_discovery    24106                16.17                   97.10            6.003
+全5病変で1倍超: True
+
+=== (2) ρ（探索、8病変 pooled は出さない） ===
+          lesion    n  raw_rho  depth_controlled_rho
+               A 3152  -0.0477               -0.1426
+               B  747   0.2316                0.1131
+POOLED_discovery 3899  -0.0359               -0.1486
+
+間質細胞: (3899, 21209) {'A': 3152, 'B': 747}
+leiden クラスタ数: {'0.2': 2, '0.3': 4, '0.4': 4, '0.5': 6, '0.6': 5, '0.7': 7, '0.8': 8, '0.9': 10, '1.0': 11, '1.1': 13, '1.2': 14, '1.3': 17, '1.4': 17, '1.5': 17}
+TF活性: (3899, 735)
+
+=== (3)① 探索候補（軸ごと上位20、5病変同符号のみ） ===
+                             n_tested  n_sign_consistent  n_candidates
+axis                                                                  
+lf_A_cytokine_chemokine           735                516            20
+lf_B_survival_antiapoptotic       735                501            20
+lf_C1_proliferation               735                435            20
+lf_C2_migration                   735                558            20
+lf_C_prolif_migration             735                550            20
+lf_D_tissueforming                735                557            20
+
+=== (3)③ 申請書10因子+MYC が D_tissueforming 軸で候補入りするか ===
+   TF  pooled_rho  n_pos  all5_same_sign  rank_within_axis  is_candidate
+  MYC   -0.384863      0            True               3.0          True
+  REL   -0.286850      0            True              19.0          True
+ ATF1   -0.234320      0            True              52.0         False
+NFKB2   -0.152927      1           False               NaN         False
+ RELB   -0.113210      1           False               NaN         False
+ MTA1   -0.094616      1           False               NaN         False
+SMAD3    0.190939      2            True             102.0         False
+ MYRF    0.326755      2            True              11.0          True
+ DLX5    0.356006      2            True               6.0          True
+RUNX2    0.356966      2            True               4.0          True
+  SP7    0.432011      2            True               1.0          True
+
+=== (4) 定義A（探索、v2 再定量ではなく GEO 行列ベース） ===
+lesion  n_cells  n_bins  total_sd  matched_sd  frac_retained  sd_reduction_pct  variance_reduction_pct
+     A     3152      20    0.0521      0.0512         0.9830            1.7050                  3.3809
+     B      747      20    0.0598      0.0580         0.9702            2.9843                  5.8796
+
+04 DONE

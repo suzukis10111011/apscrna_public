@@ -1,0 +1,29 @@
+metric,before_symbolfix,after_symbolfix,note
+validation stromal cell count (total),1704,1779,CAP1 776→860 / CAP2 574→566 / CAP3 354→353
+validation gene count (post-QC),24398,23993,"symbol pooled into gene id 41,116→symbol aggregated spatially"
+ingest shared gene,16119,15820,ID space → symbol space changed
+Definition A CAP1,0.962,0.9759,05 re-run
+definition A CAP2,0.9858,0.988,05 re-run
+Definition A CAP3,1.0057,1.0042,05 re-run
+17 mixed-model coefficient IL1R1,+0.3524 (padj 2.4e-47),+0.5949 (padj 3.7e-152),
+17 mixed model coefficient OSMR,+0.0848 (padj 2.5e-06),+0.1838 (padj 2.7e-27),
+17 mixed model coefficient LIFR,+0.0329 (padj 6.4e-03),+0.0624 (padj 1.0e-08),
+17 Mixed-model coefficient IL1RAP,+0.0207 (padj 1.2e-02),+0.0450 (padj 2.9e-09),
+17 mixed model coefficient IL6ST,-0.0663 (padj 1.3e-02),+0.0207 (padj 3.9e-01),Sign reversal
+17 mixed model coefficient TNFRSF1A,+0.0339 (padj 2.4e-01),+0.0609 (padj 1.8e-02),
+17 mixed model coefficient TNFRSF1B,+0.0061 (padj 5.1e-01),+0.0218 (padj 1.6e-02),
+17 mixed model coefficient IL6R,+0.0141 (padj 5.3e-02),+0.0174 (padj 1.4e-02),
+17 model target cell count,3315,3400,
+11 validation co-activation SMAD3 positive,0.0561,0.0771,
+11 validation co-activity without SMAD3,-0.1373,-0.0944,
+18 validation marker_defined cell count,1324.0,1183.0,
+18 validation marker_defined enrichment fold,8.48,9.332,
+18 validation marker_defined depth-controlled ρ,-0.0936,-0.0196,
+18 validation marker_defined definitionA,0.9977,0.9926,
+18 validation primary_cluster_based cell count,1704.0,1779.0,
+18 validation primary_cluster_based enrichment fold,9.734,9.252,
+18 validation primary_cluster_based depth-controlled ρ,-0.0961,-0.0793,
+18 validation primary_cluster_based Definition A,0.9711,0.9657,
+18 validation Jaccard,0.5878,0.5857,
+05e validation pooled ρ clean aggregate,-0.2887,-0.2877,n 1704→1779
+05e Validation pooled ρ previous aggregate,-0.0771,-0.0938,"Previous barcode: 5,229 of 5,459 passed this round's QC. Reconciliation repair with dual barcode format support added."

@@ -1,0 +1,112 @@
+[guard] 再定量 = complete — 32 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 14:09:10.829395 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 14:09:10.829478 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 14:09:10.829498 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+=== 規則によるセット ===
+  炎症側（新）    : ['RELB', 'NFKB2', 'RELA', 'NFKB1', 'REL']
+  炎症側（旧）    : ['NFKB2', 'RELB', 'REL', 'ATF1', 'MTA1']  → 新で外れる: ['ATF1', 'MTA1'] / 新で入る: ['RELA', 'NFKB1']
+  組織形成側(5)   : ['SP7', 'RUNX2', 'DLX5', 'MYRF', 'SMAD3']
+  組織形成側(4)   : ['SP7', 'RUNX2', 'DLX5', 'MYRF']
+
+=== regulon 重なり上位6（活性は独立でない） ===
+ TF_a TF_b  n_a  n_b  n_shared  jaccard  frac_of_smaller
+NFKB1 RELA  428  560       355   0.5608           0.8294
+NFKB2 RELB   77   59        34   0.3333           0.5763
+NFKB2  REL   77  114        32   0.2013           0.4156
+ DLX5  SP7   38   47        13   0.1806           0.3421
+NFKB1  REL  428  114        79   0.1706           0.6930
+  REL RELB  114   59        22   0.1457           0.3729
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+
+discovery: (6215, 22669) | 活性が得られたTF 12/12
+
+validation: (1779, 23993) | 活性が得られたTF 12/12
+
+=== 病変別ρ・PC1分散比・dip（POOLED 行のみ） ===
+    cohort inflammatory_set    tissueforming_set  group    n  spearman_rho  pc1_var_frac  dip_p_infl  dip_p_tiss
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3 lesion 6215        0.0778        0.5439      0.9179      0.9956
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3  state 6215        0.0778        0.5439      0.9179      0.9956
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3 lesion 6215       -0.0796        0.5377      0.9179      0.9966
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3  state 6215       -0.0796        0.5377      0.9179      0.9966
+ discovery         infl_old tiss_new5_incl_SMAD3 lesion 6215        0.0725        0.5418      0.9966      0.9956
+ discovery         infl_old tiss_new5_incl_SMAD3  state 6215        0.0725        0.5418      0.9966      0.9956
+ discovery         infl_old tiss_new4_excl_SMAD3 lesion 6215       -0.0817        0.5389      0.9966      0.9966
+ discovery         infl_old tiss_new4_excl_SMAD3  state 6215       -0.0817        0.5389      0.9966      0.9966
+validation    infl_new_NFkB tiss_new5_incl_SMAD3 lesion 1779        0.0550        0.5366      0.8659      0.9905
+validation    infl_new_NFkB tiss_new5_incl_SMAD3  state 1779        0.0550        0.5366      0.8659      0.9905
+validation    infl_new_NFkB tiss_new4_excl_SMAD3 lesion 1779       -0.1016        0.5470      0.8659      0.9952
+validation    infl_new_NFkB tiss_new4_excl_SMAD3  state 1779       -0.1016        0.5470      0.8659      0.9952
+validation         infl_old tiss_new5_incl_SMAD3 lesion 1779        0.0771        0.5506      0.7880      0.9905
+validation         infl_old tiss_new5_incl_SMAD3  state 1779        0.0771        0.5506      0.7880      0.9905
+validation         infl_old tiss_new4_excl_SMAD3 lesion 1779       -0.0944        0.5419      0.7880      0.9952
+validation         infl_old tiss_new4_excl_SMAD3  state 1779       -0.0944        0.5419      0.7880      0.9952
+
+=== 病変別ρ ===
+    cohort inflammatory_set    tissueforming_set label    n  spearman_rho  pc1_var_frac
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3     A 2314       -0.1283        0.5656
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3     B  739        0.3232        0.6652
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3     C 1018        0.2356        0.6220
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3     D 1418        0.1018        0.5567
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3     E  726       -0.1476        0.5584
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3     A 2314       -0.2349        0.6243
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3     B  739        0.1714        0.5875
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3     C 1018       -0.0053        0.5027
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3     D 1418       -0.0481        0.5232
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3     E  726       -0.2440        0.6117
+ discovery         infl_old tiss_new5_incl_SMAD3     A 2314       -0.1193        0.5626
+ discovery         infl_old tiss_new5_incl_SMAD3     B  739        0.3460        0.6760
+ discovery         infl_old tiss_new5_incl_SMAD3     C 1018        0.2257        0.6168
+ discovery         infl_old tiss_new5_incl_SMAD3     D 1418        0.0906        0.5527
+ discovery         infl_old tiss_new5_incl_SMAD3     E  726       -0.1547        0.5601
+ discovery         infl_old tiss_new4_excl_SMAD3     A 2314       -0.2270        0.6203
+ discovery         infl_old tiss_new4_excl_SMAD3     B  739        0.2031        0.6015
+ discovery         infl_old tiss_new4_excl_SMAD3     C 1018       -0.0182        0.5043
+ discovery         infl_old tiss_new4_excl_SMAD3     D 1418       -0.0612        0.5291
+ discovery         infl_old tiss_new4_excl_SMAD3     E  726       -0.2505        0.6144
+validation    infl_new_NFkB tiss_new5_incl_SMAD3  CAP1  860       -0.0132        0.5037
+validation    infl_new_NFkB tiss_new5_incl_SMAD3  CAP2  566       -0.0859        0.5623
+validation    infl_new_NFkB tiss_new5_incl_SMAD3  CAP3  353       -0.0040        0.5133
+validation    infl_new_NFkB tiss_new4_excl_SMAD3  CAP1  860       -0.1442        0.5650
+validation    infl_new_NFkB tiss_new4_excl_SMAD3  CAP2  566       -0.3514        0.7046
+validation    infl_new_NFkB tiss_new4_excl_SMAD3  CAP3  353       -0.0918        0.5662
+validation         infl_old tiss_new5_incl_SMAD3  CAP1  860        0.0221        0.5290
+validation         infl_old tiss_new5_incl_SMAD3  CAP2  566       -0.0447        0.5423
+validation         infl_old tiss_new5_incl_SMAD3  CAP3  353       -0.0123        0.5121
+validation         infl_old tiss_new4_excl_SMAD3  CAP1  860       -0.1184        0.5491
+validation         infl_old tiss_new4_excl_SMAD3  CAP2  566       -0.3250        0.6935
+validation         infl_old tiss_new4_excl_SMAD3  CAP3  353       -0.1475        0.5796
+
+=== 群間ペアの符号一致 ===
+                             n_pairs  all_same_sign  n_positive_pooled
+cohort     inflammatory_set                                           
+discovery  infl_new_NFkB          25              5                  7
+           infl_old               25              5                  7
+validation infl_new_NFkB          25             21                  9
+           infl_old               25             19                 11
+
+=== 旧セット（11 の値）と新セットの対照 ===
+    cohort    tissueforming_set inflammatory_set  pooled_rho  pc1_var_frac  rho_in_script_11 reproduces_script_11
+ discovery tiss_new5_incl_SMAD3         infl_old      0.0725        0.5418            0.0725                 True
+ discovery tiss_new5_incl_SMAD3    infl_new_NFkB      0.0778        0.5439            0.0725                 None
+ discovery tiss_new4_excl_SMAD3         infl_old     -0.0817        0.5389           -0.0817                 True
+ discovery tiss_new4_excl_SMAD3    infl_new_NFkB     -0.0796        0.5377           -0.0817                 None
+validation tiss_new5_incl_SMAD3         infl_old      0.0771        0.5506            0.0771                 True
+validation tiss_new5_incl_SMAD3    infl_new_NFkB      0.0550        0.5366            0.0771                 None
+validation tiss_new4_excl_SMAD3         infl_old     -0.0944        0.5419           -0.0944                 True
+validation tiss_new4_excl_SMAD3    infl_new_NFkB     -0.1016        0.5470           -0.0944                 None
+
+=== PC1 分散比から逆算した |Pearson r| ===
+    cohort inflammatory_set    tissueforming_set  pc1_var_frac  implied_abs_pearson_r                                                                                                                    note
+ discovery    infl_new_NFkB tiss_new5_incl_SMAD3        0.5439                 0.0878 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+ discovery    infl_new_NFkB tiss_new4_excl_SMAD3        0.5377                 0.0754 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+ discovery         infl_old tiss_new5_incl_SMAD3        0.5418                 0.0836 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+ discovery         infl_old tiss_new4_excl_SMAD3        0.5389                 0.0778 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+validation    infl_new_NFkB tiss_new5_incl_SMAD3        0.5366                 0.0732 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+validation    infl_new_NFkB tiss_new4_excl_SMAD3        0.5470                 0.0940 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+validation         infl_old tiss_new5_incl_SMAD3        0.5506                 0.1012 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+validation         infl_old tiss_new4_excl_SMAD3        0.5419                 0.0838 Standardized bivariate PCA has PC1 variance ratio = (1+|Pearson r|)/2, so it is not evidence independent of correlation
+[guard] 再定量 = complete — 32 完了時 を続行（4スレッド制限）
+
+32 DONE

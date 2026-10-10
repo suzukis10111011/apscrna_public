@@ -1,0 +1,486 @@
+No,printed,human_check_required,category,evidence,sheet
+1,"44,433",Y,reads against a cell or a column,,main
+2,"26,090",Y,reads against a cell or a column,,main
+3,14.0%,Y,reads against a cell or a column,,main
+4,94.2%,Y,reads against a cell or a column,,main
+5,3.4,Y,reads against a cell or a column,,main
+6,10.0,Y,reads against a cell or a column,,main
+7,20/20,Y,measured value read in the sentence,,main
+8,19/20,Y,reads against a cell or a column,,main
+9,−0.17,Y,reads against a cell or a column,,main
+10,−0.29,Y,reads against a cell or a column,,main
+11,92,Y,reads against a cell or a column,,main
+12,100%,Y,reads against a cell or a column,,main
+13,88,Y,reads against a cell or a column,,main
+14,99%,Y,reads against a cell or a column,,main
+15,-1,N,name,"name: interleukin (IL)-1; not a measured value, so no file fixes it",main
+16,10,Y,reads against a cell or a column,,main
+17,3,N,name,"name: 10x Single Cell 3' kit; not a measured value, so no file fixes it",main
+19,3.0,N,software version,"software version of Cell Ranger, not an installed distribution here; the depositors' processing version, recorded in the GEO series metadata of GSE181688 and GSE197680, not in this environment",main
+20,3.1,Y,reads against a cell or a column,,main
+23,0.02%,Y,measured value read in the sentence,,main
+24,0.9%,Y,reads against a cell or a column,,main
+25,1.4%,Y,reads against a cell or a column,,main
+26,68.4%,Y,reads against a cell or a column,,main
+27,57,Y,reads against a cell or a column,,main
+28,25,Y,reads against a cell or a column,,main
+29,51,Y,reads against a cell or a column,,main
+30,3.4,N,software version,"software version; SRA Toolkit 3.4.1 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+31,0.52,N,software version,"software version; kallisto 0.52.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+32,0.45,N,software version,"software version; bustools 0.45.1 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+33,0.30,N,software version,"software version; kb-python 0.30.2 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+34,1,Y,reads against a cell or a column,,main
+35,150,Y,reads against a cell or a column,,main
+36,29,Y,reads against a cell or a column,,main
+37,16,N,chemistry,"chemistry: 16-nt barcode of the 10x v3 structure; not a measured value, so no file fixes it",main
+38,12,N,chemistry,"chemistry: 12-nt UMI of the 10x v3 structure; not a measured value, so no file fixes it",main
+39,10,Y,reads against a cell or a column,,main
+40,99.4,Y,reads against a cell or a column,,main
+41,100%,Y,measured value read in the sentence,,main
+42,"5,000",Y,reads against a cell or a column,,main
+43,31,Y,reads against a cell or a column,,main
+44,112,Y,reads against a cell or a column,,main
+48,33%,Y,measured value read in the sentence,,main
+49,122,Y,reads against a cell or a column,,main
+50,"23,993",N,reference build,"reference build: symbol-level genes of the quantification matrix; not a measured value, so no file fixes it",main
+51,100%,Y,reads against a cell or a column,,main
+52,90.6,Y,reads against a cell or a column,,main
+53,97.8%,Y,reads against a cell or a column,,main
+55,69.6%,Y,reads against a cell or a column,,main
+56,20,N,reference build,"reference build: the 20 runs of the discovery cohort; not a measured value, so no file fixes it",main
+57,10,Y,reads against a cell or a column,,main
+58,1,Y,reads against a cell or a column,,main
+59,27,N,chemistry,"chemistry: positions of read 1 in the v2 structure; not a measured value, so no file fixes it",main
+60,28,Y,reads against a cell or a column,,main
+61,97.9%,Y,measured value read in the sentence,,main
+62,97.8%,Y,reads against a cell or a column,,main
+63,16,N,chemistry,"chemistry: 16 + 10 nt barcode-UMI structure of v2; not a measured value, so no file fixes it",main
+64,10,Y,reads against a cell or a column,,main
+65,20,N,chemistry,"chemistry: positions of read 1 in the v2 structure; not a measured value, so no file fixes it",main
+66,26,Y,reads against a cell or a column,,main
+67,33,Y,measured value read in the sentence,,main
+68,36%,Y,reads against a cell or a column,,main
+69,1.15,Y,reads against a cell or a column,,main
+70,16,Y,measured value read in the sentence,,main
+71,9.06,Y,measured value read in the sentence,,main
+72,970,Y,reads against a cell or a column,,main
+73,200,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/03_preprocess_discovery.py:124  [keep = (D.obs.n_genes_by_counts >= 200) & (D.obs.total_counts >= 500) & (D.obs.pct_counts_mt <= 20)],main
+74,500,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/03_preprocess_discovery.py:124  [keep = (D.obs.n_genes_by_counts >= 200) & (D.obs.total_counts >= 500) & (D.obs.pct_counts_mt <= 20)],main
+75,20%,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/03_preprocess_discovery.py:124  [keep = (D.obs.n_genes_by_counts >= 200) & (D.obs.total_counts >= 500) & (D.obs.pct_counts_mt <= 20)],main
+76,0.2,N,software version,"software version; Scrublet 0.2.3 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+77,0.06,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/03_preprocess_discovery.py:140  [sc.pp.scrublet(sub, expected_doublet_rate=0.06, random_state=SEED)]",main
+78,"46,523",Y,measured value read in the sentence,,main
+79,"44,985",Y,measured value read in the sentence,,main
+80,"44,433",Y,measured value read in the sentence,,main
+81,"87,123",Y,measured value read in the sentence,,main
+82,100,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/05_validation_and_projection.py:57  [sc.pp.filter_cells(A, min_counts=100)]",main
+83,"27,004",Y,measured value read in the sentence,,main
+84,"26,090",Y,reads against a cell or a column,,main
+85,0,Y,measured value read in the sentence,,main
+87,"10,000",Y,reads against a cell or a column,,main
+89,50,Y,reads against a cell or a column,,main
+90,2.0,N,software version,"software version; harmonypy 2.0.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+91,15,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/03_preprocess_discovery.py:167  [sc.pp.neighbors(D, n_neighbors=15, use_rep=""X_pca_harmony"", random_state=SEED)]",main
+92,1.0,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/03_preprocess_discovery.py:169  [for r in (0.3, 0.5, 1.0):]",main
+93,1.0,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/_utils.py:61  [MINZ_COMP = 1.0],main
+94,22.2%,Y,reads against a cell or a column,,main
+95,14.0%,Y,reads against a cell or a column,,main
+96,0.2,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/05_validation_and_projection.py:197  [for r in np.round(np.arange(0.2, 1.51, 0.1), 1):]",main
+97,1.5,Y,reads against a cell or a column,,main
+98,0.1,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/05_validation_and_projection.py:197  [for r in np.round(np.arange(0.2, 1.51, 0.1), 1):]",main
+99,"6,215",Y,reads against a cell or a column,,main
+100,"2,314",Y,reads against a cell or a column,,main
+101,739,Y,reads against a cell or a column,,main
+102,"1,018",Y,reads against a cell or a column,,main
+103,"1,418",Y,reads against a cell or a column,,main
+104,726,Y,reads against a cell or a column,,main
+105,"1,779",Y,reads against a cell or a column,,main
+106,860,Y,reads against a cell or a column,,main
+107,566,Y,reads against a cell or a column,,main
+108,353,Y,reads against a cell or a column,,main
+109,0.5,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/14c_robustness_integration.py:34  [sc.tl.leiden(B, resolution=0.5, key_added=""leiden_unc"", random_state=SEED)]",main
+110,92,Y,reads against a cell or a column,,main
+111,92,Y,reads against a cell or a column,,main
+112,533,Y,reads against a cell or a column,,main
+113,682,Y,reads against a cell or a column,,main
+114,"1,021",Y,reads against a cell or a column,,main
+115,468,Y,reads against a cell or a column,,main
+116,50,Y,reads against a cell or a column,,main
+117,25,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/05_validation_and_projection.py:144  [sc.tl.score_genes(A, ids, ctrl_size=50, n_bins=25, random_state=SEED, score_name=name); return len(ids)]",main
+118,560,Y,reads against a cell or a column,,main
+119,88%,Y,measured value read in the sentence,,main
+120,1.0,Y,reads against a cell or a column,,main
+121,"42,990",N,"frozen input, counted","frozen/net/collectri_regulons.csv: 42,990 rows counted in the frozen network file",main
+122,"1,185",N,"frozen input, counted","frozen/net/collectri_regulons.csv: 1,185 distinct values of the column source, counted",main
+123,560,Y,reads against a cell or a column,,main
+124,730,Y,reads against a cell or a column,,main
+125,10 000,Y,reads against a cell or a column,,main
+126,20,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/33_ms_figure_inputs.py:42  [def matched(df, col, match, nbins=20, min_n=25):]",main
+127,25,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/33_ms_figure_inputs.py:42  [def matched(df, col, match, nbins=20, min_n=25):]",main
+128,10,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/33_ms_figure_inputs.py:43  [if len(df) < 500: nbins = 10],main
+129,500,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/33_ms_figure_inputs.py:43  [if len(df) < 500: nbins = 10],main
+130,200,Y,reads against a cell or a column,,main
+131,0.005,N,formula,"formula: smallest attainable p of the test; not a measured value, so no file fixes it",main
+132,1,N,formula,"formula: the value 1 as the reference of a ratio; not a measured value, so no file fixes it",main
+133,20,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/04_discovery_scores_and_screen.py:176  [top = S[m].sort_values(""abs_pooled"", ascending=False).head(20).index]",main
+134,"1,000",Y,reads against a cell or a column,,main
+135,20,N,pipeline argument or frozen setting,"frozen setting; fixed in 05_post_audit/scripts/q1b_null_signtest.py:44  [NSEED, NDRAW, TOPN = 1000, 20, 20]",main
+136,20,N,pipeline argument or frozen setting,"frozen setting; fixed in 05_post_audit/scripts/q1b_null_signtest.py:44  [NSEED, NDRAW, TOPN = 1000, 20, 20]",main
+137,20,N,pipeline argument or frozen setting,"frozen setting; fixed in 05_post_audit/scripts/q1b_null_signtest.py:44  [NSEED, NDRAW, TOPN = 1000, 20, 20]",main
+138,20,N,pipeline argument or frozen setting,"frozen setting; fixed in 05_post_audit/scripts/q1b_null_signtest.py:44  [NSEED, NDRAW, TOPN = 1000, 20, 20]",main
+139,1,N,formula,"formula: the +1 of the empirical p value; not a measured value, so no file fixes it",main
+140,"1,000",N,pipeline argument or frozen setting,"frozen setting; fixed in 05_post_audit/scripts/q1b_null_signtest.py:44  [NSEED, NDRAW, TOPN = 1000, 20, 20]",main
+141,1,N,formula,"formula: the +1 of the empirical p value; not a measured value, so no file fixes it",main
+142,1,N,formula,"formula: the fold of 1 as the reference; not a measured value, so no file fixes it",main
+144,"1,779",Y,measured value read in the sentence,,main
+145,57.7%,Y,reads against a cell or a column,,main
+146,0.0%,Y,reads against a cell or a column,,main
+147,40.9%,Y,reads against a cell or a column,,main
+148,10.8%,Y,reads against a cell or a column,,main
+149,353,Y,reads against a cell or a column,,main
+150,1,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/10_receptors_by_state.py:57  [**{g: float(np.log2(c + 1)) for g, c in zip(genes, cpm)}))]",main
+151,0.05,N,formula,"formula: the 0.05 of a significance statement; not a measured value, so no file fixes it",main
+152,10,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/17_receptor_power.py:41  [if (g.state == PAIR[0]).sum() >= 10 and (g.state == PAIR[1]).sum() >= 10]],main
+153,"3,529",Y,reads against a cell or a column,,main
+154,1,Y,reads against a cell or a column,,main
+155,2,Y,reads against a cell or a column,,main
+156,6,Y,reads against a cell or a column,,main
+157,7,Y,reads against a cell or a column,,main
+158,14,Y,reads against a cell or a column,,main
+159,1,Y,reads against a cell or a column,,main
+160,2,Y,reads against a cell or a column,,main
+161,3,Y,reads against a cell or a column,,main
+162,10,Y,reads against a cell or a column,,main
+163,6,Y,reads against a cell or a column,,main
+164,0.11,N,software version,"software version; diptest 0.11.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+165,1,N,formula,"formula: the identity (1 + |r|)/2; not a measured value, so no file fixes it",main
+166,2,N,formula,"formula: the identity (1 + |r|)/2; not a measured value, so no file fixes it",main
+167,22,Y,reads against a cell or a column,,main
+168,11,Y,reads against a cell or a column,,main
+169,0.56,Y,reads against a cell or a column,,main
+170,100,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/12_coupling_by_compartment.py:78  [if les != ""POOLED"" and len(g) < 100:]",main
+171,0.95,Y,reads against a cell or a column,,main
+172,96.5%,Y,reads against a cell or a column,,main
+173,6.73,Y,reads against a cell or a column,,main
+174,6.78,Y,reads against a cell or a column,,main
+175,−0.175,Y,reads against a cell or a column,,main
+176,−0.173,Y,reads against a cell or a column,,main
+177,−0.065,Y,measured value read in the sentence,,main
+178,−0.066,Y,measured value read in the sentence,,main
+179,0.011,Y,measured value read in the sentence,,main
+180,19/20,Y,reads against a cell or a column,,main
+181,0.96,Y,reads against a cell or a column,,main
+182,0.94,Y,reads against a cell or a column,,main
+183,"1,868",Y,reads against a cell or a column,,main
+184,99.8%,Y,reads against a cell or a column,,main
+185,"6,215",Y,reads against a cell or a column,,main
+186,0.93,Y,measured value read in the sentence,,main
+187,15/20,Y,reads against a cell or a column,,main
+188,"2,893",Y,reads against a cell or a column,,main
+189,"1,183",Y,reads against a cell or a column,,main
+190,7.3,Y,reads against a cell or a column,,main
+191,9.3,Y,reads against a cell or a column,,main
+192,0.98,Y,reads against a cell or a column,,main
+193,0.99,Y,reads against a cell or a column,,main
+194,117/120,Y,reads against a cell or a column,,main
+195,101/103,Y,reads against a cell or a column,,main
+196,18,N,"frozen input, counted","Table S4: 18 pooled rows, i.e. the gene-set by scoring-method combinations, counted in the workbook",main
+197,−0.24,Y,reads against a cell or a column,,main
+198,0.04,Y,reads against a cell or a column,,main
+199,16,Y,measured value read in the sentence,,main
+200,0.995,Y,reads against a cell or a column,,main
+201,0.999,Y,reads against a cell or a column,,main
+202,3.11,N,software version,"software version; Python 3.11.16 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+203,1.11,N,software version,"software version; scanpy 1.11.5 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+204,0.12,N,software version,"software version; anndata 0.12.19 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+205,2.2,Y,reads against a cell or a column,,main
+206,1.0,N,software version,"software version; omnipath 1.0.12 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+207,2.0,N,software version,"software version; harmonypy 2.0.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+208,0.2,N,software version,"software version; scrublet 0.2.3 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+209,0.12,N,software version,"software version; leidenalg 0.12.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+210,0.11,N,software version,"software version; diptest 0.11.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+211,0.52,N,software version,"software version; kallisto 0.52.0 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+212,0.45,N,software version,"software version; bustools 0.45.1 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+213,0.30,N,software version,"software version; kb-python 0.30.2 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+214,3.4,N,software version,"software version; SRA Toolkit 3.4.1 in the analysis environment apsc, recorded in 08_external_review/tables/E12_software_versions.csv",main
+215,1,N,figure,"figure: Figure 1; not a measured value, so no file fixes it",main
+216,"44,433",Y,reads against a cell or a column,,main
+217,"26,090",Y,reads against a cell or a column,,main
+218,365,Y,measured value read in the sentence,,main
+219,1,Y,reads against a cell or a column,,main
+220,44,Y,reads against a cell or a column,,main
+221,85%,Y,reads against a cell or a column,,main
+222,69,Y,reads against a cell or a column,,main
+223,87%,Y,reads against a cell or a column,,main
+224,19.3,Y,reads against a cell or a column,,main
+225,61.1%,Y,reads against a cell or a column,,main
+226,14.0%,Y,reads against a cell or a column,,main
+227,6.8,Y,reads against a cell or a column,,main
+228,28.6%,Y,reads against a cell or a column,,main
+229,5.3,Y,reads against a cell or a column,,main
+230,8.9%,Y,reads against a cell or a column,,main
+231,0.95,Y,reads against a cell or a column,,main
+232,94.2%,Y,reads against a cell or a column,,main
+233,14.0%,Y,reads against a cell or a column,,main
+234,6.7,Y,reads against a cell or a column,,main
+235,3.4,Y,reads against a cell or a column,,main
+236,9.5,Y,reads against a cell or a column,,main
+237,1.0,N,formula,"formula: the mantissa of a p value in scientific notation; not a measured value, so no file fixes it",main
+238,10,Y,reads against a cell or a column,,main
+239,"10,000",N,pipeline argument or frozen setting,frozen setting; fixed in scripts/28_manuscript_numbers.py:117  [NPERM = 10000],main
+240,8.8,Y,reads against a cell or a column,,main
+241,10.0,Y,reads against a cell or a column,,main
+242,2,N,figure,"figure: Figure 2; not a measured value, so no file fixes it",main
+243,66%,Y,reads against a cell or a column,,main
+244,"6,215",Y,reads against a cell or a column,,main
+245,"1,779",Y,reads against a cell or a column,,main
+246,2,Y,reads against a cell or a column,,main
+247,730,Y,reads against a cell or a column,,main
+248,20,Y,reads against a cell or a column,,main
+249,730,Y,reads against a cell or a column,,main
+250,717,Y,measured value read in the sentence,,main
+251,0.456,Y,reads against a cell or a column,,main
+252,0.428,Y,reads against a cell or a column,,main
+253,0.405,Y,reads against a cell or a column,,main
+254,0.363,Y,reads against a cell or a column,,main
+255,0.341,Y,reads against a cell or a column,,main
+256,−0.325,Y,reads against a cell or a column,,main
+257,3,N,figure,"figure: Figure 3; not a measured value, so no file fixes it",main
+258,0.641,Y,measured value read in the sentence,,main
+259,0.529,Y,measured value read in the sentence,,main
+260,3,N,figure,"figure: Figure 3; not a measured value, so no file fixes it",main
+261,20,Y,reads against a cell or a column,,main
+262,19,Y,reads against a cell or a column,,main
+263,20,Y,reads against a cell or a column,,main
+264,3,Y,reads against a cell or a column,,main
+265,−0.002,Y,measured value read in the sentence,,main
+266,"1,000",Y,reads against a cell or a column,,main
+267,20,Y,reads against a cell or a column,,main
+268,7.5,Y,reads against a cell or a column,,main
+269,20,Y,reads against a cell or a column,,main
+270,10.3,Y,reads against a cell or a column,,main
+271,20,Y,reads against a cell or a column,,main
+272,10.4,Y,reads against a cell or a column,,main
+273,13.2,Y,reads against a cell or a column,,main
+274,20,N,setting,"setting: the 20 candidates per programme; not a measured value, so no file fixes it",main
+275,20,Y,reads against a cell or a column,,main
+276,19,Y,measured value read in the sentence,,main
+277,20,N,setting,"setting: the 20 candidates per programme; not a measured value, so no file fixes it",main
+278,0.001,Y,reads against a cell or a column,,main
+279,0.005,N,formula,"formula: the 0.005 bound of a p value; not a measured value, so no file fixes it",main
+280,0.40,Y,reads against a cell or a column,,main
+281,0.10,Y,measured value read in the sentence,,main
+282,0.14,Y,reads against a cell or a column,,main
+283,0.35,Y,reads against a cell or a column,,main
+284,0.07,Y,reads against a cell or a column,,main
+285,0.09,Y,reads against a cell or a column,,main
+286,0.001,Y,reads against a cell or a column,,main
+287,20,N,setting,"setting: the top-20 lists of the screen; not a measured value, so no file fixes it",main
+288,0.33,Y,reads against a cell or a column,,main
+289,0.48,Y,measured value read in the sentence,,main
+290,0.03,N,formula,"formula: the 0.03 bound of a Jaccard index; not a measured value, so no file fixes it",main
+291,0.001,N,formula,"formula: the smallest attainable p of 1,000 draws; not a measured value, so no file fixes it",main
+292,18,Y,reads against a cell or a column,,main
+293,20,Y,reads against a cell or a column,,main
+294,0.001,Y,reads against a cell or a column,,main
+295,0.001,Y,reads against a cell or a column,,main
+296,0.43,Y,measured value read in the sentence,,main
+297,0.001,Y,reads against a cell or a column,,main
+298,10,Y,reads against a cell or a column,,main
+299,19,Y,reads against a cell or a column,,main
+300,0.67,Y,reads against a cell or a column,,main
+301,0.21,Y,reads against a cell or a column,,main
+302,0.18,Y,reads against a cell or a column,,main
+303,0.001,Y,reads against a cell or a column,,main
+304,−0.234,Y,reads against a cell or a column,,main
+305,41,Y,reads against a cell or a column,,main
+306,3,N,figure,"figure: Figure 3; not a measured value, so no file fixes it",main
+307,−0.30,Y,reads against a cell or a column,,main
+308,0.12,Y,reads against a cell or a column,,main
+309,−0.20,Y,reads against a cell or a column,,main
+310,−0.30,Y,reads against a cell or a column,,main
+311,−0.34,Y,reads against a cell or a column,,main
+312,−0.17,Y,reads against a cell or a column,,main
+313,−0.36,Y,reads against a cell or a column,,main
+314,−0.46,Y,reads against a cell or a column,,main
+315,−0.28,Y,reads against a cell or a column,,main
+316,−0.29,Y,reads against a cell or a column,,main
+317,4,Y,reads against a cell or a column,,main
+318,−0.03,Y,reads against a cell or a column,,main
+319,−0.08,Y,reads against a cell or a column,,main
+320,−0.05,Y,reads against a cell or a column,,main
+321,−0.07,Y,measured value read in the sentence,,main
+322,20,Y,reads against a cell or a column,,main
+323,0.92,Y,reads against a cell or a column,,main
+324,0.99,Y,reads against a cell or a column,,main
+325,0.98,Y,measured value read in the sentence,,main
+326,1.00,Y,reads against a cell or a column,,main
+327,85,Y,reads against a cell or a column,,main
+328,101%,Y,reads against a cell or a column,,main
+329,4,Y,reads against a cell or a column,,main
+330,0.005,Y,reads against a cell or a column,,main
+331,200,Y,reads against a cell or a column,,main
+332,0.025,Y,reads against a cell or a column,,main
+333,1.004,Y,reads against a cell or a column,,main
+334,0.76,Y,reads against a cell or a column,,main
+335,0.88,Y,reads against a cell or a column,,main
+336,0.99,Y,reads against a cell or a column,,main
+337,4,Y,reads against a cell or a column,,main
+338,0.92,Y,reads against a cell or a column,,main
+339,1.00,Y,reads against a cell or a column,,main
+340,0.97,Y,reads against a cell or a column,,main
+341,1.00,Y,reads against a cell or a column,,main
+342,0.10,Y,reads against a cell or a column,,main
+343,0.35,Y,reads against a cell or a column,,main
+344,15%,Y,measured value read in the sentence,,main
+345,16.7,Y,reads against a cell or a column,,main
+346,39.1%,Y,reads against a cell or a column,,main
+347,12.3,Y,reads against a cell or a column,,main
+348,24.9%,Y,reads against a cell or a column,,main
+349,1.7,Y,reads against a cell or a column,,main
+350,16.4%,Y,reads against a cell or a column,,main
+351,25.4,Y,reads against a cell or a column,,main
+352,39.7%,Y,reads against a cell or a column,,main
+353,48%,Y,reads against a cell or a column,,main
+354,63%,Y,reads against a cell or a column,,main
+355,4,Y,reads against a cell or a column,,main
+356,0.5,Y,reads against a cell or a column,,main
+357,4,N,figure,"figure: Figure 4; not a measured value, so no file fixes it",main
+358,4,N,figure,"figure: Figure 4; not a measured value, so no file fixes it",main
+359,1,N,name,"name: IL-1 receptor family; not a measured value, so no file fixes it",main
+360,1.60,Y,reads against a cell or a column,,main
+361,10,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/17_receptor_power.py:41  [if (g.state == PAIR[0]).sum() >= 10 and (g.state == PAIR[1]).sum() >= 10]],main
+362,5,N,figure,"figure: Figure 5; not a measured value, so no file fixes it",main
+363,"3,529",Y,reads against a cell or a column,,main
+364,0.54,Y,reads against a cell or a column,,main
+365,0.17,Y,reads against a cell or a column,,main
+366,0.08,Y,reads against a cell or a column,,main
+367,0.06,Y,measured value read in the sentence,,main
+368,1,Y,reads against a cell or a column,,main
+369,6,N,name,"name: IL-6 receptor family; not a measured value, so no file fixes it",main
+370,14,Y,measured value read in the sentence,,main
+371,32%,Y,reads against a cell or a column,,main
+372,46,Y,reads against a cell or a column,,main
+373,80%,Y,reads against a cell or a column,,main
+374,44,Y,reads against a cell or a column,,main
+375,71%,Y,reads against a cell or a column,,main
+376,59,Y,reads against a cell or a column,,main
+377,75%,Y,reads against a cell or a column,,main
+378,0.08,Y,reads against a cell or a column,,main
+379,0.06,Y,reads against a cell or a column,,main
+380,0.35,Y,measured value read in the sentence,,main
+381,5,N,figure,"figure: Figure 5; not a measured value, so no file fixes it",main
+382,5,N,figure,"figure: Figure 5; not a measured value, so no file fixes it",main
+383,−0.08,Y,reads against a cell or a column,,main
+384,−0.10,Y,reads against a cell or a column,,main
+385,0.45,Y,reads against a cell or a column,,main
+386,−0.06,Y,reads against a cell or a column,,main
+387,−0.005,Y,measured value read in the sentence,,main
+388,0.001,Y,reads against a cell or a column,,main
+389,−0.014,Y,reads against a cell or a column,,main
+390,−0.017,Y,reads against a cell or a column,,main
+391,−0.03,Y,reads against a cell or a column,,main
+392,−0.07,Y,reads against a cell or a column,,main
+393,6,N,figure,"figure: Figure 6; not a measured value, so no file fixes it",main
+394,0.14,Y,reads against a cell or a column,,main
+395,100,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/12_coupling_by_compartment.py:78  [if les != ""POOLED"" and len(g) < 100:]",main
+396,6,N,figure,"figure: Figure 6; not a measured value, so no file fixes it",main
+397,22,Y,reads against a cell or a column,,main
+398,13,Y,reads against a cell or a column,,main
+399,8,Y,reads against a cell or a column,,main
+400,1,Y,measured value read in the sentence,,main
+401,"19,652",Y,reads against a cell or a column,,main
+402,20/20,Y,reads against a cell or a column,,main
+403,19/20,Y,reads against a cell or a column,,main
+404,5/20,Y,measured value read in the sentence,,main
+405,16/20,Y,measured value read in the sentence,,main
+406,7,N,figure,"figure: Figure 7; not a measured value, so no file fixes it",main
+407,0.06,Y,measured value read in the sentence,,main
+408,0.03,Y,reads against a cell or a column,,main
+409,−0.00,Y,reads against a cell or a column,,main
+410,−0.17,Y,measured value read in the sentence,,main
+411,0.21,Y,reads against a cell or a column,,main
+412,7,N,figure,"figure: Figure 7; not a measured value, so no file fixes it",main
+413,1,Y,reads against a cell or a column,,main
+414,15%,Y,measured value read in the sentence,,main
+415,1,N,name,"name: IL-1 receptor family; not a measured value, so no file fixes it",main
+416,6,N,name,"name: IL-6 receptor family; not a measured value, so no file fixes it",main
+417,1,N,figure,"figure: Figure 1; not a measured value, so no file fixes it",main
+418,"44,433",Y,reads against a cell or a column,,main
+419,"26,090",Y,reads against a cell or a column,,main
+420,2,N,figure,"figure: Figure 2; not a measured value, so no file fixes it",main
+421,1.0,Y,reads against a cell or a column,,main
+422,10,N,pipeline argument or frozen setting,frozen setting; fixed in scripts/28_manuscript_numbers.py:117  [NPERM = 10000],main
+423,"10,000",Y,reads against a cell or a column,,main
+424,"6,215",Y,reads against a cell or a column,,main
+425,"1,779",Y,reads against a cell or a column,,main
+426,3,N,figure,"figure: Figure 3; not a measured value, so no file fixes it",main
+427,717,Y,measured value read in the sentence,,main
+428,20,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/04_discovery_scores_and_screen.py:176  [top = S[m].sort_values(""abs_pooled"", ascending=False).head(20).index]",main
+429,20,Y,reads against a cell or a column,,main
+430,20/20,Y,reads against a cell or a column,,main
+431,20/20,Y,reads against a cell or a column,,main
+432,19/20,Y,reads against a cell or a column,,main
+433,"1,000",Y,reads against a cell or a column,,main
+434,20,Y,reads against a cell or a column,,main
+435,10.4,Y,reads against a cell or a column,,main
+436,13.2,Y,reads against a cell or a column,,main
+437,20,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/04_discovery_scores_and_screen.py:176  [top = S[m].sort_values(""abs_pooled"", ascending=False).head(20).index]",main
+438,4,N,figure,"figure: Figure 4; not a measured value, so no file fixes it",main
+439,0.987,Y,reads against a cell or a column,,main
+440,0.964,Y,reads against a cell or a column,,main
+441,0.921,Y,reads against a cell or a column,,main
+442,0.991,Y,reads against a cell or a column,,main
+443,0.964,Y,reads against a cell or a column,,main
+444,0.976,Y,reads against a cell or a column,,main
+445,0.988,Y,reads against a cell or a column,,main
+446,1.004,Y,reads against a cell or a column,,main
+447,95%,Y,reads against a cell or a column,,main
+448,200,Y,reads against a cell or a column,,main
+449,0.005,Y,reads against a cell or a column,,main
+450,200,Y,reads against a cell or a column,,main
+451,0.025,Y,reads against a cell or a column,,main
+452,0.76,Y,reads against a cell or a column,,main
+453,0.88,Y,reads against a cell or a column,,main
+454,0.99,Y,reads against a cell or a column,,main
+455,0.10,Y,reads against a cell or a column,,main
+456,0.35,Y,reads against a cell or a column,,main
+457,"2,314",Y,reads against a cell or a column,,main
+458,739,Y,reads against a cell or a column,,main
+459,"1,018",Y,reads against a cell or a column,,main
+460,"1,418",Y,reads against a cell or a column,,main
+461,726,Y,measured value read in the sentence,,main
+462,860,Y,measured value read in the sentence,,main
+463,566,Y,measured value read in the sentence,,main
+464,353,Y,measured value read in the sentence,,main
+465,16,Y,measured value read in the sentence,,main
+466,0.54,Y,reads against a cell or a column,,main
+467,0.05,N,formula,"formula: the p = 0.05 line drawn in the panel; not a measured value, so no file fixes it",main
+468,5,N,figure,"figure: Figure 5; not a measured value, so no file fixes it",main
+469,83%,Y,measured value read in the sentence,,main
+470,0.56,Y,reads against a cell or a column,,main
+471,6,N,figure,"figure: Figure 6; not a measured value, so no file fixes it",main
+472,100,N,pipeline argument or frozen setting,"frozen setting; fixed in scripts/12_coupling_by_compartment.py:78  [if les != ""POOLED"" and len(g) < 100:]",main
+473,7,N,figure,"figure: Figure 7; not a measured value, so no file fixes it",main
+474,13,Y,measured value read in the sentence,,main
+475,8,Y,measured value read in the sentence,,main
+476,1,Y,reads against a cell or a column,,main
+477,"19,652",Y,reads against a cell or a column,,main
+478,0.03,Y,measured value read in the sentence,,main
+479,−0.00,Y,measured value read in the sentence,,main
+480,0.08,Y,measured value read in the sentence,,main
+481,20/20,Y,reads against a cell or a column,,main
+482,19/20,Y,reads against a cell or a column,,main
+483,5/20,Y,measured value read in the sentence,,main
+484,16/20,Y,measured value read in the sentence,,main
+485,18,N,"frozen input, counted","Table S4: 18 pooled rows, i.e. the gene-set by scoring-method combinations, counted in the workbook",main
+18,33 694,Y,reference build,reference build; read it in results/tables/02_annotation_feature_counts.csv or the Cell Ranger features.tsv of lesion A,other
+21,33 538,Y,reference build,reference build; read it in the Cell Ranger features.tsv of lesions B-E,other
+22,32 991,Y,reference build,reference build; read it in the intersection of the two feature lists,other
+45,"206,723",Y,reference build,reference build; read it in the Ensembl 112 GRCh38 cDNA fasta,other
+46,"41,116",Y,reference build,"reference build; read it in results/tables/23_chemistry_umi_comparison.csv, column genes",other
+47,"7,057",Y,reference build,reference build; read it in the t2g table built from the cDNA fasta,other
+54,"435,676,976",Y,log,log; read it in logs/ run_info.json of the kb run for SRR32119705,other
+86,406,Y,measured value,"measured value; read it in Table S1, 1_qc_pass minus 2_singlet summed over the lesions",other
+88,"2,000",N,pipeline argument,"pipeline argument; fixed in scripts/03_preprocess_discovery.py:162  [sc.pp.highly_variable_genes(D, n_top_genes=2000, flavor=""seurat_v3"", batch_key=""lesion"", layer=""counts"")]",other
+143,"15,820",Y,measured value,"measured value; read it in Table S5, the gene-space column of the projection part",other

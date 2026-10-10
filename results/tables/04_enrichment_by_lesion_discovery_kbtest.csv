@@ -1,0 +1,7 @@
+lesion,cohort,score,n_cells,n_top_decile,stromal_pct_overall,stromal_pct_top_decile,enrichment_fold
+A,discovery_n5,axis_D_tissueforming,13105,1311,24.05,98.86,4.11
+A,discovery_n5,composite_tissueforming,13105,1311,24.05,98.86,4.11
+B,discovery_n5,axis_D_tissueforming,11001,1101,6.79,62.67,9.229
+B,discovery_n5,composite_tissueforming,11001,1101,6.79,64.94,9.564
+POOLED_discovery,discovery_n5,axis_D_tissueforming,24106,2411,16.17,97.1,6.003
+POOLED_discovery,discovery_n5,composite_tissueforming,24106,2411,16.17,96.93,5.993

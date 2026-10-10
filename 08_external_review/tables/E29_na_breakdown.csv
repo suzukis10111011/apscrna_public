@@ -1,0 +1,34 @@
+No,printed,section,source_category,group,student_remark
+219,1,Results,figure,figure number or part of a name,figure name | Suggested source is unrelated
+246,2,Results,figure,figure number or part of a name,figure number | Suggested source is unrelated | 
+264,3,Results,figure,figure number or part of a name,figure | Suggested source is unrelated
+317,4,Results,figure,figure number or part of a name,figure | suggested source is unrelated
+337,4,Results,figure,figure number or part of a name,figure | suggested source is unrelated
+355,4,Results,figure,figure number or part of a name,figure | suggested source is unrelated
+368,1,Results,name,figure number or part of a name,IL-1 | suggested source is unrelated
+413,1,Discussion,name,figure number or part of a name,IL-1 | suggested source is unrelated
+48,33%,Materials and methods,measured value,log value,check from gene-ID count
+49,122,Materials and methods,measured value,log value,Suggested source is unrelated; 122 is the number of genes supplemented from the discovery 
+55,69.6%,Materials and methods,log value,log value,Suggested source is unrelated; pseudoalignment rate requires the read-processing summary f
+61,97.9%,Materials and methods,measured value,log value,Suggested source is unrelated
+62,97.8%,Materials and methods,measured value,log value,Suggested source is unrelated
+66,26,Materials and methods,measured value,log value,"Suggested source is unrelated; 26 is a read position, whereas pos28_T_pct measures T frequ"
+67,33,Materials and methods,measured value,log value,to be confirmed from base-composition output。
+68,36%,Materials and methods,measured value,log value,Suggested source is unrelated
+69,1.15,Materials and methods,measured value,log value,Suggested source is unrelated
+70,16,Materials and methods,measured value,log value,to be confirmed
+71,9.06,Materials and methods,measured value,log value,to be confirmed
+43,31,Materials and methods,pipeline argument,parameter or setting,Suggested source is unrelated; k = 31 is a kallisto index setting. | The position column i
+57,10,Materials and methods,pipeline argument,parameter or setting,method check
+87,"10,000",Materials and methods,pipeline argument,parameter or setting,"10,000 is the normalization target and requires a code check. | Suggested source is unrela"
+97,1.5,Materials and methods,pipeline argument,parameter or setting,1.5 is the upper Leiden resolution setting. | Suggested source is unrelated
+116,50,Materials and methods,pipeline argument,parameter or setting,score_genes control-set setting | Suggested source is unrelated
+16,10,Materials and methods,read structure / kit,reference build or read structure,Suggested source is unrelated to this item
+39,10,Materials and methods,read structure / kit,reference build or read structure,method check | Suggested source is unrelated
+44,112,Materials and methods,reference build,reference build or read structure,"Suggested source is unrelated; 112 is the Ensembl release number, not a TF rank."
+58,1,Materials and methods,read structure / kit,reference build or read structure,method check
+60,28,Materials and methods,read structure / kit,reference build or read structure,Suggested source is unrelated
+64,10,Materials and methods,read structure / kit,reference build or read structure,Suggested source is unrelated; 10 nt is the UMI length in the v2 barcode–UMI structure.
+20,3.1.0,Materials and methods,software version,software version,Cell Ranger 3.1.0 is a software version;
+120,1.0,Materials and methods,software version,software version, | Suggested source is unrelated
+205,2.2,Materials and methods,software version,software version,software | Suggested source is unrelated

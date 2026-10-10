@@ -1,0 +1,63 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260926 16:19:59.200349 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260926 16:19:59.200477 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260926 16:19:59.200500 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+間質 (6215, 22669) / TF 730 / 病変 ['A', 'B', 'C', 'D', 'E']
+dctrl 再現確認 OK (SP7 lf_D: 0.456008)
+  LOLO A 完了
+  LOLO B 完了
+  LOLO C 完了
+  LOLO D 完了
+  LOLO E 完了
+
+全5回候補: 9/10
+                   axis    TF  sum  size  all5_runs
+lf_A_cytokine_chemokine  ATF1    0     5      False
+lf_A_cytokine_chemokine  MTA1    5     5       True
+lf_A_cytokine_chemokine NFKB2    5     5       True
+lf_A_cytokine_chemokine   REL    5     5       True
+lf_A_cytokine_chemokine  RELB    5     5       True
+     lf_D_tissueforming  DLX5    5     5       True
+     lf_D_tissueforming  MYRF    5     5       True
+     lf_D_tissueforming RUNX2    5     5       True
+     lf_D_tissueforming SMAD3    5     5       True
+     lf_D_tissueforming   SP7    5     5       True
+  置換検定 A 完了
+  置換検定 B 完了
+  置換検定 C 完了
+  置換検定 D 完了
+  置換検定 E 完了
+  置換検定 POOLED_discovery 完了
+
+          lesion compartment  pct_overall  pct_top_decile  enrichment_fold  p_permutation
+               A     stromal        28.56           97.90            3.428         0.0001
+               A      immune        44.48            0.00            0.000         1.0000
+               B     stromal         6.80           62.32            9.168         0.0001
+               B      immune        78.39            0.18            0.002         1.0000
+               C     stromal        14.52           97.29            6.701         0.0001
+               C      immune        77.68            0.00            0.000         1.0000
+               D     stromal        14.99           92.71            6.185         0.0001
+               D      immune        43.53            0.00            0.000         1.0000
+               E     stromal         8.08           77.09            9.543         0.0001
+               E      immune        85.30            0.11            0.001         1.0000
+POOLED_discovery     stromal        13.99           94.15            6.731         0.0001
+POOLED_discovery      immune        66.07            0.00            0.000         1.0000
+
+QC 表: (24, 8), 段階 ['0_raw', '0_raw_ge100umi', '1_qc_pass', '2_singlet']
+
+28_manuscript_numbers.csv: 44 項目
+                                     item                         value
+leave-one-lesion-out: 10因子のうち全5回とも候補に残った数                        9 / 10
+  LOLO 候補回数 ATF1（lf_A_cytokine_chemokine）                           0/5
+  LOLO 候補回数 MTA1（lf_A_cytokine_chemokine）                           5/5
+ LOLO 候補回数 NFKB2（lf_A_cytokine_chemokine）                           5/5
+   LOLO 候補回数 REL（lf_A_cytokine_chemokine）                           5/5
+  LOLO 候補回数 RELB（lf_A_cytokine_chemokine）                           5/5
+       LOLO 候補回数 DLX5（lf_D_tissueforming）                           5/5
+       LOLO 候補回数 MYRF（lf_D_tissueforming）                           5/5
+      LOLO 候補回数 RUNX2（lf_D_tissueforming）                           5/5
+      LOLO 候補回数 SMAD3（lf_D_tissueforming）                           5/5
+        LOLO 候補回数 SP7（lf_D_tissueforming）                           5/5
+                             濃縮の置換検定 p（A） 9.999e-05（3.428倍、帰無平均 28.54%）
+
+28 DONE

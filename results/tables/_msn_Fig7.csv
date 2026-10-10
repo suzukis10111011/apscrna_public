@@ -1,0 +1,3 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig7,A,per-donor rho by disease group,13_gse164241_summary.csv,19652,22,donors,GSE164241
+Fig7,B,"candidate sign reproduction, two programmes",13_gse164241_tf_sign_reproduction.csv,19652,2,programmes,GSE164241

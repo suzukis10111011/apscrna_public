@@ -1,0 +1,40 @@
+[guard] heartbeat は古いが出力を 45s 監視: +91.0 MB
+[guard] 再定量 = growing — 25 を続行（4スレッド制限）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 21:58:14.399265 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 21:58:14.399365 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 21:58:14.399390 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+検証コホート内の中央値: 炎症 0.0707 / 組織形成 0.3315
+
+クラスタ -> 状態:
+            n_cells  median_inflammatory  median_tissueforming           state
+leiden_0.5                                                                    
+0               324               0.0637                0.3494  tissue-forming
+1               221               0.1000                0.3175    inflammatory
+2               266              -0.0061                0.3513  tissue-forming
+3               378               0.0255                0.3147           other
+4                92               0.0474                0.1226           other
+5               498               0.1778                0.3353    intermediate
+
+=== 状態比率（%）===
+lesion        labelling  n_cells  pct_inflammatory  pct_intermediate  pct_tissue-forming  pct_other  agreement_pct
+  CAP1    within_cohort      860             16.40              0.00               39.65      43.95            NaN
+  CAP1 ingest_projected      860              0.00             14.07               29.65      56.28          55.12
+  CAP2    within_cohort      566             13.07             48.41               25.44      13.07            NaN
+  CAP2 ingest_projected      566             35.34             27.92               16.25      20.49          37.99
+  CAP3    within_cohort      353              1.70             63.46               29.75       5.10            NaN
+  CAP3 ingest_projected      353             72.24              8.22                6.80      12.75          10.76
+POOLED    within_cohort     1779             12.42             27.99               33.16      26.42            NaN
+POOLED ingest_projected     1779             25.58             17.31               20.85      36.26          40.87
+
+=== 混同表（行=コホート内定義, 列=投影）===
+state_projected  inflammatory  intermediate  other  tissue-forming
+state_within                                                      
+inflammatory               13            85    120               3
+intermediate              402            83     10               3
+other                       0            48    344              78
+tissue-forming             40            92    171             287
+[guard] heartbeat は古いが出力を 45s 監視: +90.7 MB
+[guard] 再定量 = growing — 25 完了時 を続行（4スレッド制限）
+
+25 DONE

@@ -1,0 +1,16 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260930 13:52:25.548518 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:52:25.548607 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260930 13:52:25.548629 0x7ff849d20180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+leiden 0.02 -> 4 クラスタ、単連結で 2 塊に統合 (centroid distance 2.49-13.50)
+cohort  discovery_n5  validation_n3
+lobe                               
+L1              6212              0
+L2                 3           1779
+saved diag_fig2c.png / .pdf
+
+検証の n_genes 中位数 3027 以上の探索細胞 841 個のうち L2 に落ちたのは 1 個 (0.12%)
+lobe  n_cells  n_discovery  n_validation  median_n_genes  median_total_counts
+  L1     6212         6212             0            2044                 6271
+  L2     1782            3          1779            3026                 8255
+37 DONE

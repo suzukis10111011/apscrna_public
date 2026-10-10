@@ -1,0 +1,6 @@
+cohort,axis,TF,column,saved_rounded_value,recomputed_value,saved_rounds_to_zero,note
+discovery,lf_A_cytokine_chemokine,NEUROG3,A,0.0,4.484117088611112e-05,True,"post hoc; added in response to the independent audit. Frozen gene sets, candidate factors and thresholds are unchanged."
+discovery,lf_A_cytokine_chemokine,SALL4,A,0.0,9.121641623542675e-06,True,"post hoc; added in response to the independent audit. Frozen gene sets, candidate factors and thresholds are unchanged."
+discovery,lf_A_cytokine_chemokine,TCF20,D,0.0,1.7805102119878488e-05,True,"post hoc; added in response to the independent audit. Frozen gene sets, candidate factors and thresholds are unchanged."
+discovery,lf_D_tissueforming,FOXE1,D,-0.0,-1.839011788507483e-05,True,"post hoc; added in response to the independent audit. Frozen gene sets, candidate factors and thresholds are unchanged."
+validation,lf_A_cytokine_chemokine,ESRRA,CAP3,-0.0,-4.856021685137737e-05,True,"post hoc; added in response to the independent audit. Frozen gene sets, candidate factors and thresholds are unchanged."

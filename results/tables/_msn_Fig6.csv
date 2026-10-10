@@ -1,0 +1,3 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig6,A,programme coupling per compartment,12_coupling_by_compartment.csv,44433,6,compartments,discovery_n5
+Fig6,B,myeloid-intrinsic axis coupling,12_coupling_by_compartment.csv,44433,4,lesions,discovery_n5

@@ -1,0 +1,54 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 15:22:16.033583 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 15:22:16.033699 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 15:22:16.033722 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+利用可能な検証ラン: ['CAP1', 'CAP2', 'CAP3']
+  CAP1: (63729, 41116)
+  CAP2: (13218, 41116)
+  CAP3: (10176, 41116)
+concat: (87123, 41116) {'CAP1': 63729, 'CAP2': 13218, 'CAP3': 10176}
+  scrublet CAP1: 419/10048
+  scrublet CAP2: 398/10176
+  scrublet CAP3: 133/6780
+QC+doublet後: (26054, 24398)
+区画×病変 (%):
+compartment  endothelial  epithelial  erythrocyte  immune  pericyte_smc  schwann_neural  stromal
+lesion                                                                                          
+CAP1               13.38        0.23         3.77   65.89          8.26            0.42     8.06
+CAP2                3.74        6.22         2.58   78.70          2.89            0.00     5.87
+CAP3                3.66        0.35         3.20   84.91          2.56            0.00     5.33
+
+区画×病変 (%):
+compartment  endothelial  epithelial  erythrocyte  immune  pericyte_smc  schwann_neural  stromal
+lesion                                                                                          
+CAP1                13.4         0.2          3.8    65.9           8.3             0.4      8.1
+CAP2                 3.7         6.2          2.6    78.7           2.9             0.0      5.9
+CAP3                 3.7         0.3          3.2    84.9           2.6             0.0      5.3
+
+検証の間質細胞: (1704, 24398) {'CAP1': 776, 'CAP2': 574, 'CAP3': 354}
+
+定義A（検証）:
+lesion  n_cells  frac_retained  sd_reduction_pct  variance_reduction_pct
+  CAP1      776         0.9620            3.7985                  7.4527
+  CAP2      574         0.9858            1.4228                  2.8254
+  CAP3      354         1.0057           -0.5696                 -1.1425
+
+再現（探索候補のうち検証3病変すべて同符号）:
+                             n_candidates n_reproduced
+axis                                                  
+lf_A_cytokine_chemokine                20           20
+lf_B_survival_antiapoptotic            20           12
+lf_C1_proliferation                    20           11
+lf_C2_migration                        20           10
+lf_C_prolif_migration                  20           10
+lf_D_tissueforming                     20           19
+
+ingest: 共有遺伝子 16119
+投影後の状態比率 (%):
+state_projected  inflammatory  intermediate  other  tissue-forming
+lesion                                                            
+CAP1                     57.7          28.6   12.6             1.0
+CAP2                     23.5          19.0   38.5            19.0
+CAP3                     12.4           4.8   26.8            55.9
+
+05 DONE

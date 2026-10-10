@@ -1,0 +1,13 @@
+cohort,lesion,cellset,definition,n,raw_rho,depth_controlled_rho
+discovery_n5,A,all_cells,axis,13105,0.2314,0.2449
+discovery_n5,A,all_cells,composite,13105,0.489,0.2799
+discovery_n5,B,all_cells,axis,11001,0.3072,0.2319
+discovery_n5,B,all_cells,composite,11001,0.3855,0.1682
+discovery_n5,POOLED_discovery,all_cells,axis,24106,0.2361,0.2009
+discovery_n5,POOLED_discovery,all_cells,composite,24106,0.3482,0.0924
+discovery_n5,A,stromal,axis,3152,-0.0477,-0.1426
+discovery_n5,A,stromal,composite,3152,-0.0761,-0.286
+discovery_n5,B,stromal,axis,747,0.2316,0.1131
+discovery_n5,B,stromal,composite,747,0.2669,0.0872
+discovery_n5,POOLED_discovery,stromal,axis,3899,-0.0359,-0.1486
+discovery_n5,POOLED_discovery,stromal,composite,3899,-0.0345,-0.2403

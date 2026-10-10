@@ -1,0 +1,26 @@
+No,printed,category,claim,value_in_the_file,where_it_lives,status
+16,10,read structure / kit,the kit is the 10x Single Cell 3' Reagent Kit v2,10xv2,ref/chemistry_decision.json (chemistry),recorded in the named file
+20,3.1,software version,Cell Ranger 3.1.0 for lesions B-E,,"GEO series metadata of GSE181688 and GSE197680 (the depositors' processing, not run here)",not verifiable in this repository
+39,10,read structure / kit,the comparison run used 10x v3 settings,"10xv3,34348,41116,1151912,1.0,16.0,767,71.8,20000000",results/tables/23_chemistry_umi_comparison.csv:3,recorded in the named file
+43,31,pipeline argument,kallisto index k = 31,[build] k-mer length: 31,logs/01a_mkidx.log:8,confirmed
+44,112,reference build,Ensembl release 112 GRCh38 cDNA,[2026-09-18T12:03:58Z] cDNA fetch start (Ensembl release-112),logs/01a_mkidx.log:1,confirmed
+48,33%,measured value,33% of the counts of MYH11 fall on the secondary identifier,0.3262,results/tables/20_duplicate_symbol_umi_split.csv (symbol == 'MYH11'),confirmed
+49,122,measured value,the symbol table was supplemented for 122 genes,"(mostly pseudogenes), supplemented 122 entries with GEO features, leaving 6,202 (15.1%) finally unresolved.",docs/private/dev_log_ja.md:1204,confirmed
+55,69.6%,log value,"435,676,976 reads, 69.6% pseudoaligned for SRR32119705","VERIFY {""label"": ""CAP1"", ""barcodes"": 1957807, ""genes"": 41116, ""nonzero"": 17552127, ""total_umi"": 78158071, ""n_processed"": 435676976, ""n_pseudoaligned"": 303150767, ""p_pseudoaligned"": 69.6, ""n_targets"": 206723}",logs/02b_quant.log:104,confirmed
+57,10,pipeline argument,the discovery runs were quantified with kb count -x 10xv2,[2026-09-23T20:47:48Z] SampleA: kb count -x 10xv2 (passing 4 runs at once) free space 390G,logs/08_requant.log:18,confirmed
+58,1,read structure / kit,the base composition of read 1,"""decided_by"": ""R1 base composition (decisive): T at positions 27-28 is 97.93% / 97.79%, with poly-T immediately after 16bp barcode + 10bp UMI = 26bp. If v3, positions 27-28 should be random within the UMI, but that is not the case."",",ref/chemistry_decision.json:3,recorded in the named file
+60,28,read structure / kit,position 28 of read 1,97.79,results/tables/23_r1_base_composition.csv (pos == 28),recorded in the named file
+61,97.9%,measured value,position 27 is thymine in 97.9% of reads,97.93,results/tables/23_r1_base_composition.csv (pos == 27),confirmed
+62,97.8%,measured value,position 28 is thymine in 97.8% of reads,97.79,results/tables/23_r1_base_composition.csv (pos == 28),confirmed
+64,10,read structure / kit,the 16 + 10 nt barcode-UMI structure of v2,"Base composition of R1 (decisive): T at positions 27-28 is 97.93% / 97.79%, with poly-T immediately after the 16bp barcode + 10bp UMI = 26bp. If v3, positions 27-28 should be random within the UMI, but this is not the case.",ref/chemistry_decision.json (decided_by),recorded in the named file
+66,26,measured value,positions 20-26 were random,,results/tables/23_r1_base_composition.csv and ref/chemistry_decision.json record positions 27-32 only; the subsampled fastq of SRR15373534 is no longer on disk,not in a saved file
+67,33,measured value,T 33-36% over positions 20-26,,results/tables/23_r1_base_composition.csv and ref/chemistry_decision.json record positions 27-32 only; the subsampled fastq of SRR15373534 is no longer on disk,not in a saved file
+68,36%,measured value,T 33-36% over positions 20-26,,results/tables/23_r1_base_composition.csv and ref/chemistry_decision.json record positions 27-32 only; the subsampled fastq of SRR15373534 is no longer on disk,not in a saved file
+69,1.15,measured value,1.15 million deduplicated UMIs under v3,1151912,results/tables/23_chemistry_umi_comparison.csv (chemistry == '10xv3'),confirmed
+70,16,measured value,"median 16 UMIs per barcode among the top 5,000 under v3",16.0,results/tables/23_chemistry_umi_comparison.csv (chemistry == '10xv3'),confirmed
+71,9.06,measured value,9.06 million deduplicated UMIs under v2,9059891,results/tables/23_chemistry_umi_comparison.csv (chemistry == '10xv2'),confirmed
+87,"10,000",pipeline argument,"counts normalized to 10,000 UMIs per cell","sc.pp.normalize_total(D, target_sum=1e4)",scripts/03_preprocess_discovery.py:157,confirmed
+97,1.5,pipeline argument,Leiden 0.2-1.5 in steps of 0.1,"for r in np.round(np.arange(0.2, 1.51, 0.1), 1):",scripts/05_validation_and_projection.py:197,confirmed
+116,50,pipeline argument,score_genes with a control set of 50 genes,"sc.tl.score_genes(A, ids, ctrl_size=50, n_bins=25, random_state=SEED, score_name=name); return len(ids)",scripts/05_validation_and_projection.py:144,confirmed
+120,1.0,software version,omnipath 1.0.12,1.0.12,the environment apsc,confirmed
+205,2.2,software version,decoupler 2.2.0,2.2.0,the environment apsc,confirmed

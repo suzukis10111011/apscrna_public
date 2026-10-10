@@ -1,0 +1,9 @@
+gene_set,n_def,found_current,found_if_fixed,lost_pct,note
+compartment markers,23,20,23,13.0,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+RELA target,560,515,557,7.5,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+Axis A_cytokine_chemokine,92,87,92,5.4,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+Axis B_survival_antiapoptotic,92,83,87,4.3,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+C1 proliferation axis,533,498,532,6.4,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+Axis C2_migration,682,603,671,10.0,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+axis C_prolif_migration,1021,920,1009,8.7,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"
+Axis D_tissue-forming,468,441,468,5.8,"validation cohort (kb/Ensembl-112). current = genes.names.txt used as-is, fixed = re-pulled from t2g"

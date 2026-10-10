@@ -1,0 +1,6 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig4,A,per-lesion depth-controlled rho (composite scores),04_rho_inflam_vs_tissueforming_discovery.csv; 05_rho_inflam_vs_tissueforming_validation.csv,7994,8,lesions,both
+Fig4,B,"retained dispersion vs permutation null, with the unrelated-factor mean marked per lesion",33_defA_permutation_null.csv; 05_post_audit/tables/Q2_definitionA_baselines.csv,7994,8,lesions,both
+Fig4,C,"state proportions, cohort-internal definition",33_state_pct_8lesions.csv,7994,8,lesions,both
+Fig4,D,per-lesion 2D density of the two programme scores,33_stromal_program_scores.csv,7994,8,lesions,both
+Fig4,E,Hartigan dip test per lesion and programme,33_dip_by_lesion.csv,7994,16,lesion x programme,both

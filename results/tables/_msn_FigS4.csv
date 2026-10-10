@@ -1,0 +1,2 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+FigS4,A+B+C,author matrix vs re-quantification,09_geo_vs_kb.csv; 09_stromal_jaccard.csv; 09_tf_agreement_geo_vs_kb.csv,44433,6,lesions (+pooled),discovery_n5

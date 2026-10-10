@@ -1,0 +1,40 @@
+[
+ {
+  "file": "frozen/genesets/stage1_geneset_definitions.json",
+  "bytes": 37459,
+  "mb": 0.036,
+  "sha256": "37d3aee0ed54b82912225a79f6d6e1cbe9704ff4a95b647b52e7669fe528ff2a",
+  "artifact_id": "46238315-f992-4710-b0a6-59146c032c1b",
+  "version_id": "cf73a533-1e7e-45f9-9f2e-a366c95bfeb6",
+  "project": "proj_5d34a2e101d1"
+ },
+ {
+  "file": "frozen/genesets/program_geneset_definitions.json",
+  "bytes": 18685,
+  "mb": 0.018,
+  "sha256": "4601be2c155f3549f1e316019e20a86df9cb9ca9e73c35fcdf61fa5001c83332",
+  "artifact_id": "5f9fe906-ea9c-48a2-a948-5cf0165018dc",
+  "version_id": "8fabe3cc-d604-4300-8822-ade0da08d0c7",
+  "project": "proj_5d34a2e101d1"
+ },
+ {
+  "file": "frozen/percell/validation_covariates_stromal.csv",
+  "bytes": 525803,
+  "mb": 0.501,
+  "sha256": "bac528382517707cf9a39e70cc137d4dfd005280150375f9866d6b005210829a",
+  "artifact_id": "29ac8465-9121-4d56-8d8d-cb7d713d42c7",
+  "version_id": "f3ebda99-3791-4f73-8b1c-246ee079f44b",
+  "project": "proj_5d34a2e101d1",
+  "note_ja": "Pre-correction validation interstitial set (5,459 cells). For 05d/05e diagnostic use only; not to be used for numerical values in the main text, manuscript figures, legend, or Table S1–S10. However, since the run→donor correspondence (ref/run_donor_map_v2.csv) was determined by barcode matching (94.6/96.1/96.9%) against this file, the CAP1–CAP3 labels of the validation cohort are derived from this file.",
+  "note_en": "Pre-correction validation stromal set (5,459 cells). Used only by the 05d / 05e diagnostics; no number in the main text, manuscript figures, legends or Tables S1-S10 is computed from it. It is, however, the evidence behind the run-to-donor assignment in ref/run_donor_map_v2.csv (94.6 / 96.1 / 96.9% barcode overlap), so the CAP1-CAP3 labels of the validation cohort derive from it.",
+  "read_by": [
+   "scripts/05e_rho_prev_cellset.py"
+  ],
+  "downstream_outputs": [
+   "results/tables/05e_rho_prev_cellset_vs_clean.csv",
+   "results/figures_draft/fig4_validation.png (draft series only)"
+  ],
+  "used_in_manuscript_numbers": false,
+  "indirect_dependency": "ref/run_donor_map_v2.csv (donor labelling of CAP1-CAP3)"
+ }
+]

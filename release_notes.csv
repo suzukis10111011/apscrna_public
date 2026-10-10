@@ -1,0 +1,5 @@
+note
+"Japanese-language columns dropped from 08_external_review/tables/E11_reference_corrections.csv: quantity_ja, check_instead_ja"
+Japanese-language columns dropped from 08_external_review/tables/E12_human_check.csv: evidence_ja
+Japanese-language columns dropped from 07_submission_bundle/tables/manuscript_unmatched_numbers.csv: where_the_value_lives
+the checker's name was replaced by their role in 377 cells of check_worksheet_final.xlsx

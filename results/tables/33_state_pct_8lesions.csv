@@ -1,0 +1,9 @@
+cohort,lesion,n_cells,inflammatory,intermediate,tissue-forming,other
+discovery_n5,A,2314,17.76,15.9,22.08,44.25
+discovery_n5,B,739,33.56,18.0,12.31,36.13
+discovery_n5,C,1018,16.7,23.28,24.46,35.56
+discovery_n5,D,1418,39.07,23.7,15.37,21.86
+discovery_n5,E,726,27.0,19.15,24.93,28.93
+validation_n3,CAP1,860,16.4,0.0,39.65,43.95
+validation_n3,CAP2,566,13.07,48.41,25.44,13.07
+validation_n3,CAP3,353,1.7,63.46,29.75,5.1

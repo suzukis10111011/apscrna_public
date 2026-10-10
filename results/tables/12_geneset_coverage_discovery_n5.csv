@@ -1,0 +1,9 @@
+set,n_def,n_found
+lf_A_cytokine_chemokine,43,43
+lf_B_survival_antiapoptotic,63,57
+lf_C1_proliferation,509,468
+lf_C2_migration,644,574
+lf_C_prolif_migration,970,894
+lf_D_tissueforming,406,406
+myeloid_M1,9,9
+myeloid_M2repair,10,10

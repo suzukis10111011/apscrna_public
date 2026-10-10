@@ -1,0 +1,9 @@
+cellset,lesion,n,raw_rho,depth_controlled_rho,note,definition,source
+prev_stromal_set,CAP1,2222,0.5235,-0.0109,,composite (inflammatory vs tissueforming),"pre-correction stromal barcode set, recomputed with the current matrix, normalisation and scoring"
+prev_stromal_set,CAP2,2193,0.3271,-0.0348,,composite (inflammatory vs tissueforming),"pre-correction stromal barcode set, recomputed with the current matrix, normalisation and scoring"
+prev_stromal_set,CAP3,814,0.5901,-0.0019,,composite (inflammatory vs tissueforming),"pre-correction stromal barcode set, recomputed with the current matrix, normalisation and scoring"
+prev_stromal_set,POOLED_validation,5229,0.4037,-0.0938,,composite (inflammatory vs tissueforming),"pre-correction stromal barcode set, recomputed with the current matrix, normalisation and scoring"
+clean_stromal_2026,CAP1,860,-0.0338,-0.355,,composite (inflammatory vs tissueforming),stromal aggregation by compartment judgment in this study
+clean_stromal_2026,CAP2,566,-0.2483,-0.4599,,composite (inflammatory vs tissueforming),stromal aggregation by compartment judgment in this study
+clean_stromal_2026,CAP3,353,-0.1436,-0.2764,,composite (inflammatory vs tissueforming),stromal aggregation by compartment judgment in this study
+clean_stromal_2026,POOLED_validation,1779,-0.0717,-0.2877,,composite (inflammatory vs tissueforming),stromal aggregation by compartment judgment in this study

@@ -1,0 +1,45 @@
+placeholder,value,source
+discovery stromal ratio,13.99,key_numbers_v2_vs_grant.csv
+Top decile stromal ratio,94.15,key_numbers_v2_vs_grant.csv
+enrichment fold,6.73,key_numbers_v2_vs_grant.csv
+ρ discovery pooled composite,-0.1747,key_numbers_v2_vs_grant.csv
+ρ validation pooled clean aggregate,-0.2877,key_numbers_v2_vs_grant.csv (after symbol correction)
+ρ validation pooled previous pooled set,"-0.0938 (5,229 of the 5,459 pre-correction barcodes)",05e_rho_prev_cellset_vs_clean.csv
+ρ validation lesion-by-lesion prior pooling,CAP1 -0.0109 / CAP2 -0.0348 / CAP3 -0.0019,05e
+Definition A discovery,A 0.9868 / B 0.9637 / C 0.9214 / D 0.9912 / E 0.9640,key_numbers
+Definition A validation,CAP1 0.9759 / CAP2 0.9880 / CAP3 1.0042,key_numbers (after symbol correction)
+receptor enrichment high in inflammatory-dominant top 4,IL1R1 +1.60 / LIFR +1.08 / IL1RAP +1.02 / OSMR +0.84,10_receptors_by_state.csv
+receptor highly expressed in tissue-forming compartment,IL6ST -0.20 / CXCR4 -0.76,10_receptors_by_state.csv
+receptor minimum p / padj,p=0.0625 / padj=0.1562 (minimum value obtainable in paired Wilcoxon with n=5),10
+Coactivator discovery SMAD3 positive→negative,+0.0725 → -0.0817,11_coactivity_smad3_sensitivity.csv
+co-activation validation SMAD3 present→absent,+0.0561 → -0.1373,11_coactivity_smad3_sensitivity.csv
+compartment-wise depth-controlled ρ pooled,stromal -0.0337 / immune_myeloid -0.0050 / immune_plasma +0.0011 / immune_T -0.0144 / endothelial -0.0172 / pericyte_smc -0.0743,12_coupling_by_compartment.csv
+Compartment-wise retained dispersion,0.9523–0.9925,12
+[myeloid M1×M2 pooled],+0.1433,12
+Robust ρ range,"-0.2428 ~ +0.0415 (18 combinations, 16 negative)",14_robustness_genesets_scoring.csv
+robustness retained dispersion,0.9946–0.9990,14
+Integrated method agreement,"stromal Jaccard 0.300 (harmony 6215 / uncorrected 1868, common 1865), TF rank Spearman 0.930, top 20 common 15/20",14_robustness_integration.csv
+receptor mixed model significant,IL1R1 +0.536 (padj 4.3e-128) / OSMR +0.167 (padj 6.4e-25) / LIFR +0.080 (padj 8.3e-14) / TNFRSF1A +0.058 (padj 2.2e-02) / IL1RAP +0.032 (padj 1.6e-06) / TNFRSF1B +0.030 (padj 3.4e-04) / IL6R +0.014 (padj 4.1e-02),17_receptors_mixedmodel.csv
+receptor mixed model target,"3,529 cells / 7 lesions (discovery 5 + validation CAP1·CAP2). State defined within cohort",17
+Marker definition stromal aggregate,"discovery 2,893 cells (Jaccard 0.430) / validation 1,183 cells (Jaccard 0.586)",18_stromal_markerdefined_vs_primary.csv
+"Marker definition enrichment, ρ, Definition A",Discovery enrichment 7.25-fold / ρ -0.0105 / Definition A 0.9831; validation 9.33-fold / -0.0196 / 0.9926,18
+Single-axis ρ reference copy,"lf_ (leak-free) at −0.0337. p_ (all axes) at −0.0653 includes RELA target and circulates with definition A·TF screen, so not adopted.",19_rho_reconciliation.csv
+validation of symbol missing,"[FIXED] kb's genes.names.txt blanks the name of every gene whose symbol is shared by more than one gene id (7,057 genes, because the Ensembl 112 cDNA includes alt-locus scaffolds). The loader now re-resolves names via ref/gene_id_to_symbol_ens112.tsv and sums the counts of gene ids that share a symbol.",19b / 20b
+corrected coverage [symbol],compartment marker 87.0%→100.0% / RELA target 92.0%→93.6% / axis A_cytokine_chemokine 94.6%→97.8% / axis B_survival_antiapoptotic 90.2%→93.5% / axis C1_proliferation 93.4%→96.1% / axis C2_migration 88.4%→90.6% / axis C_prolif_migration 90.1%→92.9% / axis D_tissue-forming 94.2%→97.0%,20b_geneset_coverage_before_after.csv
+validation stromal cell count,"1,779 (CAP1 860 / CAP2 566 / CAP3 353). Pre-correction 1,704",05 (post-correction)
+validation immune compartment ratio,CAP1 69.4% / CAP2 80.7% / CAP3 87.3% (before correction 65.9 / 78.7 / 84.9),05 (post-correction)
+chemistry the decision,10xv2. R1 position 27–28 T at 97.93% / 97.79% (poly-T downstream of 16bp barcode + 10bp UMI = 26bp); position 20–26 nearly random. Matches v2 in GEO.,ref/chemistry_decision.json / 23_r1_base_composition.csv
+chemistry UMI comparison,"10xv2: after deduplication 9,059,891 UMI, median 970 in top 5000 cells, 6,216 barcodes with ≥500 UMI / 10xv3: after deduplication 1,151,912 UMI, median 16 in top 5000 cells, 767 barcodes with ≥500 UMI",23_chemistry_umi_comparison.csv
+Validation state definition,"Definition within cohort (Leiden 0.5 × validation median, same rules as discovery): inflammatory 12.42% / intermediate 27.99% / tissue-forming 33.16% / other 26.42%. ingest projection concordance with pooled 40.87% (CAP3 is 10.76%)",25_validation_states_within_vs_ingest.csv
+TF sign validation reproducibility,"symbol Correction resulted in inflammatory axis 20/20, tissue-forming axis 19/20 (same as before correction). The only outlier is HOXD3 (discovery +0.330 / validation +0.114, −0.002 in CAP3)",26_tf_sign_reproduction_after_symbolfix.csv
+shared activity validation state classified,"Tissue-forming state with SMAD3 present −0.111 → absent −0.267, inflammatory state +0.100 → −0.001. In all states SMAD3 is pushing in the positive direction",11_coactivity_smad3_sensitivity.csv
+kb cells kb all BC,A 1.31e+04（geo 8102） / B 1.1e+04（geo 1.087e+04） / C 7188（geo 7011） / D 9641（geo 9460） / E 9315（geo 8988）,09_geo_vs_kb.csv
+kb enrichment fold kb all-BC,A 4.11（geo 3.428） / B 9.149（geo 9.168） / C 6.558（geo 6.701） / D 6.119（geo 6.185） / E 9.399（geo 9.543） / POOLED_discovery 6.547（geo 6.731）,09_geo_vs_kb.csv
+kb single-axis ρ kb whole-BC,A -0.1315（geo -0.0767） / B 0.1132（geo 0.1281） / C -0.0083（geo -0.0314） / D -0.1989（geo -0.1992） / E -0.1624（geo -0.1464） / POOLED_discovery -0.0885（geo -0.0653）,09_geo_vs_kb.csv
+kb definition A kb all BC,A 0.9733（geo 0.9868） / B 0.9464（geo 0.9637） / C 0.9127（geo 0.9214） / D 0.9694（geo 0.9912） / E 0.9619（geo 0.964）,09_geo_vs_kb.csv
+kb cell count kbGEO-BC,A 7851（geo 8102） / B 1.066e+04（geo 1.087e+04） / C 7111（geo 7011） / D 9252（geo 9460） / E 8816（geo 8988）,09_geo_vs_kb.csv
+kb enrichment fold change kbGEO-BC,A 3.567（geo 3.428） / B 9.193（geo 9.168） / C 6.516（geo 6.701） / D 6.24（geo 6.185） / E 9.42（geo 9.543） / POOLED_discovery 6.782（geo 6.731）,09_geo_vs_kb.csv
+kb single-axis ρ kbGEO-BC,A -0.084（geo -0.0767） / B 0.1189（geo 0.1281） / C -0.0055（geo -0.0314） / D -0.2075（geo -0.1992） / E -0.1553（geo -0.1464） / POOLED_discovery -0.0657（geo -0.0653）,09_geo_vs_kb.csv
+kb definition A kbGEO-BC,A 0.9887（geo 0.9868） / B 0.9577（geo 0.9637） / C 0.9232（geo 0.9214） / D 0.9802（geo 0.9912） / E 0.9588（geo 0.964）,09_geo_vs_kb.csv
+kb stromal barcode Jaccard,geo vs kb_allbarcodes POOLED 0.8178 / geo vs kb_geobarcodes POOLED 0.9503,09_stromal_jaccard.csv
+kb candidate TF matches,kb_allbarcodes lf_A_cytokine_chemokine duplicates 19 sign match 93.38% / kb_allbarcodes lf_B_survival_antiapoptotic duplicates 8 sign match 84.14% / kb_allbarcodes lf_C1_proliferation duplicates 7 sign match 67.31% / kb_allbarcodes lf_C2_migration duplicates 9 sign match 79.03% / kb_allbarcodes lf_C_prolif_migration duplicates 11 sign match 77.1% / kb_allbarcodes lf_D_tissueforming duplicates 18 sign match 91.45% / kb_geobarcodes lf_A_cytokine_chemokine duplicates 19 sign match 93.65% / kb_geobarcodes lf_B_survival_antiapoptotic duplicates 8 sign match 86.19% / kb_geobarcodes lf_C1_proliferation duplicates 8 sign match 75.55% / kb_geobarcodes lf_C2_migration duplicates 9 sign match 78.04% / kb_geobarcodes lf_C_prolif_migration duplicates 11 sign match 75.83% / kb_geobarcodes lf_D_tissueforming duplicates 19 sign match 91.71%,09_tf_agreement_geo_vs_kb.csv

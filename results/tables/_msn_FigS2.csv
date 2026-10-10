@@ -1,0 +1,3 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+FigS2,A,stromal set by integration method,14_robustness_integration.csv,6215,3,methods,discovery_n5
+FigS2,B,"TF-level rho, Harmony vs uncorrected",14_tf_rank_by_integration.csv,6215,740,TFs,discovery_n5

@@ -1,0 +1,80 @@
+No,printed,how_to_check,old_reference,new_sheet,new_cell,new_column,new_value,reads_back,action,reason,external_remark
+9,−0.17,cell lookup,S2!K2713,S3,L14,depth_controlled_rho_composite,-0.1747191561054634,True,"applied: single cell, reads back",,S3!L14 = -0.1747191561054634 (supports -0.17 after rounding).
+10,−0.29,cell lookup,S9!Q187,S3,L22,depth_controlled_rho_composite,-0.2877425855712747,True,"applied: single cell, reads back",,S3!L22 = -0.2877425855712747 (supports -0.29 after rounding).
+11,92,cell lookup,S6!P62,S11,BD89,frac_retained,0.921402,True,"applied: single cell, reads back",,S11!BD89 = 0.921402 (92% after rounding).
+25,1.4%,cell lookup,S11!BI154,S12,P9,frac_any_Y_positive,0.0143,True,"applied: single cell, reads back",,"S12!P9 = 0.0143 = 1.43%, rounded to 1.4%."
+28,25,cell lookup,S1b_validation_chemistry!V6,,,,,True,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells",S12!I8:I10 explicitly give female 25 y.
+40,99.4,cell lookup,S6!P70,S1b_validation_chemistry,N5,top5000_in_v3_3M_pct,99.36,True,"applied: single cell, reads back",,S1b_validation_chemistry!N5 = 99.36 (rounded 99.4%).
+51,100%,cell lookup,S1b_validation_chemistry!N3,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Marker-panel coverage source not found in supplied S1-S12.
+53,97.8%,cell lookup,S5!Q10,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Coverage table not supplied.
+62,97.8%,cell lookup,S5!Q10,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,External discovery chemistry file not supplied.
+85,0,cell lookup,S11!AO17,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells","S1-derived removals min=0, max=406."
+110,92,cell lookup,S2!O1003,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Gene-set membership/coverage files not supplied.
+111,92,cell lookup,S2!O1003,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Gene-set membership/coverage files not supplied.
+145,57.7%,cell lookup,S2!O592,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,State-projection fraction source not supplied.
+148,10.8%,cell lookup,S11!BI122,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Projection agreement source not supplied.
+171,0.95,cell lookup,S6!O64,S6,O73,jaccard,0.9503,True,"applied: single cell, reads back",,S6!O73 = 0.9503 (rounded 0.95).
+179,0.011,cell lookup,S11!BH133,,,,,False,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells",max abs(S6!G3:G7 - E3:E7) = 0.010957423618127016 (rounded 0.011).
+181,0.96,cell lookup,S6!AA74,S6,AA80,spearman_rho_of_pooled_rho,0.9578,True,"applied: single cell, reads back",,S6!AA80=0.9578 (same rounded manuscript value).
+182,0.94,cell lookup,S6!AA79,S6,AA85,spearman_rho_of_pooled_rho,0.9374,True,"applied: single cell, reads back",,S6!AA85=0.9374 (same rounded manuscript value).
+197,−0.24,cell lookup,S4!H16,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells","min S4!I, lesion=POOLED = -0.2428."
+223,87%,cell lookup,S8!V48,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Validation composition source not supplied.
+224,14.5,cell lookup,S5!P12,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells",S8 plasma n_cells / S3 all-cell counts gives 19.323467230443974-61.065121412803535%; differs from manuscript 14.5-31.6%.
+234,6.7,cell lookup,S5!R12,S8,T49,enrichment_fold,6.731,True,"applied: single cell, reads back",,S8!T49=6.731 (rounded 6.7).
+240,9.3,cell lookup,S5!R19,,,,,False,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells","S5!R20:R22 primary lesion range 8.682-9.875; minimum 8.682, not 9.3."
+256,−0.325,cell lookup,S2!F4018,S2,E4018,pooled_rho,-0.3251678390790473,True,"applied: single cell, reads back",,S2!E4018=-0.3251678390790473 supports -0.325.
+260,3,cell lookup,S11!W7,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Figure 3 heading is present in the manuscript.
+262,19,cell lookup,S11!H10,S11,M7,candidates_sign_agree_all3,19,True,"applied: single cell, reads back",,"S11!M7=19 and H7=20, supports 19/20."
+282,0.14,cell lookup,S11!AA5,S11,Z4,null_median_abs_rho_mean,0.144308,True,"applied: single cell, reads back",,S11!Z4=0.144308 (rounded 0.14).
+284,0.07,cell lookup,S11!X8,S11,Z7,null_median_abs_rho_mean,0.071741,True,"applied: single cell, reads back",,S11!Z7=0.071741 (rounded 0.07).
+285,0.09,cell lookup,S11!X5,S11,Z8,null_median_abs_rho_mean,0.092264,True,"applied: single cell, reads back",,S11!Z8=0.092264 (rounded 0.09).
+288,0.33,cell lookup,S3!N3,S11,AD3,observed_jaccard_disc_top20_vs_val_top20,0.3333,True,"applied: single cell, reads back",,S11!AD3=0.3333 (rounded 0.33).
+293,20,cell lookup,S11!M3,S11,H5,n_candidates_in_denominator,20,True,"applied: single cell, reads back",,S11!H5=20; same numeric value but different quantity.
+306,3,cell lookup,S10!AD223,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Figure 3 heading is present in the manuscript.
+312,−0.17,cell lookup,S5!AF295,S3,L14,depth_controlled_rho_composite,-0.1747191561054634,True,"applied: single cell, reads back",,S3!L14=-0.1747191561054634; manuscript value agrees after rounding.
+314,−0.44,cell lookup,S5!AF278,,,,,False,not applied: the manuscript value differs from the named cell,handled as a manuscript-side item in E1/E4,S3!L20=-0.4598639881231582; MANUSCRIPT DISCREPANCY: Value mismatch: manuscript −0.44; source -0.4598639881231582..
+316,−0.29,cell lookup,S5!AF379,S3,L22,depth_controlled_rho_composite,-0.2877425855712747,True,"applied: single cell, reads back",,S3!L22=-0.2877425855712747; manuscript value agrees after rounding.
+318,−0.03,cell lookup,S5!AF305,S3,R14,depth_controlled_rho_leakfree_lf,-0.0337669504811357,True,"applied: single cell, reads back",,S3!R14=-0.0337669504811357; manuscript value agrees after rounding.
+319,−0.08,cell lookup,S3!R10,S3,R22,depth_controlled_rho_leakfree_lf,-0.0792914402477832,True,"applied: single cell, reads back",,S3!R22=-0.0792914402477832; manuscript value agrees after rounding.
+320,−0.05,cell lookup,S3!R18,S3,K14,raw_rho_composite,-0.0545236897664046,True,"applied: single cell, reads back",,S3!K14=-0.0545236897664046; manuscript value agrees after rounding.
+321,−0.18,cell lookup,S3!K18,,,,,False,not applied: the manuscript value differs from the named cell,handled as a manuscript-side item in E1/E4,S3!K22=-0.071658132090595; MANUSCRIPT DISCREPANCY: Value mismatch: manuscript −0.18; source -0.071658132090595..
+322,20,cell lookup,S11!H7,S11,AY61,n_bins,20,True,"applied: single cell, reads back",,S11!AY61=20; same number but different quantity.
+327,85,cell lookup,S11!BI105,S11,BH89,variance_retained,0.848982,True,"applied: single cell, reads back",,"S11!BH89=0.848982 (=84.898238%, rounded 85%)."
+330,0.005,cell lookup,S11!AE7,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Permutation p values are not tabulated in supplied S1-S12; source external permutation CSV required.
+332,0.025,cell lookup,S11!AE10,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Permutation p values are not tabulated in supplied S1-S12; source external permutation CSV required.
+334,0.76,cell lookup,S11!BH80,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Permutation p values are not tabulated in supplied S1-S12; source external permutation CSV required.
+335,0.88,cell lookup,S11!BI103,S11,BD134,frac_retained,0.882775,True,"applied: single cell, reads back",,S11!BD134=0.882775 (rounded 0.88).
+336,0.99,cell lookup,S11!BG120,S11,BD64,frac_retained,0.994712,True,"applied: single cell, reads back",,S11!BD64=0.994712 (rounded 0.99).
+342,0.10,cell lookup,S11!AA9,S11,BD77,frac_retained,0.099339,True,"applied: single cell, reads back",,S11!BD77=0.099339 (rounded 0.10).
+343,0.35,cell lookup,S11!AM19,S11,BD161,frac_retained,0.350862,True,"applied: single cell, reads back",,S11!BD161=0.350862 (rounded 0.35).
+347,12.3,cell lookup,S11!O10,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Per-lesion stromal state proportions not found in supplied S1-S12.
+349,1.7,cell lookup,S7!Y158,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Per-lesion stromal state proportions not found in supplied S1-S12.
+351,25.4,cell lookup,S1b_validation_chemistry!Y14,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Per-lesion stromal state proportions not found in supplied S1-S12.
+352,39.7%,cell lookup,S5!Q18,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Per-lesion stromal state proportions not found in supplied S1-S12.
+362,5,cell lookup,S7!E3,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Figure 5 heading is present in the manuscript.
+376,59,cell lookup,S10!AF221,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells","Detection fractions from S7!X, TNFRSF1A, inflammatory, discovery_n5; percent conversion. Source rows 33,53,73,93,113. Correct endpoint=59.27%.."
+377,75%,cell lookup,S8!F9,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells","Detection fractions from S7!X, TNFRSF1A, inflammatory, discovery_n5; percent conversion. Source rows 33,53,73,93,113. Correct endpoint=74.91%.."
+379,0.06,cell lookup,S5!AF439,S10,Q65,spearman_rho,0.055,True,"applied: single cell, reads back",,S10!Q65=0.055 (rounds +0.06).
+383,−0.08,cell lookup,S10!F265,S10,Q34,spearman_rho,-0.0796,True,"applied: single cell, reads back",,S10!Q34=-0.0796 (rounded -0.08).
+385,0.45,cell lookup,S11!AB10,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,MYC/mean-set source data not supplied.
+388,0.001,cell lookup,S8!T48,S8,I20,depth_controlled_rho,0.0011,True,"applied: single cell, reads back",,S8!I20=0.0011 supports the manuscript after rounding.
+389,−0.014,cell lookup,S8!K16,S8,I26,depth_controlled_rho,-0.0144,True,"applied: single cell, reads back",,S8!I26=-0.0144 supports the manuscript after rounding.
+390,−0.017,cell lookup,S8!K20,S8,I32,depth_controlled_rho,-0.0172,True,"applied: single cell, reads back",,S8!I32=-0.0172 supports the manuscript after rounding.
+391,−0.03,cell lookup,S3!N22,S8,I8,depth_controlled_rho,-0.0337,True,"applied: single cell, reads back",,S8!I8=-0.0337 supports the manuscript after rounding.
+392,−0.07,cell lookup,S8!I10,S8,I38,depth_controlled_rho,-0.0743,True,"applied: single cell, reads back",,S8!I38=-0.0743 supports the manuscript after rounding.
+393,6,cell lookup,S8!T45,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Figure 6 heading is present in the manuscript.
+400,1,cell lookup,S12!I3,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells",S9 donor rows for Periodontitis-LAD1: 1.
+403,19/20,cell lookup,S11!H10,S12,Z216,value,19/20,True,"applied: single cell, reads back",,S12!Z216=19/20.
+408,0.03,cell lookup,S3!N22,S9,G39,depth_controlled_rho,0.0251,True,"applied: single cell, reads back",,S9!G39=0.0251 (rounded 0.03).
+411,0.21,cell lookup,S10!AJ212,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells",max S9 per-donor G=0.2119.
+417,1,cell lookup,S6!AA74,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Figure 1 heading is present in the manuscript.
+432,19/20,cell lookup,S2!O408,S12,Z186,value,19/20,True,"applied: single cell, reads back",,S12!Z186=19/20.
+443,0.964,cell lookup,S5!X11,S5,X14,defA_frac_retained,0.964,True,"applied: single cell, reads back",,S5!X14=0.964; both round 0.964 but source lesion is wrong.
+451,0.025,cell lookup,S8!K14,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Permutation p values are not tabulated in supplied S1-S12; source external permutation CSV required.
+452,0.76,cell lookup,S11!BI60,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,Permutation p values are not tabulated in supplied S1-S12; source external permutation CSV required.
+454,0.99,cell lookup,S11!BG120,S11,BD64,frac_retained,0.994712,True,"applied: single cell, reads back",,S11!BD64=0.994712 (rounded 0.99).
+455,0.10,cell lookup,S11!AA9,S11,BD77,frac_retained,0.099339,True,"applied: single cell, reads back",,S11!BD77=0.099339 (rounded 0.10).
+456,0.35,cell lookup,S11!Y7,S11,BD161,frac_retained,0.350862,True,"applied: single cell, reads back",,S11!BD161=0.350862 (rounded 0.35).
+467,0.05,cell lookup,S10!R68,,,,,,not applied: the quantity is not in S1-S12,no cell of the supplementary workbook carries this quantity; see E3 for the parts added to the tables,0.05 is an analysis/display threshold; exact source figure not supplied.
+482,19/20,cell lookup,S11!H10,S12,Z216,value,19/20,True,"applied: single cell, reads back",,S12!Z216=19/20.
+485,18,cell lookup,S12!Z242,,,,,,not applied: the reference is a range or a derivation,"the correct source is not one cell but a minimum, a maximum, a range or an arithmetic step over several cells",S4 has 18 pooled combinations.

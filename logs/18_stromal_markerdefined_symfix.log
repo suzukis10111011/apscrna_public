@@ -1,0 +1,39 @@
+[guard] requant_heartbeat 38.1 分前
+[guard] heartbeat 停止だが APSC_REQUANT_DEAD=1 のため続行: 18（2026-09-23 10:05Z に 08 とドライバの死亡を確認済み。再起動も lock 削除もしない）
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20260923 19:43:18.919328 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:43:18.919408 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20260923 19:43:18.919430 0x7ff851e7d180 cpu_info.cc:181] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+
+discovery_n5: マーカー定義 2893 / 主解析 6215 | 共通 2741 | Jaccard 0.4305
+/path/to/.claude-science/conda/envs/apsc/lib/python3.11/site-packages/anndata/_core/anndata.py:1884: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+
+validation_n3: マーカー定義 1183 / 主解析 1779 | 共通 1094 | Jaccard 0.5857
+
+=== POOLED ===
+       cohort               cellset  n_cells  stromal_pct_overall  enrichment_fold  depth_controlled_rho  defA_frac_retained  jaccard_vs_primary
+ discovery_n5        marker_defined     2893                 6.51            7.251               -0.0105              0.9831              0.4305
+ discovery_n5 primary_cluster_based     6215                13.99            6.717               -0.0337              0.9925                 NaN
+validation_n3        marker_defined     1183                 4.53            9.332               -0.0196              0.9926              0.5857
+validation_n3 primary_cluster_based     1779                 6.82            9.252               -0.0793              0.9657                 NaN
+
+=== 候補TFの符号が2つの集合で一致した数 ===
+                                           sum  size
+cohort        axis                                  
+discovery_n5  lf_A_cytokine_chemokine       20    20
+              lf_B_survival_antiapoptotic   18    20
+              lf_C1_proliferation           19    20
+              lf_C2_migration               20    20
+              lf_C_prolif_migration         20    20
+              lf_D_tissueforming            20    20
+validation_n3 lf_A_cytokine_chemokine       20    20
+              lf_B_survival_antiapoptotic   17    18
+              lf_C1_proliferation           18    18
+              lf_C2_migration               18    18
+              lf_C_prolif_migration         18    18
+              lf_D_tissueforming            19    20
+[guard] requant_heartbeat 39.4 分前
+[guard] heartbeat 停止だが APSC_REQUANT_DEAD=1 のため続行: 18 完了時（2026-09-23 10:05Z に 08 とドライバの死亡を確認済み。再起動も lock 削除もしない）
+
+18 DONE

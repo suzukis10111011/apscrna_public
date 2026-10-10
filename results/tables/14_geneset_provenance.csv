@@ -1,0 +1,5 @@
+set,library,matched_term,n_genes,status,source,downloaded_utc
+HALLMARK_TNFA_SIGNALING_VIA_NFKB,MSigDB_Hallmark_2020,TNF-alpha Signaling via NF-kB,200,OK,"Enrichr geneSetLibrary API (gsea-msigdb.org is outside the allowlist, so substituted)",2026-09-23T07:57:42+00:00
+GOBP_INFLAMMATORY_RESPONSE,GO_Biological_Process_2025,Inflammatory Response (GO:0006954),261,OK,"Enrichr geneSetLibrary API (gsea-msigdb.org is outside the allowlist, so substituted)",2026-09-23T07:57:44+00:00
+GOBP_OSSIFICATION,GO_Biological_Process_2025,,0,No corresponding term,,
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION,Reactome_Pathways_2024,Extracellular Matrix Organization,300,OK,"Enrichr geneSetLibrary API (gsea-msigdb.org is outside the allowlist, so substituted)",2026-09-23T07:57:46+00:00

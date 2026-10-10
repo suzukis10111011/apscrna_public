@@ -1,0 +1,16 @@
+figure,size,diff_pct,reason
+Fig1,same size,0.06,spelling programme (character width changes)
+Fig2,"(3977, 2933)→(3977, 3092)",0.93,legend for b moved outside axes
+Fig3,"(4125, 6020)→(4125, 5979)",29.02,a/b gene name adjusted with adjustText · 7pt
+Fig4,same size,0.3,spelling programme (character width changes)
+Fig5,same size,0.0,No change
+Fig6,same size,0.0,No change
+Fig7,same size,0.02,spelling programme (character width changes)
+FigS1,same size,0.0,No change
+FigS2,same size,0.0,No change
+FigS3,"(4479, 6745)→(4026, 1968)",19.44,Heatmap remade in 2 panels
+FigS4,"(3909, 2049)→(3963, 2049)",19.58,wspace 0.52→1.00
+FigS5,same size,0.0,No change
+FigS6,"(3662, 1853)→(3662, 2585)",47.84,"Blues colour map, 7 pt cell text, height 118 mm"
+FigS7,same size,0.15,"Cell 7pt, auto font color"
+FigS8,"(4330, 1932)→(4410, 1932)",5.39,spelling programme (character width changes)

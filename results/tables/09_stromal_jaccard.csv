@@ -1,0 +1,13 @@
+comparison,lesion,n_geo,n_other,intersection,union,jaccard,pct_of_geo_recovered
+geo vs kb_allbarcodes,A,2314,3128,2127,3315,0.6416,91.92
+geo vs kb_allbarcodes,B,739,735,728,746,0.9759,98.51
+geo vs kb_allbarcodes,C,1018,1058,1011,1065,0.9493,99.31
+geo vs kb_allbarcodes,D,1418,1422,1403,1437,0.9763,98.94
+geo vs kb_allbarcodes,E,726,738,712,752,0.9468,98.07
+geo vs kb_allbarcodes,POOLED,6203,7065,5969,7299,0.8178,96.23
+geo vs kb_geobarcodes,A,2314,2187,2172,2329,0.9326,93.86
+geo vs kb_geobarcodes,B,739,737,725,751,0.9654,98.11
+geo vs kb_geobarcodes,C,1018,1053,1012,1059,0.9556,99.41
+geo vs kb_geobarcodes,D,1418,1385,1374,1429,0.9615,96.9
+geo vs kb_geobarcodes,E,726,730,714,742,0.9623,98.35
+geo vs kb_geobarcodes,POOLED,6203,6080,5985,6298,0.9503,96.49

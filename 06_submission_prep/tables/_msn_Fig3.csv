@@ -1,0 +1,6 @@
+figure,panel,content,source_table,n_cells,n_groups,group_unit,cohort
+Fig3,AB,"discovery vs validation pooled rho, all screened factors",33_tf_validation_all730.csv,7994,717,TFs,both
+Fig3,C,"per-lesion rho of top-20 candidates, Tissue-forming programme",04_tf_screen_discovery_candidates.csv; 33_tf_validation_all730.csv,7994,8,lesions,both
+Fig3,D,"per-lesion rho of top-20 candidates, Inflammatory programme",04_tf_screen_discovery_candidates.csv; 33_tf_validation_all730.csv,7994,8,lesions,both
+Fig3,E,"candidate sign reproduction, with the random-20-factor null mean marked",33_tf_validation_all730.csv; 05_post_audit/tables/Q1b_null_summary.csv,1779,2,programmes,validation_n3
+Fig3,F,leave-one-lesion-out stability,34_lolo_rulebased.csv,6215,10,factors,discovery_n5
