@@ -224,6 +224,30 @@ if os.path.exists(_pv):
     C["No"] = C.groupby("version").cumcount() + 1
     C.loc[C.version != _clean, "No"] = -1
     C = C.merge(_p, on="No", how="left").drop(columns=["No"])
+
+# values whose source of record is a particular part rather than whichever file the
+# matcher happened to list first: the pointer is written into the provenance columns
+# (08_external_review/tables/E39_manual_pointers.csv)
+_mp = f"{W}/08_external_review/tables/E39_manual_pointers.csv"
+if os.path.exists(_mp):
+    _m = pd.read_csv(_mp)
+    _clean = sorted(v for v in C.version.unique() if v.startswith("clean_"))[-1]
+    _n = 0
+    for _, _r in _m.iterrows():
+        sel = ((C.version == _clean) & (C.section.astype(str) == str(_r.section))
+               & (C.printed.astype(str) == str(_r.printed))
+               & C.context.astype(str).str.contains(str(_r.context_contains), regex=False))
+        if not sel.any():
+            print(f"  [manual pointer] no row for {_r.section} / {_r.printed} / "
+                  f"{_r.context_contains}")
+            continue
+        C.loc[sel, "provenance_category"] = "figure value, pointer recorded by hand"
+        C.loc[sel, "provenance_value"] = str(_r.what)
+        C.loc[sel, "provenance_source"] = (f"Supplementary_Tables_S1-S12.xlsx "
+                                           f"{_r.sheet_cell} - {_r.part}")
+        C.loc[sel, "provenance_status"] = str(_r.note)
+        _n += int(sel.sum())
+    print(f"manual pointers written into the provenance columns: {_n} rows")
 C.to_csv(f"{B}/tables/manuscript_number_agreement.csv", index=False)
 U = C[~C.matched].copy()
 
