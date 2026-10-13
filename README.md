@@ -2,8 +2,8 @@
 
 Code, frozen inputs and result tables for the reanalysis of eight human apical
 periodontitis lesions reported in the paper above. Everything needed to redo the
-analysis from the public sequencing data is here; the processed objects are deposited
-separately (see *Data*).
+analysis from the public sequencing data is here; the processed objects are available
+from the corresponding author (see *Data*).
 
 ## Layout
 
@@ -97,9 +97,10 @@ Full list, part by part, in `table_and_figure_provenance.csv`.
 
 ## Data
 
-The processed objects are deposited separately on Zenodo under DOI 10.5281/zenodo.23277211
-(4.29 GB, 8 files; see the `manifest.csv` and `README.md` of the deposit).
-They are the AnnData objects and per-cell tables the scripts read. The raw reads are not redistributed here.
+The processed single-cell objects can be regenerated from this code and the public raw
+data and are available from the corresponding author. They are the AnnData objects and
+per-cell tables the scripts read. The raw reads are not redistributed here; they are in
+GEO and SRA as listed under *Input data*.
 
 ## What is not in this repository
 
