@@ -184,7 +184,10 @@ SHEETS = {
              ("E6_myc_vs_set_means.csv", EXT,
               "MYC activity against the two TF sets"),
              ("E26_tf_activity_matrix.csv", EXT,
-              "factor-by-factor activity correlation matrix (as in Figure 5D)")]),
+              "factor-by-factor activity correlation matrix (as in Figure 5D)"),
+             ("E40_coactivity_set_variants.csv", EXT,
+              "co-activity with the tissue-forming side replaced by two alternative "
+              "factor sets")]),
     "S11": ("Random factor-set null, overlap-removed activities, the null and floor "
             "references for retained dispersion, and the same statistic with the "
             "score residualised on sequencing depth (post hoc, added after "
@@ -674,6 +677,15 @@ DEF.update({
     "residualised_score_floor_variance_retained": "the same quantity as a variance ratio (SD ratio squared), on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
     "residualised_score_null_minus_RELA_variance": "variance retained under the unrelated-factor mean minus that under RELA; positive means RELA removed more, on the score after regressing out log10(total_counts) and n_genes_by_counts within the lesion",
 })
+
+DEF.update({
+    "n_factors_defined": "factors named in the set",
+    "n_factors_used": "factors of the set for which an activity was available in this cohort",
+    "factors_used": "the factors actually averaged",
+    "dip_p_inflammatory": "Hartigan dip test p of the inflammatory set mean",
+    "dip_p_tissueforming": "Hartigan dip test p of the tissue-forming set mean",
+})
+
 
 
 PATTERNS = [(re.compile(r"^rho_(A|B|C|D|E)$"),

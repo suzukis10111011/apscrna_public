@@ -104,6 +104,7 @@ scripts/ms_figS8.py,py,2,Y,0
 08_external_review/scripts/e2_reference_corrections.py,py,0,Y,0
 08_external_review/scripts/e30_reviewer_checks.py,py,0,Y,0
 08_external_review/scripts/e3_table_additions.py,py,0,Y,0
+08_external_review/scripts/e40_set_variants.py,py,0,Y,0
 08_external_review/scripts/e5_setting_values.py,py,0,Y,0
 08_external_review/scripts/e6_myc_set_means.py,py,0,Y,0
 08_external_review/scripts/e7_enrichment_definition.py,py,0,Y,0
